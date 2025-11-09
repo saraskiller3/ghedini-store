@@ -49,12 +49,12 @@ export default function App() {
             <div className="w-full bg-black border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-2 flex items-center justify-between text-sm">
                     <div className="flex items-center gap-4 text-neutral-300">
-                        <span>+370 616 82680</span>
-                        <span className="hidden md:inline">sales@heavybid.lt</span>
-                        <span className="hidden md:inline">Vilnius • Kaunas • Klaip?da</span>
+                        <span>+370 65595179</span>
+                        <span className="hidden md:inline">sales@forestasbaltic.lt</span>
+                        <span className="hidden md:inline">Alytus, Lithuania</span>
                     </div>
                     <div className="flex items-center gap-3">
-                        <span className="rounded-md bg-emerald-500/20 text-emerald-400 px-2 py-0.5 text-xs border border-emerald-600/40">{t("Official dealer — Baltics", "Oficialus atstovas — Baltija")}</span>
+                        <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas — Baltija")}</span>
                         <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-white">{lang === "en" ? "LT" : "EN"}</button>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ export default function App() {
             {/* Nav */}
             <header className="sticky top-0 z-40 bg-black/70 backdrop-blur border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
-                    <a href="#home" className="font-black text-2xl tracking-tight">Ghedini<span className="text-emerald-400">Baltic</span></a>
+                    <a href="#home" className="font-black text-2xl tracking-tight">Forestas<span className="text-yellow-400">Baltic</span></a>
                     <nav className="hidden md:flex items-center gap-6 text-sm">
                         <a href="#catalog" className="text-neutral-300 hover:text-white">{t("Products", "Produktai")}</a>
                         <a href="#contact" className="text-neutral-300 hover:text-white">{t("Contact", "Kontaktai")}</a>
@@ -81,10 +81,10 @@ export default function App() {
                         <div className="mt-6 flex flex-wrap gap-3">
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("EU shipping available", "Pristatymas ES")}</span>
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("Ask for quote", "Klauskite kainos")}</span>
-                            <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">LT / EN / PL</span>
+                            <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">LT / EN </span>
                         </div>
                         <div className="mt-8 flex gap-3">
-                            <a href="#catalog" className="rounded-2xl bg-emerald-500 text-black px-4 py-2 font-medium hover:bg-emerald-400">{t("Browse products", "Ži?r?ti produktus")}</a>
+                            <a href="#catalog" className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Ži?r?ti produktus")}</a>
                             <a href="#contact" className="rounded-2xl border border-neutral-700 px-4 py-2 text-white hover:bg-neutral-900">{t("Send inquiry", "Si?sti užklaus?")}</a>
                         </div>
                     </div>
@@ -120,13 +120,13 @@ export default function App() {
                     {/* Product grid: image + title + inquire */}
                     <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {list.map(p => (
-                            <div key={p.id} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 hover:shadow-emerald-500/10 hover:shadow transition">
+                            <div key={p.id} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 hover:shadow-yellow-500/10 hover:shadow transition">
                                 <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-neutral-800 overflow-hidden">
                                     <img alt={p.title} src={p.img} className="h-full w-full object-cover" />
                                 </div>
                                 <div className="mt-4 flex items-center justify-between gap-3">
                                     <h3 className="text-lg font-semibold">{p.title}</h3>
-                                    <button onClick={() => setEnquire(p)} className="rounded-2xl bg-emerald-500 text-black px-3 py-2 text-sm font-medium hover:bg-emerald-400">{t("Inquire", "Užklausti")}</button>
+                                    <button onClick={() => setEnquire(p)} className="rounded-2xl bg-yellow-500 text-black px-3 py-2 text-sm font-medium hover:bg-yellow-400">{t("Inquire", "Užklausti")}</button>
                                 </div>
                             </div>
                         ))}
@@ -139,20 +139,20 @@ export default function App() {
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
                         <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavimais")}</h2>
-                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you’re interested in.", "Parašykite mašinos model? ir kuris priedas domina.")}</p>
+                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you're interested in.", "Parašykite mašinos model? ir kuris priedas domina.")}</p>
                         <ul className="mt-4 text-sm text-neutral-300">
-                            <li>?? sales@heavybid.lt</li>
-                            <li>?? +370 616 82680</li>
-                            <li>?? Vilnius • Kaunas • Klaip?da</li>
+                            <li> sales@forestasbaltic.lt</li>
+                            <li> +370 65595179</li>
+                            <li> Alytus, Lithuania</li>
                         </ul>
                     </div>
-                    <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We\'ll reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
+                    <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
                         <input required placeholder={t("Your name", "J?s? vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input placeholder={t("Company (optional)", "?mon? (neb?tina)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <textarea rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${enquire.title} (SKU: ${enquire.id})
 ` : ""} placeholder={t("Message (product, machine model, questions)", "Žinut? (produktas, mašinos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <button className="rounded-2xl bg-emerald-500 text-black px-4 py-2 font-medium hover:bg-emerald-400">{t("Send inquiry", "Si?sti užklaus?")}</button>
+                        <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Si?sti užklaus?")}</button>
                     </form>
                 </div>
             </section>
@@ -160,7 +160,7 @@ export default function App() {
             {/* Footer */}
             <footer className="border-t border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-neutral-400 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div>© {new Date().getFullYear()} HeavyBid — {t("Ghedini dealer for the Baltics", "Ghedini atstovas Baltijai")}</div>
+                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini dealer for the Baltics", "Ghedini atstovas Baltijai")}</div>
                     <div className="flex gap-4"><a className="hover:text-white" href="#">Privacy</a><a className="hover:text-white" href="#">Terms</a></div>
                 </div>
             </footer>
@@ -171,14 +171,14 @@ export default function App() {
                     <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
                         <h3 className="text-xl font-bold">{t("Send inquiry", "Si?sti užklaus?")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
-                        <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We\'ll reply shortly.'); setEnquire(null); }} className="mt-4 grid gap-3">
+                        <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); setEnquire(null); }} className="mt-4 grid gap-3">
                             <input required placeholder={t("Your name", "J?s? vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <textarea rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${enquire.title} (SKU: ${enquire.id})
 `} placeholder={t("Message", "Žinut?")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <div className="flex items-center justify-end gap-2">
                                 <button type="button" onClick={() => setEnquire(null)} className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900">{t("Cancel", "Atšaukti")}</button>
-                                <button className="rounded-2xl bg-emerald-500 text-black px-4 py-2 font-medium hover:bg-emerald-400">{t("Send", "Si?sti")}</button>
+                                <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "Si?sti")}</button>
                             </div>
                         </form>
                     </div>
