@@ -1,9 +1,9 @@
-import React, { useMemo, useState } from "react";
+ï»¿import React, { useMemo, useState } from "react";
 
 // =====================================
-// Ghedini Showcase — Simplified version
-// • No prices, no specs
-// • Just image + name + inquiry flow
+// Ghedini Showcase ï¿½ Simplified version
+// ï¿½ No prices, no specs
+// ï¿½ Just image + name + inquiry flow
 // =====================================
 
 // --- Categories (optional quick filters) ---
@@ -54,7 +54,7 @@ export default function App() {
                         <span className="hidden md:inline">Alytus, Lithuania</span>
                     </div>
                     <div className="flex items-center gap-3">
-                        <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas — Baltija")}</span>
+                        <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos Å¡alyse")}</span>
                         <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-white">{lang === "en" ? "LT" : "EN"}</button>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function App() {
                         <a href="#catalog" className="text-neutral-300 hover:text-white">{t("Products", "Produktai")}</a>
                         <a href="#contact" className="text-neutral-300 hover:text-white">{t("Contact", "Kontaktai")}</a>
                     </nav>
-                    <a href="#contact" className="rounded-2xl border border-neutral-700 px-3 py-1.5 text-sm text-white hover:bg-neutral-900">{t("Send inquiry", "Si?sti užklaus?")}</a>
+                    <a href="#contact" className="rounded-2xl border border-neutral-700 px-3 py-1.5 text-sm text-white hover:bg-neutral-900">{t("Send inquiry", "SiÅ³sti uÅ¾klausÄ…")}</a>
                 </div>
             </header>
 
@@ -77,22 +77,22 @@ export default function App() {
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-10 md:grid-cols-2 md:items-center">
                     <div>
                         <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">{t("Ghedini Hydraulic Attachments", "Ghedini hidrauliniai priedai")}</h1>
-                        <p className="mt-4 text-neutral-300 md:text-lg">{t("Showcase of attachments for excavators and loaders in the Baltics.", "Pried? ekskavatoriams ir krautuvams vitrina Baltijai.")}</p>
+                        <p className="mt-4 text-neutral-300 md:text-lg">{t("Showcase of attachments for excavators and loaders in the Baltics.", "Priedai ekskavatoriams ir krautuvams Baltijos Å¡alyse.")}</p>
                         <div className="mt-6 flex flex-wrap gap-3">
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("EU shipping available", "Pristatymas ES")}</span>
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("Ask for quote", "Klauskite kainos")}</span>
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">LT / EN </span>
                         </div>
                         <div className="mt-8 flex gap-3">
-                            <a href="#catalog" className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Ži?r?ti produktus")}</a>
-                            <a href="#contact" className="rounded-2xl border border-neutral-700 px-4 py-2 text-white hover:bg-neutral-900">{t("Send inquiry", "Si?sti užklaus?")}</a>
+                            <a href="#catalog" className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Å½iÅ«rÄ—ti produktus")}</a>
+                            <a href="#contact" className="rounded-2xl border border-neutral-700 px-4 py-2 text-white hover:bg-neutral-900">{t("Send inquiry", "SiÅ³sti uÅ¾klausÄ…")}</a>
                         </div>
                     </div>
                     <div className="relative">
                         <div className="aspect-[4/3] w-full rounded-3xl border border-neutral-800 bg-neutral-900 shadow-sm grid place-items-center">
                             <div className="text-center px-6">
                                 <div className="text-7xl">???</div>
-                                <p className="mt-3 text-sm text-neutral-400">{t("Replace with product photos (flail / auger / pump)", "Pakeiskite produkto nuotraukomis (mul?eris / gr?žtas / siurblys)")}</p>
+                                <p className="mt-3 text-sm text-neutral-400">{t("Replace with product photos (flail / auger / pump)", "Pakeiskite produkto nuotraukomis (mul?eris / gr?ï¿½tas / siurblys)")}</p>
                             </div>
                         </div>
                     </div>
@@ -105,15 +105,15 @@ export default function App() {
                     <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
                         <div>
                             <h2 className="text-2xl font-bold">{t("Products", "Produktai")}</h2>
-                            <p className="text-neutral-400">{t("Search or filter, then send an inquiry.", "Ieškokite arba filtruokite ir si?skite užklaus?.")}</p>
+                            <p className="text-neutral-400">{t("Search or filter, then send an inquiry.", "IeÅ¡kokite arba filtruokite ir siÅ³skite uÅ¾klausÄ….")}</p>
                         </div>
                         <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:items-center">
-                            <input value={q} onChange={e => setQ(e.target.value)} placeholder={t("Search by name or SKU…", "Paieška pagal pavadinim? ar SKU…")} className="w-full rounded-xl border border-neutral-700 bg-neutral-900 text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                            <input value={q} onChange={e => setQ(e.target.value)} placeholder={t("Search by name or SKU", "PaieÅ¡ka pagal pavadinimÄ… ar SKU")} className="w-full rounded-xl border border-neutral-700 bg-neutral-900 text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <select value={cat} onChange={e => setCat(e.target.value)} className="w-full rounded-xl border border-neutral-700 bg-neutral-900 text-white px-3 py-2 text-sm">
                                 <option className="bg-neutral-900" value="">{t("All categories", "Visos kategorijos")}</option>
                                 {CATEGORIES.map(c => <option className="bg-neutral-900" key={c.id} value={c.id}>{c.name}</option>)}
                             </select>
-                            <a href="#contact" className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra užklausa")}</a>
+                            <a href="#contact" className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra uï¿½klausa")}</a>
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@ export default function App() {
                                 </div>
                                 <div className="mt-4 flex items-center justify-between gap-3">
                                     <h3 className="text-lg font-semibold">{p.title}</h3>
-                                    <button onClick={() => setEnquire(p)} className="rounded-2xl bg-yellow-500 text-black px-3 py-2 text-sm font-medium hover:bg-yellow-400">{t("Inquire", "Užklausti")}</button>
+                                    <button onClick={() => setEnquire(p)} className="rounded-2xl bg-yellow-500 text-black px-3 py-2 text-sm font-medium hover:bg-yellow-400">{t("Inquire", "UÅ¾klausti")}</button>
                                 </div>
                             </div>
                         ))}
@@ -138,8 +138,8 @@ export default function App() {
             <section id="contact">
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
-                        <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavimais")}</h2>
-                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you're interested in.", "Parašykite mašinos model? ir kuris priedas domina.")}</p>
+                        <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavÄ—ju")}</h2>
+                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you're interested in.", "ParaÅ¡ykite maÅ¡inos modelÄ¯ ir kuris priedas domina.")}</p>
                         <ul className="mt-4 text-sm text-neutral-300">
                             <li> sales@forestasbaltic.lt</li>
                             <li> +370 65595179</li>
@@ -147,12 +147,12 @@ export default function App() {
                         </ul>
                     </div>
                     <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
-                        <input required placeholder={t("Your name", "J?s? vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                        <input required placeholder={t("Your name", "JÅ«sÅ³ vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <input placeholder={t("Company (optional)", "?mon? (neb?tina)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                        <input placeholder={t("Company (optional)", "Ä®monÄ— (nebÅ«tina)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <textarea rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${enquire.title} (SKU: ${enquire.id})
-` : ""} placeholder={t("Message (product, machine model, questions)", "Žinut? (produktas, mašinos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Si?sti užklaus?")}</button>
+` : ""} placeholder={t("Message (product, machine model, questions)", "Å½inutÄ— (produktas, maÅ¡inos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                        <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "SiÅ³sti uÅ¾klausÄ…")}</button>
                     </form>
                 </div>
             </section>
@@ -160,7 +160,7 @@ export default function App() {
             {/* Footer */}
             <footer className="border-t border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-neutral-400 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini dealer for the Baltics", "Ghedini atstovas Baltijai")}</div>
+                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini dealer for the Baltics", "Ghedini atstovas Baltijos Å¡alyse")}</div>
                     <div className="flex gap-4"><a className="hover:text-white" href="#">Privacy</a><a className="hover:text-white" href="#">Terms</a></div>
                 </div>
             </footer>
@@ -169,16 +169,16 @@ export default function App() {
             {enquire && (
                 <div className="fixed inset-0 z-50 bg-black/70 grid place-items-center p-4" onClick={() => setEnquire(null)}>
                     <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
-                        <h3 className="text-xl font-bold">{t("Send inquiry", "Si?sti užklaus?")}</h3>
+                        <h3 className="text-xl font-bold">{t("Send inquiry", "SiÅ³sti uÅ¾klausÄ…")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
                         <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); setEnquire(null); }} className="mt-4 grid gap-3">
                             <input required placeholder={t("Your name", "J?s? vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <textarea rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${enquire.title} (SKU: ${enquire.id})
-`} placeholder={t("Message", "Žinut?")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+`} placeholder={t("Message", "ï¿½inut?")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <div className="flex items-center justify-end gap-2">
-                                <button type="button" onClick={() => setEnquire(null)} className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900">{t("Cancel", "Atšaukti")}</button>
-                                <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "Si?sti")}</button>
+                                <button type="button" onClick={() => setEnquire(null)} className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900">{t("Cancel", "AtÅ¡aukti")}</button>
+                                <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "SiÅ³sti")}</button>
                             </div>
                         </form>
                     </div>
