@@ -8,23 +8,30 @@
 
 // --- Categories (optional quick filters) ---
 const CATEGORIES = [
-    { id: "flail", name: "Flail Mowers" },
+    { id: "mulchers", name: "Mulchers" },
     { id: "auger", name: "Earth Augers" },
-    { id: "dredge", name: "Dredging Pumps" },
-    { id: "trencher", name: "Trenchers" },
-    { id: "hedge", name: "Hedge Trimmers" },
-    { id: "mixer", name: "Concrete Mixers" },
+    { id: "pile", name: "Piledrivers" },
+    { id: "mowe", name: "Mowing buckets" },
+    { id: "hedge", name: "Hedgecutters" },
+    { id: "compact", name: "Compactor Plates" },
+    { id: "log", name: "Log Grabs" },
+    { id: "polyp", name: "Polyps" },
+    { id: "rake", name: "Rakes" },  
 ];
 
 // --- Minimal product data ---
 const PRODUCTS = [
-    { id: "DA120", cat: "flail", title: "DA120 Flail Mower", img: "https://images.unsplash.com/photo-1605649487210-43f0f5c8f3f0?q=80&w=1200&auto=format&fit=crop" },
-    { id: "DB160", cat: "flail", title: "DB160 Flail Mower", img: "https://images.unsplash.com/photo-1543914095-0cf6624f936f?q=80&w=1200&auto=format&fit=crop" },
-    { id: "T25", cat: "auger", title: "T25 Auger Drive", img: "https://images.unsplash.com/photo-1593594030771-62f2a5cfa06f?q=80&w=1200&auto=format&fit=crop" },
-    { id: "SG30", cat: "dredge", title: "SG30 Dredging Pump", img: "https://images.unsplash.com/photo-1581093191431-1a75630c45af?q=80&w=1200&auto=format&fit=crop" },
-    { id: "TC90", cat: "trencher", title: "TC90 Trencher", img: "https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=1200&auto=format&fit=crop" },
-    { id: "TT270", cat: "hedge", title: "TT270 Hedge Trimmer", img: "https://images.unsplash.com/photo-1543185377-99cdb2513ac0?q=80&w=1200&auto=format&fit=crop" },
-    { id: "MX200", cat: "mixer", title: "MX200 Concrete Mixer", img: "https://images.unsplash.com/photo-1517959105821-eaf2591984dd?q=80&w=1200&auto=format&fit=crop" },
+    { id: "DA series", cat: "mulchers", title: "Mulchers for excavators", img: "/photos/damulcher.jpg" },
+    { id: "DC series", cat: "mulchers", title: "Mulchers for skid loaders", img: "/photos/dcmulcher.jpg" },
+    { id: "DF series", cat: "mulchers", title: "Forestry Mulchers for excavators", img: "/photos/dfmulcher.jpg" }, 
+    { id: "T series", cat: "auger", title: "Auger Drive", img: "/photos/auger.jpg" },
+    { id: "IP series", cat: "pile", title: "Piledriver", img: "/photos/piledriver.jpg" },
+    { id: "BF series", cat: "mowe", title: "Mowing Bucket", img: "/photos/mowing.jpg" },
+    { id: "BT series", cat: "hedge", title: "Hedgecutter", img: "/photos/hedgecutter.jpg" },
+    { id: "I series", cat: "compact", title: "Compactor Plate", img: "/photos/compactor.jpg" },
+    { id: "K series", cat: "log", title: "Log Grab", img: "/photos/loggrab.jpg" },
+    { id: "PO series", cat: "polyp", title: "Polyp", img: "/photos/polyp.jpg" },
+    { id: "BC series", cat: "rake", title: "Rake", img: "/photos/rake.jpg" },
 ];
 
 function useFiltered({ q, cat }) {
@@ -113,7 +120,7 @@ export default function App() {
                                 <option className="bg-neutral-900" value="">{t("All categories", "Visos kategorijos")}</option>
                                 {CATEGORIES.map(c => <option className="bg-neutral-900" key={c.id} value={c.id}>{c.name}</option>)}
                             </select>
-                            <a href="#contact" className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra u�klausa")}</a>
+                            <a href="#contact" className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra užklausa")}</a>
                         </div>
                     </div>
 
