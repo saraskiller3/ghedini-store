@@ -60,6 +60,114 @@ const PRODUCTS = [
     { id: "PO", cat: "polyp", title: "Polyp", img: "/photos/polyp.jpg" },
     { id: "BC", cat: "rake", title: "Rake", img: "/photos/rake.jpg" },
 ];
+// Rich content per product (texts, images, videos)
+const PRODUCT_CONTENT = {
+    DA: {
+        text: {
+            en: `Excavator mulchers Ghedini
+Completely built in Italy, for excavators and skid loaders for professional use, for agriculture and landscaping.  
+Spare parts available in stock 
+
+DA 56 - 58
+Designed for mini excavators of up to 3 tonnes operating weight.
+The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
+DOWNLOAD THE TECHNICAL SHEET
+
+DA SERIES 06 - 08 - 10
+Designed for mini excavators of up to 6 tonnes operating weight.
+The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
+DOWNLOAD THE TECHNICAL SHEET
+
+Mulcher for excavators
+DK Series
+The Ghedini Attachments’ hydraulic brushcutters of the DK Series have been designed to be applied to excavators with an operating weight between 5 and 23 tons. 
+The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Mulčeris ekskavatoriams. Paskirtis: želdinių priežiūra, kelkraščiai, plotų valymas."
+        },
+        images: [
+            "/photos/em1.jpeg",
+            "/photos/em2.jpeg",
+            "/photos/em3.jpeg"
+        ],
+        videos: [
+            // YouTube or youtu.be links
+            "https://youtu.be/OHSSKvNN3p8"
+        ]
+    },
+    DC: {
+        text: {
+            en:`Mulcher for skid loaders
+DC SERIES
+The Ghedini Attachments hydraulic mulchers of the DC series have been designed for applications on skid loaders with an oil flow to the auxiliary circuit(PTO) of at least 26 l / m.
+
+They are available in four versions: 1.080, 1.300, 1.600, 1.900 mm of useful working width.
+
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Mulčeris mini krautuvams."
+        },
+        images: ["/photos/dc-1.webp", "/photos/dc-2.webp"],
+        videos: ["https://youtu.be/ASmjIURLvLA"]
+    },
+    DF: {
+        text: { en: "Forestry mulcher for excavators.", lt: "Miško mulčeris ekskavatoriams." },
+        images: ["/photos/df-1.webp", "/photos/df-2.webp"],
+        videos: []
+    },
+    T: {
+        text: { en: "Auger drive for earth drilling.", lt: "Žemės grąžto pavara." },
+        images: ["/photos/t-1.webp"],
+        videos: []
+    },
+    IP: {
+        text: { en: "Pile driver attachment.", lt: "Polių kaltuvas." },
+            images: ["/photos/ip-1.webp"],
+            videos: []
+    }, 
+    BF: {
+        text: { en: "Mowing bucket.", lt: "Šienavimo kaušas." },
+        images: ["/photos/bf-1.webp"],
+        videos: []
+    },
+    BT: {
+        text: { en: "Hedge cutter.", lt: "Gyvatvorių kirpimo įrenginys." },
+        images: ["/photos/bt-1.webp"],
+        videos: []
+    },
+    I: {
+        text: { en: "Compactor plate.", lt: "Ekskavatorinė vibroplokštė." },
+        images: ["/photos/i-1.webp"],
+        videos: []
+    },
+    K: {
+        text: { en: "Tree shear / log grab.", lt: "Medžių giljotina / griebtuvas." },
+        images: ["/photos/k-1.webp"],
+        videos: []
+    },
+    PO: {
+        text: { en: "Polyp grab.", lt: "Polipas (greiferis)." },
+        images: ["/photos/po-1.webp"],
+        videos: []
+    },
+    BC: {
+        text: { en: "Excavator rake.", lt: "Ekskavatorinis grėblys." },
+        images: ["/photos/bc-1.webp"],
+        videos: []
+    },
+
+};
+
+// Helpers for rich content
+const getProductText = (id, lang) => PRODUCT_CONTENT[id]?.text?.[lang] || "";
+
+const ytId = (url) => {
+    try {
+        const u = new URL(url);
+        if (u.hostname.includes("youtube.com")) return u.searchParams.get("v");
+        if (u.hostname.includes("youtu.be")) return u.pathname.slice(1);
+    } catch { }
+    return null;
+};
 
 function useFiltered({ q, cat, lang }) {
     return useMemo(() => {
@@ -154,53 +262,80 @@ const PRODUCT_TEXTS = {
 function ProductPage({ lang, setEnquire }) {
     const { id } = useParams();
     const navigate = useNavigate();
-    const scrollTo = useScrollTo();
     const t = (en, lt) => (lang === "en" ? en : lt);
-    const goBack = () => {
-        if (window.history.length > 1) {
-            // skip hash-only entries if any
-            navigate(-1);
-        } else {
-            navigate("/", { replace: true });
-        }
-    };
-    const p = PRODUCTS.find(x => x.id === id);
+
+    const p = PRODUCTS.find((x) => x.id === id);
     if (!p) {
         return (
             <main className="mx-auto max-w-7xl px-4 py-16">
-                <button onClick={goBack} className="text-sm text-neutral-400 hover:text-white">← {t("Back", "Atgal")}</button>
+                <button onClick={() => navigate(-1)} className="text-sm text-neutral-400 hover:text-white">← {t("Back", "Atgal")}</button>
                 <h1 className="mt-4 text-2xl font-bold">{t("Product not found", "Produktas nerastas")}</h1>
             </main>
         );
     }
 
     const title = getTitle(p, lang);
-    const copy = PRODUCT_TEXTS[p.id]?.[lang] || "";
+    const copy = getProductText(p.id, lang);
+    const content = PRODUCT_CONTENT[id] || { images: [], videos: [], text: {} };
+    // Prefer rich gallery if provided, otherwise fall back to the main product image
+    const gallery = content.images?.length ? content.images : [p.img].filter(Boolean);
+
+    const goBack = () => {
+        if (window.history.length > 1) navigate(-1);
+        else navigate("/", { replace: true });
+    };
 
     return (
         <main className="min-h-[60vh]">
+            {/* Header section */}
             <section className="border-b border-neutral-800 bg-[radial-gradient(60%_80%_at_50%_-10%,rgba(253,224,71,0.12)_0%,transparent_70%)]">
                 <div className="mx-auto max-w-7xl px-4 py-10">
                     <button onClick={goBack} className="text-sm text-neutral-400 hover:text-white">← {t("Back", "Atgal")}</button>
                     <h1 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">{title}</h1>
-                    <p className="mt-3 text-neutral-300 max-w-3xl">{copy}</p>
+                    {copy && <p className="mt-3 text-neutral-300 max-w-3xl whitespace-pre-line">{copy}</p>}
                 </div>
             </section>
 
+            {/* Content section: gallery + text/actions + videos */}
             <section className="mx-auto max-w-7xl px-4 py-10 grid gap-8 md:grid-cols-2 md:items-start">
-                <div className="rounded-3xl border border-neutral-800 bg-neutral-900 p-4">
-                    <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-neutral-800 overflow-hidden">
-                        <img
-                            alt={title}
-                            src={p.img}
-                            loading="lazy"
-                            decoding="async"
-                            width="800"
-                            height="600"
-                            className="h-full w-full object-cover"
-                        />
+                {/* Media column */}
+                <div>
+                    {/* Main media */}
+                    <div className="rounded-3xl border border-neutral-800 bg-neutral-900 p-4">
+                        <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-neutral-800 overflow-hidden">
+                            <img
+                                alt={title}
+                                src={gallery[0]}
+                                loading="eager"
+                                decoding="async"
+                                className="h-full w-full object-cover"
+                            />
+                        </div>
                     </div>
+
+                    {/* Thumbnails (click to swap main image) */}
+                    {gallery.length > 1 && (
+                        <div className="mt-3 grid grid-cols-4 gap-2">
+                            {gallery.slice(1).map((src, i) => (
+                                <button
+                                    key={i}
+                                    onClick={() => {
+                                        // swap clicked thumb with main image
+                                        const g = [...gallery];
+                                        [g[0], g[i + 1]] = [g[i + 1], g[0]];
+                                        // persist order for this session if content exists
+                                        if (PRODUCT_CONTENT[id]?.images) PRODUCT_CONTENT[id].images = g;
+                                    }}
+                                    className="rounded-xl border border-neutral-800 overflow-hidden bg-neutral-900"
+                                >
+                                    <img alt={`${title} thumb ${i + 1}`} src={src} loading="lazy" decoding="async" className="h-20 w-full object-cover" />
+                                </button>
+                            ))}
+                        </div>
+                    )}
                 </div>
+
+                {/* Text + actions + videos column */}
                 <div className="grid gap-4">
                     <div className="text-neutral-300">
                         {t(
@@ -208,20 +343,50 @@ function ProductPage({ lang, setEnquire }) {
                             "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų kablį ir hidraulikos srautą/slėgį."
                         )}
                     </div>
+
                     <div className="flex flex-wrap gap-3">
-                        <button onClick={() => setEnquire(p)} className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">
+                        <button
+                            onClick={() => setEnquire(p)}
+                            className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400"
+                        >
                             {t("Inquire about this product", "Užklausti dėl šio produkto")}
                         </button>
-                        <button onClick={() =>
-                            scrollTo("contact")} className = "rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900" >
+                        <button
+                            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                            className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900"
+                        >
                             {t("General inquiry", "Bendra užklausa")}
                         </button>
                     </div>
+
+                    {/* Videos */}
+                    {content.videos?.length > 0 && (
+                        <div className="mt-4 grid gap-4">
+                            {content.videos.map((v, idx) => {
+                                const id = ytId(v);
+                                if (!id) return null;
+                                return (
+                                    <div key={idx} className="aspect-video w-full rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900">
+                                        <iframe
+                                            className="h-full w-full"
+                                            src={`https://www.youtube.com/embed/${id}`}
+                                            title={`Video ${idx + 1}`}
+                                            frameBorder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerPolicy="strict-origin-when-cross-origin"
+                                            allowFullScreen
+                                        />
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    )}
                 </div>
             </section>
         </main>
     );
 }
+
 function ScrollToTop() {
     const { pathname } = useLocation();
     React.useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
