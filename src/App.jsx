@@ -1,6 +1,5 @@
-﻿import React, { useMemo, useState } from "react";
+﻿import React, { useMemo, useState, useEffect } from "react";
 import {
-    BrowserRouter,
     Routes,
     Route,
     Link,
@@ -478,6 +477,8 @@ const PRODUCT_TEXTS = {
 function ProductPage({ lang, setEnquire }) {
     const { id } = useParams();
     const navigate = useNavigate();
+    
+
     const t = (en, lt) => (lang === "en" ? en : lt);
 
     const p = PRODUCTS.find((x) => x.id === id);
@@ -513,42 +514,20 @@ function ProductPage({ lang, setEnquire }) {
             </section>
 
             {/* Content section: gallery + text/actions + videos */}
-            <section className="mx-auto max-w-7xl px-4 py-10 grid gap-8 md:grid-cols-2 md:items-start">
-                {/* Media column */}
-                <div>
-                    {/* Main media */}
-                    <div className="rounded-3xl border border-neutral-800 bg-neutral-900 p-4">
-                        <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-neutral-800 overflow-hidden">
+            <section className="mx-auto max-w-7xl px-4 py-10 grid gap-10 md:grid-cols-2 md:items-start">
+                {/* LEFT: stacked full photos */}
+                <div className="space-y-6">
+                    {gallery.map((src, i) => (
+                        <figure key={i} className="overflow-hidden rounded-3xl border border-neutral-800 bg-neutral-900">
                             <img
-                                alt={title}
-                                src={gallery[0]}
-                                loading="eager"
+                                alt={`${title} ${i + 1}`}
+                                src={src}
+                                loading={i === 0 ? "eager" : "lazy"}
                                 decoding="async"
-                                className="h-full w-full object-cover"
+                                className="w-full h-auto object-cover"
                             />
-                        </div>
-                    </div>
-
-                    {/* Thumbnails (click to swap main image) */}
-                    {gallery.length > 1 && (
-                        <div className="mt-3 grid grid-cols-4 gap-2">
-                            {gallery.slice(1).map((src, i) => (
-                                <button
-                                    key={i}
-                                    onClick={() => {
-                                        // swap clicked thumb with main image
-                                        const g = [...gallery];
-                                        [g[0], g[i + 1]] = [g[i + 1], g[0]];
-                                        // persist order for this session if content exists
-                                        if (PRODUCT_CONTENT[id]?.images) PRODUCT_CONTENT[id].images = g;
-                                    }}
-                                    className="rounded-xl border border-neutral-800 overflow-hidden bg-neutral-900"
-                                >
-                                    <img alt={`${title} thumb ${i + 1}`} src={src} loading="lazy" decoding="async" className="h-20 w-full object-cover" />
-                                </button>
-                            ))}
-                        </div>
-                    )}
+                        </figure>
+                    ))}
                 </div>
 
                 {/* Text + actions + videos column */}
@@ -605,7 +584,7 @@ function ProductPage({ lang, setEnquire }) {
 
 function ScrollToTop() {
     const { pathname } = useLocation();
-    React.useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+    useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
     return null;
 }
 
@@ -623,9 +602,22 @@ export default function App() {
     const catLabel = (c) => (CAT_LABELS[lang][c.id] || c.name);
     const productTitle = (p) => getTitle(p, lang);
     const scrollTo = useScrollTo();
+    const navigate = useNavigate();
 
+    const goToProducts = () => {
+        if (window.location.pathname === "/") {
+            // Already on home page → smooth scroll
+            document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth" });
+        } else {
+            // If on product page, navigate home and scroll after load
+            navigate("/");
+            setTimeout(() => {
+                document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth" });
+            }, 400);
+        }
+    };
     return (
-        <BrowserRouter>
+        <>
             <ScrollToTop />
         <div className="min-h-screen bg-black text-white">
             {/* Top bar */}
@@ -648,12 +640,12 @@ export default function App() {
                 <div className="mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
                     <Link to="/" className="font-black text-2xl tracking-tight">Forestas<span className="text-yellow-400">Baltic</span></Link>
                     <nav className="hidden md:flex items-center gap-6 text-sm">
-                            <button onClick={() =>
-                                scrollTo("catalog")} className="text-neutral-300 hover:text-white">{t("Products", "Produktai")}</button>
+                            <button onClick={goToProducts} className="text-neutral-300 hover:text-white">{t("Products", "Produktai")}</button>
                          <button onClick={() =>
                             scrollTo("contact")} className="text-neutral-300 hover:text-white">{t("Contact", "Kontaktai")}</button>
                     </nav>
-                    <a href="#contact" className="rounded-2xl border border-neutral-700 px-3 py-1.5 text-sm text-white hover:bg-neutral-900">{t("Send inquiry", "Siųsti užklausą")}</a>
+                        <button onClick={() =>
+                            scrollTo("contact")} className="rounded-2xl border border-neutral-700 px-3 py-1.5 text-sm text-white hover:bg-neutral-900">{t("Send inquiry", "Siųsti užklausą")}</button>
                 </div>
             </header>
 
@@ -673,18 +665,25 @@ export default function App() {
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">LT / EN </span>
                         </div>
                         <div className="mt-8 flex gap-3">
-                            <a href="#catalog" className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Žiūrėti produktus")}</a>
-                            <a href="#contact" className="rounded-2xl border border-neutral-700 px-4 py-2 text-white hover:bg-neutral-900">{t("Send inquiry", "Siųsti užklausą")}</a>
+                                                <button onClick={() =>
+                                                    scrollTo("catalog")} className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Žiūrėti produktus")}</button>
+                                                <button onClick={() =>
+                                                    scrollTo("contact")} className="rounded-2xl border border-neutral-700 px-4 py-2 text-white hover:bg-neutral-900">{t("Send inquiry", "Siųsti užklausą")}</button>
                         </div>
                     </div>
-                    <div className="relative">
-                        <div className="aspect-[4/3] w-full rounded-3xl border border-neutral-800 bg-neutral-900 shadow-sm grid place-items-center">
-                            <div className="text-center px-6">
-                                <div className="text-7xl">???</div>
-                                <p className="mt-3 text-sm text-neutral-400">{t("Replace with product photos (flail / auger / pump)", "Pakeiskite produkto nuotraukomis (mul?eris / gr?�tas / siurblys)")}</p>
-                            </div>
-                        </div>
-                    </div>
+                                        <div className="relative">
+                                            <div className="aspect-video w-full rounded-3xl border border-neutral-800 overflow-hidden shadow-lg">
+                                                <iframe
+                                                    className="h-full w-full"
+                                                    src="https://www.youtube.com/embed/dghHBKuBssk?autoplay=0&mute=1&loop=1&controls=1"
+                                                    title="Ghedini Attachments Showcase"
+                                                    frameBorder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerPolicy="strict-origin-when-cross-origin"
+                                                    allowFullScreen
+                                                />
+                                            </div>
+                                        </div>
                 </div>
             </section>
 
@@ -705,7 +704,8 @@ export default function App() {
                                     </option>
                                 ))}
                             </select>
-                            <a href="#contact" className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra užklausa")}</a>
+                                                <button onClick={() =>
+                                                    scrollTo("contact")} className="rounded-xl border border-neutral-700 px-3 py-2 text-center text-sm bg-neutral-900 hover:bg-neutral-800">{t("General inquiry", "Bendra užklausa")}</button>
                         </div>
                     </div>
 
@@ -756,7 +756,7 @@ export default function App() {
                     <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
                         <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <input placeholder={t("Company (optional)", "Įmonė (nebūtina)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                        <input placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <textarea rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
 ` : ""} placeholder={t("Message (product, machine model, questions)", "Žinutė (produktas, mašinos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Siųsti užklausą")}</button>
@@ -779,7 +779,7 @@ export default function App() {
                         <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
                         <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); setEnquire(null); }} className="mt-4 grid gap-3">
-                            <input required placeholder={t("Your name", "J?s? vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                            <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <textarea rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
 `} placeholder={t("Message", "Žinutė")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
@@ -792,6 +792,6 @@ export default function App() {
                 </div>
             )}
             </div>
-        </BrowserRouter>
+        </>
     );
 }
