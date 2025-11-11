@@ -48,17 +48,17 @@ const TITLES_LT = {
 const getTitle = (p, lang) => lang === 'lt' ? (TITLES_LT[p.id] || p.title) : (p.title || TITLES_LT[p.id] || "");
 // --- Minimal product data ---
 const PRODUCTS = [
-    { id: "DA", cat: "mulchers", title: "Mulchers for excavators", img: "/photos/damulcher.jpg" },
-    { id: "DC", cat: "mulchers", title: "Mulchers for skid loaders", img: "/photos/dcmulcher.jpg" },
-    { id: "DF", cat: "mulchers", title: "Forestry Mulchers for excavators", img: "/photos/dfmulcher.jpg" }, 
-    { id: "T", cat: "auger", title: "Auger Drive", img: "/photos/auger.jpg" },
-    { id: "IP", cat: "pile", title: "Piledriver", img: "/photos/piledriver.jpg" },
-    { id: "BF", cat: "mowe", title: "Mowing Bucket", img: "/photos/mowing.jpg" },
-    { id: "BT", cat: "hedge", title: "Hedgecutter", img: "/photos/hedgecutter.jpg" },
-    { id: "I", cat: "compact", title: "Compactor Plate", img: "/photos/compactor.jpg" },
-    { id: "K", cat: "log", title: "Log Grab", img: "/photos/loggrab.jpg" },
-    { id: "PO", cat: "polyp", title: "Polyp", img: "/photos/polyp.jpg" },
-    { id: "BC", cat: "rake", title: "Rake", img: "/photos/rake.jpg" },
+    { id: "DA", cat: "mulchers", title: "Mulchers for excavators", img: "/photos/damulcher.avif" },
+    { id: "DC", cat: "mulchers", title: "Mulchers for skid loaders", img: "/photos/dcmulcher.avif" },
+    { id: "DF", cat: "mulchers", title: "Forestry Mulchers for excavators", img: "/photos/dfmulcher.avif" }, 
+    { id: "T", cat: "auger", title: "Auger Drive", img: "/photos/auger.avif" },
+    { id: "IP", cat: "pile", title: "Piledriver", img: "/photos/piledriver.avif" },
+    { id: "BF", cat: "mowe", title: "Mowing Bucket", img: "/photos/mowing.avif" },
+    { id: "BT", cat: "hedge", title: "Hedgecutter", img: "/photos/hedgecutter.avif" },
+    { id: "I", cat: "compact", title: "Compactor Plate", img: "/photos/compactor.avif" },
+    { id: "K", cat: "log", title: "Log Grab", img: "/photos/loggrab.avif" },
+    { id: "PO", cat: "polyp", title: "Polyp", img: "/photos/polyp.avif" },
+    { id: "BC", cat: "rake", title: "Rake", img: "/photos/rake.avif" },
 ];
 // Rich content per product (texts, images, videos)
 const PRODUCT_CONTENT = {
@@ -86,9 +86,9 @@ DOWNLOAD THE TECHNICAL SHEET`,
             lt: "Mulčeris ekskavatoriams. Paskirtis: želdinių priežiūra, kelkraščiai, plotų valymas."
         },
         images: [
-            "/photos/em1.jpeg",
-            "/photos/em2.jpeg",
-            "/photos/em3.jpeg"
+            "/photos/em1.avif",
+            "/photos/em2.avif",
+            "/photos/em3.avif"
         ],
         videos: [
             // YouTube or youtu.be links
@@ -106,12 +106,12 @@ They are available in four versions: 1.080, 1.300, 1.600, 1.900 mm of useful wor
 DOWNLOAD THE TECHNICAL SHEET`,
             lt: "Mulčeris mini krautuvams."
         },
-        images: ["/photos/dc-1.webp", "/photos/dc-2.webp"],
+        images: [],
         videos: ["https://youtu.be/ASmjIURLvLA"]
     },
     DF: {
         text: { en: "Forestry mulcher for excavators.", lt: "Miško mulčeris ekskavatoriams." },
-        images: ["/photos/df-1.webp", "/photos/df-2.webp"],
+        images: ["/photos/fm.avif"],
         videos: []
     },
     T: {
