@@ -23,12 +23,15 @@ const CATEGORIES = [
     { id: "hedge", name: "Hedge Cutters" },
     { id: "compact", name: "Compactor Plates" },
     { id: "log", name: "Log Grabs" },
+    { id: "grapple", name: "Grapples" },
+    { id: "pump", name: "Submersible Pumps" }, 
     { id: "polyp", name: "Polyps" },
-    { id: "rake", name: "Rakes" },  
+    { id: "rake", name: "Rakes" }, 
+    { id: "ripper", name: "Rippers" },
 ];
 const CAT_LABELS = {
-    en: { mulchers: "Mulchers", auger: "Earth Augers", pile: "Pile Drivers", mowe: "Mowing Buckets", hedge: "Hedge Cutters", compact: "Compactor Plates", log: "Log Grabs", polyp: "Polyps", rake: "Rakes" },
-    lt: { mulchers: "Mulčeriai", auger: "Žemės grąžtai", pile: "Polių kaltuvai", mowe: "Šienavimo kaušai", hedge: "Gyvatvorių kirpimo įrenginiai", compact: "Ekskavatorinės vibroplokštės", log: "Giljotinos", polyp: "Greiferiai", rake: "Ekskavatoriniai grėbliai" }
+    en: { mulchers: "Mulchers", auger: "Earth Augers", pile: "Pile Drivers", mowe: "Mowing Buckets", hedge: "Hedge Cutters", compact: "Compactor Plates", log: "Log Grabs", grapple: "Grapples", pump: "Submersible Pumps", polyp: "Polyps", rake: "Rakes", ripper: "Rippers" },
+    lt: { mulchers: "Mulčeriai", auger: "Žemės grąžtai", pile: "Polių kaltuvai", mowe: "Šienavimo kaušai", hedge: "Gyvatvorių kirpimo įrenginiai", compact: "Ekskavatorinės vibroplokštės", log: "Giljotinos", grapple: "Hidrauliniai griebtuvai", pump: "Panardinami siurbliai", polyp: "Greiferiai", rake: "Ekskavatoriniai grėbliai", ripper: "Purentuvai (Riperiai)" }
 };
 // Lithuanian titles per product id
 const TITLES_LT = {
@@ -36,13 +39,17 @@ const TITLES_LT = {
     DC: "Mini-krautuvinis mulčeris",
     DF: "Ekskavatorinis miško mulčeris",
     T: "Žemės grąžtai",
+    TT: "Žemės grąžtų antgaliai",
     IP: "Polių kaltuvai",
     BF: "Šienavimo kaušai",
     BT: "Gyvatvorių kirpimo įrenginiai",
     I: "Ekskavatorinės vibroplokštės",
     K: "Giljotinos",
+    QP: "Hidrauliniai griebtuvai",
+    H: "Panardinami siurbliai",
     PO: "Greiferiai",
     BC: "Ekskavatoriniai grėbliai",
+    RIP: "Purentuvai (Riperiai)",
 };
 
 const getTitle = (p, lang) => lang === 'lt' ? (TITLES_LT[p.id] || p.title) : (p.title || TITLES_LT[p.id] || "");
@@ -50,15 +57,19 @@ const getTitle = (p, lang) => lang === 'lt' ? (TITLES_LT[p.id] || p.title) : (p.
 const PRODUCTS = [
     { id: "DA", cat: "mulchers", title: "Mulchers for excavators", img: "/photos/damulcher.avif" },
     { id: "DC", cat: "mulchers", title: "Mulchers for skid loaders", img: "/photos/dcmulcher.avif" },
-    { id: "DF", cat: "mulchers", title: "Forestry Mulchers for excavators", img: "/photos/dfmulcher.avif" }, 
+    { id: "DF", cat: "mulchers", title: "Forestry Mulchers for excavators", img: "/photos/dfmulcher.avif" },
     { id: "T", cat: "auger", title: "Auger Drive", img: "/photos/auger.avif" },
+    { id: "TT", cat: "auger", title: "Auger Tips", img: "/photos/augertip.avif" },
     { id: "IP", cat: "pile", title: "Piledriver", img: "/photos/piledriver.avif" },
     { id: "BF", cat: "mowe", title: "Mowing Bucket", img: "/photos/mowing.avif" },
     { id: "BT", cat: "hedge", title: "Hedgecutter", img: "/photos/hedgecutter.avif" },
     { id: "I", cat: "compact", title: "Compactor Plate", img: "/photos/compactor.avif" },
     { id: "K", cat: "log", title: "Log Grab", img: "/photos/loggrab.avif" },
+    { id: "QP", cat: "grapple", title: "Grapple", img: "/photos/grapple.avif" },
+    { id: "H", cat: "pump", title: "Submersible Pumps", img: "/photos/pump.avif" },
     { id: "PO", cat: "polyp", title: "Polyp", img: "/photos/polyp.avif" },
     { id: "BC", cat: "rake", title: "Rake", img: "/photos/rake.avif" },
+    { id: "RIP", cat: "ripper", title: "Rippers", img: "/photos/ripper.avif" },
 ];
 // Rich content per product (texts, images, videos)
 const PRODUCT_CONTENT = {
@@ -78,7 +89,6 @@ Designed for mini excavators of up to 6 tonnes operating weight.
 The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
 DOWNLOAD THE TECHNICAL SHEET
 
-Mulcher for excavators
 DK Series
 The Ghedini Attachments’ hydraulic brushcutters of the DK Series have been designed to be applied to excavators with an operating weight between 5 and 23 tons. 
 The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
@@ -100,9 +110,7 @@ DOWNLOAD THE TECHNICAL SHEET`,
             en:`Mulcher for skid loaders
 DC SERIES
 The Ghedini Attachments hydraulic mulchers of the DC series have been designed for applications on skid loaders with an oil flow to the auxiliary circuit(PTO) of at least 26 l / m.
-
 They are available in four versions: 1.080, 1.300, 1.600, 1.900 mm of useful working width.
-
 DOWNLOAD THE TECHNICAL SHEET`,
             lt: "Mulčeris mini krautuvams."
         },
@@ -110,39 +118,231 @@ DOWNLOAD THE TECHNICAL SHEET`,
         videos: ["https://youtu.be/ASmjIURLvLA"]
     },
     DF: {
-        text: { en: "Forestry mulcher for excavators.", lt: "Miško mulčeris ekskavatoriams." },
+        text: {
+            en: `Forestry mulcher for excavator 
+            SERIES DF 10 - 13
+The Ghedini Attachments hydraulic forestry brushcutters of the DF Series have been designed to be applied to excavators with an operating weight between 5 and 30 tons.
+They are available both with the standard teeth configuration, for mowing and pruning, and with the hard metal plate configuration, suitable for cutting shrubs and more resistant vegetation.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Miško mulčeris ekskavatoriams."
+        },
         images: ["/photos/fm.avif"],
         videos: []
     },
     T: {
-        text: { en: "Auger drive for earth drilling.", lt: "Žemės grąžto pavara." },
-        images: ["/photos/t-1.webp"],
+        text: {
+            en: `Auger drive for mini excavators TA 01
+Direct drive, lightweight and without the need for drainage.
+Arm attachment with pin included, suitable for mini excavators from 0.7 up to 2.5 tons.
+DOWNLOAD THE TECHNICAL SHEET
+
+Auger drive for excavators TB 06
+Equipped with reducer, without the need for drainage.
+Steel body, possibility of lateral and horizontal attachment, auger block available for use with log splitters.
+Arm attachment with pin included, suitable for excavators from 1.5 up to 6 tons.
+DOWNLOAD THE TECHNICAL SHEET
+
+TK SERIES
+For our TK Series augers they have been designed to obtain the best results from midi excavators with operating weight between 5 and 15 tons.
+The new generation gearbox produced by us guarantees superior sturdiness and reliability thanks to the body built entirely in steel.
+DOWNLOAD THE TECHNICAL SHEET
+
+TV - TT - TS SERIES
+For our TV- TS - TT Series augers, helical tools of various diameters and lengths are available for all types of terrain (agricultural, mixed, rocky).
+We have the possibility to build tips for each type of terrain according to customer specifications.
+DOWNLOAD THE TECHNICAL SHEET
+
+Rotary Harrow SHR
+The brand new SHR series rotary harrows are available.
+Perfect for leveling and loosening soil.
+We have the ability to build spikes for any type of terrain to customer specifications.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Žemės grąžto pavara."
+        },
+        images: ["/photos/auger1.avif",
+        "/photos/auger2.avif"],
+        videos: ["https://youtu.be/a6gaGdPgvhQ",
+            "https://youtu.be/FDrEN8QvSxY",
+        "https://youtu.be/TyTBOUm6ORQ"]
+    },
+    TT: {
+        text: {
+            en: `Auger Bits Ghedini Attachments.
+We can supply auger bits suitable for any type of soil, according to our customer’s needs. Available in different diameters and lengths. Possibility of extensions to reach the desired depth.
+
+WIDIA AUGER DRIVE FOR ROCKY SOIL
+WIDIA AUGER DRILL with replaceable tips, for rocky soil.
+Available with hexagonal shafts (50-70-100 mm) and 120 mm square, in various diameters and lengths, also in the extendable version.
+What is meant by Widia?
+Widia is a name also known as “cemented carbide”, Carboloy or hard metal and is a material used in mechanical processing consisting of hard particles of tungsten carbide embedded in a metal matrix.
+It is produced through the sintering process, i.e. the fine powders of the components are mixed, pressed and then heated while maintaining a high pressure so that the powder granules come together and form a single piece.
+The carbides used are mostly tungsten carbide, titanium and tantalum.
+Carbide tools are harder than high-speed and high-speed steel tools and withstand higher cutting temperatures (1000 ° C versus 600 ° C) and therefore allow for faster machining speed.
+
+AUGER DRIVE FOR AGRICULTURAL SOIL
+Drills with replaceable knives in wear-resistant steel, for agricultural land, ideal for most soils.
+Available with hexagonal shaft, 50 and 70 mm, with various diameters and lengths. Possibility of extension shaft only or with flight.
+Highly efficient drill suitable for multiple uses.
+
+DRILL BIT WITH PENGO BIT FOR MIXED GROUND
+Bits with PENGO® tip and digging teeth for mixed and even stony soils.
+Available with hexagonal shaft (50, 70, 100 mm) and square 120 mm, with various diameters and lengths. Also in extensible version.
+Up to Ø 400 mm a single tip is used, for larger diameters a central PENGO® tip Ø 100 mm with the addition of PENGO teeth that dig on the sides.
+BITS FOR WOODS
+The conical wood splitter is used to split the logs, while the stump grinder, available in different diameters, is used to mince the wood, obtaining a complete cleaning of the trunk even underground.
+Available with 50 and 70 mm hexagonal coupling. A special bit for palm trees is available too.`,
+            lt: "Žemės grąžtų antgaliai."
+        },
+        images: ["/photos/tip1.avif",
+            "/photos/tip2.avif",
+            "/photos/tip3.avif",
+            "/photos/tip4.avif",
+            "/photos/tip5.avif",
+            "/photos/tip6.avif",],
         videos: []
     },
     IP: {
-        text: { en: "Pile driver attachment.", lt: "Polių kaltuvas." },
+        text: {
+            en: `Vibro Pile Drivers Ghedini Attachments.
+The pile drivers IP series hydraulic vibrators have been designed for vibro - driving poles and for soil compaction, depending on the equipment applied.
+The pile drivers IP series are connected to the hydraulic power take- off line of the excavators (PTO).
+It is also possible to use only the vibrating body for specific applications at the customer’s request.
+DOWNLOAD THE TECHNICAL SHEET
+The motor is bi- directional and in aluminum.
+Drainage recommended only for back pressures > 7 bar.
+    They are equipped with anti - shock and anti - cavitation valves, calibrated at 160 bar, to protect the hydraulic pump from possible damage due to a sudden change in pressure.
+Built exclusively with SKF bearings, ring nuts and lock washers.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Polių kaltuvas."
+        },
             images: ["/photos/ip-1.webp"],
-            videos: []
+        videos: ["https://youtu.be/1FHOZz9zL9E"]
     }, 
     BF: {
-        text: { en: "Mowing bucket.", lt: "Šienavimo kaušas." },
+        text: {
+            en: `Mowing buckets are attachments designed for the maintenance of waters, ditches, canals, riverbanks. 
+Different sizes of mowing buckets can be easily attached to carrier vehicles(large hydraulic excavators, midi and mini excavators or power arms). 
+Through a unique design and the application of the best materials, in combination with quality workmanship gives an unequalled tool. A mowing bucket that performs everywhere and at all times.
+Our cutting buckets have been designed for cleaning and reclamation of embankments and canals.
+They can work immersed in water, without creating problems for the mechanical movement and cutting system.
+All the elements that make up the cutting system are completely screwed.
+Weed cutting buckets Ghedini Attachments are equipped with a movement mechanism with support sealed bearing, SKF bearings, anti-shock valve.
+Original Hesston teeth with grooved section.
+Max cutting diameter 5/6 cm.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Šienavimo kaušas."
+        },
         images: ["/photos/bf-1.webp"],
-        videos: []
+        videos: ["https://youtu.be/y53fDzbryi8",
+        "https://youtu.be/K4Wa-4qbGHY"]
     },
     BT: {
-        text: { en: "Hedge cutter.", lt: "Gyvatvorių kirpimo įrenginys." },
+        text: {
+            en: `GHEDINI ATTACHMENTS is always looking for continuous product development to improve customer satisfaction.
+Our Hedgetrimmer has a new system to absorb shocks, which reduces the risk of damage to the structure.
+The Ghedini Hedgetrimmer is an attachment studied to cut any tree, bush or branch up to a diameter of 4/5 centimeters. It has the advantage of being used both horizontally and vertically, thanks to the Hirth joint.
+The BT Hedgetrimmer can be mounted on any type of excavator or mini excavator weighing up to 8 tons; and backhoe loaders.
+It is available in 4 working widths:
+1200 mm
+1500 mm
+1600 mm
+1800 mm
+This product is the right solution for all types of works of  maintenance, reclamation and cutting of hedges and bushes.
+DOWNLOAD THE TECHNICAL SHEET`, lt: "Gyvatvorių kirpimo įrenginys."
+        },
         images: ["/photos/bt-1.webp"],
-        videos: []
+        videos: ["https://youtu.be/SLeCcpNl5dg"]
     },
     I: {
-        text: { en: "Compactor plate.", lt: "Ekskavatorinė vibroplokštė." },
+        text: {
+            en: `Our compactors IC, ID and IE series are planned to compact the ground or the material which has been filled up in the trench.The combined action between the pressure exerted on the ground by the excavator arm and the high frequency vibration produced by the vibrator allows it to get the best compaction of the material used to fill the trench.
+The hydraulic supply of the IC, ID and IE series takes place through the PTO coupling of the excavator the campactor is mounted on.
+The motor is bi- directional and in aluminium.
+Drainage is recommended for counter pressures > 7 bar.They are equipped with anti - shock and anti- cavitation valves, set as 160 bar, to protect the hydraulic pump from possible damage due to a sudden change in pressure. For maximum performance, our vibratory plates are made with SKF bearings, nuts and fastener.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Ekskavatorinė vibroplokštė."
+        },
         images: ["/photos/i-1.webp"],
-        videos: []
+        videos: ["https://youtu.be/KFICDsnUfPo"]
     },
     K: {
-        text: { en: "Tree shear / log grab.", lt: "Medžių giljotina / griebtuvas." },
+        text: {
+            en: `Designed for log handling, bulk handling, rock handling, dredging or digging operations, etc.The grabs can be attached to hydraulic machines/ excavators.
+Ghedini Attachments offers unmatched versatility for all grappling applications. Our unique configurations allows ultimate flexibility and uses around work sites, demolition, farms or any project that requires pinpoint pick- up accuracy.
+Years of experience in developing and manufacturing hydraulic grabs, specially designed for superior performance, ease of use and efficiency.
+KA Series
+The Ghedini “KA” Series log grabs are suitable for the handling, loading and unloading of logs ready to be transported.
+They can be mounted on excavators or forestry cranes.They are built of Domex 710 steel and equipped with block valves.
+They are used in the forestry and industrial fields, for excavators up to 15 tons.
+DOWNLOAD THE TECHNICAL SHEET
+KL Series
+The Ghedini “KL” Series log grabs are suitable for the handling, loading and unloading of logs ready to be transported.
+They can be mounted on excavators or forestry cranes.They are built in Domex 710 steel and equipped with block valves.
+Log grab suitable for 3 functions:
+Use of the grab without teeth and bucket, for the log loading;
+Use of the grab with widening teeth for the loading of branches or melted goods;
+Use of two buckets to load wood chips, sand, earth and all melted goods. All simply assembling 4 pins in less than 2 minutes.
+Rock grab with reinforced structure for any horizontal or vertical use, with or without special rotators.
+DOWNLOAD THE TECHNICAL SHEET
+KP Series
+Rock grabs “KP Series” with reinforced structures, so as to be able to work both vertically and horizontally with or without special rotators.
+Made of Domex 710 steel and equipped with a block valve.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Medžių giljotina / griebtuvas."
+        },
         images: ["/photos/k-1.webp"],
-        videos: []
+        videos: ["https://youtu.be/eizvkZpCcN0",
+        "https://youtu.be/4C8HfQKl5BA"]
+    },
+    QP: {
+        text: {
+            en: `The hydraulic grabs of the Ghedini QP series will help your work, being suitable for excavators from 2.5 to 25 tons.
+There are four different models available according to their functions, the post material and the excavator weight.
+Grip with fixed buffers for the extraction and the driving of concrete/iron posts;
+Grip with rotating buffers for concrete posts;
+Grip for wood posts for mini and midi excavators;
+Grip for wood posts for big excavators.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Hidrauliniai griebtuvai."
+        },
+        images: ["/photos/qp-1.webp"],
+        videos: ["https://youtu.be/1FHOZz9zL9E"]
+    },
+    H: {
+        text: {
+            en: `With the valuable assistance of skilled team of professionals, we are offering an extensive range of high quality Submersible Pumps.
+This pump find its application in sewage pumping, slurry pumping and many general industrial pumping.
+We offer them in different specifications for our clients with different choices.
+Compact sizes and durable designs enable our submersible pumps to tolerate water and sludge. Our submersible pumps of the HB HC and HV series, hydraulically driven, are particularly suitable for the drainage of flooded excavations.
+They can be connected to mini excavators, skid steers, truck cranes and even independent hydraulic power packs. Immersion pumps have no electrical components and are therefore suitable for work in complete safety under water.
+Invest in a Good Submersible Pump now!
+DOWNLOAD THE TECHNICAL SHEET
+They are equipped with a suction filter that blocks rocks and stones.
+They can easily work up to a maximum depth of 20m.
+Our submersible pumps are manufactured in compliance with very high quality standards and exclusively with original SKF clamps and bearings, to guarantee maximum efficiency and operational functionality.
+Pumps and dewatering equipment are used to remove water from a volume of liquid, solid material or soil. Pumps simply remove liquid from a volume of liquid, whereas dewatering equipment separates water from another material such as soil or sludge.
+They can be used for a number of different operations, including:
+Keeping water out of foundations, pits, tunnels, and other excavations.
+Lowering the water table below excavation level.
+Pumping water out of cofferdams.
+Supplying water for jetting, sluicing and other general purposes.
+Foundation grouting.
+Drying solids.
+The choice of equipment depends on various factors, such as:
+•The project complexity.
+•The amount of liquid to be moved.
+•The rate at which the liquid needs to be moved.
+•The height of the suction lift – distance from the water to the pump.
+•The loss incurred due to friction.
+•The size of the pump.
+•The type of liquid.
+Submersible pumps can be used for lowering groundwater or removing water from a deep sump. The pump unit is suspended from the rising main or, if a flexible hose is used, from a wire cable.
+The pump consists of a centrifugal unit and motor mounted in a single cylindrical unit with a space between pump and casing which allows the water to move upwards to the rising main.
+They are intended for heavy duty work that involves lifting gritty water.`,
+            lt: "Panardinami siurbliai."
+        },
+        images: ["/photos/h-1.webp"],
+        videos: ["https://youtu.be/s4W3ZeVA6x8"]
     },
     PO: {
         text: { en: "Polyp grab.", lt: "Polipas (greiferis)." },
@@ -150,9 +350,25 @@ DOWNLOAD THE TECHNICAL SHEET`,
         videos: []
     },
     BC: {
-        text: { en: "Excavator rake.", lt: "Ekskavatorinis grėblys." },
+        text: {
+            en: `Our rakes have been designed for excavators up to 7 T.They are ideal for a quick cleaning or removal of the material present on the surface (brushwood, wood, stones or other).
+They are therefore particularly suitable for environmental maintenance.
+Available in 4 working widths.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Ekskavatorinis grėblys."
+        },
         images: ["/photos/bc-1.webp"],
-        videos: []
+        videos: ["https://youtu.be/fYHrHjbA0H8"]
+    },
+    RIP: {
+        text: {
+            en: `Ripper with interchangeable teeth in hardened wear-resistant steel, for work under the surface of the ground, such as grubbing up and collecting stumps, tilling land and extracting stones.
+For excavators 2-10 T. With 2 or 5 teeth.
+DOWNLOAD THE TECHNICAL SHEET`,
+            lt: "Purentuvai (Riperiai)."
+        },
+        images: ["/photos/rip-1.webp"],
+        videos: ["https://youtu.be/DPM8z3g4jfM"]
     },
 
 };
