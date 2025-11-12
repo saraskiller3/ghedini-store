@@ -74,25 +74,136 @@ const PRODUCTS = [
 const PRODUCT_CONTENT = {
     DA: {
         text: {
-            en: `Excavator mulchers Ghedini
-Completely built in Italy, for excavators and skid loaders for professional use, for agriculture and landscaping.  
-Spare parts available in stock 
+            en: `Excavator Mulchers – "Ghedini Attachments"
 
-DA 56 - 58
-Designed for mini excavators of up to 3 tonnes operating weight.
-The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
-DOWNLOAD THE TECHNICAL SHEET
+100% Made in Italy
 
-DA SERIES 06 - 08 - 10
-Designed for mini excavators of up to 6 tonnes operating weight.
-The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
-DOWNLOAD THE TECHNICAL SHEET
+High-quality hydraulic mulchers designed for excavators and skid loaders, manufactured entirely in Italy by "Ghedini Attachments".
+These professional tools are built for demanding work in agriculture, landscaping, forestry, and environmental maintenance.
+
+✅ Spare parts always in stock
+✅ Fast delivery across Europe
+✅ Reliable Italian engineering and durability
+
+DA 56 – DA 58 Series
+
+For mini excavators up to 3 tonnes operating weight
+
+Compact yet powerful mulchers designed for small excavators.
+Available in two cutting configurations:
+
+Knives – ideal for mowing and pruning
+
+Hammers – for cutting shrubs and dense vegetation
+
+🔹 Strong but lightweight frame
+🔹 High hydraulic efficiency
+🔹 Easy installation and maintenance
+
+<a href="/docs/da1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>
+DA Series – 06 / 08 / 10
+
+For excavators up to 6 tonnes operating weight
+
+Versatile and robust mulchers built for continuous professional use.
+Available in two rotor configurations:
+
+Knives – for grass and light vegetation
+
+Hammers – for dense brush and thicker branches
+
+🔹 Optimized rotor design for maximum performance
+🔹 Reinforced construction for durability
+🔹 100% Made in Italy
+
+<a href="/docs/da2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>
 
 DK Series
-The Ghedini Attachments’ hydraulic brushcutters of the DK Series have been designed to be applied to excavators with an operating weight between 5 and 23 tons. 
-The various models are available both with the knife configuration, for mowing and pruning, and with the hammer configuration, suitable for cutting shrubs and more resistant vegetation.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Mulčeris ekskavatoriams. Paskirtis: želdinių priežiūra, kelkraščiai, plotų valymas."
+
+For excavators from 5 to 23 tonnes operating weight
+
+Heavy-duty hydraulic brushcutters engineered for medium and large excavators.
+Available in two versions:
+
+Knives – for precise mowing and vegetation control
+
+Hammers – for forestry and demanding clearing work
+
+🔹 Reinforced frame and rotor for maximum strength
+🔹 High cutting power and productivity
+🔹 Perfect for forestry, roadside, and agricultural maintenance
+
+<a href="/docs/da3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
+            lt: `Ekskavatorių mulčeriai – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+Aukštos kokybės hidrauliniai mulčeriai, skirti ekskavatoriams ir mini krautuvams, gaminami Italijoje, įmonėje ,,Ghedini Attachments".
+Šie profesionalūs įrenginiai sukurti darbui žemės ūkio, aplinkos priežiūros, apželdinimo bei miškininkystės sektoriuose.
+
+✅ Atsarginės dalys visada sandėlyje
+✅ Greitas pristatymas visoje Europoje
+✅ Patikima itališka kokybė ir ilgaamžiškumas
+
+DA 56 – DA 58 serija
+
+Mini ekskavatoriams iki 3 t darbinės masės
+
+Kompaktiški, bet galingi mulčeriai, pasižymintys tvirta konstrukcija ir lengva priežiūra.
+Galimos dvi darbo konfigūracijos:
+
+Peiliai – žolės pjovimui ir šakų genėjimui
+
+Plaktukai – krūmynų ir tankesnės augmenijos kirtimui
+
+🔹 Tvirta ir lengva konstrukcija
+🔹 Efektyvus hidraulinės energijos panaudojimas
+🔹 Patogus montavimas ir priežiūra
+
+[📄 Atsisiųsti techninę specifikaciją]
+
+DA serija – 06 / 08 / 10
+
+Ekskavatoriams iki 6 t darbinės masės
+
+Universalūs ir patikimi mulčeriai, pritaikyti intensyviam profesionaliam naudojimui.
+Modeliai gaminami dviejų tipų:
+
+Su peiliais – žolei ir smulkiai augmenijai
+
+Su plaktukais – krūmams, tankiems augalams ir piktžolėms
+
+🔹 Optimizuotas rotoriaus dizainas
+🔹 Atspari konstrukcija nuolatiniam darbui
+🔹 100 % pagaminta Italijoje
+
+[📄 Atsisiųsti techninę specifikaciją]
+
+DK serija
+
+Ekskavatoriams nuo 5 iki 23 t darbinės masės
+
+Didelio našumo hidrauliniai šienapjovės tipo mulčeriai, sukurti naudoti su vidutinės ir didelės klasės ekskavatoriais.
+Modeliai gaminami su dviem rotoriaus konfigūracijomis:
+
+Peiliai – preciziškam žolės ir lengvos augmenijos pjovimui
+
+Plaktukai – miškininkystės darbams ir itin tankiai augmenijai
+
+🔹 Sustiprintas rėmas ir rotorius
+🔹 Itin didelė pjovimo galia ir našumas
+🔹 Idealiai tinka kelių priežiūrai, žemės ūkiui ir miško ūkio darbams
+
+[📄 Atsisiųsti techninę specifikaciją]`
         },
         images: [
             "/photos/em1.avif",
@@ -103,60 +214,244 @@ DOWNLOAD THE TECHNICAL SHEET`,
             // YouTube or youtu.be links
             "https://youtu.be/OHSSKvNN3p8"
         ]
+        
     },
     DC: {
         text: {
-            en:`Mulcher for skid loaders
-DC SERIES
-The Ghedini Attachments hydraulic mulchers of the DC series have been designed for applications on skid loaders with an oil flow to the auxiliary circuit(PTO) of at least 26 l / m.
-They are available in four versions: 1.080, 1.300, 1.600, 1.900 mm of useful working width.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Mulčeris mini krautuvams."
+            en:`Mulchers for Skid Loaders – DC Series
+
+100% Made in Italy
+
+The "Ghedini Attachments" DC Series hydraulic mulchers are engineered for use with skid steer loaders equipped with an auxiliary hydraulic circuit (PTO) providing a minimum oil flow of 26 L/min.
+
+Built for professional agricultural, landscaping, and maintenance work, these mulchers deliver high performance, durability, and precise cutting results.
+
+Available in four working widths:
+
+1,080 mm
+
+1,300 mm
+
+1,600 mm
+
+1,900 mm
+
+🔹 Rugged and reliable Italian design
+🔹 Smooth hydraulic performance
+🔹 Ideal for grass, shrubs, and light forestry applications
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Mulčeriai mini krautuvams – DC serija
+
+Pagaminta 100 % Italijoje
+
+Ghedini Attachments DC serijos hidrauliniai mulčeriai sukurti naudoti su mini krautuvais, turinčiais pagalbinę hidraulinę liniją (PTO) su ne mažesniu kaip 26 l/min alyvos srautu.
+
+Tai patikimi ir efektyvūs įrenginiai, pritaikyti profesionaliam žemės ūkio, aplinkos priežiūros ir apželdinimo darbui.
+
+Galimi keturi darbo pločiai:
+
+1 080 mm
+
+1 300 mm
+
+1 600 mm
+
+1 900 mm
+
+🔹 Patikima ir tvirta itališka konstrukcija
+🔹 Sklandus hidraulinės sistemos darbas
+🔹 Tinka žolės, krūmynų ir lengvos augmenijos pjovimui
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]` 
         },
         images: [],
         videos: ["https://youtu.be/ASmjIURLvLA"]
     },
     DF: {
         text: {
-            en: `Forestry mulcher for excavator 
-            SERIES DF 10 - 13
-The Ghedini Attachments hydraulic forestry brushcutters of the DF Series have been designed to be applied to excavators with an operating weight between 5 and 30 tons.
-They are available both with the standard teeth configuration, for mowing and pruning, and with the hard metal plate configuration, suitable for cutting shrubs and more resistant vegetation.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Miško mulčeris ekskavatoriams."
+            en: `Forestry Mulchers for Excavators – DF Series (10–13)
+
+100% Made in Italy
+
+The "Ghedini Attachments" DF Series hydraulic forestry mulchers are designed for excavators with an operating weight between 5 and 30 tonnes.
+These heavy-duty brushcutters are built for professional forestry, land clearing, and vegetation management, combining high cutting power with exceptional reliability.
+
+Available in two rotor configurations:
+
+Standard teeth – ideal for mowing and light pruning
+
+Hard-metal plates – for cutting shrubs, roots, and dense or woody vegetation
+
+🔹 Heavy-duty reinforced frame and rotor
+🔹 Designed for continuous professional operation
+🔹 Maximum cutting power and hydraulic efficiency
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Miško mulčeriai ekskavatoriams – DF serija (10–13)
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" DF serijos hidrauliniai miško mulčeriai skirti ekskavatoriams, kurių darbinė masė nuo 5 iki 30 tonų.
+Tai profesionalūs, didelio našumo įrenginiai, sukurti miško valymo, krūmynų šalinimo ir augmenijos priežiūros darbams.
+
+Galimos dvi rotoriaus konfigūracijos:
+
+Standartiniai dantys – žolės pjovimui ir lengvam genėjimui
+
+Kietmetalio plokštelės – krūmams, šaknims ir tankiai augmenijai pjauti
+
+🔹 Sustiprintas rėmas ir rotorius
+🔹 Sukurta nuolatiniam profesionaliam darbui
+🔹 Didelė pjovimo galia ir hidraulinis efektyvumas
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/fm.avif"],
         videos: []
     },
     T: {
         text: {
-            en: `Auger drive for mini excavators TA 01
-Direct drive, lightweight and without the need for drainage.
-Arm attachment with pin included, suitable for mini excavators from 0.7 up to 2.5 tons.
-DOWNLOAD THE TECHNICAL SHEET
+            en: `Auger Drives & Rotary Harrows – Ghedini Attachments
 
-Auger drive for excavators TB 06
-Equipped with reducer, without the need for drainage.
-Steel body, possibility of lateral and horizontal attachment, auger block available for use with log splitters.
-Arm attachment with pin included, suitable for excavators from 1.5 up to 6 tons.
-DOWNLOAD THE TECHNICAL SHEET
+100% Made in Italy
 
-TK SERIES
-For our TK Series augers they have been designed to obtain the best results from midi excavators with operating weight between 5 and 15 tons.
-The new generation gearbox produced by us guarantees superior sturdiness and reliability thanks to the body built entirely in steel.
-DOWNLOAD THE TECHNICAL SHEET
+High-performance hydraulic auger drives and rotary harrows designed and manufactured in Italy by Ghedini Attachments.
+Built for mini, midi, and standard excavators, these attachments deliver maximum torque, reliability, and versatility for drilling and soil preparation tasks.
 
-TV - TT - TS SERIES
-For our TV- TS - TT Series augers, helical tools of various diameters and lengths are available for all types of terrain (agricultural, mixed, rocky).
-We have the possibility to build tips for each type of terrain according to customer specifications.
-DOWNLOAD THE TECHNICAL SHEET
+TA 01 – Auger Drive for Mini Excavators
 
-Rotary Harrow SHR
-The brand new SHR series rotary harrows are available.
-Perfect for leveling and loosening soil.
-We have the ability to build spikes for any type of terrain to customer specifications.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Žemės grąžto pavara."
+For excavators from 0.7 to 2.5 tonnes
+
+Compact and lightweight direct drive auger, requiring no drainage line.
+Supplied with arm attachment and pin, ideal for small excavators and compact machines.
+
+🔹 Direct drive – simple and reliable
+🔹 No drainage required
+🔹 Lightweight and durable
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+TB 06 – Auger Drive for Excavators
+
+For excavators from 1.5 to 6 tonnes
+
+Equipped with a reduction gearbox, this auger offers excellent torque and drilling performance.
+No drainage required.
+Features a steel body and optional side or horizontal mounting.
+An auger block is available for use with log splitters.
+
+🔹 Steel construction for maximum strength
+🔹 Compact reducer design
+🔹 Supplied with arm attachment and pin
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+TK Series – Auger Drives for Midi Excavators
+
+For excavators from 5 to 15 tonnes
+
+The TK Series augers are designed to provide maximum efficiency for medium-sized excavators.
+A new-generation gearbox, produced entirely by Ghedini, ensures superior robustness and reliability.
+Fully steel-built for long-lasting performance.
+
+🔹 High-torque gearbox
+🔹 Heavy-duty all-steel construction
+🔹 Designed for demanding professional work
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+TV – TT – TS Series – Augers for All Terrain Types
+
+Augers of the TV, TT, and TS Series are available in various diameters and lengths, suitable for all soil conditions — from agricultural and mixed terrain to rocky ground.
+Custom tips and configurations can be manufactured according to customer specifications.
+
+🔹 Wide range of auger diameters and lengths
+🔹 Adaptable to any terrain
+🔹 Custom designs available on request
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+SHR Series – Rotary Harrows
+
+The innovative SHR Series rotary harrows are designed for soil levelling and loosening, ensuring excellent ground preparation for agricultural or landscaping applications.
+Custom-built spikes can be supplied for any soil type according to customer requirements.
+
+🔹 Perfect for soil preparation and finishing
+🔹 Durable Italian construction
+🔹 Custom spike options available
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Grąžtai ir rotacinės akėčios – Ghedini Attachments
+
+Pagaminta 100 % Italijoje
+
+Aukštos kokybės hidrauliniai grąžtai ir rotacinės akėčios, sukurti ir pagaminti Italijoje bendrovės Ghedini Attachments.
+Skirti mini, vidutinės klasės ir standartiniams ekskavatoriams, pasižymi dideliu sukimo momentu, patikimumu ir universalumu įvairiems gręžimo bei dirvos paruošimo darbams.
+
+TA 01 – Grąžtas mini ekskavatoriams
+
+Ekskavatoriams nuo 0,7 iki 2,5 t darbinės masės
+
+Kompaktiškas ir lengvas tiesioginės pavaros grąžtas, kuriam nereikalinga nutekėjimo linija.
+Tiekiamas su svirties tvirtinimu ir kaiščiu, tinkamas mažiems ekskavatoriams ir kompaktiškiems įrenginiams.
+
+🔹 Tiesioginė pavara – paprasta ir patikima konstrukcija
+🔹 Nereikalauja hidraulinės nutekėjimo linijos
+🔹 Lengvas, bet tvirtas korpusas
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+TB 06 – Grąžtas ekskavatoriams
+
+Ekskavatoriams nuo 1,5 iki 6 t darbinės masės
+
+Įrengtas reduktoriumi, užtikrinančiu aukštą sukimo momentą ir efektyvų gręžimą.
+Nereikalauja nutekėjimo linijos.
+Turi plieninį korpusą ir galimybę šoniniam arba horizontaliam tvirtinimui.
+Galimas grąžto blokas naudojimui su malkų skaldytuvais.
+
+🔹 Plieninė konstrukcija maksimaliam patvarumui
+🔹 Kompaktiškas reduktorius
+🔹 Tiekiamas su svirties tvirtinimu ir kaiščiu
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+TK serija – Grąžtai vidutinės klasės ekskavatoriams
+
+Ekskavatoriams nuo 5 iki 15 t darbinės masės
+
+TK serijos grąžtai sukurti maksimaliam efektyvumui vidutinės klasės ekskavatoriuose.
+Naujos kartos pavarų dėžė, gaminama „Ghedini“ įmonėje, užtikrina išskirtinį patvarumą ir patikimumą.
+Korpusas pagamintas visiškai iš plieno.
+
+🔹 Didelio sukimo momento pavarų dėžė
+🔹 Sustiprinta plieninė konstrukcija
+🔹 Skirta intensyviam profesionaliam naudojimui
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+TV – TT – TS serijos – Grąžtai visų tipų gruntui
+
+TV, TT ir TS serijų grąžtai gaminami įvairių diametrų ir ilgių, pritaikyti darbui su bet kokiu gruntu – nuo žemės ūkio iki akmenuotos dirvos.
+Pagal kliento pageidavimus galime pagaminti specialius antgalius konkrečiam dirvožemio tipui.
+
+🔹 Platus diametrų ir ilgių pasirinkimas
+🔹 Pritaikomi bet kokiam gruntui
+🔹 Galimybė gaminti pagal užsakovo specifikaciją
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+SHR serija – Rotacinės akėčios
+
+Naujos kartos SHR serijos rotacinės akėčios skirtos dirvos lyginimui ir purenimui, užtikrinant aukštą darbo kokybę žemės ūkio ar apželdinimo darbuose.
+Pagal užsakymą gaminamos spyglių sistemos, pritaikytos bet kokiam gruntui.
+
+🔹 Puikiai tinka dirvos paruošimui ir užbaigiamiesiems darbams
+🔹 Tvirta itališka konstrukcija
+🔹 Galimybė gaminti pagal užsakovo poreikius
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/auger1.avif",
         "/photos/auger2.avif"],
@@ -166,31 +461,123 @@ DOWNLOAD THE TECHNICAL SHEET`,
     },
     TT: {
         text: {
-            en: `Auger Bits Ghedini Attachments.
-We can supply auger bits suitable for any type of soil, according to our customer’s needs. Available in different diameters and lengths. Possibility of extensions to reach the desired depth.
+            en: `Auger Bits – Ghedini Attachments
 
-WIDIA AUGER DRIVE FOR ROCKY SOIL
-WIDIA AUGER DRILL with replaceable tips, for rocky soil.
-Available with hexagonal shafts (50-70-100 mm) and 120 mm square, in various diameters and lengths, also in the extendable version.
-What is meant by Widia?
-Widia is a name also known as “cemented carbide”, Carboloy or hard metal and is a material used in mechanical processing consisting of hard particles of tungsten carbide embedded in a metal matrix.
-It is produced through the sintering process, i.e. the fine powders of the components are mixed, pressed and then heated while maintaining a high pressure so that the powder granules come together and form a single piece.
-The carbides used are mostly tungsten carbide, titanium and tantalum.
-Carbide tools are harder than high-speed and high-speed steel tools and withstand higher cutting temperatures (1000 ° C versus 600 ° C) and therefore allow for faster machining speed.
+100% Made in Italy
 
-AUGER DRIVE FOR AGRICULTURAL SOIL
-Drills with replaceable knives in wear-resistant steel, for agricultural land, ideal for most soils.
-Available with hexagonal shaft, 50 and 70 mm, with various diameters and lengths. Possibility of extension shaft only or with flight.
-Highly efficient drill suitable for multiple uses.
+"Ghedini Attachments" supplies auger bits suitable for all soil types, custom-built according to the customer’s requirements.
+Available in multiple diameters and lengths, with the option of extensions to achieve the desired drilling depth.
 
-DRILL BIT WITH PENGO BIT FOR MIXED GROUND
-Bits with PENGO® tip and digging teeth for mixed and even stony soils.
-Available with hexagonal shaft (50, 70, 100 mm) and square 120 mm, with various diameters and lengths. Also in extensible version.
-Up to Ø 400 mm a single tip is used, for larger diameters a central PENGO® tip Ø 100 mm with the addition of PENGO teeth that dig on the sides.
-BITS FOR WOODS
-The conical wood splitter is used to split the logs, while the stump grinder, available in different diameters, is used to mince the wood, obtaining a complete cleaning of the trunk even underground.
-Available with 50 and 70 mm hexagonal coupling. A special bit for palm trees is available too.`,
-            lt: "Žemės grąžtų antgaliai."
+WIDIA Auger Bit – For Rocky Soil
+
+The WIDIA auger bit features replaceable carbide tips, ideal for use in rocky or compact ground.
+Available with hexagonal shafts (50, 70, 100 mm) and square shafts (120 mm), in various diameters and lengths — also available in extendable versions.
+
+What is Widia?
+Widia, also known as cemented carbide, Carboloy, or hard metal, is a composite material consisting of tungsten carbide particles bonded within a metal matrix.
+It is manufactured through a sintering process, in which fine powders are mixed, pressed, and heated under pressure until they fuse into a single, solid structure.
+Carbide tools are significantly harder and more heat-resistant than traditional high-speed steel tools, enabling higher cutting speeds and superior durability under demanding conditions.
+
+🔹 Replaceable carbide (WIDIA) tips
+🔹 Exceptional wear and heat resistance
+🔹 Designed for rocky and compact soil
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+Auger Bit for Agricultural Soil
+
+High-efficiency drill bits with replaceable knives made of wear-resistant steel, designed for agricultural and general-purpose soils.
+Available with hexagonal shafts (50 or 70 mm), in a variety of diameters and lengths.
+Extensions available with or without flight.
+
+🔹 Replaceable steel knives
+🔹 Suitable for most soil conditions
+🔹 Ideal for agricultural and landscaping work
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+Drill Bit with PENGO® Tip – For Mixed Ground
+
+Auger bits equipped with PENGO® tips and digging teeth, ideal for mixed or stony soils.
+Available with hexagonal (50, 70, 100 mm) or square (120 mm) shafts, in various diameters and lengths, also in extendable versions.
+
+For diameters up to Ø400 mm, a single central PENGO® tip is used; for larger sizes, a central PENGO® Ø100 mm tip is combined with additional side teeth for efficient digging.
+
+🔹 PENGO® system with replaceable teeth
+🔹 Optimized for mixed and stony ground
+🔹 Extendable version available
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+Wood Drilling and Splitting Bits
+
+The conical wood splitter is designed for log splitting, while the stump grinder (available in different diameters) shreds wood to achieve complete stump removal, even below ground level.
+Available with 50 and 70 mm hexagonal couplings.
+A special bit for palm trees is also available upon request.
+
+🔹 Wood splitter and stump grinder models
+🔹 Designed for complete wood processing
+🔹 Available in multiple diameters and configurations
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Grąžtai – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+Įmonė ,,Ghedini Attachments" tiekia grąžtus, pritaikytus visų tipų gruntui, pagal individualius kliento poreikius.
+Siūlomi įvairių diametrų ir ilgių modeliai, su galimybe naudoti pratęsimus, kad būtų pasiektas reikiamas gręžimo gylis.
+
+WIDIA grąžtas – kietam ir akmenuotam gruntui
+
+WIDIA grąžtai turi keičiamius kietmetalio antgalius, skirtus darbui su akmenuotu, tankiu ar kietu gruntu.
+Galimi su šešiakampėmis jungtimis (50, 70, 100 mm) ir keturkampėmis (120 mm) jungtimis, įvairių diametrų ir ilgių, taip pat pratęsiamoje versijoje.
+
+Kas yra Widia?
+Widia (dar vadinama cementiniu karbidu, Carboloy ar kietmetaliu) – tai kompozicinė medžiaga, sudaryta iš volframo karbido dalelių, įterptų į metalinę matricą.
+Ji gaminama sukepinimo būdu, kai smulkios miltelinės dalelės yra suspaudžiamos ir kaitinamos aukštu slėgiu, kol susiformuoja vientisa, itin tvirta struktūra.
+Kietmetalio įrankiai yra kietesni ir atsparesni karščiui nei greitaeigio plieno įrankiai, todėl leidžia dirbti didesniais pjovimo greičiais ir užtikrina ilgalaikį patvarumą.
+
+🔹 Keičiami kietmetalio (WIDIA) antgaliai
+🔹 Didelis atsparumas dėvėjimuisi ir temperatūrai
+🔹 Skirti kietam ir akmenuotam gruntui
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Grąžtas žemės ūkio dirvožemiui
+
+Aukšto efektyvumo grąžtai su keičiamaus plieno peiliais, skirti darbui žemės ūkio ir bendros paskirties gruntuose.
+Galimi su šešiakampėmis jungtimis (50 arba 70 mm), įvairių diametrų ir ilgių, su galimybe naudoti pratęsimus su arba be spirale.
+
+🔹 Keičiami dėvėjimuisi atsparūs peiliai
+🔹 Tinka daugumai gruntų
+🔹 Puikiai tinka žemės ūkio ir aplinkos priežiūros darbams
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Grąžtas su PENGO® antgaliu – mišriam gruntui
+
+PENGO® antgaliais ir kasimo dantimis aprūpinti grąžtai, tinkami darbui mišriuose ar akmenuotuose gruntuose.
+Galimi su šešiakampėmis (50, 70, 100 mm) ir keturkampėmis (120 mm) jungtimis, įvairių diametrų ir ilgių, taip pat pratęsiamose versijose.
+
+Iki Ø400 mm diametro naudojamas vienas centrinis PENGO® antgalis, o didesniems skersmenims – PENGO® Ø100 mm centrinis antgalis su papildomais šoniniais dantimis efektyviam kasimui.
+
+🔹 Keičiami PENGO® dantys ir antgaliai
+🔹 Skirti mišriam ir akmenuotam gruntui
+🔹 Galima versija su prailginimu
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Medžio apdirbimo ir skaldymo grąžtai
+
+Kūginis medžio skaldytuvas skirtas malkų skaldymui, o kelmų freza, prieinama įvairių diametrų, naudojama medienai smulkinti ir kelmams pašalinti net po žeme.
+Galimos šešiakampės jungtys (50 ir 70 mm).
+Taip pat gaminamas specialus grąžtas palmėms.
+
+🔹 Skaldymo ir smulkinimo antgaliai
+🔹 Visiškam kelmų ir medienos pašalinimui
+🔹 Galimi įvairūs diametrai ir konfigūracijos
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/tip1.avif",
             "/photos/tip2.avif",
@@ -202,34 +589,108 @@ Available with 50 and 70 mm hexagonal coupling. A special bit for palm trees is 
     },
     IP: {
         text: {
-            en: `Vibro Pile Drivers Ghedini Attachments.
-The pile drivers IP series hydraulic vibrators have been designed for vibro - driving poles and for soil compaction, depending on the equipment applied.
-The pile drivers IP series are connected to the hydraulic power take- off line of the excavators (PTO).
-It is also possible to use only the vibrating body for specific applications at the customer’s request.
-DOWNLOAD THE TECHNICAL SHEET
-The motor is bi- directional and in aluminum.
-Drainage recommended only for back pressures > 7 bar.
-    They are equipped with anti - shock and anti - cavitation valves, calibrated at 160 bar, to protect the hydraulic pump from possible damage due to a sudden change in pressure.
-Built exclusively with SKF bearings, ring nuts and lock washers.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Polių kaltuvas."
+            en: `Vibro Pile Drivers – "Ghedini Attachments""
+
+100% Made in Italy
+
+The Ghedini Attachments IP Series hydraulic pile drivers are designed for vibratory driving of poles and soil compaction, depending on the equipment installed.
+They connect directly to the hydraulic power take-off (PTO) line of the excavator and deliver high vibration efficiency combined with robust Italian engineering.
+
+For specific applications, it is also possible to use only the vibrating body, customized to meet customer requirements.
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+Technical Features
+
+Bi-directional aluminum hydraulic motor
+
+Drain line recommended only for back pressures above 7 bar
+
+Equipped with anti-shock and anti-cavitation valves, calibrated at 160 bar, to protect the hydraulic pump from sudden pressure changes
+
+Built exclusively with SKF bearings, ring nuts, and lock washers, ensuring long-term reliability and performance
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Vibro polkalės – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" IP serijos hidraulinės vibro polkalės sukurtos polių įrengimui vibracijos metodu bei grunto tankinimui, priklausomai nuo naudojamos įrangos tipo.
+Įrenginiai jungiasi tiesiai prie ekskavatoriaus hidraulinės PTO linijos, užtikrindami didelį vibracijos efektyvumą ir patikimą itališką konstrukciją.
+
+Pagal kliento poreikį galima naudoti tik vibruojantį korpusą, pritaikytą konkrečiai darbo užduočiai.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Techninės savybės
+
+Dvikryptis hidraulinis variklis iš aliuminio
+
+Nutekėjimo linija rekomenduojama, kai grįžtamojo slėgio reikšmė viršija 7 bar
+
+Įrengta apsauga nuo smūgių (anti-shock) ir kavitacijos (anti-cavitation), kalibruota ties 160 bar, siekiant apsaugoti siurblį nuo slėgio svyravimų
+
+Naudojami tik SKF guoliai, veržlės ir fiksavimo žiedai, užtikrinantys ilgaamžiškumą ir sklandų darbą
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
             images: ["/photos/ip-1.webp"],
         videos: ["https://youtu.be/1FHOZz9zL9E"]
     }, 
     BF: {
         text: {
-            en: `Mowing buckets are attachments designed for the maintenance of waters, ditches, canals, riverbanks. 
-Different sizes of mowing buckets can be easily attached to carrier vehicles(large hydraulic excavators, midi and mini excavators or power arms). 
-Through a unique design and the application of the best materials, in combination with quality workmanship gives an unequalled tool. A mowing bucket that performs everywhere and at all times.
-Our cutting buckets have been designed for cleaning and reclamation of embankments and canals.
-They can work immersed in water, without creating problems for the mechanical movement and cutting system.
-All the elements that make up the cutting system are completely screwed.
-Weed cutting buckets Ghedini Attachments are equipped with a movement mechanism with support sealed bearing, SKF bearings, anti-shock valve.
-Original Hesston teeth with grooved section.
-Max cutting diameter 5/6 cm.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Šienavimo kaušas."
+            en: `Mowing Buckets – "Ghedini Attachments"
+
+100% Made in Italy
+
+The "Ghedini Attachments" mowing buckets are designed for the maintenance and cleaning of waterways, ditches, canals, and riverbanks.
+Available in multiple sizes, they can be easily mounted on large, midi, and mini excavators, as well as hydraulic power arms.
+
+Thanks to their unique design, the use of high-grade materials, and precision Italian craftsmanship, these buckets provide exceptional performance and durability — a cutting tool that delivers in any condition.
+
+Our mowing buckets are specifically engineered for embankment and canal cleaning and reclamation.
+They can operate fully submerged in water, without affecting the mechanical movement or cutting efficiency.
+All cutting system components are fully bolted, ensuring easy maintenance and reliability.
+
+"Ghedini attachments" weed-cutting buckets are equipped with:
+
+A movement mechanism with sealed support bearing
+
+SKF bearings
+
+Anti-shock valve for hydraulic protection
+
+Original Hesston® teeth with a grooved profile
+
+Maximum cutting diameter: 5–6 cm
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Pjovimo kaušai – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" pjovimo kaušai skirti vandens telkinių, griovių, kanalų ir upių pakrančių priežiūrai bei valymui.
+Įvairių dydžių modeliai gali būti lengvai montuojami ant didelių, vidutinių ir mini ekskavatorių, taip pat ant hidraulinių strėlių.
+
+Dėl unikalaus dizaino, aukštos kokybės medžiagų ir preciziško itališko meistriškumo, šie įrenginiai pasižymi išskirtiniu našumu ir patvarumu – tai pjovimo kaušas, kuris dirba patikimai bet kokiomis sąlygomis.
+
+Pjovimo kaušai sukurti šlaitų ir kanalų valymo bei rekultivacijos darbams.
+Jie gali dirbti visiškai panardinti į vandenį, nepažeidžiant mechaninio judesio ar pjovimo sistemos.
+Visi pjovimo sistemos elementai yra visiškai prisukti, todėl įrenginiai lengvai prižiūrimi ir patikimi.
+
+,,Ghedini attachments" piktžolių pjovimo kaušai turi:
+
+Judėjimo mechanizmą su sandariai uždaru atraminiu guoliu
+
+SKF guolius
+
+Anti-shock vožtuvą hidraulinei apsaugai
+
+Originalius Hesston® dantis su grioveliniu profiliu
+
+Maksimalus pjovimo skersmuo: 5–6 cm
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/bf-1.webp"],
         videos: ["https://youtu.be/y53fDzbryi8",
@@ -237,57 +698,209 @@ DOWNLOAD THE TECHNICAL SHEET`,
     },
     BT: {
         text: {
-            en: `GHEDINI ATTACHMENTS is always looking for continuous product development to improve customer satisfaction.
-Our Hedgetrimmer has a new system to absorb shocks, which reduces the risk of damage to the structure.
-The Ghedini Hedgetrimmer is an attachment studied to cut any tree, bush or branch up to a diameter of 4/5 centimeters. It has the advantage of being used both horizontally and vertically, thanks to the Hirth joint.
-The BT Hedgetrimmer can be mounted on any type of excavator or mini excavator weighing up to 8 tons; and backhoe loaders.
-It is available in 4 working widths:
+            en: `BT Hedgetrimmer – "Ghedini Attachments"
+
+100% Made in Italy
+
+"Ghedini Attachments" is committed to continuous product innovation to ensure maximum customer satisfaction.
+
+The BT Hedgetrimmer features a new shock absorption system, reducing structural stress and minimizing the risk of damage during operation.
+
+This professional attachment is engineered for cutting trees, hedges, and branches up to 4–5 cm in diameter, and can be used both horizontally and vertically, thanks to its Hirth joint system.
+
+Compatible with excavators and mini excavators up to 8 tonnes, as well as backhoe loaders.
+
+Available in four working widths:
+
 1200 mm
+
 1500 mm
+
 1600 mm
+
 1800 mm
-This product is the right solution for all types of works of  maintenance, reclamation and cutting of hedges and bushes.
-DOWNLOAD THE TECHNICAL SHEET`, lt: "Gyvatvorių kirpimo įrenginys."
+
+The BT Hedgetrimmer is the ideal solution for hedge maintenance, vegetation control, and land reclamation — combining durability, versatility, and precision cutting performance.
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `BT gyvatvorių pjovimo įrenginys – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" nuolat siekia tobulinti savo gaminius, kad užtikrintų didžiausią klientų pasitenkinimą.
+
+BT serijos gyvatvorių pjovimo įrenginys turi naują smūgius sugeriančią sistemą, kuri sumažina apkrovą konstrukcijai ir apsaugo įrenginį nuo galimų pažeidimų.
+
+Šis profesionalus priedas sukurtas medžių, krūmų ir šakų pjovimui iki 4–5 cm skersmens.
+Dėl Hirth jungties sistemos įrenginį galima naudoti tiek horizontaliai, tiek vertikaliai.
+
+Tinka montuoti ant ekskavatorių ir mini ekskavatorių iki 8 tonų, taip pat ratinių krautuvų su kasimo strėle (backhoe loaders).
+
+Galimi keturi darbo pločiai:
+
+1200 mm
+
+1500 mm
+
+1600 mm
+
+1800 mm
+
+BT gyvatvorių pjovimo įrenginys – tai idealus sprendimas gyvatvorių priežiūrai, augmenijos šalinimui ir teritorijų rekultivacijai, užtikrinantis patvarumą, universalumą ir tikslų pjovimą.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/bt-1.webp"],
         videos: ["https://youtu.be/SLeCcpNl5dg"]
     },
     I: {
         text: {
-            en: `Our compactors IC, ID and IE series are planned to compact the ground or the material which has been filled up in the trench.The combined action between the pressure exerted on the ground by the excavator arm and the high frequency vibration produced by the vibrator allows it to get the best compaction of the material used to fill the trench.
-The hydraulic supply of the IC, ID and IE series takes place through the PTO coupling of the excavator the campactor is mounted on.
-The motor is bi- directional and in aluminium.
-Drainage is recommended for counter pressures > 7 bar.They are equipped with anti - shock and anti- cavitation valves, set as 160 bar, to protect the hydraulic pump from possible damage due to a sudden change in pressure. For maximum performance, our vibratory plates are made with SKF bearings, nuts and fastener.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Ekskavatorinė vibroplokštė."
+            en: `Hydraulic Compactors – IC / ID / IE Series
+
+100% Made in Italy
+
+The "Ghedini Attachments" IC, ID, and IE Series hydraulic compactors are designed for soil compaction and trench backfilling.
+The combined action of the pressure applied by the excavator arm and the high-frequency vibration generated by the vibrator ensures optimal compaction of the material used for filling and stabilizing the ground.
+
+The compactors are powered hydraulically through the PTO connection of the excavator on which they are installed.
+
+Each model features a bi-directional aluminum hydraulic motor and includes a drain line recommendation for counterpressures above 7 bar.
+Equipped with anti-shock and anti-cavitation valves calibrated at 160 bar, they protect the hydraulic system from sudden pressure changes.
+
+For maximum durability and performance, all Ghedini vibratory plates are built using SKF bearings, high-strength nuts, and fasteners, ensuring reliability even under heavy-duty professional use.
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Hidrauliniai tankintuvai – IC / ID / IE serijos
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" IC, ID ir IE serijų hidrauliniai tankintuvai sukurti grunto tankinimui ir tranšėjų užpildo sutankinimui.
+Dėl ekskavatoriaus strėlės spaudimo ir aukšto dažnio vibracijos sąveikos pasiekiamas maksimalus užpildo sutankinimo efektyvumas.
+
+Tankintuvai maitinami hidrauliškai per PTO jungtį nuo ekskavatoriaus, ant kurio jie yra sumontuoti.
+
+Įrengti su dvikrypčiu aliuminio hidrauliniu varikliu, su nutekėjimo linijos rekomendacija, kai grįžtamojo slėgio reikšmė viršija 7 bar.
+Taip pat įmontuoti apsauginiai anti-shock ir anti-cavitation vožtuvai, kalibruoti ties 160 bar, siekiant apsaugoti hidraulinę sistemą nuo slėgio šuolių.
+
+Didžiausiam patvarumui ir našumui užtikrinti visi Ghedini vibro plokštumų modeliai gaminami naudojant SKF guolius, sustiprintas veržles ir tvirtinimo detales, todėl jie patikimai veikia net intensyviai naudojant.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/i-1.webp"],
         videos: ["https://youtu.be/KFICDsnUfPo"]
     },
     K: {
         text: {
-            en: `Designed for log handling, bulk handling, rock handling, dredging or digging operations, etc.The grabs can be attached to hydraulic machines/ excavators.
-Ghedini Attachments offers unmatched versatility for all grappling applications. Our unique configurations allows ultimate flexibility and uses around work sites, demolition, farms or any project that requires pinpoint pick- up accuracy.
-Years of experience in developing and manufacturing hydraulic grabs, specially designed for superior performance, ease of use and efficiency.
-KA Series
-The Ghedini “KA” Series log grabs are suitable for the handling, loading and unloading of logs ready to be transported.
-They can be mounted on excavators or forestry cranes.They are built of Domex 710 steel and equipped with block valves.
-They are used in the forestry and industrial fields, for excavators up to 15 tons.
-DOWNLOAD THE TECHNICAL SHEET
-KL Series
-The Ghedini “KL” Series log grabs are suitable for the handling, loading and unloading of logs ready to be transported.
-They can be mounted on excavators or forestry cranes.They are built in Domex 710 steel and equipped with block valves.
-Log grab suitable for 3 functions:
-Use of the grab without teeth and bucket, for the log loading;
-Use of the grab with widening teeth for the loading of branches or melted goods;
-Use of two buckets to load wood chips, sand, earth and all melted goods. All simply assembling 4 pins in less than 2 minutes.
-Rock grab with reinforced structure for any horizontal or vertical use, with or without special rotators.
-DOWNLOAD THE TECHNICAL SHEET
-KP Series
-Rock grabs “KP Series” with reinforced structures, so as to be able to work both vertically and horizontally with or without special rotators.
-Made of Domex 710 steel and equipped with a block valve.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Medžių giljotina / griebtuvas."
+            en: `Hydraulic Grabs – "Ghedini Attachments"
+
+100% Made in Italy
+
+"Ghedini Attachments" hydraulic grabs are designed for log handling, bulk material handling, rock movement, dredging, and digging operations.
+These attachments can be easily mounted on hydraulic excavators or cranes, providing unmatched versatility and precision for a wide range of applications — from construction and demolition to forestry and industrial material handling.
+
+With years of experience in hydraulic grab design and manufacturing, Ghedini Attachments delivers tools that combine strength, flexibility, and efficiency, ensuring optimal performance in any working condition.
+
+KA Series – Log Grabs
+
+The "Ghedini Attachments" KA Series log grabs are ideal for handling, loading, and unloading logs ready for transport.
+They can be installed on excavators or forestry cranes, and are built from Domex 710 high-strength steel, equipped with block valves for safety and durability.
+
+These grabs are widely used in the forestry and industrial sectors, suitable for excavators up to 15 tonnes.
+
+🔹 Made from Domex 710 steel
+🔹 Equipped with hydraulic block valves
+🔹 Suitable for forestry and industrial operations
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+KL Series – Multi-Purpose Log and Material Grabs
+
+The "Ghedini Attachments" KL Series offers exceptional flexibility and multifunctional design for log, branch, and material handling.
+Manufactured in Domex 710 steel and fitted with block valves, these grabs can be configured for three distinct working modes:
+
+Without teeth or bucket – for log loading
+
+With widening teeth – for branches or bulky materials
+
+With double buckets – for loading wood chips, sand, soil, or loose materials
+
+The setup can be changed in under two minutes by simply inserting four pins.
+
+Also available as a reinforced rock grab, suitable for horizontal and vertical use, with or without hydraulic rotators.
+
+🔹 Three-in-one design for versatile operation
+🔹 Reinforced structure for heavy-duty use
+🔹 Quick configuration change in minutes
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+KP Series – Rock Grabs
+
+The "Ghedini Attachments" KP Series grabs are designed with reinforced frames for handling rocks and demolition materials.
+They can operate vertically or horizontally, with or without rotators, depending on the application.
+Built from Domex 710 steel and equipped with block valves, they guarantee maximum reliability and structural strength in demanding environments.
+
+🔹 Reinforced structure for heavy-duty operations
+🔹 Safe and durable Domex 710 steel construction
+🔹 Compatible with special hydraulic rotators
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Hidrauliniai griebtuvai – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" hidrauliniai griebtuvai sukurti rąstų, birių medžiagų, akmenų, gruntų ir kitų krovinių kėlimui bei tvarkymui.
+Įrenginiai montuojami ant hidraulinių ekskavatorių arba kranų, užtikrinant universalumą, tikslumą ir patikimumą įvairiuose darbuose – nuo statybos ir griovimo iki miškininkystės bei pramonės sektoriaus.
+
+Daugiametė Ghedini patirtis leidžia pasiūlyti įrangą, kuri derina tvirtumą, lankstumą ir efektyvumą, užtikrindama optimalų rezultatą net sudėtingiausiomis darbo sąlygomis.
+
+KA serija – rąstų griebtuvai
+
+,,Ghedini Attachments" KA serijos rąstų griebtuvai skirti rąstų krovimui, iškrovimui ir tvarkymui transportavimui.
+Montuojami ant ekskavatorių arba miško kranų, pagaminti iš Domex 710 aukštos kokybės plieno, su hidrauliniais blokavimo vožtuvais.
+
+Plačiai naudojami miškininkystėje ir pramonėje, tinka ekskavatoriams iki 15 tonų.
+
+🔹 Pagaminti iš Domex 710 plieno
+🔹 Įrengti hidrauliniai blokavimo vožtuvai
+🔹 Skirti miško ir pramoniniams darbams
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+KL serija – universalūs rąstų ir birių medžiagų griebtuvai
+
+,,Ghedini Attachments" KL serijos griebtuvai pasižymi unikaliu daugiafunkciu dizainu, leidžiančiu naudoti įrenginį įvairioms užduotims – nuo rąstų iki šakų ar birių medžiagų krovimo.
+Pagaminti iš Domex 710 plieno, įrengti blokavimo vožtuvai.
+
+Galimos trys darbo konfigūracijos:
+
+Be dantų ir kaušo – rąstų krovimui
+
+Su išplečiamais dantimis – šakoms ir stambiems kroviniams
+
+Su dviem kaušais – pjuvenoms, smėliui, žemei ar birioms medžiagoms
+
+Perkonfigūravimas atliekamas mažiau nei per 2 minutes, įdedant 4 kaiščius.
+
+Taip pat galima sustiprinta versija akmenims (rock grab), tinkama darbui horizontaliai arba vertikaliai, su arba be hidraulinio rotatoriaus.
+
+🔹 Trys naudojimo režimai
+🔹 Sustiprinta konstrukcija intensyviam darbui
+🔹 Greitas perkonfigūravimas per kelias minutes
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+KP serija – akmenų griebtuvai
+
+,,Ghedini Attachments" KP serijos griebtuvai turi sustiprintą rėmą, leidžiantį efektyviai tvarkyti akmenis, betono nuolaužas ir kitus sunkius krovinius.
+Gali veikti vertikaliai arba horizontaliai, su arba be rotatoriaus, priklausomai nuo užduoties.
+Pagaminti iš Domex 710 plieno ir įrengti su blokavimo vožtuvais, užtikrinančiais patikimą darbą ir ilgaamžiškumą.
+
+🔹 Sustiprinta konstrukcija sunkiasvoriams darbams
+🔹 Domex 710 plieno patvarumas ir saugumas
+🔹 Suderinami su hidrauliniais rotatoriais
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/k-1.webp"],
         videos: ["https://youtu.be/eizvkZpCcN0",
@@ -295,50 +908,180 @@ DOWNLOAD THE TECHNICAL SHEET`,
     },
     QP: {
         text: {
-            en: `The hydraulic grabs of the Ghedini QP series will help your work, being suitable for excavators from 2.5 to 25 tons.
-There are four different models available according to their functions, the post material and the excavator weight.
-Grip with fixed buffers for the extraction and the driving of concrete/iron posts;
-Grip with rotating buffers for concrete posts;
-Grip for wood posts for mini and midi excavators;
-Grip for wood posts for big excavators.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Hidrauliniai griebtuvai."
+            en: `Hydraulic Grabs – QP Series
+
+100% Made in Italy
+
+The "Ghedini Attachments" QP Series hydraulic grabs are designed to make your work faster and more efficient.
+Suitable for excavators from 2.5 to 25 tonnes, these specialized tools are built for post handling, extraction, and installation in construction, fencing, and agricultural applications.
+
+The QP Series includes four distinct models, each optimized for specific materials and excavator sizes:
+
+Grip with fixed buffers – for extracting and driving concrete or iron posts
+
+Grip with rotating buffers – for handling concrete posts with enhanced precision
+
+Grip for wood posts (mini and midi excavators) – ideal for light and medium-duty work
+
+Grip for wood posts (large excavators) – designed for heavy-duty forestry and infrastructure applications
+
+All models ensure strong gripping force, durable steel construction, and smooth hydraulic performance, making them reliable in any working condition.
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Hidrauliniai griebtuvai – QP serija
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" QP serijos hidrauliniai griebtuvai sukurti palengvinti ir paspartinti jūsų darbą.
+Tinka ekskavatoriams nuo 2,5 iki 25 tonų, skirti polių kėlimui, ištraukimui ir įrengimui statybos, aptvėrimo bei žemės ūkio srityse.
+
+QP seriją sudaro keturi modeliai, pritaikyti pagal medžiagos tipą ir ekskavatoriaus svorį:
+
+Griebtuvas su fiksuotais buferiais – betoninių ir metalinių polių ištraukimui bei įrengimui
+
+Griebtuvas su besisukančiais buferiais – betoninių polių tvarkymui, kai reikalingas didesnis tikslumas
+
+Griebtuvas mediniams poliams (mini ir vidutiniams ekskavatoriams) – lengviems ir vidutinio sudėtingumo darbams
+
+Griebtuvas mediniams poliams (didelės klasės ekskavatoriams) – miškininkystės ir infrastruktūros darbams
+
+Visi modeliai pasižymi stipria griebimo galia, tvirta plienine konstrukcija ir sklandžiu hidrauliniu veikimu, užtikrinančiu patikimą darbą bet kokiomis sąlygomis.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/qp-1.webp"],
         videos: ["https://youtu.be/1FHOZz9zL9E"]
     },
     H: {
         text: {
-            en: `With the valuable assistance of skilled team of professionals, we are offering an extensive range of high quality Submersible Pumps.
-This pump find its application in sewage pumping, slurry pumping and many general industrial pumping.
-We offer them in different specifications for our clients with different choices.
-Compact sizes and durable designs enable our submersible pumps to tolerate water and sludge. Our submersible pumps of the HB HC and HV series, hydraulically driven, are particularly suitable for the drainage of flooded excavations.
-They can be connected to mini excavators, skid steers, truck cranes and even independent hydraulic power packs. Immersion pumps have no electrical components and are therefore suitable for work in complete safety under water.
-Invest in a Good Submersible Pump now!
-DOWNLOAD THE TECHNICAL SHEET
-They are equipped with a suction filter that blocks rocks and stones.
-They can easily work up to a maximum depth of 20m.
-Our submersible pumps are manufactured in compliance with very high quality standards and exclusively with original SKF clamps and bearings, to guarantee maximum efficiency and operational functionality.
-Pumps and dewatering equipment are used to remove water from a volume of liquid, solid material or soil. Pumps simply remove liquid from a volume of liquid, whereas dewatering equipment separates water from another material such as soil or sludge.
-They can be used for a number of different operations, including:
-Keeping water out of foundations, pits, tunnels, and other excavations.
-Lowering the water table below excavation level.
-Pumping water out of cofferdams.
-Supplying water for jetting, sluicing and other general purposes.
-Foundation grouting.
-Drying solids.
-The choice of equipment depends on various factors, such as:
-•The project complexity.
-•The amount of liquid to be moved.
-•The rate at which the liquid needs to be moved.
-•The height of the suction lift – distance from the water to the pump.
-•The loss incurred due to friction.
-•The size of the pump.
-•The type of liquid.
-Submersible pumps can be used for lowering groundwater or removing water from a deep sump. The pump unit is suspended from the rising main or, if a flexible hose is used, from a wire cable.
-The pump consists of a centrifugal unit and motor mounted in a single cylindrical unit with a space between pump and casing which allows the water to move upwards to the rising main.
-They are intended for heavy duty work that involves lifting gritty water.`,
-            lt: "Panardinami siurbliai."
+            en: `Hydraulic Submersible Pumps – HB / HC / HV Series
+
+100% Made in Italy
+
+With the expertise of a skilled engineering team, "Ghedini Attachments" offers a complete range of high-quality hydraulic submersible pumps, designed for sewage, slurry, and industrial fluid pumping applications.
+
+Built for professional use, these pumps feature compact construction, durable design, and hydraulic drive, making them ideal for draining flooded excavations and other heavy-duty dewatering tasks.
+
+They can be connected to mini excavators, skid steers, truck cranes, or independent hydraulic power packs.
+As they contain no electrical components, they operate in complete safety under water, even at significant depths.
+
+Invest in a "Ghedini Attachments" Submersible Pump – reliable, safe, and built to last.
+
+[📄 DOWNLOAD TECHNICAL SHEET]
+
+Main Features
+
+Hydraulically driven – no electric components, ensuring maximum safety under water
+
+Suction filter prevents rocks and stones from entering
+
+Operates at depths up to 20 meters
+
+Manufactured according to strict quality standards, using original SKF clamps and bearings
+
+Guarantees maximum efficiency, operational reliability, and long service life
+
+Applications
+
+"Ghedini Attachments" submersible pumps are designed for heavy-duty dewatering and sludge removal operations, including:
+
+Draining foundations, pits, tunnels, and excavations
+
+Lowering the water table below excavation levels
+
+Pumping water out of cofferdams
+
+Supplying water for jetting, sluicing, or other operations
+
+Foundation grouting and drying solid materials
+
+Technical Overview
+
+The pump consists of a centrifugal unit and motor integrated in a single cylindrical body.
+Water passes between the pump and casing, allowing smooth upward flow to the rising main.
+Designed for gritty or contaminated water, these pumps ensure consistent operation under harsh site conditions.
+
+The choice of model depends on:
+
+Required flow rate and head pressure
+
+Type of liquid and solids content
+
+Depth of operation
+
+Hydraulic power available from the carrier machine
+
+Project scale and complexity
+
+🔹 Maximum depth: 20 m
+🔹 Ideal for: slurry, sludge, sewage, and groundwater removal
+🔹 Structure: all-steel, corrosion-resistant construction
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Hidrauliniai panardinamieji siurbliai – HB / HC / HV serijos
+
+Pagaminta 100 % Italijoje
+
+Pasitelkdama kvalifikuotų inžinierių patirtį, ,,Ghedini Attachments" siūlo platų aukštos kokybės hidraulinių panardinamųjų siurblių asortimentą, skirtą nuotekų, dumblo ir pramoninių skysčių siurbimui.
+
+Šie siurbliai pasižymi kompaktišku dizainu, tvirtumu ir hidrauliniu pavara, todėl idealiai tinka užlietų kasimo vietų sausinimui ir sunkiasvoriams drenažo darbams.
+
+Siurbliai gali būti prijungiami prie mini ekskavatorių, krautuvų, autokranų ar nepriklausomų hidraulinių jėgos agregatų.
+Kadangi jie neturi elektros komponentų, gali būti naudojami visiškai panardinti po vandeniu, užtikrinant visišką saugumą.
+
+Pasirinkite patikimą ,,Ghedini Attachments" panardinamąjį siurblį – saugų, našų ir ilgaamžį.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Pagrindinės savybės
+
+Hidraulinė pavara – nėra elektros komponentų, todėl užtikrinamas visiškas saugumas po vandeniu
+
+Įsiurbimo filtras sulaiko akmenis ir stambias daleles
+
+Gali veikti iki 20 metrų gylio
+
+Pagaminti laikantis aukštų kokybės standartų, naudojant originalius SKF laikiklius ir guolius
+
+Užtikrina maksimalų efektyvumą, patikimumą ir ilgą tarnavimo laiką
+
+Pritaikymo sritys
+
+Ghedini panardinamieji siurbliai skirti vandens, dumblo ir nuotekų šalinimui šiose srityse:
+
+Pamatų, šulinių, tunelių ir kasimo vietų sausinimui
+
+Grunto vandens lygio nuleidimui žemiau kasimo ribos
+
+Vandens išpumpavimui iš apsauginių užtvarų (cofferdams)
+
+Vandens tiekimui plovimui, purškimui ar kitoms techninėms reikmėms
+
+Pamatų injekcijoms ir medžiagų džiovinimui
+
+Techninė apžvalga
+
+Siurblys sudarytas iš centrifuginės dalies ir variklio, sumontuotų viename cilindriniame korpuse.
+Vanduo cirkuliuoja tarp korpuso ir siurblio, judėdamas aukštyn link išleidimo angos.
+Skirtas darbui su nešvariu, smėlingu ar dumblinu vandeniu, užtikrina pastovų našumą net sudėtingomis sąlygomis.
+
+Modelio pasirinkimas priklauso nuo:
+
+Reikalingo srauto ir slėgio
+
+Skysčio tipo ir kietųjų dalelių kiekio
+
+Veikimo gylio
+
+Hidraulinės galios iš ekskavatoriaus ar agregato
+
+Projekto apimties ir sudėtingumo
+
+🔹 Maksimalus darbinis gylis: 20 m
+🔹 Tinka: dumblo, nuotekų, grunto ir gruntinio vandens šalinimui
+🔹 Konstrukcija: plieninis, korozijai atsparus korpusas
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/h-1.webp"],
         videos: ["https://youtu.be/s4W3ZeVA6x8"]
@@ -350,21 +1093,55 @@ They are intended for heavy duty work that involves lifting gritty water.`,
     },
     BC: {
         text: {
-            en: `Our rakes have been designed for excavators up to 7 T.They are ideal for a quick cleaning or removal of the material present on the surface (brushwood, wood, stones or other).
-They are therefore particularly suitable for environmental maintenance.
-Available in 4 working widths.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Ekskavatorinis grėblys."
+            en: `Rakes – "Ghedini Attachments"
+
+100% Made in Italy
+
+The "Ghedini Attachments" rakes are designed for excavators up to 7 tonnes, providing an efficient solution for surface material removal and site cleaning.
+They are ideal for clearing brushwood, wood, stones, and debris, making them especially suitable for environmental maintenance and land restoration.
+
+Available in four working widths, these rakes combine strength, simplicity, and reliability, ensuring high performance and long-lasting durability on any job site.
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Grėbliai – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" grėbliai sukurti ekskavatoriams iki 7 tonų, siekiant užtikrinti efektyvų paviršiaus valymą ir medžiagų pašalinimą.
+Puikiai tinka šakų, medienos, akmenų bei kitų atliekų surinkimui, todėl ypač pritaikyti aplinkos priežiūros ir teritorijų tvarkymo darbams.
+
+Siūlomi keturių skirtingų darbo pločių modeliai, pasižymintys tvirtumu, paprastumu ir patikimumu, užtikrinančiu ilgaamžį bei našų darbą bet kokiomis sąlygomis.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/bc-1.webp"],
         videos: ["https://youtu.be/fYHrHjbA0H8"]
     },
     RIP: {
         text: {
-            en: `Ripper with interchangeable teeth in hardened wear-resistant steel, for work under the surface of the ground, such as grubbing up and collecting stumps, tilling land and extracting stones.
-For excavators 2-10 T. With 2 or 5 teeth.
-DOWNLOAD THE TECHNICAL SHEET`,
-            lt: "Purentuvai (Riperiai)."
+            en: `Rippers – "Ghedini Attachments""
+
+100% Made in Italy
+
+The "Ghedini Attachments" ripper is equipped with interchangeable teeth made of hardened, wear-resistant steel, designed for subsurface work such as stump removal, land tilling, and stone extraction.
+
+Built for excavators from 2 to 10 tonnes, this attachment is available with 1, 2 or 5 teeth, providing strong penetration and durability even in compact or rocky soil.
+
+A reliable tool for land clearing, preparation, and agricultural or forestry applications.
+
+[📄 DOWNLOAD TECHNICAL SHEET]`,
+            lt: `Raštas (grėbtuvas) – ,,Ghedini Attachments"
+
+Pagaminta 100 % Italijoje
+
+,,Ghedini Attachments" raštas turi keičiamos kietinto, dėvėjimuisi atsparaus plieno dantis, skirtas darbui po žeme – kelmų rovimo, žemės purenimo ir akmenų iškėlimo darbams.
+
+Tinka ekskavatoriams nuo 2 iki 10 tonų, galimi modeliai su 1, 2 arba 5 dantimis.
+Įrenginys pasižymi didele įsiskverbimo galia, tvirtumu ir ilgaamžiškumu, net dirbant su kietu ar akmenuotu gruntu.
+
+Patikimas sprendimas teritorijų valymo, žemės paruošimo, žemės ūkio ir miškininkystės darbams.
+
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/rip-1.webp"],
         videos: ["https://youtu.be/DPM8z3g4jfM"]
@@ -480,6 +1257,7 @@ function ProductPage({ lang, setEnquire }) {
     
 
     const t = (en, lt) => (lang === "en" ? en : lt);
+    
 
     const p = PRODUCTS.find((x) => x.id === id);
     if (!p) {
@@ -496,10 +1274,11 @@ function ProductPage({ lang, setEnquire }) {
     const content = PRODUCT_CONTENT[id] || { images: [], videos: [], text: {} };
     // Prefer rich gallery if provided, otherwise fall back to the main product image
     const gallery = content.images?.length ? content.images : [p.img].filter(Boolean);
-
+    const body = content.text?.[lang] || "";
     const goBack = () => {
         if (window.history.length > 1) navigate(-1);
         else navigate("/", { replace: true });
+        
     };
 
     return (
@@ -509,7 +1288,10 @@ function ProductPage({ lang, setEnquire }) {
                 <div className="mx-auto max-w-7xl px-4 py-10">
                     <button onClick={goBack} className="text-sm text-neutral-400 hover:text-white">← {t("Back", "Atgal")}</button>
                     <h1 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">{title}</h1>
-                    {copy && <p className="mt-3 text-neutral-300 max-w-3xl whitespace-pre-line">{copy}</p>}
+                    {copy && (
+                        <div className="mt-3 text-neutral-300 max-w-3xl whitespace-pre-line"
+                            dangerouslySetInnerHTML={{ __html: copy }} />
+                    )}
                 </div>
             </section>
 
@@ -532,7 +1314,9 @@ function ProductPage({ lang, setEnquire }) {
 
                 {/* Text + actions + videos column */}
                 <div className="grid gap-4">
-                    <div className="text-neutral-300">
+                    <div className="text-neutral-300 whitespace-pre-line"
+                        dangerouslySetInnerHTML={{ __html: body }}></div>
+                    <div className="text-neutral-400">
                         {t(
                             "For exact fit, tell us your carrier (brand/model), quick-coupler, and hydraulic flow/pressure.",
                             "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų kablį ir hidraulikos srautą/slėgį."
@@ -553,6 +1337,7 @@ function ProductPage({ lang, setEnquire }) {
                             {t("General inquiry", "Bendra užklausa")}
                         </button>
                     </div>
+                    
 
                     {/* Videos */}
                     {content.videos?.length > 0 && (
