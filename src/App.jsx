@@ -1453,11 +1453,33 @@ export default function App() {
             {/* Top bar */}
             <div className="w-full bg-black border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-2 flex items-center justify-between text-sm">
-                    <div className="flex items-center gap-4 text-neutral-300">
-                        <span>+370 65595179</span>
-                        <span className="hidden md:inline">sales@forestasbaltic.lt</span>
-                        <span className="hidden md:inline">Alytus, Lithuania</span>
-                    </div>
+                        <div className="flex items-center gap-3 text-sm">
+                            <a
+                                href="tel:+37065595179"
+                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
+                            >
+                                <span className="text-base leading-none">📞</span>
+                                <span>+370 65595179</span>
+                            </a>
+
+                            <a
+                                href="mailto:sales@forestasbaltic.lt"
+                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
+                            >
+                                <span className="text-base leading-none">✉️</span>
+                                <span>sales@forestasbaltic.lt</span>
+                            </a>
+
+                            <a
+                                href="https://maps.app.goo.gl/9XE5vLQnVy6VXEAH8"  // keep your existing URL
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
+                            >
+                                <span className="text-base leading-none">📍</span>
+                                <span>Alytus, Lithuania</span>
+                            </a>
+                        </div>
                     <div className="flex items-center gap-3">
                         <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}</span>
                         <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-white">{lang === "en" ? "LT" : "EN"}</button>
@@ -1468,7 +1490,16 @@ export default function App() {
             {/* Nav */}
             <header className="sticky top-0 z-40 bg-black/70 backdrop-blur border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
-                    <Link to="/" className="font-black text-2xl tracking-tight">Forestas<span className="text-yellow-400">Baltic</span></Link>
+                        <Link to="/" className="flex items-center gap-3 font-black text-2xl tracking-tight">
+                            <img
+                                src="/photos/forestas.avif"
+                                alt="Forestas Baltic"
+                                className="h-12 w-auto opacity-90 hover:opacity-100 transition"
+                                draggable="false"
+                            />
+                            <span>
+                            Forestas<span className="text-yellow-400">Baltic</span>
+                        </span></Link>
                     <nav className="hidden md:flex items-center gap-6 text-sm">
                             <button onClick={goToProducts} className="text-neutral-300 hover:text-white">{t("Products", "Produktai")}</button>
                          <button onClick={() =>
@@ -1584,11 +1615,34 @@ export default function App() {
                     <div>
                         <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavėju")}</h2>
                         <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you're interested in.", "Parašykite mašinos modelį ir kuris priedas domina.")}</p>
-                        <ul className="mt-4 text-sm text-neutral-300">
-                            <li> sales@forestasbaltic.lt</li>
-                            <li> +370 65595179</li>
-                            <li> Alytus, Lithuania</li>
-                        </ul>
+                            <ul className="mt-4 text-sm text-neutral-300 space-y-1">
+                                <li className="flex items-center gap-2">
+                                    <span className="text-base leading-none">📞</span>
+                                    <a href="tel:+37065595179" className="hover:text-yellow-400 transition">
+                                        +370 65595179
+                                    </a>
+                                </li>
+
+                                <li className="flex items-center gap-2">
+                                    <span className="text-base leading-none">✉️</span>
+                                    <a href="mailto:sales@forestasbaltic.lt"
+                                        className="hover:text-yellow-400 transition">
+                                        sales@forestasbaltic.lt
+                                    </a>
+                                </li>
+
+                                <li className="flex items-center gap-4">
+                                    <span className="text-base leading-none">📍</span>
+                                    <a
+                                        href="https://maps.app.goo.gl/fgvekbrxxsW5sysP7"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-yellow-400 transition"
+                                    >
+                                         Alytus, Lithuania
+                                    </a>
+                                </li>
+                            </ul>
                     </div>
                     <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
                         <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
@@ -1604,7 +1658,7 @@ export default function App() {
             {/* Footer */}
             <footer className="border-t border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-neutral-400 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini dealer for the Baltics", "Ghedini atstovas Baltijos šalyse")}</div>
+                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini Attachments dealer for the Baltics", "Ghedini Attachments atstovas Baltijos šalyse")}</div>
                     <div className="flex gap-4"><a className="hover:text-white" href="#">Privacy</a><a className="hover:text-white" href="#">Terms</a></div>
                 </div>
             </footer>
