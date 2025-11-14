@@ -239,8 +239,10 @@ Available in four working widths:
 🔹 Rugged and reliable Italian design
 🔹 Smooth hydraulic performance
 🔹 Ideal for grass, shrubs, and light forestry applications
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/dc1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Mulčeriai mini krautuvams – DC serija
 
 Pagaminta 100 % Italijoje
@@ -267,6 +269,7 @@ Galimi keturi darbo pločiai:
         },
         images: [],
         videos: ["https://youtu.be/ASmjIURLvLA"]
+        
     },
     DF: {
         text: {
@@ -286,8 +289,10 @@ Hard-metal plates – for cutting shrubs, roots, and dense or woody vegetation
 🔹 Heavy-duty reinforced frame and rotor
 🔹 Designed for continuous professional operation
 🔹 Maximum cutting power and hydraulic efficiency
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/da3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Miško mulčeriai ekskavatoriams – DF serija (10–13)
 
 Pagaminta 100 % Italijoje
@@ -329,9 +334,10 @@ Supplied with arm attachment and pin, ideal for small excavators and compact mac
 🔹 Direct drive – simple and reliable
 🔹 No drainage required
 🔹 Lightweight and durable
-
+<a href="/docs/auger1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
-
+</a>
 TB 06 – Auger Drive for Excavators
 
 For excavators from 1.5 to 6 tonnes
@@ -344,9 +350,10 @@ An auger block is available for use with log splitters.
 🔹 Steel construction for maximum strength
 🔹 Compact reducer design
 🔹 Supplied with arm attachment and pin
-
+<a href="/docs/auger2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
-
+</a>
 TK Series – Auger Drives for Midi Excavators
 
 For excavators from 5 to 15 tonnes
@@ -358,9 +365,10 @@ Fully steel-built for long-lasting performance.
 🔹 High-torque gearbox
 🔹 Heavy-duty all-steel construction
 🔹 Designed for demanding professional work
-
+<a href="/docs/auger3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
-
+</a>
 TV – TT – TS Series – Augers for All Terrain Types
 
 Augers of the TV, TT, and TS Series are available in various diameters and lengths, suitable for all soil conditions — from agricultural and mixed terrain to rocky ground.
@@ -369,9 +377,10 @@ Custom tips and configurations can be manufactured according to customer specifi
 🔹 Wide range of auger diameters and lengths
 🔹 Adaptable to any terrain
 🔹 Custom designs available on request
-
+<a href="/docs/auger4en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
-
+</a>
 SHR Series – Rotary Harrows
 
 The innovative SHR Series rotary harrows are designed for soil levelling and loosening, ensuring excellent ground preparation for agricultural or landscaping applications.
@@ -380,8 +389,10 @@ Custom-built spikes can be supplied for any soil type according to customer requ
 🔹 Perfect for soil preparation and finishing
 🔹 Durable Italian construction
 🔹 Custom spike options available
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/auger5en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Grąžtai ir rotacinės akėčios – Ghedini Attachments
 
 Pagaminta 100 % Italijoje
@@ -482,8 +493,6 @@ Carbide tools are significantly harder and more heat-resistant than traditional 
 🔹 Exceptional wear and heat resistance
 🔹 Designed for rocky and compact soil
 
-[📄 DOWNLOAD TECHNICAL SHEET]
-
 Auger Bit for Agricultural Soil
 
 High-efficiency drill bits with replaceable knives made of wear-resistant steel, designed for agricultural and general-purpose soils.
@@ -493,8 +502,6 @@ Extensions available with or without flight.
 🔹 Replaceable steel knives
 🔹 Suitable for most soil conditions
 🔹 Ideal for agricultural and landscaping work
-
-[📄 DOWNLOAD TECHNICAL SHEET]
 
 Drill Bit with PENGO® Tip – For Mixed Ground
 
@@ -507,8 +514,6 @@ For diameters up to Ø400 mm, a single central PENGO® tip is used; for larger s
 🔹 Optimized for mixed and stony ground
 🔹 Extendable version available
 
-[📄 DOWNLOAD TECHNICAL SHEET]
-
 Wood Drilling and Splitting Bits
 
 The conical wood splitter is designed for log splitting, while the stump grinder (available in different diameters) shreds wood to achieve complete stump removal, even below ground level.
@@ -517,9 +522,7 @@ A special bit for palm trees is also available upon request.
 
 🔹 Wood splitter and stump grinder models
 🔹 Designed for complete wood processing
-🔹 Available in multiple diameters and configurations
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+🔹 Available in multiple diameters and configurations`,
             lt: `Grąžtai – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -541,8 +544,6 @@ Kietmetalio įrankiai yra kietesni ir atsparesni karščiui nei greitaeigio plie
 🔹 Didelis atsparumas dėvėjimuisi ir temperatūrai
 🔹 Skirti kietam ir akmenuotam gruntui
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
-
 Grąžtas žemės ūkio dirvožemiui
 
 Aukšto efektyvumo grąžtai su keičiamaus plieno peiliais, skirti darbui žemės ūkio ir bendros paskirties gruntuose.
@@ -552,7 +553,6 @@ Galimi su šešiakampėmis jungtimis (50 arba 70 mm), įvairių diametrų ir ilg
 🔹 Tinka daugumai gruntų
 🔹 Puikiai tinka žemės ūkio ir aplinkos priežiūros darbams
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
 
 Grąžtas su PENGO® antgaliu – mišriam gruntui
 
@@ -565,8 +565,6 @@ Iki Ø400 mm diametro naudojamas vienas centrinis PENGO® antgalis, o didesniems
 🔹 Skirti mišriam ir akmenuotam gruntui
 🔹 Galima versija su prailginimu
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
-
 Medžio apdirbimo ir skaldymo grąžtai
 
 Kūginis medžio skaldytuvas skirtas malkų skaldymui, o kelmų freza, prieinama įvairių diametrų, naudojama medienai smulkinti ir kelmams pašalinti net po žeme.
@@ -575,9 +573,7 @@ Taip pat gaminamas specialus grąžtas palmėms.
 
 🔹 Skaldymo ir smulkinimo antgaliai
 🔹 Visiškam kelmų ir medienos pašalinimui
-🔹 Galimi įvairūs diametrai ir konfigūracijos
-
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+🔹 Galimi įvairūs diametrai ir konfigūracijos`
         },
         images: ["/photos/tip1.avif",
             "/photos/tip2.avif",
@@ -598,8 +594,6 @@ They connect directly to the hydraulic power take-off (PTO) line of the excavato
 
 For specific applications, it is also possible to use only the vibrating body, customized to meet customer requirements.
 
-[📄 DOWNLOAD TECHNICAL SHEET]
-
 Technical Features
 
 Bi-directional aluminum hydraulic motor
@@ -609,8 +603,10 @@ Drain line recommended only for back pressures above 7 bar
 Equipped with anti-shock and anti-cavitation valves, calibrated at 160 bar, to protect the hydraulic pump from sudden pressure changes
 
 Built exclusively with SKF bearings, ring nuts, and lock washers, ensuring long-term reliability and performance
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/pile1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Vibro polkalės – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -619,8 +615,6 @@ Pagaminta 100 % Italijoje
 Įrenginiai jungiasi tiesiai prie ekskavatoriaus hidraulinės PTO linijos, užtikrindami didelį vibracijos efektyvumą ir patikimą itališką konstrukciją.
 
 Pagal kliento poreikį galima naudoti tik vibruojantį korpusą, pritaikytą konkrečiai darbo užduočiai.
-
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
 
 Techninės savybės
 
@@ -663,8 +657,10 @@ Anti-shock valve for hydraulic protection
 Original Hesston® teeth with a grooved profile
 
 Maximum cutting diameter: 5–6 cm
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/mowing1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Pjovimo kaušai – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -722,7 +718,36 @@ Available in four working widths:
 
 The BT Hedgetrimmer is the ideal solution for hedge maintenance, vegetation control, and land reclamation — combining durability, versatility, and precision cutting performance.
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/hedge1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>
+New Hedge Trimmer BT75 Ghedini Attachments!
+
+
+Hedge Trimmer for excavator for professional use and landscape maintenance.
+
+No drain needed. Possibility of 360° rotation through an integrated rod. Max cutting diameter 5 cm. Equipped with anti-shock and anti-cavitation valves.
+
+Equipped with a fixed blade and a mobile blade, they allow you to get a clean and precise cut of the branches.
+
+With a 80 cc pump (500 rpm), our hedge trimmer BT75 can shape hedges and trim trees with high precision.
+
+Every blade tooth can be replaced simply through its nuts, for the highest efficiency and the longest life.
+
+The hedge trimmer BT75 has a working width of 1500 mm and a weight of 95 kg.
+Max oil flow 40 l/min.
+Max pressure 140 bar.
+For excavators with a weight ranging from 2,7 and 5 tons.
+
+Ghedini Attachments offers a wide choice of mowers and other accessories, suitable for different jobs : mowing, trimming, pruning, ditch and canal cleaning.
+For every need connected to the earthmoving and agriculture.
+
+<a href="/docs/hedge2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>
+`,
             lt: `BT gyvatvorių pjovimo įrenginys – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -768,8 +793,10 @@ Each model features a bi-directional aluminum hydraulic motor and includes a dra
 Equipped with anti-shock and anti-cavitation valves calibrated at 160 bar, they protect the hydraulic system from sudden pressure changes.
 
 For maximum durability and performance, all Ghedini vibratory plates are built using SKF bearings, high-strength nuts, and fasteners, ensuring reliability even under heavy-duty professional use.
-
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/vibro1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Hidrauliniai tankintuvai – IC / ID / IE serijos
 
 Pagaminta 100 % Italijoje
@@ -811,7 +838,10 @@ These grabs are widely used in the forestry and industrial sectors, suitable for
 🔹 Equipped with hydraulic block valves
 🔹 Suitable for forestry and industrial operations
 
+<a href="/docs/log1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
+</a>
 
 KL Series – Multi-Purpose Log and Material Grabs
 
@@ -832,7 +862,10 @@ Also available as a reinforced rock grab, suitable for horizontal and vertical u
 🔹 Reinforced structure for heavy-duty use
 🔹 Quick configuration change in minutes
 
+<a href="/docs/log2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
+</a>
 
 KP Series – Rock Grabs
 
@@ -844,7 +877,10 @@ Built from Domex 710 steel and equipped with block valves, they guarantee maximu
 🔹 Safe and durable Domex 710 steel construction
 🔹 Compatible with special hydraulic rotators
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/log3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Hidrauliniai griebtuvai – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -927,7 +963,10 @@ Grip for wood posts (large excavators) – designed for heavy-duty forestry and 
 
 All models ensure strong gripping force, durable steel construction, and smooth hydraulic performance, making them reliable in any working condition.
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/grapple1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Hidrauliniai griebtuvai – QP serija
 
 Pagaminta 100 % Italijoje
@@ -966,8 +1005,6 @@ They can be connected to mini excavators, skid steers, truck cranes, or independ
 As they contain no electrical components, they operate in complete safety under water, even at significant depths.
 
 Invest in a "Ghedini Attachments" Submersible Pump – reliable, safe, and built to last.
-
-[📄 DOWNLOAD TECHNICAL SHEET]
 
 Main Features
 
@@ -1017,7 +1054,10 @@ Project scale and complexity
 🔹 Ideal for: slurry, sludge, sewage, and groundwater removal
 🔹 Structure: all-steel, corrosion-resistant construction
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/pump1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Hidrauliniai panardinamieji siurbliai – HB / HC / HV serijos
 
 Pagaminta 100 % Italijoje
@@ -1084,7 +1124,8 @@ Projekto apimties ir sudėtingumo
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/h-1.webp"],
-        videos: ["https://youtu.be/s4W3ZeVA6x8"]
+        videos: ["https://youtu.be/s4W3ZeVA6x8",
+        "https://youtu.be/X8kdupvGh00"]
     },
     PO: {
         text: { en: "Polyp grab.", lt: "Polipas (greiferis)." },
@@ -1102,7 +1143,10 @@ They are ideal for clearing brushwood, wood, stones, and debris, making them esp
 
 Available in four working widths, these rakes combine strength, simplicity, and reliability, ensuring high performance and long-lasting durability on any job site.
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/rake1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Grėbliai – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -1129,7 +1173,10 @@ Built for excavators from 2 to 10 tonnes, this attachment is available with 1, 2
 
 A reliable tool for land clearing, preparation, and agricultural or forestry applications.
 
-[📄 DOWNLOAD TECHNICAL SHEET]`,
+<a href="/docs/ripper1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 DOWNLOAD TECHNICAL SHEET]
+</a>`,
             lt: `Raštas (grėbtuvas) – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
@@ -1141,7 +1188,10 @@ Tinka ekskavatoriams nuo 2 iki 10 tonų, galimi modeliai su 1, 2 arba 5 dantimis
 
 Patikimas sprendimas teritorijų valymo, žemės paruošimo, žemės ūkio ir miškininkystės darbams.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/ripper1lt.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+</a>`
         },
         images: ["/photos/rip-1.webp"],
         videos: ["https://youtu.be/DPM8z3g4jfM"]
@@ -1288,10 +1338,7 @@ function ProductPage({ lang, setEnquire }) {
                 <div className="mx-auto max-w-7xl px-4 py-10">
                     <button onClick={goBack} className="text-sm text-neutral-400 hover:text-white">← {t("Back", "Atgal")}</button>
                     <h1 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">{title}</h1>
-                    {copy && (
-                        <div className="mt-3 text-neutral-300 max-w-3xl whitespace-pre-line"
-                            dangerouslySetInnerHTML={{ __html: copy }} />
-                    )}
+                    
                 </div>
             </section>
 
@@ -1310,36 +1357,6 @@ function ProductPage({ lang, setEnquire }) {
                             />
                         </figure>
                     ))}
-                </div>
-
-                {/* Text + actions + videos column */}
-                <div className="grid gap-4">
-                    <div className="text-neutral-300 whitespace-pre-line"
-                        dangerouslySetInnerHTML={{ __html: body }}></div>
-                    <div className="text-neutral-400">
-                        {t(
-                            "For exact fit, tell us your carrier (brand/model), quick-coupler, and hydraulic flow/pressure.",
-                            "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų kablį ir hidraulikos srautą/slėgį."
-                        )}
-                    </div>
-
-                    <div className="flex flex-wrap gap-3">
-                        <button
-                            onClick={() => setEnquire(p)}
-                            className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400"
-                        >
-                            {t("Inquire about this product", "Užklausti dėl šio produkto")}
-                        </button>
-                        <button
-                            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-                            className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900"
-                        >
-                            {t("General inquiry", "Bendra užklausa")}
-                        </button>
-                    </div>
-                    
-
-                    {/* Videos */}
                     {content.videos?.length > 0 && (
                         <div className="mt-4 grid gap-4">
                             {content.videos.map((v, idx) => {
@@ -1361,6 +1378,34 @@ function ProductPage({ lang, setEnquire }) {
                             })}
                         </div>
                     )}
+
+                </div>
+
+                {/* Text + actions + videos column */}
+                <div className="grid gap-4">
+                    <div className="text-neutral-300 whitespace-pre-line"
+                        dangerouslySetInnerHTML={{ __html: copy }}></div>
+                    <div className="text-neutral-400">
+                        {t(
+                            "For exact fit, tell us your carrier (brand/model), quick-coupler, and hydraulic flow/pressure.",
+                            "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų kablį ir hidraulikos srautą/slėgį."
+                        )}
+                    </div>
+
+                    <div className="flex flex-wrap gap-3">
+                        <button
+                            onClick={() => setEnquire(p)}
+                            className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400"
+                        >
+                            {t("Inquire about this product", "Užklausti dėl šio produkto")}
+                        </button>
+                        <button
+                            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                            className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900"
+                        >
+                            {t("General inquiry", "Bendra užklausa")}
+                        </button>
+                    </div>
                 </div>
             </section>
         </main>
@@ -1442,7 +1487,14 @@ export default function App() {
             <section className="border-b border-neutral-800 bg-[radial-gradient(60%_80%_at_50%_-10%,rgba(253,224,71,0.15)_0%,transparent_70%)]">
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-10 md:grid-cols-2 md:items-center">
                     <div>
-                        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">{t("Ghedini Hydraulic Attachments", "Ghedini hidrauliniai priedai")}</h1>
+                                            <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight flex items-center gap-4">
+                                                <img
+                                                    src="/photos/logo.avif"
+                                                    alt="Ghedini Attachments"
+                                                    className="h-20 w-auto object select-none"
+                                                    draggable="false"
+                                                />
+                                                    {t("Hydraulic Attachments", "Hidrauliniai priedai")}</h1>
                         <p className="mt-4 text-neutral-300 md:text-lg">{t("Showcase of attachments for excavators and loaders in the Baltics.", "Priedai ekskavatoriams ir krautuvams Baltijos šalyse.")}</p>
                         <div className="mt-6 flex flex-wrap gap-3">
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("EU shipping available", "Pristatymas ES")}</span>
