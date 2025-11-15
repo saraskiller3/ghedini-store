@@ -30,7 +30,7 @@ const CATEGORIES = [
 ];
 const CAT_LABELS = {
     en: { mulchers: "Mulchers", auger: "Earth Augers", pile: "Pile Drivers", mowe: "Mowing Buckets", hedge: "Hedge Cutters", compact: "Compactor Plates", log: "Log Grabs", grapple: "Grapples", pump: "Submersible Pumps", polyp: "Polyps", rake: "Rakes", ripper: "Rippers" },
-    lt: { mulchers: "Mulčeriai", auger: "Žemės grąžtai", pile: "Polių kaltuvai", mowe: "Šienavimo kaušai", hedge: "Gyvatvorių kirpimo įrenginiai", compact: "Ekskavatorinės vibroplokštės", log: "Giljotinos", grapple: "Hidrauliniai griebtuvai", pump: "Panardinami siurbliai", polyp: "Greiferiai", rake: "Ekskavatoriniai grėbliai", ripper: "Purentuvai (Riperiai)" }
+    lt: { mulchers: "Mulčeriai", auger: "Žemės grąžtai", pile: "Polių kaltuvai", mowe: "Šienavimo kaušai", hedge: "Gyvatvorių kirpimo įrenginiai", compact: "Ekskavatorinės vibroplokštės", log: "Medžių griebtuvai", grapple: "Hidrauliniai griebtuvai", pump: "Panardinami siurbliai", polyp: "Greiferiai", rake: "Ekskavatoriniai grėbliai", ripper: "Purentuvai (Riperiai)" }
 };
 // Lithuanian titles per product id
 const TITLES_LT = {
@@ -43,7 +43,7 @@ const TITLES_LT = {
     BF: "Šienavimo kaušai",
     BT: "Gyvatvorių kirpimo įrenginiai",
     I: "Ekskavatorinės vibroplokštės",
-    K: "Giljotinos",
+    K: "Hidrauliniai medžių griebtuvai",
     QP: "Hidrauliniai griebtuvai",
     H: "Panardinami siurbliai",
     PO: "Greiferiai",
@@ -208,7 +208,9 @@ Plaktukai – miškininkystės darbams ir itin tankiai augmenijai
         images: [
             "/photos/em1.avif",
             "/photos/em2.avif",
-            "/photos/em3.avif"
+            "/photos/em3.avif",
+            "/photos/em4.avif",
+            "/photos/em5.avif"
         ],
         videos: [
             // YouTube or youtu.be links
@@ -218,15 +220,19 @@ Plaktukai – miškininkystės darbams ir itin tankiai augmenijai
     },
     DC: {
         text: {
-            en:`Mulchers for Skid Loaders – DC Series
+            en:`Mulchers for Skid Loaders – DB and DC Series
 
 100% Made in Italy
 
-The "Ghedini Attachments" DC Series hydraulic mulchers are engineered for use with skid steer loaders equipped with an auxiliary hydraulic circuit (PTO) providing a minimum oil flow of 26 L/min.
+The "Ghedini Attachments" DB and DC Series hydraulic mulchers are engineered for use with skid steer loaders equipped with an auxiliary hydraulic circuit (PTO) providing a minimum oil flow of 26 L/min.
 
 Built for professional agricultural, landscaping, and maintenance work, these mulchers deliver high performance, durability, and precise cutting results.
 
-Available in four working widths:
+Available in seven working widths:
+
+600 mm
+
+800 mm
 
 1,080 mm
 
@@ -236,6 +242,9 @@ Available in four working widths:
 
 1,900 mm
 
+2160 mm
+
+
 🔹 Rugged and reliable Italian design
 🔹 Smooth hydraulic performance
 🔹 Ideal for grass, shrubs, and light forestry applications
@@ -243,23 +252,29 @@ Available in four working widths:
 class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
 </a>`,
-            lt: `Mulčeriai mini krautuvams – DC serija
+            lt: `Mulčeriai mini krautuvams – DB ir DC serija
 
 Pagaminta 100 % Italijoje
 
-Ghedini Attachments DC serijos hidrauliniai mulčeriai sukurti naudoti su mini krautuvais, turinčiais pagalbinę hidraulinę liniją (PTO) su ne mažesniu kaip 26 l/min alyvos srautu.
+Ghedini Attachments DB ir DC serijos hidrauliniai mulčeriai sukurti naudoti su mini krautuvais, turinčiais pagalbinę hidraulinę liniją (PTO) su ne mažesniu kaip 26 l/min alyvos srautu.
 
 Tai patikimi ir efektyvūs įrenginiai, pritaikyti profesionaliam žemės ūkio, aplinkos priežiūros ir apželdinimo darbui.
 
-Galimi keturi darbo pločiai:
+Galimi septyni darbo pločiai:
 
-1 080 mm
+600 mm
 
-1 300 mm
+800 mm
 
-1 600 mm
+1,080 mm
 
-1 900 mm
+1,300 mm
+
+1,600 mm
+
+1,900 mm
+
+2160 mm
 
 🔹 Patikima ir tvirta itališka konstrukcija
 🔹 Sklandus hidraulinės sistemos darbas
@@ -267,7 +282,8 @@ Galimi keturi darbo pločiai:
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]` 
         },
-        images: [],
+        images: ["/photos/dcmulcher.avif",
+        "/photos/dcmulcher1.avif"],
         videos: ["https://youtu.be/ASmjIURLvLA"]
         
     },
@@ -312,7 +328,8 @@ Kietmetalio plokštelės – krūmams, šaknims ir tankiai augmenijai pjauti
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/fm.avif"],
+        images: ["/photos/fm.avif",
+            "/photos/fm1.avif"],
         videos: []
     },
     T: {
@@ -465,7 +482,9 @@ Pagal užsakymą gaminamos spyglių sistemos, pritaikytos bet kokiam gruntui.
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
         images: ["/photos/auger1.avif",
-        "/photos/auger2.avif"],
+            "/photos/auger2.avif",
+            "/photos/auger3.avif",
+        "/photos/auger4.avif"],
         videos: ["https://youtu.be/a6gaGdPgvhQ",
             "https://youtu.be/FDrEN8QvSxY",
         "https://youtu.be/TyTBOUm6ORQ"]
@@ -628,7 +647,7 @@ Naudojami tik SKF guoliai, veržlės ir fiksavimo žiedai, užtikrinantys ilgaam
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-            images: ["/photos/ip-1.webp"],
+            images: [],
         videos: ["https://youtu.be/1FHOZz9zL9E"]
     }, 
     BF: {
@@ -688,7 +707,9 @@ Maksimalus pjovimo skersmuo: 5–6 cm
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/bf-1.webp"],
+        images: ["/photos/mowing1.avif",
+            "/photos/mowing2.avif",
+        "/photos/mowing3.avif"],
         videos: ["https://youtu.be/y53fDzbryi8",
         "https://youtu.be/K4Wa-4qbGHY"]
     },
@@ -773,9 +794,43 @@ Galimi keturi darbo pločiai:
 
 BT gyvatvorių pjovimo įrenginys – tai idealus sprendimas gyvatvorių priežiūrai, augmenijos šalinimui ir teritorijų rekultivacijai, užtikrinantis patvarumą, universalumą ir tikslų pjovimą.
 
+[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+
+Naujas BT75 gyvatvorių pjovimo įrenginys – Ghedini Attachments
+
+Pagaminta 100 % Italijoje
+
+Pristatome naująjį Ghedini BT75 gyvatvorių pjovimo įrenginį, sukurtą profesionaliai kraštovaizdžio priežiūrai ir žemės ūkio darbams, tinkamą ekskavatoriams nuo 2,7 iki 5 tonų.
+
+Įrenginys hidraulinis, nereikalauja nutekėjimo linijos, turi 360° pasukimo funkciją per integruotą strypo sistemą.
+Įrengti anti-shock ir anti-cavitation vožtuvai užtikrina sklandų darbą ir ilgaamžę hidraulinės sistemos apsaugą.
+
+BT75 turi vieną fiksuotą ir vieną judančią geležtę, kurios leidžia atlikti švarų ir tikslų pjovimą iki 5 cm skersmens.
+Kiekvienas dantis gali būti lengvai pakeistas veržlėmis, taip užtikrinant maksimalų efektyvumą ir ilgaamžiškumą.
+
+Naudodamas 80 cc siurblį (500 aps./min.), BT75 leidžia preciziškai formuoti gyvatvores ir genėti medžius su aukštu tikslumu.
+
+Techniniai duomenys
+
+Darbo plotis: 1500 mm
+
+Svoris: 95 kg
+
+Maks. alyvos srautas: 40 l/min
+
+Maks. slėgis: 140 bar
+
+Maks. pjovimo skersmuo: 5 cm
+
+Pasukimas: 360° integruota sistema
+
+Ekskavatoriams: 2,7 – 5 t
+
+Ghedini Attachments taip pat siūlo platų šienapjovių ir kitų priedų asortimentą – skirtą pjovimui, genėjimui, griovių ir kanalų valymui, pritaikytą žemės ūkio ir žemės kasimo darbams.
+
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/bt-1.webp"],
+        images: ["/photos/hedgecutter.avif"],
         videos: ["https://youtu.be/SLeCcpNl5dg"]
     },
     I: {
@@ -813,12 +868,12 @@ Didžiausiam patvarumui ir našumui užtikrinti visi Ghedini vibro plokštumų m
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/i-1.webp"],
+        images: ["/photos/comp1.avif"],
         videos: ["https://youtu.be/KFICDsnUfPo"]
     },
     K: {
         text: {
-            en: `Hydraulic Grabs – "Ghedini Attachments"
+            en: `Hydraulic Log Grabs – "Ghedini Attachments"
 
 100% Made in Italy
 
@@ -881,7 +936,7 @@ Built from Domex 710 steel and equipped with block valves, they guarantee maximu
 class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
 </a>`,
-            lt: `Hidrauliniai griebtuvai – ,,Ghedini Attachments"
+            lt: `Hidrauliniai medžių griebtuvai – ,,Ghedini Attachments"
 
 Pagaminta 100 % Italijoje
 
@@ -938,7 +993,9 @@ Pagaminti iš Domex 710 plieno ir įrengti su blokavimo vožtuvais, užtikrinan�
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/k-1.webp"],
+        images: ["/photos/log1.avif",
+            "/photos/log2.avif",
+            "/photos/log3.avif"],
         videos: ["https://youtu.be/eizvkZpCcN0",
         "https://youtu.be/4C8HfQKl5BA"]
     },
@@ -988,7 +1045,9 @@ Visi modeliai pasižymi stipria griebimo galia, tvirta plienine konstrukcija ir 
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/qp-1.webp"],
+        images: ["/photos/grapple.avif",
+            "/photos/grapple1.avif",
+            "/photos/grapple2.avif"],
         videos: ["https://youtu.be/1FHOZz9zL9E"]
     },
     H: {
@@ -1129,7 +1188,7 @@ Projekto apimties ir sudėtingumo
     },
     PO: {
         text: { en: "Polyp grab.", lt: "Polipas (greiferis)." },
-        images: ["/photos/po-1.webp"],
+        images: ["/photos/polyp.avif"],
         videos: []
     },
     BC: {
@@ -1158,7 +1217,7 @@ Siūlomi keturių skirtingų darbo pločių modeliai, pasižymintys tvirtumu, pa
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/bc-1.webp"],
+        images: ["/photos/rake.avif"],
         videos: ["https://youtu.be/fYHrHjbA0H8"]
     },
     RIP: {
@@ -1262,7 +1321,7 @@ function CategoryPage({ lang, setEnquire }) {
                                         decoding="async"
                                         width="800"
                                         height="600"
-                                        className="h-full w-full object-cover"
+                                        className="h-full w-full object-contain"
                                     />
                                 </div>
                                 <div className="mt-4 flex items-center justify-between gap-3">
@@ -1353,7 +1412,7 @@ function ProductPage({ lang, setEnquire }) {
                                 src={src}
                                 loading={i === 0 ? "eager" : "lazy"}
                                 decoding="async"
-                                className="w-full h-auto object-cover"
+                                className="w-full h-auto object-contain"
                             />
                         </figure>
                     ))}
@@ -1516,7 +1575,7 @@ export default function App() {
                             <>
             {/* Hero */}
             <section className="border-b border-neutral-800 bg-[radial-gradient(60%_80%_at_50%_-10%,rgba(253,224,71,0.15)_0%,transparent_70%)]">
-                <div className="mx-auto max-w-7xl px-4 py-12 grid gap-10 md:grid-cols-2 md:items-center">
+                <div className="mx-auto max-w-7xl px-4 py-16 md:py-20 grid gap-10 md:grid-cols-2 md:items-center">
                     <div>
                                             <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight flex items-center gap-4">
                                                 <img
@@ -1532,7 +1591,7 @@ export default function App() {
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">{t("Ask for quote", "Klauskite kainos")}</span>
                             <span className="rounded-full border border-neutral-700 px-3 py-1 text-xs text-neutral-300">LT / EN </span>
                         </div>
-                        <div className="mt-8 flex gap-3">
+                        <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
                                                 <button onClick={() =>
                                                     scrollTo("catalog")} className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Browse products", "Žiūrėti produktus")}</button>
                                                 <button onClick={() =>
@@ -1584,7 +1643,7 @@ export default function App() {
                              key={p.id}
                             to ={`/p/${p.id}`}
                             className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 hover:shadow-yellow-500/10 hover:shadow transition">
-                                <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-neutral-800 overflow-hidden">
+                                <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-black overflow-hidden">
                                                         <img
                                                             alt={productTitle(p)}
                                                             src={p.img}
@@ -1592,7 +1651,7 @@ export default function App() {
                                                             decoding="async"
                                                             width="800"
                                                             height="600"
-                                                            className="h-full w-full object-cover"
+                                                            className="h-full w-full object-contain"
                                                         />
                                 </div>
                                 <div className="mt-4 flex items-center justify-between gap-3">
