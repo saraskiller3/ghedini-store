@@ -1511,7 +1511,7 @@ export default function App() {
         <div className="min-h-screen bg-black text-white">
             {/* Top bar */}
             <div className="w-full bg-black border-b border-neutral-800">
-                <div className="mx-auto max-w-7xl px-4 py-2 flex items-center justify-between text-sm">
+                <div className="mx-auto max-w-7xl px-4 py-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                         <div className="flex items-center gap-3 text-sm">
                             <a
                                 href="tel:+37065595179"
@@ -1539,9 +1539,9 @@ export default function App() {
                                 <span>Alytus, Lithuania</span>
                             </a>
                         </div>
-                    <div className="flex items-center gap-3">
+                    <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                         <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}</span>
-                        <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-white">{lang === "en" ? "LT" : "EN"}</button>
+                        <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-yellow-400 whitespace-nowrap">{lang === "en" ? "LT" : "EN"}</button>
                     </div>
                 </div>
             </div>
