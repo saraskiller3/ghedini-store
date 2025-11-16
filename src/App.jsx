@@ -1701,6 +1701,62 @@ export default function App() {
                                          Alytus, Lithuania
                                     </a>
                                 </li>
+                                <li className="mt-8 mb-3 text-lg font-semibold text-neutral-200 tracking-wide">
+                                    {t("Follow us on social media:", "Sekite mus socialiniuose tinkluose:")}
+                                </li>
+                                    {/* Social Icons */}
+                                    <div className="mt-8 flex items-center gap-6">
+
+                                        {/* WhatsApp */}
+                                        <a
+                                            href="https://wa.me/37065595179"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        >
+                                            <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-7 h-7" />
+                                        </a>
+
+                                        {/* Facebook */}
+                                        <a
+                                            href="https://facebook.com/profile.php?id=61583355515846"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        >
+                                            <img src="/icons/facebook.svg" alt="Facebook" className="w-7 h-7" />
+                                        </a>
+
+                                        {/* Instagram */}
+                                        <a
+                                            href="https://instagram.com/uabforestasbaltic/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        >
+                                            <img src="/icons/instagram.svg" alt="Instagram" className="w-7 h-7" />
+                                        </a>
+
+                                        {/* YouTube */}
+                                        <a
+                                            href="https://youtube.com/@GhediniAttachments"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        >
+                                            <img src="/icons/youtube.svg" alt="YouTube" className="w-7 h-7" />
+                                        </a>
+
+                                        {/* Viber */}
+                                        <a
+                                            href="viber://chat?number=+37065595179"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        >
+                                            <img src="/icons/viber.svg" alt="Viber" className="w-7 h-7" />
+                                        </a>
+                                    </div>                          
                             </ul>
                     </div>
                     <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
@@ -1719,7 +1775,7 @@ export default function App() {
                 <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-neutral-400 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                     <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini Attachments dealer for the Baltics", "Ghedini Attachments atstovas Baltijos šalyse")}</div>
                     <div className="flex gap-4"><a className="hover:text-white" href="#">Privacy</a><a className="hover:text-white" href="#">Terms</a></div>
-                </div>
+                    </div>
             </footer>
 
             {/* Inquiry modal (quick message) */}
