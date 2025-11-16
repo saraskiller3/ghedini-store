@@ -1705,16 +1705,16 @@ export default function App() {
                                     {t("Follow us on social media:", "Sekite mus socialiniuose tinkluose:")}
                                 </li>
                                     {/* Social Icons */}
-                                    <div className="mt-8 flex items-center gap-6">
+                                    <div className="mt-20 flex items-center gap-6">
 
                                         {/* WhatsApp */}
                                         <a
                                             href="https://wa.me/37065595179"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                            className="p-2 rounded-lg bg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
-                                            <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-7 h-7" />
+                                            <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-12 h-12" />
                                         </a>
 
                                         {/* Facebook */}
@@ -1722,9 +1722,9 @@ export default function App() {
                                             href="https://facebook.com/profile.php?id=61583355515846"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        className="p-2 rounded-lg bg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
-                                            <img src="/icons/facebook.svg" alt="Facebook" className="w-7 h-7" />
+                                        <img src="/icons/facebook.svg" alt="Facebook" className="w-12 h-12" />
                                         </a>
 
                                         {/* Instagram */}
@@ -1732,9 +1732,9 @@ export default function App() {
                                             href="https://instagram.com/uabforestasbaltic/"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        className="p-2 rounded-lgbg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
-                                            <img src="/icons/instagram.svg" alt="Instagram" className="w-7 h-7" />
+                                        <img src="/icons/instagram.svg" alt="Instagram" className="w-12 h-12" />
                                         </a>
 
                                         {/* YouTube */}
@@ -1742,9 +1742,9 @@ export default function App() {
                                             href="https://youtube.com/@GhediniAttachments"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        className="p-2 rounded-lg bg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
-                                            <img src="/icons/youtube.svg" alt="YouTube" className="w-7 h-7" />
+                                        <img src="/icons/youtube.svg" alt="YouTube" className="w-12 h-12" />
                                         </a>
 
                                         {/* Viber */}
@@ -1752,9 +1752,9 @@ export default function App() {
                                             href="viber://chat?number=+37065595179"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="p-2 rounded-lg bg-neutral-900 border border-neutral-700 hover:border-yellow-500 hover:text-yellow-400 transition-colors"
+                                        className="p-2 rounded-lg bg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
-                                            <img src="/icons/viber.svg" alt="Viber" className="w-7 h-7" />
+                                        <img src="/icons/viber.svg" alt="Viber" className="w-12 h-12" />
                                         </a>
                                     </div>                          
                             </ul>
