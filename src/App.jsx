@@ -1512,7 +1512,7 @@ export default function App() {
             {/* Top bar */}
             <div className="w-full bg-black border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-2 flex flex-wrap items-center justify-between gap-2 text-sm">
-                        <div className="flex items-center gap-3 text-sm">
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm max-w-full">
                             <a
                                 href="tel:+37065595179"
                                 className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
