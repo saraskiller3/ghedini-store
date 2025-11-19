@@ -28,6 +28,11 @@ const CATEGORIES = [
     { id: "rake", name: "Rakes" }, 
     { id: "ripper", name: "Rippers" },
 ];
+const LANG_OPTIONS = [
+    { value: "en", label: "EN", flag: "🇬🇧" },
+    { value: "lt", label: "LT", flag: "🇱🇹" },
+];
+
 const CAT_LABELS = {
     en: { mulchers: "Mulchers", auger: "Earth Augers", pile: "Pile Drivers", mowe: "Mowing Buckets", hedge: "Hedge Cutters", compact: "Compactor Plates", log: "Log Grabs", grapple: "Grapples", pump: "Submersible Pumps", polyp: "Polyps", rake: "Rakes", ripper: "Rippers" },
     lt: { mulchers: "Mulčeriai", auger: "Žemės grąžtai", pile: "Polių kaltuvai", mowe: "Šienavimo kaušai", hedge: "Gyvatvorių kirpimo įrenginiai", compact: "Ekskavatorinės vibroplokštės", log: "Medžių griebtuvai", grapple: "Hidrauliniai griebtuvai", pump: "Panardinami siurbliai", polyp: "Greiferiai", rake: "Ekskavatoriniai grėbliai", ripper: "Purentuvai (Riperiai)" }
@@ -1182,7 +1187,8 @@ Projekto apimties ir sudėtingumo
 
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
         },
-        images: ["/photos/h-1.webp"],
+        images: ["/photos/pump.avif",
+        "/photos/pump1.avif"],
         videos: ["https://youtu.be/s4W3ZeVA6x8",
         "https://youtu.be/X8kdupvGh00"]
     },
@@ -1252,7 +1258,7 @@ class="text-yellow-400 hover:text-yellow-300">
 [📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
 </a>`
         },
-        images: ["/photos/rip-1.webp"],
+        images: ["/photos/ripper.avif"],
         videos: ["https://youtu.be/DPM8z3g4jfM"]
     },
 
@@ -1541,8 +1547,39 @@ export default function App() {
                         </div>
                     <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                         <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}</span>
-                        <button onClick={() => setLang(lang === "en" ? "lt" : "en")} className="underline text-neutral-300 hover:text-yellow-400 whitespace-nowrap">{lang === "en" ? "LT" : "EN"}</button>
-                    </div>
+                            {/* Flag language switcher */}
+                            <div className="flex items-center gap-1">
+                                {/* EN */}
+                                <button
+                                    type="button"
+                                    onClick={() => setLang("en")}
+                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"
+                                        }`}
+                                    aria-label="English"
+                                >
+                                    <img
+                                        src="/flags/en.svg"
+                                        alt="English"
+                                        className="h-full w-full object-cover"
+                                    />
+                                </button>
+
+                                {/* LT */}
+                                <button
+                                    type="button"
+                                    onClick={() => setLang("lt")}
+                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"
+                                        }`}
+                                    aria-label="Lietuvių"
+                                >
+                                    <img
+                                        src="/flags/lt.svg"
+                                        alt="Lietuvių"
+                                        className="h-full w-full object-cover"
+                                    />
+                                </button>
+                            </div>
+                        </div>
                 </div>
             </div>
 
