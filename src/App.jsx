@@ -1544,9 +1544,18 @@ export default function App() {
                                 <span className="text-base leading-none">📍</span>
                                 <span>Alytus, Lithuania</span>
                             </a>
+                            
                         </div>
                     <div className="flex flex-wrap items-center gap-2 sm:gap-3">
                         <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}</span>
+                            <span className="flex items-center gap-1 rounded-md bg-green-600/20 text-green-300 px-2 py-0.5 text-xs border border-green-700/40 whitespace-nowrap">
+                                <img
+                                    src="/flags/it.svg"
+                                    alt="Italy"
+                                    className="w-4 h-3 object-cover rounded-sm"
+                                />
+                                {t("Made in Italy", "Pagaminta Italijoje")}
+                            </span>
                             {/* Flag language switcher */}
                             <div className="flex items-center gap-1">
                                 {/* EN */}
