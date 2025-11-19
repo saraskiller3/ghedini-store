@@ -1516,81 +1516,99 @@ export default function App() {
             <ScrollToTop />
         <div className="min-h-screen bg-black text-white">
             {/* Top bar */}
-            <div className="w-full bg-black border-b border-neutral-800">
-                <div className="mx-auto max-w-7xl px-4 py-2 flex flex-wrap items-center justify-between gap-2 text-sm">
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm max-w-full">
-                            <a
-                                href="tel:+37065595179"
-                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
-                            >
-                                <span className="text-base leading-none">📞</span>
-                                <span>+370 65595179</span>
-                            </a>
+                <div className="w-full bg-black border-b border-neutral-800">
 
-                            <a
-                                href="mailto:sales@forestasbaltic.lt"
-                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
-                            >
-                                <span className="text-base leading-none">✉️</span>
-                                <span>sales@forestasbaltic.lt</span>
-                            </a>
+                    {/* DESKTOP */}
+                    <div className="hidden md:flex mx-auto max-w-7xl px-4 py-2 items-center justify-between text-sm">
 
-                            <a
-                                href="https://maps.app.goo.gl/9XE5vLQnVy6VXEAH8"  // keep your existing URL
+                        <div className="flex items-center gap-4 text-neutral-300">
+                            <a href="tel:+37065595179" className="flex items-center gap-1 hover:text-yellow-400">
+                                📞 +370 65595179
+                            </a>
+                            <a href="mailto:sales@forestasbaltic.lt" className="flex items-center gap-1 hover:text-yellow-400">
+                                ✉️ sales@forestasbaltic.lt
+                            </a>
+                            <a href="https://maps.app.goo.gl/9XE5vLQnVy6VXEAH8"
                                 target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-1 text-neutral-300 hover:text-yellow-400 transition-colors"
-                            >
-                                <span className="text-base leading-none">📍</span>
-                                <span>Alytus, Lithuania</span>
+                                className="flex items-center gap-1 hover:text-yellow-400">
+                                📍 Alytus, Lithuania
                             </a>
-                            
                         </div>
-                    <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-                        <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">{t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}</span>
-                            <span className="flex items-center gap-1 rounded-md bg-green-600/20 text-green-300 px-2 py-0.5 text-xs border border-green-700/40 whitespace-nowrap">
-                                <img
-                                    src="/flags/it.svg"
-                                    alt="Italy"
-                                    className="w-4 h-3 object-cover rounded-sm"
-                                />
+
+                        <div className="flex items-center gap-3">
+                            <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">
+                                {t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}
+                            </span>
+
+                            <span className="flex items-center gap-1 rounded-md bg-green-600/20 text-green-300 px-2 py-0.5 text-xs border border-green-700/40">
+                                <img src="/flags/it.svg" className="w-4 h-3 rounded-sm" />
                                 {t("Made in Italy", "Pagaminta Italijoje")}
                             </span>
-                            {/* Flag language switcher */}
-                            <div className="flex items-center gap-1">
-                                {/* EN */}
-                                <button
-                                    type="button"
-                                    onClick={() => setLang("en")}
-                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"
-                                        }`}
-                                    aria-label="English"
-                                >
-                                    <img
-                                        src="/flags/en.svg"
-                                        alt="English"
-                                        className="h-full w-full object-cover"
-                                    />
-                                </button>
 
-                                {/* LT */}
-                                <button
-                                    type="button"
-                                    onClick={() => setLang("lt")}
-                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"
-                                        }`}
-                                    aria-label="Lietuvių"
-                                >
-                                    <img
-                                        src="/flags/lt.svg"
-                                        alt="Lietuvių"
-                                        className="h-full w-full object-cover"
-                                    />
+                            {/* LANG FLAGS */}
+                            <div className="flex items-center gap-1">
+                                <button onClick={() => setLang("en")}
+                                    className={`h-6 w-8 rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}>
+                                    <img src="/flags/en.svg" className="h-full w-full" />
+                                </button>
+                                <button onClick={() => setLang("lt")}
+                                    className={`h-6 w-8 rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}>
+                                    <img src="/flags/lt.svg" className="h-full w-full" />
                                 </button>
                             </div>
                         </div>
+                    </div>
+
+
+                    {/* MOBILE */}
+                    <div className="md:hidden mx-auto px-4 py-3 space-y-2 text-sm text-neutral-300">
+
+                        {/* ROW 1: PHONE LEFT — EMAIL RIGHT */}
+                        <div className="flex justify-between items-center">
+                            <a href="tel:+37065595179" className="flex items-center gap-1 hover:text-yellow-400">
+                                📞 +370 65595179
+                            </a>
+
+                            <a href="mailto:sales@forestasbaltic.lt" className="flex items-center gap-1 hover:text-yellow-400">
+                                ✉️ sales@forestasbaltic.lt
+                            </a>
+                        </div>
+
+                        {/* ROW 2: LOCATION LEFT — OFFICIAL DEALER RIGHT */}
+                        <div className="flex justify-between items-center">
+                            <a href="https://maps.app.goo.gl/9XE5vLQnVy6VXEAH8" className="flex items-center gap-1 hover:text-yellow-400">
+                                📍 Alytus, Lithuania
+                            </a>
+
+                            <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-0.5 text-xs border border-yellow-600/40">
+                                {t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse")}
+                            </span>
+                        </div>
+
+                        {/* ROW 3: MADE IN ITALY LEFT — FLAGS RIGHT */}
+                        <div className="flex justify-between items-center">
+                            <span className="flex items-center gap-1 rounded-md bg-green-600/20 text-green-300 px-2 py-0.5 text-xs border border-green-700/40">
+                                <img src="/flags/it.svg" className="w-4 h-3 rounded-sm" />
+                                {t("Made in Italy", "Pagaminta Italijoje")}
+                            </span>
+
+                            <div className="flex items-center gap-2">
+                                <button onClick={() => setLang("en")}
+                                    className={`h-6 w-8 rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}>
+                                    <img src="/flags/en.svg" className="h-full w-full" />
+                                </button>
+
+                                <button onClick={() => setLang("lt")}
+                                    className={`h-6 w-8 rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}>
+                                    <img src="/flags/lt.svg" className="h-full w-full" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+
+            
 
             {/* Nav */}
             <header className="sticky top-0 z-40 bg-black/70 backdrop-blur border-b border-neutral-800">
