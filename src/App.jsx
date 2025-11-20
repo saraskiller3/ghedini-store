@@ -7,6 +7,12 @@ import {
     useNavigate,
     useLocation,
 } from "react-router-dom";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import PrivacyPolicyLT from "./pages/PrivacyPolicyLT";
+import TermsConditionsLT from "./pages/TermsConditionsLT";
+
+
 // =====================================
 // Ghedini Showcase � Simplified version
 // � No prices, no specs
@@ -1498,6 +1504,45 @@ export default function App() {
     const productTitle = (p) => getTitle(p, lang);
     const scrollTo = useScrollTo();
     const navigate = useNavigate();
+    const handleLangChange = (nextLang) => {
+        const path = location.pathname;
+
+        // Link EN/LT versions of legal pages
+        if (path === "/privacy-policy" || path === "/privacy-policy-lt") {
+            if (nextLang === "en") {
+                navigate("/privacy-policy");
+            } else {
+                navigate("/privacy-policy-lt");
+            }
+        } else if (path === "/terms-and-conditions" || path === "/terms-and-conditions-lt") {
+            if (nextLang === "en") {
+                navigate("/terms-and-conditions");
+            } else {
+                navigate("/terms-and-conditions-lt");
+            }
+        }
+
+        // Finally update UI language
+        setLang(nextLang);
+    };
+    const { pathname } = location;
+
+    useEffect(() => {
+        if (
+            pathname === "/privacy-policy-lt" ||
+            pathname === "/terms-and-conditions-lt"
+        ) {
+            if (lang !== "lt") setLang("lt");
+        }
+
+        if (
+            pathname === "/privacy-policy" ||
+            pathname === "/terms-and-conditions"
+        ) {
+            if (lang !== "en") setLang("en");
+        }
+    }, [pathname, lang]);
+
 
     const goToProducts = () => {
         if (window.location.pathname === "/") {
@@ -1547,14 +1592,26 @@ export default function App() {
 
                             {/* LANG FLAGS */}
                             <div className="flex items-center gap-1">
-                                <button onClick={() => setLang("en")}
-                                    className={`h-6 w-8 rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}>
-                                    <img src="/flags/en.svg" className="h-full w-full" />
+                                {/* EN */}
+                                <button
+                                    type="button"
+                                    onClick={() => handleLangChange("en")}
+                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}
+                                    aria-label="English"
+                                >
+                                    <img src="/flags/en.svg" alt="English" className="h-full w-full object-cover" />
                                 </button>
-                                <button onClick={() => setLang("lt")}
-                                    className={`h-6 w-8 rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}>
-                                    <img src="/flags/lt.svg" className="h-full w-full" />
+
+                                {/* LT */}
+                                <button
+                                    type="button"
+                                    onClick={() => handleLangChange("lt")}
+                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}
+                                    aria-label="Lietuvių"
+                                >
+                                    <img src="/flags/lt.svg" alt="Lietuvių" className="h-full w-full object-cover" />
                                 </button>
+
                             </div>
                         </div>
                     </div>
@@ -1730,6 +1787,13 @@ export default function App() {
                             </>
                             } />
                     <Route path="/p/:id" element={<ProductPage lang={lang} setEnquire={setEnquire} />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="/privacy-policy-lt" element={<PrivacyPolicyLT />} />
+
+                    <Route path="/terms-and-conditions" element={<TermsConditions />} />
+                    <Route path="/terms-and-conditions-lt" element={<TermsConditionsLT />} />
+
+
                 </Routes>
 
             {/* Contact */}
@@ -1834,13 +1898,33 @@ export default function App() {
                 </div>
             </section>
 
-            {/* Footer */}
-            <footer className="border-t border-neutral-800">
-                <div className="mx-auto max-w-7xl px-4 py-8 text-sm text-neutral-400 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                    <div> {new Date().getFullYear()} ForestasBaltic - {t("Ghedini Attachments dealer for the Baltics", "Ghedini Attachments atstovas Baltijos šalyse")}</div>
-                    <div className="flex gap-4"><a className="hover:text-white" href="#">Privacy</a><a className="hover:text-white" href="#">Terms</a></div>
+                <footer className="border-t border-neutral-800 py-8 mt-16 text-center text-neutral-500 text-sm">
+                    <div className="flex justify-center gap-6 mb-4">
+                        {lang === "en" ? (
+                            <>
+                                <a className="hover:text-yellow-400" href="/privacy-policy">
+                                    Privacy Policy
+                                </a>
+                                <a className="hover:text-yellow-400" href="/terms-and-conditions">
+                                    Terms &amp; Conditions
+                                </a>
+                            </>
+                        ) : (
+                            <>
+                                <a className="hover:text-yellow-400" href="/privacy-policy-lt">
+                                    Privatumo politika
+                                </a>
+                                <a className="hover:text-yellow-400" href="/terms-and-conditions-lt">
+                                    Taisyklės ir sąlygos
+                                </a>
+                            </>
+                        )}
                     </div>
-            </footer>
+
+                    <p className="text-neutral-600">
+                        © {new Date().getFullYear()} Forestas Baltic — All rights reserved.
+                    </p>
+                </footer>
 
             {/* Inquiry modal (quick message) */}
             {enquire && (
