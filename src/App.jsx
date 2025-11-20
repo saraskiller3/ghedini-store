@@ -7,10 +7,10 @@ import {
     useNavigate,
     useLocation,
 } from "react-router-dom";
-import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
-import TermsConditions from "./pages/TermsConditions.jsx";
-import PrivacyPolicyLT from "./pages/PrivacyPolicyLT.jsx";
-import TermsConditionsLT from "./pages/TermsConditionsLT.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import PrivacyPolicyLT from "./pages/PrivacyPolicyLT";
+import TermsConditionsLT from "./pages/TermsConditionsLT";
 
 
 // =====================================
