@@ -1544,6 +1544,7 @@ export default function App() {
     }, [pathname, lang]);
 
 
+
     const goToProducts = () => {
         if (window.location.pathname === "/") {
             // Already on home page → smooth scroll
