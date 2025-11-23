@@ -1504,44 +1504,34 @@ export default function App() {
     const productTitle = (p) => getTitle(p, lang);
     const scrollTo = useScrollTo();
     const navigate = useNavigate();
-    const handleLangChange = (nextLang) => {
-        const path = location.pathname;
+    useEffect(() => {
+        if (location.pathname.endsWith("-lt")) {
+            setLang("lt");
+        } else {
+            setLang("en");
+        }
+        // eslint-disable-next-line
+    }, []);
 
-        // Link EN/LT versions of legal pages
-        if (path === "/privacy-policy" || path === "/privacy-policy-lt") {
-            if (nextLang === "en") {
-                navigate("/privacy-policy");
-            } else {
-                navigate("/privacy-policy-lt");
-            }
-        } else if (path === "/terms-and-conditions" || path === "/terms-and-conditions-lt") {
-            if (nextLang === "en") {
-                navigate("/terms-and-conditions");
-            } else {
-                navigate("/terms-and-conditions-lt");
-            }
+    const handleLangChange = (nextLang) => {
+
+        // --- Legal pages ---
+        if (location.pathname === "/privacy-policy" || location.pathname === "/privacy-policy-lt") {
+            navigate(nextLang === "lt" ? "/privacy-policy-lt" : "/privacy-policy");
         }
 
-        // Finally update UI language
+        else if (location.pathname === "/terms-and-conditions" || location.pathname === "/terms-and-conditions-lt") {
+            navigate(
+                nextLang === "lt"
+                    ? "/terms-and-conditions-lt"
+                    : "/terms-and-conditions"
+            );
+        }
+
+        // --- All other pages just change app language ---
         setLang(nextLang);
     };
-    const { pathname } = location;
 
-    useEffect(() => {
-        if (
-            pathname === "/privacy-policy-lt" ||
-            pathname === "/terms-and-conditions-lt"
-        ) {
-            if (lang !== "lt") setLang("lt");
-        }
-
-        if (
-            pathname === "/privacy-policy" ||
-            pathname === "/terms-and-conditions"
-        ) {
-            if (lang !== "en") setLang("en");
-        }
-    }, [pathname, lang]);
 
 
 
@@ -1651,12 +1641,12 @@ export default function App() {
                             </span>
 
                             <div className="flex items-center gap-2">
-                                <button onClick={() => setLang("en")}
+                                <button onClick={() => handleLangChange("en")}
                                     className={`h-6 w-8 rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}>
                                     <img src="/flags/en.svg" className="h-full w-full" />
                                 </button>
 
-                                <button onClick={() => setLang("lt")}
+                                <button onClick={() => handleLangChange("lt")}
                                     className={`h-6 w-8 rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}>
                                     <img src="/flags/lt.svg" className="h-full w-full" />
                                 </button>
