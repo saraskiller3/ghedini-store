@@ -1,6 +1,16 @@
-﻿export default function TermsConditions() {
+﻿import { useNavigate } from "react-router-dom";
+
+export default function TermsCondition() {
+    const navigate = useNavigate();
+
     return (
         <div className="mx-auto max-w-4xl px-4 py-12 text-neutral-200">
+            <button
+                onClick={() => navigate("/")}
+                className="mb-6 inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition"
+            >
+                ← Back to Home Page
+            </button>
             <h1 className="text-3xl font-bold mb-6">Terms & Conditions</h1>
 
             <h2 className="text-xl font-semibold mt-6 mb-2">General Information</h2>

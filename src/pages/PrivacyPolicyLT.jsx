@@ -1,6 +1,16 @@
-﻿export default function PrivacyPolicyLT() {
+﻿import { useNavigate } from "react-router-dom";
+
+export default function PrivacyPolicyLT() {
+    const navigate = useNavigate();
+
     return (
         <div className="mx-auto max-w-4xl px-4 py-12 text-neutral-200">
+            <button
+                onClick={() => navigate("/")}
+                className="mb-6 inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition"
+            >
+                ← Grižti į pradinį puslapį
+            </button>
             <h1 className="text-3xl font-bold mb-6">Privatumo politika</h1>
 
             <p className="mb-4">
