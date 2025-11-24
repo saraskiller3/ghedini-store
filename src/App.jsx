@@ -1507,13 +1507,20 @@ export default function App() {
     const scrollTo = useScrollTo();
     const navigate = useNavigate();
     useEffect(() => {
-        if (location.pathname.endsWith("-lt")) {
-            setLang("lt");
+        const path = location.pathname
+
+        if (path.endsWith("-en")) {
+            setLang("en")
         } else {
-            setLang("en");
+            // DEFAULT: Lithuanian
+            setLang("lt")
         }
-        // eslint-disable-next-line
-    }, []);
+    }, [])
+
+    useEffect(() => {
+        console.log("LANG CHANGED TO:", lang);
+    }, [lang]);
+
 
     const handleLangChange = (nextLang) => {
 
@@ -1569,7 +1576,7 @@ export default function App() {
                             <a href="https://maps.app.goo.gl/9XE5vLQnVy6VXEAH8"
                                 target="_blank"
                                 className="flex items-center gap-1 hover:text-yellow-400">
-                                📍 Alytus, Lithuania
+                                📍 Alytus, Lietuva
                             </a>
                         </div>
 
@@ -1892,14 +1899,14 @@ export default function App() {
                                         rel="noopener noreferrer"
                                         className="hover:text-yellow-400 transition"
                                     >
-                                         Alytus, Lithuania
+                                         Alytus, Lietuva
                                     </a>
                                 </li>
                                 <li className="mt-8 mb-3 text-lg font-semibold text-neutral-200 tracking-wide">
                                     {t("Follow us on social media:", "Sekite mus socialiniuose tinkluose:")}
                                 </li>
                                     {/* Social Icons */}
-                                    <div className="mt-20 flex items-center gap-6">
+                                <li className="mt-20 flex items-center gap-6 pb-12">
 
                                         {/* WhatsApp */}
                                         <a
@@ -1949,8 +1956,23 @@ export default function App() {
                                         className="p-2 rounded-lg bg-black border border-black hover:border-yellow-500 hover:text-yellow-400 transition-colors"
                                         >
                                         <img src="/icons/viber.svg" alt="Viber" className="w-12 h-12" />
+                                    </a>
+                                </li>
+                                    {/* FULL CATALOG LINK */}
+                                    <li className="mt-20 text-left">
+                                        <a
+                                            href="/docs/catalogue.pdf"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-yellow-400 text-xl font-semibold hover:text-yellow-300 transition"
+                                        >
+                                            {t(
+                                                "Browse the full catalog here",
+                                                "Peržiūrėti visą katalogą čia"
+                                            )}
                                         </a>
-                                    </div>                          
+
+                                    </li>                        
                             </ul>
                     </div>
                     <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
