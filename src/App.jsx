@@ -1497,6 +1497,8 @@ export default function App() {
     const [cat, setCat] = useState("");
     const [lang, setLang] = useState("en");
     const [enquire, setEnquire] = useState(null); // product object
+    const [langOpen, setLangOpen] = useState(false);
+
 
     const list = useFiltered({ q, cat: cat || undefined, lang });
     const t = (en, lt) => (lang === "en" ? en : lt);
@@ -1582,28 +1584,60 @@ export default function App() {
                             </span>
 
                             {/* LANG FLAGS */}
-                            <div className="flex items-center gap-1">
-                                {/* EN */}
+                            <div className="relative">
+                                {/* CURRENT LANGUAGE */}
                                 <button
-                                    type="button"
-                                    onClick={() => handleLangChange("en")}
-                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}
-                                    aria-label="English"
+                                    onClick={() => setLangOpen(!langOpen)}
+                                    className="flex items-center gap-2 px-2 py-1 border border-neutral-700 rounded-md hover:border-yellow-400 transition"
                                 >
-                                    <img src="/flags/en.svg" alt="English" className="h-full w-full object-cover" />
+                                    <img
+                                        src={`/flags/${lang}.svg`}
+                                        alt={lang}
+                                        className="w-6 h-4 object-cover rounded-sm"
+                                    />
+                                    <span className="uppercase text-sm text-white">
+                                        {lang}
+                                    </span>
+
+                                    <svg
+                                        className={`w-4 h-4 transition ${langOpen ? "rotate-180" : ""}`}
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                                    </svg>
                                 </button>
 
-                                {/* LT */}
-                                <button
-                                    type="button"
-                                    onClick={() => handleLangChange("lt")}
-                                    className={`h-6 w-8 overflow-hidden rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}
-                                    aria-label="Lietuvių"
-                                >
-                                    <img src="/flags/lt.svg" alt="Lietuvių" className="h-full w-full object-cover" />
-                                </button>
-
+                                {/* DROPDOWN */}
+                                {langOpen && (
+                                    <div className="absolute right-0 mt-2 w-28 bg-neutral-900 border border-neutral-700 rounded-lg shadow-lg z-50">
+                                        {[
+                                            { code: "en", label: "EN" },
+                                            { code: "lt", label: "LT" },
+                                          
+                                        ].map((l) => (
+                                            <button
+                                                key={l.code}
+                                                onClick={() => {
+                                                    handleLangChange(l.code)
+                                                    setLangOpen(false)
+                                                }}
+                                                className={`flex w-full items-center gap-2 px-3 py-2 text-sm hover:bg-neutral-800 ${lang === l.code ? "bg-neutral-800 text-yellow-400" : "text-white"
+                                                    }`}
+                                            >
+                                                <img
+                                                    src={`/flags/${l.code}.svg`}
+                                                    alt={l.label}
+                                                    className="w-6 h-4 object-cover rounded-sm"
+                                                />
+                                                {l.label}
+                                            </button>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
+
                         </div>
                     </div>
 
@@ -1640,17 +1674,58 @@ export default function App() {
                                 {t("Made in Italy", "Pagaminta Italijoje")}
                             </span>
 
-                            <div className="flex items-center gap-2">
-                                <button onClick={() => handleLangChange("en")}
-                                    className={`h-6 w-8 rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}>
-                                    <img src="/flags/en.svg" className="h-full w-full" />
+                            {/* LANGUAGE DROPDOWN - MOBILE */}
+                            <div className="relative">
+                                <button
+                                    onClick={() => setLangOpen(!langOpen)}
+                                    className="flex items-center gap-2 px-2 py-1 border border-neutral-700 rounded-md hover:border-yellow-400 transition"
+                                >
+                                    <img
+                                        src={`/flags/${lang}.svg`}
+                                        alt={lang}
+                                        className="w-6 h-4 object-cover rounded-sm"
+                                    />
+
+                                    <span className="uppercase text-sm text-white">
+                                        {lang}
+                                    </span>
+
+                                    <svg
+                                        className={`w-4 h-4 transition ${langOpen ? "rotate-180" : ""}`}
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                                    </svg>
                                 </button>
 
-                                <button onClick={() => handleLangChange("lt")}
-                                    className={`h-6 w-8 rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}>
-                                    <img src="/flags/lt.svg" className="h-full w-full" />
-                                </button>
+                                {langOpen && (
+                                    <div className="absolute right-0 mt-2 w-28 bg-neutral-900 border border-neutral-700 rounded-lg shadow-lg z-50">
+                                        {[
+                                            { code: "en", label: "EN" },
+                                            { code: "lt", label: "LT" },
+                                        ].map((l) => (
+                                            <button
+                                                key={l.code}
+                                                onClick={() => {
+                                                    handleLangChange(l.code)
+                                                    setLangOpen(false)
+                                                }}
+                                                className={`flex w-full items-center gap-2 px-3 py-2 text-sm hover:bg-neutral-800 ${lang === l.code ? "bg-neutral-800 text-yellow-400" : "text-white"
+                                                    }`}
+                                            >
+                                                <img
+                                                    src={`/flags/${l.code}.svg`}
+                                                    className="w-6 h-4 object-cover rounded-sm"
+                                                />
+                                                {l.label}
+                                            </button>
+                                        ))}
+                                    </div>
+                                )}
                             </div>
+
                         </div>
                     </div>
 
