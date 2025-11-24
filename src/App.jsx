@@ -601,7 +601,7 @@ Kietmetalio įrankiai yra kietesni ir atsparesni karščiui nei greitaeigio plie
 
 Grąžtas žemės ūkio dirvožemiui
 
-Aukšto efektyvumo grąžtai su keičiamaus plieno peiliais, skirti darbui žemės ūkio ir bendros paskirties gruntuose.
+Aukšto efektyvumo grąžtai su keičiamais plieno peiliais, skirti darbui žemės ūkio ir bendros paskirties gruntuose.
 Galimi su šešiakampėmis jungtimis (50 arba 70 mm), įvairių diametrų ir ilgių, su galimybe naudoti pratęsimus su arba be spirale.
 
 🔹 Keičiami dėvėjimuisi atsparūs peiliai
