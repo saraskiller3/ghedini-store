@@ -1298,7 +1298,7 @@ function useFiltered({ q, cat, lang }) {
 function CategoryPage({ lang, setEnquire }) {
     const { id } = useParams();
     const navigate = useNavigate();
-    const t = (en, lt) => (lang === "en" ? en : lt);
+    const t = (en, lt) => (lang === "lt" ? lt : en);
     const cat = CATEGORIES.find((c) => c.id === id);
     const catName = cat ? (CAT_LABELS[lang][cat.id] || cat.name) : id;
     const items = PRODUCTS.filter((p) => p.cat === id);
@@ -1377,7 +1377,7 @@ function ProductPage({ lang, setEnquire }) {
     const navigate = useNavigate();
     
 
-    const t = (en, lt) => (lang === "en" ? en : lt);
+    const t = (en, lt) => (lang === "lt" ? lt : en);
     
 
     const p = PRODUCTS.find((x) => x.id === id);
@@ -1495,13 +1495,13 @@ function useScrollTo() {
 export default function App() {
     const [q, setQ] = useState("");
     const [cat, setCat] = useState("");
-    const [lang, setLang] = useState("en");
+    const [lang, setLang] = useState("lt");
     const [enquire, setEnquire] = useState(null); // product object
     const [langOpen, setLangOpen] = useState(false);
 
 
     const list = useFiltered({ q, cat: cat || undefined, lang });
-    const t = (en, lt) => (lang === "en" ? en : lt);
+    const t = (en, lt) => (lang === "lt" ? lt : en);
     const catLabel = (c) => (CAT_LABELS[lang][c.id] || c.name);
     const productTitle = (p) => getTitle(p, lang);
     const scrollTo = useScrollTo();
