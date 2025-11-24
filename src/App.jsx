@@ -179,9 +179,10 @@ Plaktukai – krūmynų ir tankesnės augmenijos kirtimui
 🔹 Tvirta ir lengva konstrukcija
 🔹 Efektyvus hidraulinės energijos panaudojimas
 🔹 Patogus montavimas ir priežiūra
-
+<a href="/docs/da1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 Atsisiųsti techninę specifikaciją]
-
+<a/>
 DA serija – 06 / 08 / 10
 
 Ekskavatoriams iki 6 t darbinės masės
@@ -197,8 +198,10 @@ Su plaktukais – krūmams, tankiems augalams ir piktžolėms
 🔹 Atspari konstrukcija nuolatiniam darbui
 🔹 100 % pagaminta Italijoje
 
+<a href="/docs/da2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
 [📄 Atsisiųsti techninę specifikaciją]
-
+<a/>
 DK serija
 
 Ekskavatoriams nuo 5 iki 23 t darbinės masės
@@ -214,7 +217,10 @@ Plaktukai – miškininkystės darbams ir itin tankiai augmenijai
 🔹 Itin didelė pjovimo galia ir našumas
 🔹 Idealiai tinka kelių priežiūrai, žemės ūkiui ir miško ūkio darbams
 
-[📄 Atsisiųsti techninę specifikaciją]`
+<a href="/docs/da3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: [
             "/photos/em1.avif",
@@ -291,7 +297,10 @@ Galimi septyni darbo pločiai:
 🔹 Sklandus hidraulinės sistemos darbas
 🔹 Tinka žolės, krūmynų ir lengvos augmenijos pjovimui
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]` 
+<a href="/docs/dc1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/dcmulcher.avif",
         "/photos/dcmulcher1.avif"],
@@ -316,7 +325,7 @@ Hard-metal plates – for cutting shrubs, roots, and dense or woody vegetation
 🔹 Heavy-duty reinforced frame and rotor
 🔹 Designed for continuous professional operation
 🔹 Maximum cutting power and hydraulic efficiency
-<a href="/docs/da3en.pdf" target="_blank" rel="noopener noreferrer"
+<a href="/docs/df1en.pdf" target="_blank" rel="noopener noreferrer"
 class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
 </a>`,
@@ -337,7 +346,10 @@ Kietmetalio plokštelės – krūmams, šaknims ir tankiai augmenijai pjauti
 🔹 Sukurta nuolatiniam profesionaliam darbui
 🔹 Didelė pjovimo galia ir hidraulinis efektyvumas
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/df1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/fm.avif",
             "/photos/fm1.avif"],
@@ -439,7 +451,10 @@ Tiekiamas su svirties tvirtinimu ir kaiščiu, tinkamas mažiems ekskavatoriams 
 🔹 Nereikalauja hidraulinės nutekėjimo linijos
 🔹 Lengvas, bet tvirtas korpusas
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+<a href="/docs/auger1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 
 TB 06 – Grąžtas ekskavatoriams
 
@@ -454,8 +469,10 @@ Galimas grąžto blokas naudojimui su malkų skaldytuvais.
 🔹 Kompaktiškas reduktorius
 🔹 Tiekiamas su svirties tvirtinimu ir kaiščiu
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
-
+<a href="/docs/auger2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 TK serija – Grąžtai vidutinės klasės ekskavatoriams
 
 Ekskavatoriams nuo 5 iki 15 t darbinės masės
@@ -468,7 +485,10 @@ Korpusas pagamintas visiškai iš plieno.
 🔹 Sustiprinta plieninė konstrukcija
 🔹 Skirta intensyviam profesionaliam naudojimui
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+<a href="/docs/auger3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 
 TV – TT – TS serijos – Grąžtai visų tipų gruntui
 
@@ -479,8 +499,10 @@ Pagal kliento pageidavimus galime pagaminti specialius antgalius konkrečiam dir
 🔹 Pritaikomi bet kokiam gruntui
 🔹 Galimybė gaminti pagal užsakovo specifikaciją
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
-
+<a href="/docs/auger4en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 SHR serija – Rotacinės akėčios
 
 Naujos kartos SHR serijos rotacinės akėčios skirtos dirvos lyginimui ir purenimui, užtikrinant aukštą darbo kokybę žemės ūkio ar apželdinimo darbuose.
@@ -490,7 +512,10 @@ Pagal užsakymą gaminamos spyglių sistemos, pritaikytos bet kokiam gruntui.
 🔹 Tvirta itališka konstrukcija
 🔹 Galimybė gaminti pagal užsakovo poreikius
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/auger5en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/auger1.avif",
             "/photos/auger2.avif",
@@ -656,7 +681,10 @@ Nutekėjimo linija rekomenduojama, kai grįžtamojo slėgio reikšmė viršija 7
 
 Naudojami tik SKF guoliai, veržlės ir fiksavimo žiedai, užtikrinantys ilgaamžiškumą ir sklandų darbą
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/pile1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
             images: [],
         videos: ["https://youtu.be/1FHOZz9zL9E"]
@@ -716,7 +744,10 @@ Originalius Hesston® dantis su grioveliniu profiliu
 
 Maksimalus pjovimo skersmuo: 5–6 cm
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/mowing1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/mowing1.avif",
             "/photos/mowing2.avif",
@@ -805,7 +836,10 @@ Galimi keturi darbo pločiai:
 
 BT gyvatvorių pjovimo įrenginys – tai idealus sprendimas gyvatvorių priežiūrai, augmenijos šalinimui ir teritorijų rekultivacijai, užtikrinantis patvarumą, universalumą ir tikslų pjovimą.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+<a href="/docs/hedge1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 
 Naujas BT75 gyvatvorių pjovimo įrenginys – Ghedini Attachments
 
@@ -839,7 +873,10 @@ Ekskavatoriams: 2,7 – 5 t
 
 Ghedini Attachments taip pat siūlo platų šienapjovių ir kitų priedų asortimentą – skirtą pjovimui, genėjimui, griovių ir kanalų valymui, pritaikytą žemės ūkio ir žemės kasimo darbams.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/hedge2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/hedgecutter.avif"],
         videos: ["https://youtu.be/SLeCcpNl5dg"]
@@ -858,7 +895,7 @@ The compactors are powered hydraulically through the PTO connection of the excav
 Each model features a bi-directional aluminum hydraulic motor and includes a drain line recommendation for counterpressures above 7 bar.
 Equipped with anti-shock and anti-cavitation valves calibrated at 160 bar, they protect the hydraulic system from sudden pressure changes.
 
-For maximum durability and performance, all Ghedini vibratory plates are built using SKF bearings, high-strength nuts, and fasteners, ensuring reliability even under heavy-duty professional use.
+For maximum durability and performance, all "Ghedini Attachments" vibratory plates are built using SKF bearings, high-strength nuts, and fasteners, ensuring reliability even under heavy-duty professional use.
 <a href="/docs/vibro1en.pdf" target="_blank" rel="noopener noreferrer"
 class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
@@ -875,9 +912,12 @@ Tankintuvai maitinami hidrauliškai per PTO jungtį nuo ekskavatoriaus, ant kuri
 Įrengti su dvikrypčiu aliuminio hidrauliniu varikliu, su nutekėjimo linijos rekomendacija, kai grįžtamojo slėgio reikšmė viršija 7 bar.
 Taip pat įmontuoti apsauginiai anti-shock ir anti-cavitation vožtuvai, kalibruoti ties 160 bar, siekiant apsaugoti hidraulinę sistemą nuo slėgio šuolių.
 
-Didžiausiam patvarumui ir našumui užtikrinti visi Ghedini vibro plokštumų modeliai gaminami naudojant SKF guolius, sustiprintas veržles ir tvirtinimo detales, todėl jie patikimai veikia net intensyviai naudojant.
+Didžiausiam patvarumui ir našumui užtikrinti visi ,,Ghedini Attachments" vibro plokščių modeliai gaminami naudojant SKF guolius, sustiprintas veržles ir tvirtinimo detales, todėl jie patikimai veikia net intensyviai naudojant.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/vibro1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/comp1.avif"],
         videos: ["https://youtu.be/KFICDsnUfPo"]
@@ -967,7 +1007,10 @@ Plačiai naudojami miškininkystėje ir pramonėje, tinka ekskavatoriams iki 15 
 🔹 Įrengti hidrauliniai blokavimo vožtuvai
 🔹 Skirti miško ir pramoniniams darbams
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+<a href="/docs/log1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 
 KL serija – universalūs rąstų ir birių medžiagų griebtuvai
 
@@ -990,7 +1033,10 @@ Taip pat galima sustiprinta versija akmenims (rock grab), tinkama darbui horizon
 🔹 Sustiprinta konstrukcija intensyviam darbui
 🔹 Greitas perkonfigūravimas per kelias minutes
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
+<a href="/docs/log2en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>
 
 KP serija – akmenų griebtuvai
 
@@ -1002,7 +1048,10 @@ Pagaminti iš Domex 710 plieno ir įrengti su blokavimo vožtuvais, užtikrinan�
 🔹 Domex 710 plieno patvarumas ir saugumas
 🔹 Suderinami su hidrauliniais rotatoriais
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/log3en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/log1.avif",
             "/photos/log2.avif",
@@ -1054,7 +1103,10 @@ Griebtuvas mediniams poliams (didelės klasės ekskavatoriams) – miškininkyst
 
 Visi modeliai pasižymi stipria griebimo galia, tvirta plienine konstrukcija ir sklandžiu hidrauliniu veikimu, užtikrinančiu patikimą darbą bet kokiomis sąlygomis.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/grapple1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/grapple.avif",
             "/photos/grapple1.avif",
@@ -1141,8 +1193,6 @@ Kadangi jie neturi elektros komponentų, gali būti naudojami visiškai panardin
 
 Pasirinkite patikimą ,,Ghedini Attachments" panardinamąjį siurblį – saugų, našų ir ilgaamžį.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]
-
 Pagrindinės savybės
 
 Hidraulinė pavara – nėra elektros komponentų, todėl užtikrinamas visiškas saugumas po vandeniu
@@ -1165,7 +1215,7 @@ Grunto vandens lygio nuleidimui žemiau kasimo ribos
 
 Vandens išpumpavimui iš apsauginių užtvarų (cofferdams)
 
-Vandens tiekimui plovimui, purškimui ar kitoms techninėms reikmėms
+Vandens tiekimui, plovimui, purškimui ar kitoms techninėms reikmėms
 
 Pamatų injekcijoms ir medžiagų džiovinimui
 
@@ -1191,7 +1241,10 @@ Projekto apimties ir sudėtingumo
 🔹 Tinka: dumblo, nuotekų, grunto ir gruntinio vandens šalinimui
 🔹 Konstrukcija: plieninis, korozijai atsparus korpusas
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/pump1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/pump.avif",
         "/photos/pump1.avif"],
@@ -1227,7 +1280,10 @@ Puikiai tinka šakų, medienos, akmenų bei kitų atliekų surinkimui, todėl yp
 
 Siūlomi keturių skirtingų darbo pločių modeliai, pasižymintys tvirtumu, paprastumu ir patikimumu, užtikrinančiu ilgaamžį bei našų darbą bet kokiomis sąlygomis.
 
-[📄 ATSISIŲSTI TECHNINĘ SPECIFIKACIJĄ]`
+<a href="/docs/rake1en.pdf" target="_blank" rel="noopener noreferrer"
+class="text-yellow-400 hover:text-yellow-300">
+[📄 Atsisiųsti techninę specifikaciją]
+<a/>`
         },
         images: ["/photos/rake.avif"],
         videos: ["https://youtu.be/fYHrHjbA0H8"]
@@ -1874,7 +1930,7 @@ export default function App() {
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
                         <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavėju")}</h2>
-                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment you're interested in.", "Parašykite mašinos modelį ir kuris priedas domina.")}</p>
+                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment You're interested in.", "Parašykite technikos modelį ir kuris priedas Jus domina.")}</p>
                             <ul className="mt-4 text-sm text-neutral-300 space-y-1">
                                 <li className="flex items-center gap-2">
                                     <span className="text-base leading-none">📞</span>
@@ -1964,11 +2020,11 @@ export default function App() {
                                             href="/docs/catalogue.pdf"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-yellow-400 text-xl font-semibold hover:text-yellow-300 transition"
+                                        className="text-yellow-400 text-xl font-semibold underline decoration-2 underline-offset-4 hover:text-yellow-300 transition"
                                         >
                                             {t(
-                                                "Browse the full catalog here",
-                                                "Peržiūrėti visą katalogą čia"
+                                                "→ Press here to view the full catalog ←",
+                                                "→ Spauskite čia, kad pamatytumėte pilną katalogą ←"
                                             )}
                                         </a>
 
@@ -1980,7 +2036,7 @@ export default function App() {
                         <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <textarea rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
-` : ""} placeholder={t("Message (product, machine model, questions)", "Žinutė (produktas, mašinos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+` : ""} placeholder={t("Message (product, machine model, questions)", "Žinutė (produktas, technikos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Siųsti užklausą")}</button>
                     </form>
                 </div>
