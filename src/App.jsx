@@ -11,6 +11,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import PrivacyPolicyLT from "./pages/PrivacyPolicyLT";
 import TermsConditionsLT from "./pages/TermsConditionsLT";
+import emailjs from "@emailjs/browser";
+
 
 
 // =====================================
@@ -1612,6 +1614,41 @@ export default function App() {
             }, 400);
         }
     };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .send(
+                "service_g4h0612",      // YOUR SERVICE ID ✅
+                "template_m6ula1z",     // YOUR TEMPLATE ID ✅
+                {
+                    from_name: e.target.name.value,
+                    from_email: e.target.email.value,
+                    company: e.target.company.value,
+                    message: e.target.message.value,
+                    page: window.location.href,
+                },
+                "Xbf7tvoA4GrEUVc4b"       // YOUR PUBLIC KEY ✅
+            )
+            .then(() => {
+                alert(
+                    lang === "lt"
+                        ? "✅ Užklausa sėkmingai išsiųsta!"
+                        : "✅ Inquiry sent successfully!"
+                );
+                e.target.reset();
+                setEnquire(null);
+            })
+            .catch((error) => {
+                console.error(error);
+                alert(
+                    lang === "lt"
+                        ? "❌ Klaida siunčiant. Bandykite dar kartą."
+                        : "❌ Failed to send. Please try again."
+                );
+            });
+    };
+
     return (
         <>
             <ScrollToTop />
@@ -2031,7 +2068,7 @@ export default function App() {
                                     </li>                        
                             </ul>
                     </div>
-                    <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); }} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
+                        <form onSubmit={handleSubmit} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
                         <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                         <input placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
@@ -2076,7 +2113,8 @@ export default function App() {
                     <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
                         <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
-                        <form onSubmit={(e) => { e.preventDefault(); alert('Thanks! We will reply shortly.'); setEnquire(null); }} className="mt-4 grid gap-3">
+                            <form onSubmit={handleSubmit} className="mt-4 grid gap-3">
+
                             <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <textarea rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
