@@ -1617,37 +1617,34 @@ export default function App() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        const form = e.target;
+
+        const templateParams = {
+            from_name: form.name?.value || "No name",
+            from_email: form.email?.value || "No email",
+            company: form.company?.value || "",
+            message: form.message?.value || "",
+            page: window.location.href,
+        };
+
         emailjs
             .send(
-                "service_g4h0612",      // YOUR SERVICE ID ✅
-                "template_m6ula1z",     // YOUR TEMPLATE ID ✅
-                {
-                    from_name: e.target.name.value,
-                    from_email: e.target.email.value,
-                    company: e.target.company.value,
-                    message: e.target.message.value,
-                    page: window.location.href,
-                },
-                "Xbf7tvoA4GrEUVc4b"       // YOUR PUBLIC KEY ✅
+                "service_g4h0612",
+                "template_m6ula1z",
+                templateParams,
+                "Xbf7tvoA4GrEUVc4b"
             )
             .then(() => {
-                alert(
-                    lang === "lt"
-                        ? "✅ Užklausa sėkmingai išsiųsta!"
-                        : "✅ Inquiry sent successfully!"
-                );
-                e.target.reset();
+                alert(lang === "lt" ? "✅ Užklausa išsiųsta!" : "✅ Inquiry sent!");
+                form.reset();
                 setEnquire(null);
             })
             .catch((error) => {
-                console.error(error);
-                alert(
-                    lang === "lt"
-                        ? "❌ Klaida siunčiant. Bandykite dar kartą."
-                        : "❌ Failed to send. Please try again."
-                );
+                console.error("EMAILJS ERROR:", error);
+                alert(lang === "lt" ? "❌ Siuntimo klaida" : "❌ Sending failed");
             });
     };
+
 
     return (
         <>
@@ -2069,12 +2066,14 @@ export default function App() {
                             </ul>
                     </div>
                         <form onSubmit={handleSubmit} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
-                        <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <input placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <textarea rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
+                            <input name="name" required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                            <input name="email" required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                            <input name="company" placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                            <textarea name="message" rows={5} defaultValue={enquire ? `${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
 ` : ""} placeholder={t("Message (product, machine model, questions)", "Žinutė (produktas, technikos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                        <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Siųsti užklausą")}</button>
+                            <button
+                                type="submit"
+                                className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Siųsti užklausą")}</button>
                     </form>
                 </div>
             </section>
@@ -2114,14 +2113,15 @@ export default function App() {
                         <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
                             <form onSubmit={handleSubmit} className="mt-4 grid gap-3">
-
-                            <input required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                            <input required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
-                            <textarea rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
+                                <input name="name" required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                                <input name="email" required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
+                                <textarea name="message" rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
 `} placeholder={t("Message", "Žinutė")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <div className="flex items-center justify-end gap-2">
                                 <button type="button" onClick={() => setEnquire(null)} className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900">{t("Cancel", "Atšaukti")}</button>
-                                <button className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "Siųsti")}</button>
+                                    <button
+                                        type="submit"
+                                        className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "Siųsti")}</button>
                             </div>
                         </form>
                     </div>
