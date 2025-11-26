@@ -1556,6 +1556,8 @@ export default function App() {
     const [lang, setLang] = useState("lt");
     const [enquire, setEnquire] = useState(null); // product object
     const [langOpen, setLangOpen] = useState(false);
+    const [sent, setSent] = useState(false);
+    const [sending, setSending] = useState(false)
 
 
     const list = useFiltered({ q, cat: cat || undefined, lang });
@@ -1616,7 +1618,7 @@ export default function App() {
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        setSending(true)
         const form = e.target;
 
         const templateParams = {
@@ -1635,13 +1637,17 @@ export default function App() {
                 "Xbf7tvoA4GrEUVc4b"
             )
             .then(() => {
-                alert(lang === "lt" ? "✅ Užklausa išsiųsta!" : "✅ Inquiry sent!");
-                form.reset();
-                setEnquire(null);
+                setSending(false)
+                setSent(true)      // ✅ show message
+                e.target.reset()
+                setEnquire(null)
+
+                // Hide success message after 5 seconds (optional but nice)
+                setTimeout(() => setSent(false), 5000)
             })
             .catch((error) => {
                 console.error("EMAILJS ERROR:", error);
-                alert(lang === "lt" ? "❌ Siuntimo klaida" : "❌ Sending failed");
+                setSending(false)
             });
     };
 
@@ -1960,7 +1966,18 @@ export default function App() {
                 </Routes>
 
             {/* Contact */}
-            <section id="contact">
+                <section id="contact">
+                    {sent && (
+                        <div className="mx-auto max-w-7xl px-4 pt-6">
+                            <div className="bg-green-500/10 border border-green-500/30 text-green-400 text-center py-4 px-6 rounded-2xl font-medium">
+                                ✅ {t(
+                                    "Inquiry sent successfully. We will contact you shortly.",
+                                    "Užklausa sėkmingai išsiųsta. Susisieksime netrukus."
+                                )}
+                            </div>
+                        </div>
+                    )}
+
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
                         <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavėju")}</h2>
@@ -2073,7 +2090,36 @@ export default function App() {
 ` : ""} placeholder={t("Message (product, machine model, questions)", "Žinutė (produktas, technikos modelis, klausimai)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <button
                                 type="submit"
-                                className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send inquiry", "Siųsti užklausą")}</button>
+                                disabled={sending}
+                                className={`rounded-2xl px-4 py-2 font-medium transition ${sending
+                                        ? "bg-neutral-600 text-neutral-300 cursor-not-allowed"
+                                        : "bg-yellow-500 text-black hover:bg-yellow-400"
+                                    }`}
+                            >
+                                {sending ? (
+                                    <span className="flex items-center justify-center gap-2">
+                                        <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                                            <circle
+                                                className="opacity-25"
+                                                cx="12"
+                                                cy="12"
+                                                r="10"
+                                                stroke="currentColor"
+                                                strokeWidth="4"
+                                            />
+                                            <path
+                                                className="opacity-75"
+                                                fill="currentColor"
+                                                d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                                            />
+                                        </svg>
+                                        {lang === "lt" ? "Siunčiama..." : "Sending..."}
+                                    </span>
+                                ) : (
+                                    t("Send inquiry", "Siųsti užklausą")
+                                )}
+                            </button>
+
                     </form>
                 </div>
             </section>
@@ -2109,7 +2155,18 @@ export default function App() {
             {/* Inquiry modal (quick message) */}
             {enquire && (
                 <div className="fixed inset-0 z-50 bg-black/70 grid place-items-center p-4" onClick={() => setEnquire(null)}>
-                    <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
+                        <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
+                            {sent && (
+                                <div className="mx-auto max-w-7xl px-4 pt-6">
+                                    <div className="bg-green-500/10 border border-green-500/30 text-green-400 text-center py-4 px-6 rounded-2xl font-medium">
+                                        ✅ {t(
+                                            "Inquiry sent successfully. We will contact you shortly.",
+                                            "Užklausa sėkmingai išsiųsta. Susisieksime netrukus."
+                                        )}
+                                    </div>
+                                </div>
+                            )}
+
                         <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
                         <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
                             <form onSubmit={handleSubmit} className="mt-4 grid gap-3">
@@ -2121,7 +2178,36 @@ export default function App() {
                                 <button type="button" onClick={() => setEnquire(null)} className="rounded-2xl border border-neutral-700 px-4 py-2 hover:bg-neutral-900">{t("Cancel", "Atšaukti")}</button>
                                     <button
                                         type="submit"
-                                        className="rounded-2xl bg-yellow-500 text-black px-4 py-2 font-medium hover:bg-yellow-400">{t("Send", "Siųsti")}</button>
+                                        disabled={sending}
+                                        className={`rounded-2xl px-4 py-2 font-medium transition ${sending
+                                                ? "bg-neutral-600 text-neutral-300 cursor-not-allowed"
+                                                : "bg-yellow-500 text-black hover:bg-yellow-400"
+                                            }`}
+                                    >
+                                        {sending ? (
+                                            <span className="flex items-center justify-center gap-2">
+                                                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                                                    <circle
+                                                        className="opacity-25"
+                                                        cx="12"
+                                                        cy="12"
+                                                        r="10"
+                                                        stroke="currentColor"
+                                                        strokeWidth="4"
+                                                    />
+                                                    <path
+                                                        className="opacity-75"
+                                                        fill="currentColor"
+                                                        d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                                                    />
+                                                </svg>
+                                                {lang === "lt" ? "Siunčiama..." : "Sending..."}
+                                            </span>
+                                        ) : (
+                                            t("Send inquiry", "Siųsti užklausą")
+                                        )}
+                                    </button>
+
                             </div>
                         </form>
                     </div>
