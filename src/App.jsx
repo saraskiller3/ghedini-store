@@ -1967,16 +1967,7 @@ export default function App() {
 
             {/* Contact */}
                 <section id="contact">
-                    {sent && (
-                        <div className="mx-auto max-w-7xl px-4 pt-6">
-                            <div className="bg-green-500/10 border border-green-500/30 text-green-400 text-center py-4 px-6 rounded-2xl font-medium">
-                                ✅ {t(
-                                    "Inquiry sent successfully. We will contact you shortly.",
-                                    "Užklausa sėkmingai išsiųsta. Susisieksime netrukus."
-                                )}
-                            </div>
-                        </div>
-                    )}
+                    
 
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
@@ -2083,6 +2074,15 @@ export default function App() {
                             </ul>
                     </div>
                         <form onSubmit={handleSubmit} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-5 grid gap-3">
+                            {sent && (
+                                <div className="mb-4 bg-green-500/10 border border-green-500/30 text-green-400 text-center py-3 px-4 rounded-xl text-sm font-medium">
+                                    ✅ {t(
+                                        "Inquiry sent successfully. We will contact you shortly.",
+                                        "Užklausa sėkmingai išsiųsta. Susisieksime netrukus."
+                                    )}
+                                </div>
+                            )}
+
                             <input name="name" required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input name="email" required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                             <input name="company" placeholder={t("Company (optional)", "Įmonė (neprivaloma)")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
@@ -2156,20 +2156,19 @@ export default function App() {
             {enquire && (
                 <div className="fixed inset-0 z-50 bg-black/70 grid place-items-center p-4" onClick={() => setEnquire(null)}>
                         <div className="w-full max-w-lg rounded-3xl bg-neutral-900 border border-neutral-800 p-5" onClick={(e) => e.stopPropagation()}>
-                            {sent && (
-                                <div className="mx-auto max-w-7xl px-4 pt-6">
-                                    <div className="bg-green-500/10 border border-green-500/30 text-green-400 text-center py-4 px-6 rounded-2xl font-medium">
+
+                        <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
+                        <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
+                            <form onSubmit={handleSubmit} className="mt-4 grid gap-3">
+                                {sent && (
+                                    <div className="mb-4 bg-green-500/10 border border-green-500/30 text-green-400 text-center py-3 px-4 rounded-xl text-sm font-medium">
                                         ✅ {t(
                                             "Inquiry sent successfully. We will contact you shortly.",
                                             "Užklausa sėkmingai išsiųsta. Susisieksime netrukus."
                                         )}
                                     </div>
-                                </div>
-                            )}
+                                )}
 
-                        <h3 className="text-xl font-bold">{t("Send inquiry", "Siųsti užklausą")}</h3>
-                        <p className="text-sm text-neutral-300 mt-1">{t("Product:", "Produktas:")} {enquire.title} (SKU: {enquire.id})</p>
-                            <form onSubmit={handleSubmit} className="mt-4 grid gap-3">
                                 <input name="name" required placeholder={t("Your name", "Jūsų vardas")} className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                                 <input name="email" required type="email" placeholder="Email" className="rounded-xl border border-neutral-700 bg-black text-white placeholder:text-neutral-500 px-3 py-2 text-sm" />
                                 <textarea name="message" rows={5} defaultValue={`${t("Interested in:", "Domina:")} ${productTitle(enquire) } (SKU: ${enquire.id})
