@@ -17,6 +17,20 @@ import MulceriaiPage from "./pages/MulceriaiPage";
 import MulcersPage from "./pages/MulcersPage";
 import ZemesGraztai from "./pages/ZemesGraztai";
 import Augers from "./pages/Augers";
+import LogGrabs from "./pages/LogGrabs";
+import MedziuGriebtuvai from "./pages/MedziuGriebtuvai";
+import SubmersiblePumps from "./pages/SubmersiblePumps";
+import PanardinamiSiurbliai from "./pages/PanardinamiSiurbliai";
+import Vibroplates from "./pages/Vibroplates";
+import Vibroplokstes from "./pages/Vibroplokstes";
+import Ripper from "./pages/Ripper";
+import Riperiai from "./pages/Riperiai";
+import HedgeTrimmer from "./pages/HedgeTrimmer";
+import GyvatvoriuKirpimas from "./pages/GyvatvoriuKirpimas";
+import SienavimoKausas from "./pages/SienavimoKausas";
+import MowingBucket from "./pages/MowingBucket";
+import PileDriver from "./pages/PileDriver";
+import PoliuKaltuvas from "./pages/PoliuKaltuvas";
 
 
 
@@ -775,7 +789,7 @@ The BT Hedgetrimmer features a new shock absorption system, reducing structural 
 
 This professional attachment is engineered for cutting trees, hedges, and branches up to 4–5 cm in diameter, and can be used both horizontally and vertically, thanks to its Hirth joint system.
 
-Compatible with excavators and mini excavators up to 8 tonnes, as well as backhoe loaders.
+Compatible with excavators and mini excavators up to 10 tonnes, as well as backhoe loaders.
 
 Available in four working widths:
 
@@ -830,7 +844,7 @@ BT serijos gyvatvorių pjovimo įrenginys turi naują smūgius sugeriančią sis
 Šis profesionalus priedas sukurtas medžių, krūmų ir šakų pjovimui iki 4–5 cm skersmens.
 Dėl Hirth jungties sistemos įrenginį galima naudoti tiek horizontaliai, tiek vertikaliai.
 
-Tinka montuoti ant ekskavatorių ir mini ekskavatorių iki 8 tonų, taip pat ratinių krautuvų su kasimo strėle (backhoe loaders).
+Tinka montuoti ant ekskavatorių ir mini ekskavatorių iki 10 tonų, taip pat ratinių krautuvų su kasimo strėle (backhoe loaders).
 
 Galimi keturi darbo pločiai:
 
@@ -981,9 +995,9 @@ class="text-yellow-400 hover:text-yellow-300">
 [📄 DOWNLOAD TECHNICAL SHEET]
 </a>
 
-KP Series – Rock Grabs
+KP Series – Rock and Log Grabs
 
-The "Ghedini Attachments" KP Series grabs are designed with reinforced frames for handling rocks and demolition materials.
+The "Ghedini Attachments" KP Series grabs are designed with reinforced frames for handling rocks, logs and demolition materials.
 They can operate vertically or horizontally, with or without rotators, depending on the application.
 Built from Domex 710 steel and equipped with block valves, they guarantee maximum reliability and structural strength in demanding environments.
 
@@ -1046,9 +1060,9 @@ class="text-yellow-400 hover:text-yellow-300">
 [📄 Atsisiųsti techninę specifikaciją]
 <a/>
 
-KP serija – akmenų griebtuvai
+KP serija – akmenų ir rąstų griebtuvai
 
-,,Ghedini Attachments" KP serijos griebtuvai turi sustiprintą rėmą, leidžiantį efektyviai tvarkyti akmenis, betono nuolaužas ir kitus sunkius krovinius.
+,,Ghedini Attachments" KP serijos griebtuvai turi sustiprintą rėmą, leidžiantį efektyviai tvarkyti akmenis, betono nuolaužas, rąstus ir kitus sunkius krovinius.
 Gali veikti vertikaliai arba horizontaliai, su arba be rotatoriaus, priklausomai nuo užduoties.
 Pagaminti iš Domex 710 plieno ir įrengti su blokavimo vožtuvais, užtikrinančiais patikimą darbą ir ilgaamžiškumą.
 
@@ -1523,7 +1537,7 @@ function ProductPage({ lang, setEnquire }) {
                     <div className="text-neutral-400">
                         {t(
                             "For exact fit, tell us your carrier (brand/model), quick-coupler, and hydraulic flow/pressure.",
-                            "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų kablį ir hidraulikos srautą/slėgį."
+                            "Tiksliai parinkčiai parašykite mašinos markę/modelį, kaušų jungtį ir hidraulikos srautą/slėgį."
                         )}
                     </div>
 
@@ -1579,14 +1593,28 @@ export default function App() {
             "/mulceriai",
             "/privacy-policy-lt",
             "/terms-and-conditions-lt",
-            "/zemes-graztai"
+            "/zemes-graztai",
+            "/medziu-griebtuvai",
+            "/panardinami-siurbliai",
+            "/vibroplokstes",
+            "/riperis",
+            "/gyvatvoriu-kirpimo-irenginys",
+            "/sienavimo-kausas",
+            "/poliu-kaltuvas"
         ];
 
         const enPages = [
             "/mulchers",
             "/privacy-policy",
             "/terms-and-conditions",
-            "/earth-augers"
+            "/earth-augers",
+            "/log-grabs",
+            "/submersible-pumps",
+            "/vibroplates",
+            "/ripper",
+            "/hedge-cutter",
+            "/mowing-bucket",
+            "/pile-driver"
         ];
 
         if (ltPages.includes(path)) {
@@ -1631,8 +1659,34 @@ export default function App() {
             navigate(nextLang === "lt" ? "/zemes-graztai" : "/earth-augers");
             return;
         }
-
-
+        if (location.pathname === "/medziu-griebtuvai" || location.pathname === "/log-grabs") {
+            navigate(nextLang === "lt" ? "/medziu-griebtuvai" : "/log-grabs");
+            return;
+        }
+        if (location.pathname === "/panardinami-siurbliai" || location.pathname === "/submersible-pumps") {
+            navigate(nextLang === "lt" ? "/panardinami-siurbliai" : "/submersible-pumps");
+            return;
+        }
+        if (location.pathname === "/vibroplokstes" || location.pathname === "/vibroplates") {
+            navigate(nextLang === "lt" ? "/vibroplokstes" : "/vibroplates");
+            return;
+        }
+        if (location.pathname === "/riperis" || location.pathname === "/ripper") {
+            navigate(nextLang === "lt" ? "/riperis" : "/ripper");
+            return;
+        }
+        if (location.pathname === "/gyvatvoriu-kirpimo-irenginys" || location.pathname === "/hedge-cutter") {
+            navigate(nextLang === "lt" ? "/gyvatvoriu-kirpimo-irenginys" : "/hedge-cutter");
+            return;
+        }
+        if (location.pathname === "/sienavimo-kausas" || location.pathname === "/mowing-bucket") {
+            navigate(nextLang === "lt" ? "/sienavimo-kausas" : "/mowing-bucket");
+            return;
+        }
+        if (location.pathname === "/poliu-kaltuvas" || location.pathname === "/pile-driver") {
+            navigate(nextLang === "lt" ? "/poliu-kaltuvas" : "/pile-driver");
+            return;
+        }
 
         // --- All other pages just change app language ---
         setLang(nextLang);
@@ -1855,8 +1909,20 @@ export default function App() {
                         }
                     />
 
-
-
+                    <Route path="/log-grabs" element={<LogGrabs lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/medziu-griebtuvai" element={<MedziuGriebtuvai lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/submersible-pumps" element={<SubmersiblePumps lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/panardinami-siurbliai" element={<PanardinamiSiurbliai lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/vibroplates" element={<Vibroplates lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/vibroplokstes" element={<Vibroplokstes lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/ripper" element={<Ripper lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/riperis" element={<Riperiai lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/hedge-cutter" element={<HedgeTrimmer lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/gyvatvoriu-kirpimo-irenginys" element={<GyvatvoriuKirpimas lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/mowing-bucket" element={<MowingBucket lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/sienavimo-kausas" element={<SienavimoKausas lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/pile-driver" element={<PileDriver lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
+                    <Route path="/poliu-kaltuvas" element={<PoliuKaltuvas lang={lang} t={t} handleLangChange={handleLangChange} scrollTo={scrollTo} goToProducts={goToProducts} />} />
                 </Routes>
 
             {/* Contact */}

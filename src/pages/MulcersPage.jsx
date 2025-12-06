@@ -1,17 +1,28 @@
-﻿import Navbar from "../components/Navbar";
+﻿import SeoMeta from "../components/SeoMeta";
+import RelatedPages from "../components/RelatedPages";
 import { Link } from "react-router-dom";
+import SeoSchema from "../components/SeoSchema";
 
 export default function MulcersPage({
-    lang,
-    t,
-    handleLangChange,
-    scrollTo,
-    goToProducts
+ lang
 }) {
     return (
         <>
             {/* React 19 SEO */}
             <title>Mulchers | Forestas Baltic</title>
+            <SeoMeta
+                name="Mulcher"
+                description="High-efficiency mulcher. Oficial Ghedini Attachments dealer in the Baltics."
+                image="/photos/em3.avif"
+                url="https://forestasbaltic.lt/mulchers"
+            />
+            <SeoSchema
+                name="Mulcher"
+                description="High-efficiency mulcher. Oficial Ghedini Attachments dealer in the Baltics."
+                image="/photos/em3.avif"
+                url="https://forestasbaltic.lt/mulchers"
+            />
+
             <meta
                 name="description"
                 content="Professional mulchers for excavators by Ghedini Attachments Italy. Suitable for grass, bushes and small trees. Forestas Baltic – official dealer in the Baltics."
@@ -25,7 +36,8 @@ export default function MulcersPage({
 
             {/* HEADER */}
             <header className="w-full bg-[#0f0f0f] border-b border-neutral-800 py-10">
-                <div className="max-w-6xl mx-auto px-4">
+                <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                    <div>
                     <h1 className="text-4xl font-bold text-white">
                         Mulchers for Excavators
                     </h1>
@@ -43,8 +55,18 @@ export default function MulcersPage({
                             to="/"
                             className="text-yellow-500 hover:text-yellow-400 underline"
                         >
-                            ← Back to homepage
+                            ← Link to homepage
                         </Link>
+                    </div>
+                    </div>
+                    <div className="relative">
+                        <div className="rounded-3x1 overflow-hidden border border-neutral-800 shadow-lg">
+                            <img
+                                src="/photos/em3.avif"
+                                alt="Mulcher for excavator"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </header>
@@ -71,6 +93,7 @@ export default function MulcersPage({
                         <li>Models for 1-30 ton excavators and skid steer loaders</li>
                     </ul>
                 </section>
+                <RelatedPages lang={lang} />
 
                 <section className="bg-[#161616] border border-[#262626] rounded-xl p-6 space-y-4">
                     <h2 className="text-xl font-semibold text-white">Request a quote</h2>

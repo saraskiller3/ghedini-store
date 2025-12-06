@@ -1,20 +1,35 @@
-﻿
+﻿import SeoMeta from "../components/SeoMeta";
 import { Link } from "react-router-dom";
+import RelatedPages from "../components/RelatedPages";
+import SeoSchema from "../components/SeoSchema";
 
 export default function ZemesGraztai({
-   
+   lang
 }) {
     return (
         <>
             {/* REACT 19 SEO TAGS */}
             <title>Hidrauliniai žemės grąžtai | Forestas Baltic</title>
+            <SeoMeta
+                name="Hidrauliniai žemės grąžtai"
+                description="Profesionalūs žemės grąžtai ekskavatoriams, krautuvams ir kitai technikai. Ghedini Attachments – Italijoje pagaminta įranga."
+                image="/photos/auger.avif"
+                url="https://forestasbaltic.lt/zemes-graztai"
+            />
+            <SeoSchema
+                name="Hidrauliniai žemės grąžtai"
+                description="Profesionalūs žemės grąžtai ekskavatoriams, krautuvams ir kitai technikai. Ghedini Attachments – Italijoje pagaminta įranga."
+                image="/photos/auger.avif"
+                url="https://forestasbaltic.lt/zemes-graztai"
+            />
+
             <meta
                 name="description"
                 content="Profesionalūs žemės grąžtai Ghedini Attachments ekskavatoriams, krautuvams ir kitai technikai. Skirti gręžti žemei, poliams, tvoroms ir statybos darbams. Tinka 0.7–80 tonų ekskavatoriams bei mini-krautuvams ar kitai technikai."
             />
             <meta
                 name="keywords"
-                content="žemės grąžtai, graztas ekskavatoriui, ghedini graztai, zeme gręžimas, graztas, zemes graztas, zemes graztai, hidrauliniai graztai, grazto pavara, graztas krautuvui, graztas bobcatui, graztas parduoda, perku grazta, grezykle, gręžyklė, grezykle, greztuvas, gręžtuvas"
+                content="žemės grąžtai, graztas ekskavatoriui, ghedini graztai, zeme gręžimas, graztas, zemes graztas, zemes graztai, hidrauliniai graztai, grazto pavara, graztas krautuvui, graztas bobcatui, graztas parduoda, perku grazta, grezykle, gręžyklė, greztuvas, gręžtuvas, hidraulinis graztas"
             />
 
            
@@ -78,6 +93,7 @@ export default function ZemesGraztai({
                         <li>Tinka 0.7 – 80 tonų ekskavatoriams, mini krautuvams, kitai technikai</li>
                     </ul>
                 </section>
+                <RelatedPages lang={lang} />
 
                 {/* Inquiry */}
                 <section className="bg-[#161616] border border-[#262626] rounded-xl p-6 space-y-4">

@@ -1,17 +1,28 @@
-﻿import Navbar from "../components/Navbar";
+﻿import SeoMeta from "../components/SeoMeta";
+import RelatedPages from "../components/RelatedPages";
 import { Link } from "react-router-dom";
+import SeoSchema from "../components/SeoSchema";
 
 export default function MulceriaiPage({
-    lang,
-    t,
-    handleLangChange,
-    scrollTo,
-    goToProducts
+   lang
 }) {
     return (
         <>
             {/* REACT 19 SEO META TAGS */}
             <title>Mulčeriai | Forestas Baltic</title>
+            <SeoMeta
+                name="Mulčeriai"
+                description="Aukšto našumo mulčeriai Baltijos šalyse. Oficialus Ghedini Attachments atstovas."
+                image="/photos/em3.avif"
+                url="https://forestasbaltic.lt/mulceriai"
+            />
+            <SeoSchema
+                name="Mulčeriai"
+                description="Aukšto našumo mulčeriai Baltijos šalyse. Oficialus Ghedini Attachments atstovas."
+                image="/photos/em3.avif"
+                url="https://forestasbaltic.lt/mulceriai"
+            />
+
             <meta
                 name="description"
                 content="Italijoje gaminami Ghedini Attachments mulčeriai ekskavatoriams ir krautuvams – profesionalus sprendimas žolės, krūmų ir medžių smulkinimui. Forestas Baltic – oficialus atstovas Baltijos šalyse."
@@ -25,7 +36,8 @@ export default function MulceriaiPage({
 
             {/* HEADER */}
             <header className="w-full bg-[#0f0f0f] border-b border-neutral-800 py-10">
-                <div className="max-w-6xl mx-auto px-4">
+                <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                    <div>
                     <h1 className="text-4xl font-bold text-white">
                         Mulčeriai ekskavatoriams ir krautuvams
                     </h1>
@@ -33,7 +45,7 @@ export default function MulceriaiPage({
                     <p className="text-gray-400 mt-3 max-w-2xl">
                         Italijoje gaminami <strong>Ghedini Attachments</strong> mulčeriai
                         skirti žolės, krūmų ir medžių smulkinimui. Parenkame tinkamiausią
-                        modelį pagal ekskavatoriaus svorį, hidraulikos srautą ir darbo
+                        modelį pagal technikos svorį, hidraulikos srautą ir darbo
                         paskirtį.
                     </p>
 
@@ -42,8 +54,18 @@ export default function MulceriaiPage({
                             to="/"
                             className="text-yellow-500 hover:text-yellow-400 underline"
                         >
-                            ← Grįžti į pagrindinį puslapį
+                            ← Peržiūrėti pagrindiniame puslapyje
                         </Link>
+                    </div>
+                    </div>
+                    <div className="relative">
+                        <div className="rounded-3x1 overflow-hidden border border-neutral-800 shadow-lg">
+                            <img
+                                src="/photos/em3.avif"
+                                alt="Mulcher for excavator"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </header>
@@ -70,6 +92,7 @@ export default function MulceriaiPage({
                         <li>Modeliai 1-30 tonų ekskavatoriams ir mini-krautuvams</li>
                     </ul>
                 </section>
+                <RelatedPages lang={lang} />
 
                 <section className="bg-[#161616] border border-[#262626] rounded-xl p-6 space-y-4">
                     <h2 className="text-xl font-semibold text-white">Gauti pasiūlymą</h2>

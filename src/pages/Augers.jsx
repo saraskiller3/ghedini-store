@@ -1,15 +1,29 @@
-﻿
+﻿import SeoMeta from "../components/SeoMeta";
 import { Link } from "react-router-dom";
-
-export default function EarthAugersPage({
-    
+import RelatedPages from "../components/RelatedPages";
+import SeoSchema from "../components/SeoSchema";
+export default function Augers({
+    lang
 }) {
     return (
         <>
-            <title>Earth Augers for Excavators | Forestas Baltic</title>
+            <title>Earth Augers | Forestas Baltic</title>
+            <SeoMeta
+                name="Earth Augers"
+                description="Professional earth augers for excavators, loaders and other machinery. Ghedini Attachments - equipment made in Italy."
+                image="/photos/auger.avif"
+                url="https://forestasbaltic.lt/earth-augers"
+            />
+            <SeoSchema
+                name="Earth Augers"
+                description="Professional earth augers for excavators, loaders and other machinery. Ghedini Attachments - equipment made in Italy."
+                image="/photos/auger.avif"
+                url="https://forestasbaltic.lt/earth-augers"
+            />
+
             <meta
                 name="description"
-                content="High-quality earth augers for excavators by Ghedini Attachments Italy. Suitable for fences, foundations, agriculture and construction. Fits 1.5–20t excavators."
+                content="High-quality earth augers for excavators and other machinery by Ghedini Attachments Italy. Suitable for fences, foundations, agriculture and construction. Fits 0.7–80t excavators, skid steer loaders and other machinery."
             />
             <meta
                 name="keywords"
@@ -70,6 +84,7 @@ export default function EarthAugersPage({
                         <li>Fits 0.7 t – 80 t excavators, skid steers and other machinery</li>
                     </ul>
                 </section>
+                <RelatedPages lang={lang} />
 
                 <section className="bg-[#161616] border border-[#262626] rounded-xl p-6 space-y-4">
                     <h2 className="text-xl font-semibold text-white">Request a quote</h2>
