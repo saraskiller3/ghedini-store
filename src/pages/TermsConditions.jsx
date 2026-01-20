@@ -1,16 +1,43 @@
 ﻿import { useNavigate } from "react-router-dom";
 
-export default function TermsCondition() {
+export default function TermsCondition({ lang, handleLangChange }) {
     const navigate = useNavigate();
 
     return (
-        <div className="mx-auto max-w-4xl px-4 py-12 text-neutral-200">
-            <button
-                onClick={() => navigate("/")}
-                className="mb-6 inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition"
-            >
-                ← Back to Home Page
-            </button>
+        <div className="min-h-screen bg-black text-white">
+            <div className="mx-auto max-w-5xl px-4 py-10">
+
+                {/* top row */}
+                <div className="flex items-center justify-between gap-3 mb-6">
+                    <button
+                        onClick={() => window.history.back()}
+                        className="text-yellow-400 hover:text-yellow-300 transition text-sm"
+                        type="button"
+                    >
+                        ← {lang === "lt" ? "Atgal" : "Back"}
+                    </button>
+
+                    {/* language quick switch */}
+                    <div className="flex items-center gap-2">
+                        <button
+                            type="button"
+                            onClick={() => handleLangChange("en")}
+                            className={`h-7 w-9 overflow-hidden rounded-sm border ${lang === "en" ? "border-yellow-400" : "border-neutral-600"}`}
+                            aria-label="English"
+                        >
+                            <img src="/flags/en.svg" alt="English" className="h-full w-full object-cover" />
+                        </button>
+
+                        <button
+                            type="button"
+                            onClick={() => handleLangChange("lt")}
+                            className={`h-7 w-9 overflow-hidden rounded-sm border ${lang === "lt" ? "border-yellow-400" : "border-neutral-600"}`}
+                            aria-label="Lietuvių"
+                        >
+                            <img src="/flags/lt.svg" alt="Lietuvių" className="h-full w-full object-cover" />
+                        </button>
+                    </div>
+                </div>
             <h1 className="text-3xl font-bold mb-6">Terms & Conditions</h1>
 
             <h2 className="text-xl font-semibold mt-6 mb-2">General Information</h2>
@@ -42,6 +69,7 @@ export default function TermsCondition() {
                 For any questions regarding these Terms & Conditions, contact us at:
                 <br />📧 sales@forestasbaltic.lt
             </p>
+            </div>
         </div>
     );
 }

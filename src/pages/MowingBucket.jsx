@@ -48,7 +48,7 @@ export default function MowingBucketsPage({
 
                         <div className="mt-5">
                             <Link
-                                to="/"
+                                to="/ghedini"
                                 className="text-yellow-500 hover:text-yellow-400 underline"
                             >
                                 ← Link to homepage

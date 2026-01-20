@@ -2,27 +2,27 @@
 
 export default function RelatedPages({ lang = "lt" }) {
     const pagesLT = [
-        { url: "/mulceriai", label: "Mulčeriai" },
-        { url: "/zemes-graztai", label: "Žemės grąžtai" },
-        { url: "/medziu-griebtuvai", label: "Medžių griebtuvai" },
-        { url: "/sienavimo-kausas", label: "Šienavimo kaušai" },
-        { url: "/gyvatvoriu-kirpimo-irenginys", label: "Gyvatvorių kirpimo įrenginiai" },
-        { url: "/vibroplokstes", label: "Vibroplokštės" },
-        { url: "/poliu-kaltuvas", label: "Polių kaltuvai" },
-        { url: "/panardinami-siurbliai", label: "Panardinami siurbliai" },
-        { url: "/riperis", label: "Riperiai" }
+        { url: "/ghedini/mulceriai", label: "Mulčeriai" },
+        { url: "/ghedini/zemes-graztai", label: "Žemės grąžtai" },
+        { url: "/ghedini/medziu-griebtuvai", label: "Medžių griebtuvai" },
+        { url: "/ghedini/sienavimo-kausas", label: "Šienavimo kaušai" },
+        { url: "/ghedini/gyvatvoriu-kirpimo-irenginys", label: "Gyvatvorių kirpimo įrenginiai" },
+        { url: "/ghedini/vibroplokstes", label: "Vibroplokštės" },
+        { url: "/ghedini/poliu-kaltuvas", label: "Polių kaltuvai" },
+        { url: "/ghedini/panardinami-siurbliai", label: "Panardinami siurbliai" },
+        { url: "/ghedini/riperis", label: "Riperiai" }
     ];
 
     const pagesEN = [
-        { url: "/mulchers", label: "Mulchers" },
-        { url: "/earth-augers", label: "Augers" },
-        { url: "/log-grabs", label: "Log Grabs" },
-        { url: "/mowing-bucket", label: "Mowing Buckets" },
-        { url: "/hedge-cutter", label: "Hedge Trimmers" },
-        { url: "/vibroplates", label: "Compaction Plates" },
-        { url: "/pile-driver", label: "Post Drivers" },
-        { url: "/submersible-pumps", label: "Submersible Pumps" },
-        { url: "/ripper", label: "Rippers" }
+        { url: "/ghedini/mulchers", label: "Mulchers" },
+        { url: "/ghedini/earth-augers", label: "Augers" },
+        { url: "/ghedini/log-grabs", label: "Log Grabs" },
+        { url: "/ghedini/mowing-bucket", label: "Mowing Buckets" },
+        { url: "/ghedini/hedge-cutter", label: "Hedge Trimmers" },
+        { url: "/ghedini/vibroplates", label: "Compaction Plates" },
+        { url: "/ghedini/pile-driver", label: "Post Drivers" },
+        { url: "/ghedini/submersible-pumps", label: "Submersible Pumps" },
+        { url: "/ghedini/ripper", label: "Rippers" }
     ];
 
     const list = lang === "lt" ? pagesLT : pagesEN;
