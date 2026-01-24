@@ -31,6 +31,7 @@ import SienavimoKausas from "./SienavimoKausas";
 import MowingBucket from "./MowingBucket";
 import PileDriver from "./PileDriver";
 import PoliuKaltuvas from "./PoliuKaltuvas";
+import BackToLanding from "./BackToLanding";
 
 
 const SEO_ROUTES = {
@@ -1688,6 +1689,9 @@ export default function Ghedini({ lang, handleLangChange }) {
                     <Route index
                         element={ 
                             <>
+                                <div className="mx-auto max-w-7xl px-4 mt-4">
+                                    <BackToLanding lang={lang} />
+                                </div>
             {/* Hero */}
             <section className="border-b border-neutral-800 bg-[radial-gradient(60%_80%_at_50%_-10%,rgba(253,224,71,0.15)_0%,transparent_70%)]">
                 <div className="mx-auto max-w-7xl px-4 py-16 md:py-20 grid gap-10 md:grid-cols-2 md:items-center">

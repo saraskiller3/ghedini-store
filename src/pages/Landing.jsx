@@ -65,8 +65,8 @@ export default function Landing({ lang, handleLangChange }) {
                         <p className="mt-4 text-neutral-300 text-lg">
                             {t
                                 ? t(
-                                    "Hydraulic attachments and spare parts for machinery (Excavators, Buldozers, Loaders and others)",
-                                    "Hidrauliniai priedai ir atsarginės dalys sunkiąjai technikai (Ekskavatoriams, Buldozeriams, Krautuvams ir kt.)"
+                                    "Hydraulic attachments,service and spare parts for machinery (Excavators, Buldozers, Loaders and others)",
+                                    "Hidrauliniai priedai, servisas ir atsarginės dalys sunkiąjai technikai (Ekskavatoriams, Buldozeriams, Krautuvams ir kt.)"
                                 )
                                 : "Hydraulic attachments and spare parts for machinery (Excavators, Buldozers, Loaders and others)"}
                         </p>
@@ -109,7 +109,7 @@ export default function Landing({ lang, handleLangChange }) {
                         </Link>
 
                         <Link
-                            to="/parts"
+                            to={lang === "lt" ? "/dalys" : "/parts"}
                             className="group rounded-3xl border border-neutral-800 bg-neutral-900 p-6 hover:border-yellow-500 transition"
                         >
                             <div className="flex items-center justify-between gap-4">
@@ -123,35 +123,68 @@ export default function Landing({ lang, handleLangChange }) {
                                     <p className="mt-1 text-neutral-300">
                                         {t
                                             ? t(
-                                                "Pumps, motors, valves, seal kits and more.",
-                                                "Siurbliai, varikliai, vožtuvai, remkomplektai ir kt."
+                                                "Pumps, motors, final drives, bushings and more.",
+                                                "Siurbliai, varikliai, reduktoriai, įvorės ir kt."
                                             )
-                                            : "Pumps, motors, valves, seal kits and more."}
+                                            : "Pumps, motors, final, bushings and more."}
                                     </p>
                                 </div>
                                 <span className="text-yellow-400 group-hover:translate-x-1 transition">→</span>
                             </div>
                         </Link>
 
-                        <div className="rounded-3xl border border-neutral-800 bg-black p-6">
-                            <div className="flex flex-wrap items-center gap-3">
-                                <span className="rounded-md bg-yellow-500/20 text-yellow-400 px-2 py-1 text-xs border border-yellow-600/40">
-                                    {t ? t("Official dealer - Baltics", "Oficialus atstovas Baltijos šalyse") : "Official dealer - Baltics"}
-                                </span>
-                                <span className="rounded-md bg-green-600/20 text-green-300 px-2 py-1 text-xs border border-green-700/40">
-                                    {t ? t("Made in Italy", "Pagaminta Italijoje") : "Made in Italy"}
-                                </span>
-                            </div>
+                        <Link
+                            to={lang === "lt" ? "/hidraulikos-servisas" : "/hydraulic-service"}
+                            className="group rounded-3xl border border-neutral-800 bg-neutral-900 p-6 hover:border-yellow-500 transition"
+                            >
+  <div className="flex items-center justify-between gap-4">
+                            <div>
+                                <h2 className="text-2xl font-bold">
+                                    {t ? t("Hydraulic", "Hidraulikos") : "Hydraulic"}{" "}
+                                    <span className="text-yellow-400">
+                                        {t ? t("service", "servisas") : "service"}
+                                    </span>
+                                </h2>
 
-                            <p className="mt-4 text-neutral-400 text-sm">
+                                <p className="mt-1 text-neutral-300">
+                                    {t
+                                        ? t(
+                                            "Diagnostics, repairs, pumps, motors, hoses.",
+                                            "Diagnostika, remontas, siurbliai, varikliai, žarnos."
+                                        )
+                                        : "Diagnostics, repairs, pumps, motors, hoses."}
+                                </p>
+                            </div>
+                            <span className="text-yellow-400 group-hover:translate-x-1 transition">→</span>
+                        </div>
+                    </Link>
+
+                    <Link
+                            to={lang === "lt" ? "/tiltrotatoriai" : "/tiltrotators"}
+                        className="group rounded-3xl border border-neutral-800 bg-neutral-900 p-6 hover:border-yellow-500 transition"
+                        >
+  <div className="flex items-center justify-between gap-4">
+                        <div>
+                            <h2 className="text-2xl font-bold">
+                                
+                                            {t ? t("Tilt", "Tilt") : "Tilt"} {" "}
+                                        <span className="text-yellow-400">
+                                            {t ? t("rotators", "rotatoriai") : "rotators"}
+                                </span>
+                            </h2>
+
+                            <p className="mt-1 text-neutral-300">
                                 {t
                                     ? t(
-                                        "Need help choosing? Send an inquiry to sales@forestasbaltic.lt",
-                                        "Reikia pagalbos? Siųskite užklausą į sales@forestasbaltic.lt"
+                                        "Supply, installations, joysticks, control systems.",
+                                        "Tiekimas, pajungimas, džoistikai, kontrolės sistema."
                                     )
-                                    : "Need help choosing? Send an inquiry to sales@forestasbaltic.lt"}
+                                            : "Supply, installations, joysticks, control systems."}
                             </p>
                         </div>
+                        <span className="text-yellow-400 group-hover:translate-x-1 transition">→</span>
+                    </div>
+                </Link>
                     </div>
                 </div>
             </section>

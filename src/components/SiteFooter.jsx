@@ -54,7 +54,7 @@ export default function SiteFooter({ lang, t }) {
                 <div className="mx-auto max-w-7xl px-4 py-12 grid gap-8 md:grid-cols-2">
                     <div>
                         <h2 className="text-2xl font-bold">{t("Contact sales", "Susisiekite su pardavėju")}</h2>
-                        <p className="text-neutral-400 mt-2">{t("Send your machine model and which attachment You're interested in.", "Parašykite technikos modelį ir kuris priedas Jus domina.")}</p>
+                        <p className="text-neutral-400 mt-2">{t("Send an inquiry here and we will contact You.", "Išsiųskite užklausą ir mes su Jumis susisieksime.")}</p>
                         <ul className="mt-4 text-sm text-neutral-300 space-y-1">
                             <li className="flex items-center gap-2">
                                 <span className="text-base leading-none">📞</span>

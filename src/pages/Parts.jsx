@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import AutocompleteInput from "../components/AutocompleteInput";
 import { parts } from "../data/parts";
 import SiteFooter from "../components/SiteFooter";
+import BackToLanding from "./BackToLanding";
 // ===== SMART AUTOCOMPLETE SEARCH =====
 
 const PART_TYPES = [
@@ -98,6 +99,7 @@ export default function Parts({ lang, handleLangChange }) {
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
     const t = (en, lt) => (lang === "lt" ? lt : en);
+    
     // init from URL on first load
     const [makeQ, setMakeQ] = useState(() => searchParams.get("make") || "");
     const [modelQ, setModelQ] = useState(() => searchParams.get("model") || "");
@@ -239,6 +241,14 @@ export default function Parts({ lang, handleLangChange }) {
     }, [partQ, makeQ, modelQ]);
     const handleLangClick = (nextLang) => {
         const path = location.pathname;
+        
+
+        // ✅ If we are on the Parts list page, switch list route
+        if (path === "/parts" || path === "/dalys") {
+            navigate(nextLang === "lt" ? "/dalys" : "/parts");
+            handleLangChange(nextLang);
+            return;
+        }
 
         // Legal pages
         if (path === "/privacy-policy" || path === "/privacy-policy-lt") {
@@ -313,9 +323,12 @@ export default function Parts({ lang, handleLangChange }) {
                     </div>
                 </div>
             </div>
-
+            <div className="mx-auto max-w-7xl px-4 mt-4">
+                <BackToLanding lang={lang} />
+            </div>
             {/* Page content */}
             <div className="mx-auto max-w-7xl px-4 py-10">
+                
                 <h1 className="text-2xl font-bold">{t("Parts", "Dalys")}</h1>
 
                 <p className="text-neutral-400 mt-2">

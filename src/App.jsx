@@ -8,7 +8,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import PrivacyPolicyLT from "./pages/PrivacyPolicyLT";
 import TermsConditions from "./pages/TermsConditions";
 import TermsConditionsLT from "./pages/TermsConditionsLT";
-
+import HydraulicService from "./pages/HydraulicService";
+import Tiltrotators from "./pages/Tiltrotators";
 
 export default function App() {
     const location = useLocation();
@@ -25,6 +26,17 @@ export default function App() {
 
         if (path === "/terms-and-conditions") return setLang("en");
         if (path === "/terms-and-conditions-lt") return setLang("lt");
+        // ---- Hydraulic Service ----
+        if (path === "/hydraulic-service") return setLang("en");
+        if (path === "/hidraulikos-servisas") return setLang("lt");
+
+        // ---- Tiltrotators ----
+        if (path === "/tiltrotators") return setLang("en");
+        if (path === "/tiltrotatoriai") return setLang("lt");
+
+        // ---- Parts ----
+        if (path.startsWith("/parts")) return setLang("en");
+        if (path.startsWith("/dalys")) return setLang("lt");
 
         // ---- Ghedini SEO slugs force language ----
         if (path.startsWith("/ghedini/")) {
@@ -89,7 +101,7 @@ export default function App() {
 
     const handleLangChange = (nextLang) => {
         const path = location.pathname;
-
+        
         // Legal pages must switch route
         if (path === "/privacy-policy" || path === "/privacy-policy-lt") {
             navigate(nextLang === "lt" ? "/privacy-policy-lt" : "/privacy-policy");
@@ -110,6 +122,7 @@ export default function App() {
                 setLang(nextLang);
                 return;
             }
+            
 
             const pairs = {
                 "mulchers": "mulceriai",
@@ -166,7 +179,12 @@ export default function App() {
             <Route path="/dalys/:id" element={<PartPage lang={lang} handleLangChange={handleLangChange} />} />"
 
             <Route path="/ghedini/*" element={<Ghedini lang={lang} handleLangChange={handleLangChange} />} />
+            <Route path="/hydraulic-service" element={<HydraulicService lang={lang} handleLangChange={handleLangChange} />} />
+            <Route path="/tiltrotators" element={<Tiltrotators lang={lang} handleLangChange={handleLangChange} />} />
 
+            {/* LT aliases */}
+            <Route path="/hidraulikos-servisas" element={<HydraulicService lang={lang} handleLangChange={handleLangChange} />} />
+            <Route path="/tiltrotatoriai" element={<Tiltrotators lang={lang} handleLangChange={handleLangChange} />} />
             
         </Routes>
     )
