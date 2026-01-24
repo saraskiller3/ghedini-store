@@ -10,6 +10,8 @@ import TermsConditions from "./pages/TermsConditions";
 import TermsConditionsLT from "./pages/TermsConditionsLT";
 import HydraulicService from "./pages/HydraulicService";
 import Tiltrotators from "./pages/Tiltrotators";
+import TiltrotatorsPage from "./pages/TiltrotatorsPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
     const location = useLocation();
@@ -164,6 +166,8 @@ export default function App() {
     };
 
     return (
+        <>
+<ScrollToTop />
         <Routes>
             <Route path="/" element={<Landing lang={lang} handleLangChange={handleLangChange} />} />
 
@@ -185,7 +189,10 @@ export default function App() {
             {/* LT aliases */}
             <Route path="/hidraulikos-servisas" element={<HydraulicService lang={lang} handleLangChange={handleLangChange} />} />
             <Route path="/tiltrotatoriai" element={<Tiltrotators lang={lang} handleLangChange={handleLangChange} />} />
+            <Route path="/tiltrotators/:slug" element={<TiltrotatorsPage lang={lang} handleLangChange={handleLangChange} />} />
+            <Route path="/tiltrotatoriai/:slug" element={<TiltrotatorsPage lang={lang} handleLangChange={handleLangChange} />} />
             
-        </Routes>
+            </Routes>
+        </>
     )
 }

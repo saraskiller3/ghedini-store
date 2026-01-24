@@ -98,6 +98,7 @@ export default function Parts({ lang, handleLangChange }) {
     const location = useLocation();
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
+    
     const t = (en, lt) => (lang === "lt" ? lt : en);
     
     // init from URL on first load
@@ -111,7 +112,7 @@ export default function Parts({ lang, handleLangChange }) {
         setPartQ("");
         setTypeQ("");
     };
-    const PER_PAGE = 25;
+    const PER_PAGE = 2;
 
     
 
@@ -133,29 +134,26 @@ export default function Parts({ lang, handleLangChange }) {
         const model = modelQ.trim().toLowerCase();
         const part = partQ.trim().toLowerCase();
         const type = typeQ;
-        
 
         return parts.filter((p) => {
-            // category filter
+            // category
             if (type && (p.type || "") !== type) return false;
 
-            // FITMENT MATCH
-            const fitMatch = p.fits.some((f) => {
+            // nothing typed → show all
+            if (!make && !model && !part) return true;
+
+            // must match inside the SAME fit row
+            return (p.fits || []).some((f) => {
                 const fMake = (f.make || "").toLowerCase();
                 const fModel = (f.model || "").toLowerCase();
                 const fPart = (f.partNumber || "").toLowerCase();
 
-                const makeOk = !make || fMake.includes(make);
-                const modelOk = !model || fModel.includes(model);
-                const partOk =
-                    !part ||
-                    fPart.includes(part) ||
-                    p.title.toLowerCase().includes(part);
+                if (make && !fMake.startsWith(make)) return false;
+                if (model && !fModel.startsWith(model)) return false;
+                if (part && !fPart.startsWith(part)) return false;
 
-                return makeOk && modelOk && partOk;
+                return true;
             });
-
-            return fitMatch;
         });
     }, [makeQ, modelQ, partQ, typeQ]);
 
@@ -165,7 +163,7 @@ export default function Parts({ lang, handleLangChange }) {
 
         const sp = new URLSearchParams(location.search);
         sp.set("page", "1");
-        navigate(`${location.pathname} ? ${sp.toString()}`, { replace: true });
+        navigate(`${location.pathname}?${sp.toString()}`, { replace: true });
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [makeQ, modelQ, partQ, typeQ]);
 
@@ -183,8 +181,11 @@ export default function Parts({ lang, handleLangChange }) {
 
         const sp = new URLSearchParams(location.search);
         sp.set("page", String(nextPage));
-        navigate(`${location.pathname} ? ${sp.toString()}`, { replace: false });
+        navigate(`${location.pathname}?${sp.toString()}`, { replace: false });
     };
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, [location.search]);
 
     useEffect(() => {
         const next = new URLSearchParams();
@@ -194,14 +195,18 @@ export default function Parts({ lang, handleLangChange }) {
         if (partQ.trim()) next.set("part", partQ.trim());
         if (typeQ) next.set("type", typeQ);
 
-        // replace: true -> doesn't spam browser history while typing
+        // ✅ KEEP PAGE IN URL
+        next.set("page", String(safePage));
+
         setSearchParams(next, { replace: true });
-    }, [makeQ, modelQ, partQ, typeQ, setSearchParams]);
+    }, [makeQ, modelQ, partQ, typeQ, safePage, setSearchParams])
 
     const makeSuggestions = useMemo(() => {
         const q = makeQ.trim().toLowerCase();
         const uniques = Array.from(
-            new Set(parts.map(p => (p.make || "").trim()).filter(Boolean))
+            new Set(
+                parts.flatMap(p => (p.fits || []).map(f => (f.make || "").trim())).filter(Boolean)
+            )
         );
 
         if (!q) return uniques.slice(0, 8);
@@ -212,13 +217,13 @@ export default function Parts({ lang, handleLangChange }) {
         const make = makeQ.trim().toLowerCase();
         const q = modelQ.trim().toLowerCase();
 
-        const pool = parts
-            .filter(p => !make || (p.make || "").toLowerCase().includes(make))
-            .map(p => (p.model || "").trim())
-            .filter(Boolean);
+        const pool = parts.flatMap(p =>
+            (p.fits || [])
+                .filter(f => !make || (f.make || "").toLowerCase().startsWith(make))
+                .map(f => (f.model || "").trim())
+        ).filter(Boolean);
 
         const uniques = Array.from(new Set(pool));
-
         if (!q) return uniques.slice(0, 8);
         return uniques.filter(v => v.toLowerCase().startsWith(q)).slice(0, 8);
     }, [modelQ, makeQ]);
@@ -228,14 +233,14 @@ export default function Parts({ lang, handleLangChange }) {
         const model = modelQ.trim().toLowerCase();
         const q = partQ.trim().toLowerCase();
 
-        const pool = parts
-            .filter(p => !make || (p.make || "").toLowerCase().includes(make))
-            .filter(p => !model || (p.model || "").toLowerCase().includes(model))
-            .map(p => (p.partNumber || "").trim())
-            .filter(Boolean);
+        const pool = parts.flatMap(p =>
+            (p.fits || [])
+                .filter(f => !make || (f.make || "").toLowerCase().startsWith(make))
+                .filter(f => !model || (f.model || "").toLowerCase().startsWith(model))
+                .map(f => (f.partNumber || "").trim())
+        ).filter(Boolean);
 
         const uniques = Array.from(new Set(pool));
-
         if (!q) return uniques.slice(0, 8);
         return uniques.filter(v => v.toLowerCase().startsWith(q)).slice(0, 8);
     }, [partQ, makeQ, modelQ]);

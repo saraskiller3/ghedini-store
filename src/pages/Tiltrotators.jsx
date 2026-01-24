@@ -102,19 +102,32 @@ export default function Tiltrotators({ lang, handleLangChange }) {
                                 <Link
                                     key={x.id}
                                     to={`${base}/${x.slug}`}
-                                    className="group rounded-3xl border border-neutral-800 bg-neutral-900 p-4 hover:border-yellow-500 transition"
+                                    className="group block rounded-3xl border border-neutral-800 bg-neutral-900/80 hover:border-yellow-500 transition"
                                 >
-                                    <div className="flex gap-4 items-center">
-                                        <img
-                                            src={x.img}
-                                            alt={title}
-                                            className="h-24 w-32 sm:h-28 sm:w-40 rounded-2xl object-cover border border-neutral-800 flex-shrink-0"
-                                            loading="lazy"
-                                        />
-                                        <div className="min-w-0">
-                                            <h3 className="text-lg sm:text-xl font-bold truncate">{title}</h3>
-                                            <p className="mt-1 text-neutral-300">{text}</p>
-                                            <span className="mt-2 inline-block text-yellow-400 group-hover:translate-x-1 transition">
+                                    <div className="flex flex-col sm:flex-row sm:items-center gap-4 p-4">
+                                        {/* Image */}
+                                        <div className="w-full sm:w-44 md:w-52 flex-shrink-0">
+                                            <div className="aspect-[4/3] w-full rounded-2xl border border-neutral-800 bg-black p-2 overflow-hidden">
+                                                <img
+                                                    src={x.img}
+                                                    alt={title}
+                                                    className="h-full w-full object-contain"
+                                                    loading="lazy"
+                                                />
+                                            </div>
+                                        </div>
+
+                                        {/* Text */}
+                                        <div className="min-w-0 flex-1">
+                                            <h3 className="text-lg sm:text-xl font-bold break-words">
+                                                {title}
+                                            </h3>
+
+                                            <p className="mt-1 text-neutral-300 break-words">
+                                                {text}
+                                            </p>
+
+                                            <span className="mt-3 inline-block text-yellow-400 group-hover:translate-x-1 transition">
                                                 →
                                             </span>
                                         </div>
