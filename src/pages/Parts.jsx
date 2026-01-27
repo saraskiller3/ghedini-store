@@ -7,7 +7,7 @@ import BackToLanding from "./BackToLanding";
 // ===== SMART AUTOCOMPLETE SEARCH =====
 
 const PART_TYPES = [
-    { key: "final-drive", en: "Final drive", lt: "Važiavimo reduktorius" },
+    { key: "final-drive", en: "Final drive", lt: "Važiavimo reduktorius (pavara)" },
     { key: "hydraulic-motor", en: "Hydraulic motor", lt: "Hidraulinis variklis" },
     { key: "gearbox", en: "Gearbox", lt: "Pavarų dėžė" },
     { key: "hydraulic-pump", en: "Hydraulic pump", lt: "Hidraulinis siurblys" },
@@ -97,6 +97,8 @@ function PartsSearch({ value, onChange }) {
 export default function Parts({ lang, handleLangChange }) {
     const location = useLocation();
     const navigate = useNavigate();
+    const resultsRef = useRef(null);
+    const topRef = useRef(null);
     const [searchParams, setSearchParams] = useSearchParams();
     
     const t = (en, lt) => (lang === "lt" ? lt : en);
@@ -112,7 +114,7 @@ export default function Parts({ lang, handleLangChange }) {
         setPartQ("");
         setTypeQ("");
     };
-    const PER_PAGE = 2;
+    const PER_PAGE = 21;
 
     
 
@@ -184,8 +186,13 @@ export default function Parts({ lang, handleLangChange }) {
         navigate(`${location.pathname}?${sp.toString()}`, { replace: false });
     };
     useEffect(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }, [location.search]);
+        if (page === 1) {
+            topRef.current?.scrollIntoView({ behavior: "auto" });
+        } else { 
+       
+            resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }, [page]);
 
     useEffect(() => {
         const next = new URLSearchParams();
@@ -273,6 +280,7 @@ export default function Parts({ lang, handleLangChange }) {
     };
     return (
         <div className="min-h-screen bg-black text-white">
+            <div ref={topRef} >
             {/* Top bar */}
             <div className="border-b border-neutral-800">
                 <div className="mx-auto max-w-7xl px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm text-neutral-300">
@@ -438,6 +446,8 @@ export default function Parts({ lang, handleLangChange }) {
                     
                     {/* RIGHT RESULTS GRID */}
                     <section>
+                        
+                        <div ref={resultsRef} >
                         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
                             {pagedParts.map((p) => (
                                 <Link
@@ -504,7 +514,7 @@ export default function Parts({ lang, handleLangChange }) {
                                 </Link>
                             ))}
                         </div>
-
+                        
                         {filteredParts.length > 0 && totalPages > 1 && (
                             <div className="mt-8 flex items-center justify-center gap-3 text-sm">
                                 <button
@@ -544,11 +554,14 @@ export default function Parts({ lang, handleLangChange }) {
                             <p className="mt-6 text-neutral-400">
                                 {t("No matching parts found.", "Nerasta tinkamų detalių.")}
                             </p>
-                        )}
+                                )}
+                        
+                        </div>
                     </section>
                 </div>
                 <SiteFooter lang={lang} t={t} />
-            </div>
+        </div>
+            </div >
         </div>
     )
 }
