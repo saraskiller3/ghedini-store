@@ -23,12 +23,12 @@
         { make: "Hyundai", model: "R220-5", partNumber: "K3V112DT-9C32-12T" },
         { make: "Hyundai", model: "R225-7", partNumber: "K3V112DT-9C32-12T" },
         { make: "Sumitomo", model: "SH200A1/A2", partNumber: "K3V112DT-HN0V-12T" },
-            { make: "JCM", model: "JCM921", partNumber: "K3V112DT-HN0V-14T" },
-            { make: "Kobelco", model: "SK320", partNumber: "K3V112DT" },
-            { make: "Doosan", model: "DH220LC-3/5/7", partNumber: "K3V112DT" },
-            { make: "Kato", model: "HD700-2/7", partNumber: "K3V112DT" },
-            { make: "Doosan", model: "DH258", partNumber: "K3V112DT" },
-            { make: "Samsung", model: "SE240LC-3", partNumber: "K3V112DT" }
+        { make: "JCM", model: "JCM921", partNumber: "K3V112DT-HN0V-14T" },
+        { make: "Kobelco", model: "SK320", partNumber: "K3V112DT" },
+        { make: "Doosan", model: "DH220LC-3/5/7", partNumber: "K3V112DT" },
+        { make: "Kato", model: "HD700-2/7", partNumber: "K3V112DT" },
+        { make: "Doosan", model: "DH258", partNumber: "K3V112DT" },
+        { make: "Samsung", model: "SE240LC-3", partNumber: "K3V112DT" }
         ]
     },
     {
@@ -796,7 +796,7 @@
             { make: "Hitachi", model: "ZXS240-3", partNumber: "HPV118" },
             { make: "Hitachi", model: "ZX250-3", partNumber: "HPV118" },
             { make: "Hitachi", model: "ZX270", partNumber: "HPV118" }
-            
+
         ]
     },
     {
@@ -1195,7 +1195,7 @@
         ]
     },
     {
-        id: "AP2D36/AP2D38/AP2D42",
+        id: "AP2D36(AP2D38)(AP2D42)",
         slug: "cat-e305.5-pump-AP2D36-AP2D38-AP2D42",
         title: {
             en: "Hydraulic Main Pump AP2D36 / AP2D38 / AP2D42",
@@ -1207,19 +1207,19 @@
             en: "Rexroth main hydraulic pump for CAT E305.5, E308 excavators.",
             lt: "Rexroth pagrindinis hidraulinis siurblys CAT E305.5, E308 ekskavatoriams.",
         },
-                fits: [
-                    { make: "CAT", model: "305.5", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    { make: "CAT", model: "307", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    { make: "CAT", model: "308", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    { make: "CAT", model: "70B", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    { make: "Doosan", model: "DH70", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    { make: "Doosan", model: "DH80", partNumber: "AP2D36/AP2D38/AP2D42" },
+        fits: [
+            { make: "CAT", model: "305.5", partNumber: "AP2D36/AP2D38/AP2D42" },
+            { make: "CAT", model: "307", partNumber: "AP2D36/AP2D38/AP2D42" },
+            { make: "CAT", model: "308", partNumber: "AP2D36/AP2D38/AP2D42" },
+            { make: "CAT", model: "70B", partNumber: "AP2D36/AP2D38/AP2D42" },
+            { make: "Doosan", model: "DH70", partNumber: "AP2D36/AP2D38/AP2D42" },
+            { make: "Doosan", model: "DH80", partNumber: "AP2D36/AP2D38/AP2D42" },
             { make: "Kobelco", model: "SK60-2/3/5", partNumber: "AP2D36/AP2D38/AP2D42" },
             { make: "Hitachi", model: "EX75-3", partNumber: "AP2D36/AP2D38/AP2D42" },
             { make: "Hitachi", model: "EX60-5", partNumber: "AP2D36/AP2D38/AP2D42" },
             { make: "Hitachi", model: "ZX70", partNumber: "AP2D36/AP2D38/AP2D42" },
             { make: "Hyundai", model: "R80-3/7", partNumber: "AP2D36/AP2D38/AP2D42" },
-                    ]
+        ]
     },
     {
         id: "A8VO80",
@@ -1390,8 +1390,8 @@
         ]
     },
     {
-        id: "PVD2B40/36",
-        slug: "yuchai-yc45-pump-PVD2B40/36",
+        id: "PVD2B40(36)",
+        slug: "yuchai-yc45-pump-PVD2B40(36)",
         title: {
             en: "Hydraulic Main Pump PVD-2B-40/36",
             lt: "Pagrindinis hidraulinis siurblys PVD-2B-40/36",
@@ -1403,7 +1403,7 @@
             lt: "Pagrindinis hidraulinis siurblys Yuchai mini ekskavatoriams.",
         },
         fits: [
-           
+
             { make: "Yuchai", model: "YC35-6", partNumber: "PVD2B40/36" },
             { make: "Yuchai", model: "YC45", partNumber: "PVD2B40/36" }
         ]
@@ -1455,7 +1455,7 @@
             { make: "Hitachi", model: "ZX50", partNumber: "PVK2B505" },
             { make: "Hitachi", model: "ZX55", partNumber: "PVK2B505" },
             { make: "Yuchai", model: "YC55", partNumber: "PVK2B505" }
-         
+
         ]
     },
     {
@@ -1511,8 +1511,8 @@
 
             { make: "Hitachi", model: "ZX60", partNumber: "PVD-3B-54P-18G5-4185F" },
             { make: "Hitachi", model: "EX55", partNumber: "PVD-3B-54P-18G5-4185F" },
-            { make: "Nante", model: "NT55", partNumber: "PVD-3B-54P-18G5-4185F" }, 
-            { make: "Hitachi", model: "ZX50", partNumber: "PVD-3B-54P-18G5-4185F" }, 
+            { make: "Nante", model: "NT55", partNumber: "PVD-3B-54P-18G5-4185F" },
+            { make: "Hitachi", model: "ZX50", partNumber: "PVD-3B-54P-18G5-4185F" },
             { make: "Hitachi", model: "ZX55", partNumber: "PVD-3B-54P-18G5-4185F" },
             { make: "Yuchai", model: "YC55", partNumber: "PVD-3B-54P-18G5-4185F" }
         ]
@@ -1580,7 +1580,7 @@
             { make: "Yuchai", model: "YC85", partNumber: "K3SP36" },
             { make: "Kobelco", model: "SK75-3", partNumber: "K3SP36" },
             { make: "Hyundai", model: "R80-7", partNumber: "K3SP36" },
-            { make: "Kobelco", model: "SK70", partNumber: "K3SP36" }          
+            { make: "Kobelco", model: "SK70", partNumber: "K3SP36" }
         ]
     },
     {
@@ -1621,7 +1621,7 @@
         fits: [
             { make: "Kobelco", model: "SK100-5", partNumber: "K3V63BDT" },
             { make: "Kobelco", model: "SK120-5", partNumber: "K3V63BDT" }
-            
+
         ]
     },
     {
@@ -1703,7 +1703,7 @@
             { make: "Sunward", model: "SWE18", partNumber: "PSVD2-16" },
             { make: "Yanmar", model: "VIO035", partNumber: "PSVD2-16" },
             { make: "Yanmar", model: "VIO040", partNumber: "PSVD2-16" }
-            
+
         ]
     },
     {
@@ -1788,11 +1788,11 @@
             { make: "Sunward", model: "SWE80", partNumber: "PSVD-25" },
             { make: "Sunward", model: "SWE70N9", partNumber: "PSVD-25" },
             { make: "Yanmar", model: "VIO75", partNumber: "PSVD-25" }
-            
+
         ]
     },
     {
-        id: "PSVD-27/PSVD-26",
+        id: "PSVD-27(PSVD-26)",
         slug: "sunward-swe80n9-pump-PSVD-27-PSVD-26",
         title: {
             en: "Hydraulic Main Pump PSVD-27/PSVD-26",
@@ -1829,7 +1829,7 @@
         },
         fits: [
             { make: "Kobelco", model: "SK40", partNumber: "PSV2-19" }
-           
+
         ]
     },
     {
@@ -1850,7 +1850,7 @@
             { make: "Kubota", model: "U55", partNumber: "PSVL-54" },
             { make: "Kubota", model: "U65", partNumber: "PSVL-54" },
             { make: "New Holland", model: "E305CL", partNumber: "PSVL-54" }
-           
+
         ]
     },
     {
@@ -1889,7 +1889,7 @@
         },
         fits: [
             { make: "Komatsu", model: "PC60-3/5", partNumber: "HPV35" }
-           
+
         ]
     },
     {
@@ -1943,7 +1943,7 @@
         },
         fits: [
             { make: "Komatsu", model: "PC150-3/5", partNumber: "HPV70" }
-            
+
         ]
     },
     {
@@ -1978,7 +1978,7 @@
             lt: "Komatsu pagrindinis hidraulinis siurblys PC300-6 / PC350-6 ir kitiems HPV132 platformos ekskavatoriams.",
         },
         fits: [
- 
+
             { make: "Komatsu", model: "PC300-6", partNumber: "HPV132" },
             { make: "Komatsu", model: "PC350-6", partNumber: "HPV132" },
             { make: "Komatsu", model: "PC400-6", partNumber: "HPV132" },
@@ -2100,7 +2100,7 @@
             { make: "Kobelco", model: "SK260-8", partNumber: "MAG170" },
             { make: "Kobelco", model: "SK270-8", partNumber: "MAG170" },
             { make: "Kato", model: "HD820-2/3/5", partNumber: "MAG170" },
-           
+
         ]
     },
     {
@@ -2146,7 +2146,7 @@
         fits: [
 
             { make: "Sany", model: "SY335", partNumber: "SY335" },
-           
+
 
         ]
     },
@@ -2169,12 +2169,12 @@
             { make: "Hitachi", model: "ZX200-5G", partNumber: "HMGF40FA(ZX200-3)" },
             { make: "Hitachi", model: "ZX210-3", partNumber: "HMGF40FA(ZX200-3)" },
             { make: "Hitachi", model: "ZX210-5G", partNumber: "HMGF40FA(ZX200-3)" },
-            
+
 
         ]
     },
     {
-        id: "20Y-27-00560/TM35(PC)",
+        id: "20Y-27-00560(TM35)(PC)",
         slug: "komatsu-pc200-final-drive-TM35(PC)",
         title: {
             en: "Final drive TM35(PC)",
@@ -2192,7 +2192,7 @@
         ]
     },
     {
-        id: "YN15V00007F1/TM35(SK)",
+        id: "YN15V00007F1(TM35)(SK)",
         slug: "kobelco-sk200-final-drive-TM35(SK)",
         title: {
             en: "Final drive GM35(SK)",
@@ -2414,8 +2414,8 @@
         ]
     },
     {
-        id: "MAG18VP230/350(TM03)",
-        slug: "volvo-ec25-final-drive-MAG18VP230/350(TM03)",
+        id: "MAG18VP230(350)(TM03)",
+        slug: "volvo-ec25-final-drive-MAG18VP230(350)(TM03)",
         title: {
             en: "Final drive MAG18VP230/350(TM03)",
             lt: "Važiavimo reduktorius (pavara) MAG18VP230/350(TM03)",
@@ -2542,7 +2542,7 @@
             lt: "Važiavimo reduktorius (pavara) GM06VA(PHV4B60B)(TM06)",
         },
         type: "final-drive",
-        images: ["/parts/komatsu-pc50-final-drive-GM06VA(PHV4B60B)(TM06).avif"],
+        images: ["/parts/komatsu-pc45-final-drive-TM06H.avif"],
         description: {
             en: "Final drive for various excavators.",
             lt: "Važiavimo reduktorius (pavara) įvairiems ekskavatoriams.",
@@ -2690,7 +2690,7 @@
 
             { make: "CAT", model: "306E", partNumber: "GFT7T2" },
             { make: "Sunward", model: "SEW50", partNumber: "GFT7T2" }
-            
+
         ]
     },
     {
@@ -2765,7 +2765,7 @@
             { make: "Hyundai", model: "R150VS", partNumber: "TM22" },
             { make: "Doosan", model: "DH150-9", partNumber: "TM22" },
             { make: "Hyundai", model: "R140LC-9S", partNumber: "TM22" },
-            
+
         ]
     },
     {
@@ -2786,7 +2786,7 @@
             { make: "Hitachi", model: "ZX200-6", partNumber: "HMGF36(ZX200)" },
             { make: "Hitachi", model: "ZX200-1", partNumber: "HMGF36(ZX200)" },
             { make: "Hitachi", model: "ZX210", partNumber: "HMGF36(ZX200)" }
-            
+
         ]
     },
     {
@@ -2822,30 +2822,7 @@
             { make: "Doosan", model: "DX140", partNumber: "TM18" },
         ]
     },
-    {
-        id: "TM22",
-        slug: "hyundai-r150-9-final-drive-TM22",
-        title: {
-            en: "Final drive TM22",
-            lt: "Važiavimo reduktorius (pavara) TM22",
-        },
-        type: "final-drive",
-        images: ["/parts/hyundai-r150-9-final-drive-TM22.avif"],
-        description: {
-            en: "Final drive for various excavators.",
-            lt: "Važiavimo reduktorius (pavara) įvairiems ekskavatoriams.",
-        },
-        fits: [
 
-            { make: "Hyundai", model: "R150-9", partNumber: "TM22" },
-            { make: "Hyundai", model: "R140-9", partNumber: "TM22" },
-            { make: "Hyundai", model: "R130VS", partNumber: "TM22" },
-            { make: "Hyundai", model: "R150VS", partNumber: "TM22" },
-            { make: "Doosan", model: "DH150-9", partNumber: "TM22" },
-            { make: "Hyundai", model: "R140LC-9S", partNumber: "TM22" },
-
-        ]
-    },
     {
         id: "TM60",
         slug: "hyundai-r305-final-drive-TM60",
@@ -2865,7 +2842,7 @@
             { make: "Hyundai", model: "R335", partNumber: "TM60" },
             { make: "Hyundai", model: "R290-7", partNumber: "TM60" },
             { make: "Hyundai", model: "R300LC-9S", partNumber: "TM60" }
-           
+
         ]
     },
     {
@@ -2927,26 +2904,7610 @@
         fits: [
 
             { make: "Komatsu", model: "PC78US-6", partNumber: "PC78" },
-           
+
         ]
     },
     {
-        id: "PC78hj",
-        slug: "komatsu-pc78us-6-final-drive-PC78",
+        id: "R60-5",
+        slug: "hyundai-r60-5-travel-gearbox-r60-5",
         title: {
-            en: "Final drive PC78",
-            lt: "Važiavimo reduktorius (pavara) PC78",
+            en: "Travel gearbox R60-5",
+            lt: "Varančiosios pavaros reduktorius R60-8",
         },
-        type: "final-drive",
-        images: ["/parts/komatsu-pc78us-6-final-drive-PC78.avif"],
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r60-5-travel-gearbox-r60-5.avif"],
         description: {
-            en: "Final drive for various excavators.",
-            lt: "Važiavimo reduktorius (pavara) įvairiems ekskavatoriams.",
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R60-5", partNumber: "R60-5" },
+            { make: "Doosan", model: "DH55", partNumber: "R60-5" },
+            { make: "Volvo", model: "EC55", partNumber: "R60-5" },
+        ]
+    },
+
+    {
+        id: "ZAX60",
+        slug: "hitachi-zax60-travel-gearbox-zax60",
+        title: {
+            en: "Travel gearbox ZAX60",
+            lt: "Varančiosios pavaros reduktorius ZAX60",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-zax60-travel-gearbox-zax60.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi ZAX60 excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ZAX60 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX60", partNumber: "ZAX60" },
+
+        ]
+    },
+    {
+        id: "R80-7",
+        slug: "hyundai-r80-7-travel-gearbox-r80-7",
+        title: {
+            en: "Travel gearbox R80-7",
+            lt: "Varančiosios pavaros reduktorius R80-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r80-7-travel-gearbox-r80-7.avif"],
+        description: {
+            en: "Travel gearbox for Hyundai R80-7 excavators.",
+            lt: "Varančiosios pavaros reduktorius Hyundai R80-7 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R80-7", partNumber: "R80-7" },
+
+        ]
+    },
+    {
+        id: "R110-7",
+        slug: "hyundai-r110-7-travel-gearbox-r110-7",
+        title: {
+            en: "Travel gearbox R110-7",
+            lt: "Varančiosios pavaros reduktorius R110-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r110-7-travel-gearbox-r110-7.avif"],
+        description: {
+            en: "Travel gearbox for Hyundai R110-7 excavators.",
+            lt: "Varančiosios pavaros reduktorius Hyundai R110-7 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R110-7", partNumber: "R110-7" },
+
+        ]
+    },
+    {
+        id: "R150-9",
+        slug: "hyundai-r150-9-travel-gearbox-r150-9",
+        title: {
+            en: "Travel gearbox R150-9",
+            lt: "Varančiosios pavaros reduktorius R150-9",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r150-9-travel-gearbox-r150-9.avif"],
+        description: {
+            en: "Travel gearbox for Hyundai R150-9 excavators.",
+            lt: "Varančiosios pavaros reduktorius Hyundai R150-9 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R150-9", partNumber: "R150-9" },
+
+        ]
+    },
+    {
+        id: "ZAX120",
+        slug: "hitachi-zax120-travel-gearbox-zax120",
+        title: {
+            en: "Travel gearbox ZAX120",
+            lt: "Varančiosios pavaros reduktorius ZAX120",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-zax120-travel-gearbox-zax120.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi ZAX120 excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ZAX120 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX120", partNumber: "ZAX120" },
+
+        ]
+    },
+    {
+        id: "ZAX200-3",
+        slug: "hitachi-zax200-3-travel-gearbox-zax200-3",
+        title: {
+            en: "Travel gearbox ZAX200-3",
+            lt: "Varančiosios pavaros reduktorius ZAX200-3",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-zax200-3-travel-gearbox-zax200-3.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX200-3", partNumber: "ZAX200-3" },
+            { make: "Hitachi", model: "ZAX210-5G", partNumber: "ZAX200-3" },
+
+        ]
+    },
+    {
+        id: "ZAX330-3",
+        slug: "hitachi-zax330-3-travel-gearbox-zax330-3",
+        title: {
+            en: "Travel gearbox ZAX330-3",
+            lt: "Varančiosios pavaros reduktorius ZAX330-3",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-zax330-3-travel-gearbox-zax330-3.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX330-3", partNumber: "ZAX330-3" },
+            { make: "Hitachi", model: "ZAX330-5G", partNumber: "ZAX330-3" },
+            { make: "Hitachi", model: "ZAX360-3", partNumber: "ZAX330-3" },
+
+        ]
+    },
+    {
+        id: "DH60-7",
+        slug: "doosan-dh60-7-travel-gearbox-dh60-7",
+        title: {
+            en: "Travel gearbox DH60-7",
+            lt: "Varančiosios pavaros reduktorius DH60-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH60-7", partNumber: "DH60-7" },
+            { make: "XCMG", model: "XE60", partNumber: "DH60-7" },
+
+        ]
+    },
+    {
+        id: "PC56",
+        slug: "komatsu-pc56-travel-gearbox-pc56",
+        title: {
+            en: "Travel gearbox PC56",
+            lt: "Varančiosios pavaros reduktorius PC56",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc56-travel-gearbox-pc56.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC56", partNumber: "PC56" },
+            { make: "Komatsu", model: "PC55", partNumber: "PC56" },
+            { make: "Sany", model: "SY55-9", partNumber: "PC56" },
+        ]
+    },
+    {
+        id: "DH80G",
+        slug: "doosan-dh80g-travel-gearbox-dh80g",
+        title: {
+            en: "Travel gearbox DH80G",
+            lt: "Varančiosios pavaros reduktorius DH80G",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh80g-travel-gearbox-dh80g.avif"],
+        description: {
+            en: "Travel gearbox for Doosan excavators.",
+            lt: "Varančiosios pavaros reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH80G", partNumber: "DH80G" },
+        ]
+    },
+    {
+        id: "DH220-5",
+        slug: "doosan-dh220-5-travel-gearbox-dh220-5",
+        title: {
+            en: "Travel gearbox DH220-5",
+            lt: "Varančiosios pavaros reduktorius DH220-5",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh220-5-travel-gearbox-dh220-5.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH220-5", partNumber: "DH220-5" },
+            { make: "Doosan", model: "DH220-7", partNumber: "DH220-5" },
+            { make: "Sany", model: "SY215", partNumber: "DH220-5" },
+            { make: "Sany", model: "SY235-8", partNumber: "DH220-5" },
+            { make: "Volvo", model: "EC210", partNumber: "DH220-5" },
+            { make: "LiuGong", model: "LG220", partNumber: "DH220-5" },
+        ]
+    },
+    {
+        id: "PC78",
+        slug: "komatsu-pc78us-6-travel-gearbox-pc78us-6",
+        title: {
+            en: "Travel gearbox PC78",
+            lt: "Varančiosios pavaros reduktorius PC78",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc78us-6-travel-gearbox-pc78us-6.avif"],
+        description: {
+            en: "Travel gearbox for Komatsu excavators.",
+            lt: "Varančiosios pavaros reduktorius Komatsu ekskavatoriams.",
         },
         fits: [
 
             { make: "Komatsu", model: "PC78US-6", partNumber: "PC78" },
+        ]
+    },
+    {
+        id: "PC120-5",
+        slug: "komatsu-pc120-5-travel-gearbox-pc120-5",
+        title: {
+            en: "Travel gearbox PC120-5",
+            lt: "Varančiosios pavaros reduktorius PC120-5",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc120-5-travel-gearbox-pc120-5.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
 
+            { make: "Komatsu", model: "PC120-5", partNumber: "PC120-5" },
+            { make: "Kobelco", model: "SK120-1/3/5", partNumber: "PC120-5" },
+            { make: "Sumitomo", model: "SH120A1/A2", partNumber: "PC120-5" },
+            { make: "Kato", model: "HD512", partNumber: "PC120-5" },
+        ]
+    },
+    {
+        id: "PC200-7",
+        slug: "komatsu-pc200-7-travel-gearbox-pc200-7",
+        title: {
+            en: "Travel gearbox PC200-7",
+            lt: "Varančiosios pavaros reduktorius PC200-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc200-7-travel-gearbox-pc200-7.avif"],
+        description: {
+            en: "Travel gearbox for Komatsu excavators.",
+            lt: "Varančiosios pavaros reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC200-6/7/8", partNumber: "PC200-7" },
+
+        ]
+    },
+    {
+        id: "PC200-6",
+        slug: "komatsu-pc200-6-travel-gearbox-pc200-6",
+        title: {
+            en: "Travel gearbox PC200-6",
+            lt: "Varančiosios pavaros reduktorius PC200-6",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc200-6-travel-gearbox-pc200-6.avif"],
+        description: {
+            en: "Travel gearbox for Komatsu excavators.",
+            lt: "Varančiosios pavaros reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC200-6", partNumber: "PC200-6" },
+
+        ]
+    },
+    {
+        id: "DH258-7",
+        slug: "doosan-dh258-7-travel-gearbox-dh258-7",
+        title: {
+            en: "Travel gearbox DH258-7",
+            lt: "Varančiosios pavaros reduktorius DH258-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-dh258-7-travel-gearbox-dh258-7.avif"],
+        description: {
+            en: "Travel gearbox for Doosan excavators.",
+            lt: "Varančiosios pavaros reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH258-7", partNumber: "DH258-7" },
+            { make: "Doosan", model: "DX260LC", partNumber: "DH258-7" },
+        ]
+    },
+    {
+        id: "DH300-7",
+        slug: "doosan-dh300-7-travel-gearbox-300-7",
+        title: {
+            en: "Travel gearbox DH300-7",
+            lt: "Varančiosios pavaros reduktorius DH300-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh300-7-travel-gearbox-300-7.avif"],
+        description: {
+            en: "Travel gearbox for Doosan excavators.",
+            lt: "Varančiosios pavaros reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH300-7", partNumber: "DH300-7" },
+            { make: "Doosan", model: "DH300-5", partNumber: "DH300-7" },
+        ]
+    },
+    {
+        id: "DH370",
+        slug: "doosan-dh370-travel-gearbox-dh370",
+        title: {
+            en: "Travel gearbox DH370",
+            lt: "Varančiosios pavaros reduktorius DH370",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh370-travel-gearbox-370.avif"],
+        description: {
+            en: "Travel gearbox for Doosan excavators.",
+            lt: "Varančiosios pavaros reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DH370-7", partNumber: "DH370" },
+            { make: "Doosan", model: "DH370-9", partNumber: "DH370" },
+        ]
+    },
+    {
+        id: "DX300-7",
+        slug: "doosan-dx300-7-travel-gearbox-dx300-7",
+        title: {
+            en: "Travel gearbox DX300-7",
+            lt: "Varančiosios pavaros reduktorius DX300-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dx300-7-travel-gearbox-dx300-7.avif"],
+        description: {
+            en: "Travel gearbox for Doosan excavators.",
+            lt: "Varančiosios pavaros reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Doosan", model: "DX300-7", partNumber: "DX300-7" },
+            { make: "Doosan", model: "DH300-7", partNumber: "DX300-7" },
+            { make: "Hyundai", model: "R300-5", partNumber: "DX300-7" },
+        ]
+    },
+    {
+        id: "E305",
+        slug: "cat-305-travel-gearbox-cat-305",
+        title: {
+            en: "Travel gearbox E305",
+            lt: "Varančiosios pavaros reduktorius E305",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/cat-305-travel-gearbox-cat-305.avif"],
+        description: {
+            en: "Travel gearbox for CAT excavators.",
+            lt: "Varančiosios pavaros reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "CAT", model: "305", partNumber: "E305" },
+
+        ]
+    },
+    {
+        id: "TM18",
+        slug: "strong-jcm913-travel-gearbox-strong-jcm913",
+        title: {
+            en: "Travel gearbox TM18",
+            lt: "Varančiosios pavaros reduktorius TM18",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh370-travel-gearbox-370.avif"],
+        description: {
+            en: "Travel gearbox for Strong JCM913 excavators.",
+            lt: "Varančiosios pavaros reduktorius Strong JCM913 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Strong", model: "JCM913", partNumber: "TM18" },
+
+        ]
+    },
+    {
+        id: "E312",
+        slug: "cat-312v1-travel-gearbox-cat-312v1",
+        title: {
+            en: "Travel gearbox E312",
+            lt: "Varančiosios pavaros reduktorius E312",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/cat-312v1-travel-gearbox-cat-312v1.avif"],
+        description: {
+            en: "Travel gearbox for CAT excavators.",
+            lt: "Varančiosios pavaros reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "CAT", model: "312V1", partNumber: "E312" },
+            { make: "CAT", model: "312V2", partNumber: "E312" },
+        ]
+    },
+    {
+        id: "E320C",
+        slug: "cat-320c-travel-gearbox-cat-320c",
+        title: {
+            en: "Travel gearbox E320C",
+            lt: "Varančiosios pavaros reduktorius E320C",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/cat-320c-travel-gearbox-cat-320c.avif"],
+        description: {
+            en: "Travel gearbox for CAT excavators.",
+            lt: "Varančiosios pavaros reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "CAT", model: "320C", partNumber: "E320C" },
+            { make: "CAT", model: "320", partNumber: "E320C" },
+            { make: "CAT", model: "320B", partNumber: "E320C" },
+            { make: "CAT", model: "320D", partNumber: "E320C" },
+            { make: "CAT", model: "323", partNumber: "E320C" },
+
+        ]
+    },
+    {
+        id: "EC140",
+        slug: "volvo-ec140-travel-gearbox-ec140",
+        title: {
+            en: "Travel gearbox EC140",
+            lt: "Varančiosios pavaros reduktorius EC140",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/volvo-ec140-travel-gearbox-ec140.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Volvo", model: "EC140", partNumber: "EC140" },
+            { make: "XCMG", model: "XE150", partNumber: "EC140" },
+            { make: "Foton Lovol", model: "FR170", partNumber: "EC140" },
+        ]
+    },
+    {
+        id: "EC240",
+        slug: "volvo-ec240-travel-gearbox-ec240",
+        title: {
+            en: "Travel gearbox EC240",
+            lt: "Varančiosios pavaros reduktorius EC240",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/volvo-ec240-travel-gearbox-ec240.avif"],
+        description: {
+            en: "Travel gearbox for Volvo excavators.",
+            lt: "Varančiosios pavaros reduktorius Volvo ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Volvo", model: "EC240", partNumber: "EC240" },
+        ]
+    },
+    {
+        id: "EC290",
+        slug: "volvo-ec290-travel-gearbox-ec290",
+        title: {
+            en: "Travel gearbox EC290",
+            lt: "Varančiosios pavaros reduktorius EC290",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/volvo-ec290-travel-gearbox-ec290.avif"],
+        description: {
+            en: "Travel gearbox for Volvo excavators.",
+            lt: "Varančiosios pavaros reduktorius Volvo ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Volvo", model: "EC290", partNumber: "EC290" },
+        ]
+    },
+    {
+        id: "EC360",
+        slug: "volvo-ec360-travel-gearbox-ec360",
+        title: {
+            en: "Travel gearbox EC360",
+            lt: "Varančiosios pavaros reduktorius EC360",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/volvo-ec360-travel-gearbox-ec360.avif"],
+        description: {
+            en: "Travel gearbox for Volvo excavators.",
+            lt: "Varančiosios pavaros reduktorius Volvo ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Volvo", model: "EC360", partNumber: "EC360" },
+        ]
+    },
+    {
+        id: "EX120-1",
+        slug: "hitachi-ex120-1-travel-gearbox-ex120-1",
+        title: {
+            en: "Travel gearbox EX120-1",
+            lt: "Varančiosios pavaros reduktorius EX120-1",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-ex120-1-travel-gearbox-ex120-1.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "EX120-1", partNumber: "EX120-1" },
+            { make: "Hitachi", model: "EX100-1", partNumber: "EX120-1" },
+        ]
+    },
+    {
+        id: "EX200-1",
+        slug: "hitachi-ex200-1-travel-gearbox-ex200-1",
+        title: {
+            en: "Travel gearbox EX200-1",
+            lt: "Varančiosios pavaros reduktorius EX200-1",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-ex200-1-travel-gearbox-ex200-1.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "EX200-1", partNumber: "EX200-1" },
+
+        ]
+    },
+    {
+        id: "EX200-5",
+        slug: "hitachi-ex200-5-travel-gearbox-ex200-5",
+        title: {
+            en: "Travel gearbox EX200-5",
+            lt: "Varančiosios pavaros reduktorius EX200-5",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-ex200-5-travel-gearbox-ex200-5.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "EX200-5", partNumber: "EX200-5" },
+            { make: "Hitachi", model: "EX200-3", partNumber: "EX200-5" },
+        ]
+    },
+    {
+        id: "EX300-5",
+        slug: "hitachi-ex300-5-travel-gearbox-ex300-5",
+        title: {
+            en: "Travel gearbox EX300-5",
+            lt: "Varančiosios pavaros reduktorius EX300-5",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-ex300-5-travel-gearbox-ex300-5.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "EX300-5", partNumber: "EX300-5" },
+            { make: "Hitachi", model: "EX350-3", partNumber: "EX300-5" },
+        ]
+    },
+    {
+        id: "PC60-6",
+        slug: "komatsu-pc60-6-travel-gearbox-pc60-6",
+        title: {
+            en: "Travel gearbox PC60-6",
+            lt: "Varančiosios pavaros reduktorius PC60-6",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc60-6-travel-gearbox-pc60-6.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC60-6", partNumber: "PC60-6" },
+            { make: "Komatsu", model: "PC60-7", partNumber: "PC60-6" },
+            { make: "Kobelco", model: "SK60-3", partNumber: "PC60-6" },
+            { make: "Kobelco", model: "SK60-5", partNumber: "PC60-6" },
+        ]
+    },
+    {
+        id: "PC60-7",
+        slug: "komatsu-pc60-7-travel-gearbox-pc60-7",
+        title: {
+            en: "Travel gearbox PC60-7",
+            lt: "Varančiosios pavaros reduktorius PC60-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc60-7-travel-gearbox-pc60-7.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "CAT", model: "308", partNumber: "PC60-7" },
+            { make: "Komatsu", model: "PC60-7", partNumber: "PC60-7" },
+            { make: "XCMG", model: "XE80", partNumber: "PC60-7" },
+
+        ]
+    },
+    {
+        id: "PC120-6",
+        slug: "komatsu-pc120-6-travel-gearbox-pc120-6",
+        title: {
+            en: "Travel gearbox PC120-6",
+            lt: "Varančiosios pavaros reduktorius PC120-6",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc120-6-travel-gearbox-pc120-6.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC120-6", partNumber: "PC120-6" },
+            { make: "Komatsu", model: "PC130-7", partNumber: "PC120-6" },
+            { make: "Sany", model: "SY135", partNumber: "PC120-6" },
+            { make: "Kobelco", model: "SK135", partNumber: "PC120-6" },
+            { make: "LiuGong", model: "LG915", partNumber: "PC120-6" },
+            { make: "Sumitomo", model: "SH120A3", partNumber: "PC120-6" },
+        ]
+    },
+    {
+        id: "PC200-8",
+        slug: "komatsu-pc200-8-travel-gearbox-pc200-8",
+        title: {
+            en: "Travel gearbox PC200-8",
+            lt: "Varančiosios pavaros reduktorius PC200-8",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc200-8-travel-gearbox-pc200-8.avif"],
+        description: {
+            en: "Travel gearbox for Komatsu excavators.",
+            lt: "Varančiosios pavaros reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC200-8MO", partNumber: "PC200-8" },
+
+        ]
+    },
+    {
+        id: "PC360-7",
+        slug: "komatsu-pc360-7-travel-gearbox-pc360-7",
+        title: {
+            en: "Travel gearbox PC360-7",
+            lt: "Varančiosios pavaros reduktorius PC360-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/komatsu-pc360-7-travel-gearbox-pc360-7.avif"],
+        description: {
+            en: "Travel gearbox for Komatsu excavators.",
+            lt: "Varančiosios pavaros reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC360-7", partNumber: "PC360-7" },
+            { make: "Komatsu", model: "PC350-7", partNumber: "PC360-7" },
+            { make: "Komatsu", model: "PC300-7", partNumber: "PC360-7" },
+        ]
+    },
+    {
+        id: "R60-7",
+        slug: "hyundai-r60-7-travel-gearbox-r60-7",
+        title: {
+            en: "Travel gearbox R60-7",
+            lt: "Varančiosios pavaros reduktorius R60-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r60-7-travel-gearbox-r60-7.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R60-7", partNumber: "R60-7" },
+            { make: "Sany", model: "SY65", partNumber: "R60-7" },
+
+        ]
+    },
+    {
+        id: "R225-9",
+        slug: "hyundai-r225-9-travel-gearbox-r225-9",
+        title: {
+            en: "Travel gearbox R225-9",
+            lt: "Varančiosios pavaros reduktorius R225-9",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r225-9-travel-gearbox-r225-9.avif"],
+        description: {
+            en: "Travel gearbox for Hyundai excavators.",
+            lt: "Varančiosios pavaros reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R225-9", partNumber: "R225-9" },
+            { make: "Hyundai", model: "R215-9", partNumber: "R225-9" },
+            { make: "Hyundai", model: "R200LC-7", partNumber: "R225-9" },
+            { make: "Hyundai", model: "R215-9", partNumber: "R225-9" },
+        ]
+    },
+    {
+        id: "R305-7",
+        slug: "hyundai-r305-7-travel-gearbox-r305-7",
+        title: {
+            en: "Travel gearbox R305-7",
+            lt: "Varančiosios pavaros reduktorius R305-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r305-7-travel-gearbox-r305-7.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R305-7", partNumber: "R305-7" },
+            { make: "Hyundai", model: "R335-7", partNumber: "R305-7" },
+            { make: "Hyundai", model: "R335-9", partNumber: "R305-7" },
+            { make: "Hyundai", model: "R305-9", partNumber: "R225-9" },
+            { make: "Hyundai", model: "R320-7", partNumber: "R225-9" },
+            { make: "Sany", model: "SY285", partNumber: "R225-9" },
+        ]
+    },
+    {
+        id: "R375-7",
+        slug: "hyundai-r375-7-travel-gearbox-r375-7",
+        title: {
+            en: "Travel gearbox R375-7",
+            lt: "Varančiosios pavaros reduktorius R375-7",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hyundai-r375-7-travel-gearbox-r375-7.avif"],
+        description: {
+            en: "Travel gearbox for Hyundai excavators.",
+            lt: "Varančiosios pavaros reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R375-7", partNumber: "R375-7" },
+            { make: "Hyundai", model: "R385", partNumber: "R375-7" },
+        ]
+    },
+    {
+        id: "SH200A3",
+        slug: "sumitomo-sh200a3-travel-gearbox-sh200a3",
+        title: {
+            en: "Travel gearbox SH200A3",
+            lt: "Varančiosios pavaros reduktorius SH200A3",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/sumitomo-sh200a3-travel-gearbox-sh200a3.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH200A3", partNumber: "SH200A3" },
+            { make: "Sumitomo", model: "SH210-5", partNumber: "SH200A3" },
+            { make: "Sumitomo", model: "SH240-5", partNumber: "SH200A3" },
+            { make: "Kato", model: "HD820-3", partNumber: "SH200A3" },
+            { make: "Kobelco", model: "SK250-8", partNumber: "SH200A3" },
+            { make: "Kobelco", model: "SK260-8", partNumber: "SH200A3" },
+        ]
+    },
+    {
+        id: "SH200",
+        slug: "sumitomo-sh200-travel-gearbox-sh200",
+        title: {
+            en: "Travel gearbox SH200",
+            lt: "Varančiosios pavaros reduktorius SH200",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/sumitomo-sh200-travel-gearbox-sh200.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH200A1/A2", partNumber: "SH200" },
+            { make: "Sumitomo", model: "SH280", partNumber: "SH200" },
+            { make: "Kato", model: "HD700-7", partNumber: "SH200" },
+            { make: "Kato", model: "HD820-1", partNumber: "SH200" },
+        ]
+    },
+    {
+        id: "SH265",
+        slug: "sumitomo-sh265-travel-gearbox-sh265",
+        title: {
+            en: "Travel gearbox SH265",
+            lt: "Varančiosios pavaros reduktorius SH265",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/sumitomo-sh265-travel-gearbox-sh265.avif"],
+        description: {
+            en: "Travel gearbox for various excavators.",
+            lt: "Varančiosios pavaros reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH265", partNumber: "SH265" },
+            { make: "Sumitomo", model: "SH260-8", partNumber: "SH265" },
+            { make: "CAT", model: "E110B", partNumber: "SH265" },
+        ]
+    },
+    {
+        id: "SK140-8",
+        slug: "kobelco-sk140-8-travel-gearbox-sk140-8",
+        title: {
+            en: "Travel gearbox SK140-8",
+            lt: "Varančiosios pavaros reduktorius SK140-8",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/kobelco-sk140-8-travel-gearbox-sk140-8.avif"],
+        description: {
+            en: "Travel gearbox for Kobelco excavators.",
+            lt: "Varančiosios pavaros reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK140-8", partNumber: "SK140-8" },
+            { make: "Kobelco", model: "SK130-8", partNumber: "SK140-8" },
+
+        ]
+    },
+    {
+        id: "SK200-6",
+        slug: "kobelco-sk200-6-travel-gearbox-sk200-6",
+        title: {
+            en: "Travel gearbox SK200-6",
+            lt: "Varančiosios pavaros reduktorius SK200-6",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/kobelco-sk200-6-travel-gearbox-sk200-6.avif"],
+        description: {
+            en: "Travel gearbox for Kobelco excavators.",
+            lt: "Varančiosios pavaros reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK200-6E", partNumber: "SK200-6" },
+        ]
+    },
+    {
+        id: "SK200-8",
+        slug: "kobelco-sk200-8-travel-gearbox-sk200-8",
+        title: {
+            en: "Travel gearbox SK200-8",
+            lt: "Varančiosios pavaros reduktorius SK200-8",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for Kobelco excavators.",
+            lt: "Varančiosios pavaros reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK200-8", partNumber: "SK200-8" },
+            { make: "Kobelco", model: "SK210-8", partNumber: "SK200-8" },
+        ]
+    },
+    {
+        id: "SK230-6",
+        slug: "kobelco-sk230-6-travel-gearbox-sk230-6",
+        title: {
+            en: "Travel gearbox SK230-6",
+            lt: "Varančiosios pavaros reduktorius SK230-6",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for Kobelco excavators.",
+            lt: "Varančiosios pavaros reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK230-6", partNumber: "SK230-6" },
+            { make: "Kobelco", model: "SK250-6", partNumber: "SK230-6" },
+        ]
+    },
+    {
+        id: "SK350-8",
+        slug: "kobelco-sk350-8-travel-gearbox-sk350-8",
+        title: {
+            en: "Travel gearbox SK350-8",
+            lt: "Varančiosios pavaros reduktorius SK350-8",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for Kobelco excavators.",
+            lt: "Varančiosios pavaros reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK350-8", partNumber: "SK350-8" },
+            { make: "Kobelco", model: "SK330-8", partNumber: "SK350-8" },
+            { make: "Sumitomo", model: "SH350A3", partNumber: "SK350-8" },
+        ]
+    },
+    {
+        id: "YC60-8",
+        slug: "yuchai-yc60-8-travel-gearbox-yc60-8",
+        title: {
+            en: "Travel gearbox YC60-8",
+            lt: "Varančiosios pavaros reduktorius YC60-8",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for Yuchai excavators.",
+            lt: "Varančiosios pavaros reduktorius Yuchai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Yuchai", model: "YC60-8", partNumber: "YC60-8" },
+
+        ]
+    },
+    {
+        id: "ZAX240-3",
+        slug: "hitachi-zax240-3-travel-gearbox-zax240-3",
+        title: {
+            en: "Travel gearbox ZAX240-3",
+            lt: "Varančiosios pavaros reduktorius ZAX240-3",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/doosan-dh60-7-travel-gearbox-dh60-7.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX240-3", partNumber: "ZAX240-3" },
+            { make: "Hitachi", model: "ZAX250-3", partNumber: "ZAX240-3" },
+
+        ]
+    },
+    {
+        id: "ZAX330-1",
+        slug: "hitachi-zax330-1-travel-gearbox-zax330-1",
+        title: {
+            en: "Travel gearbox ZAX330-1",
+            lt: "Varančiosios pavaros reduktorius ZAX330-1",
+        },
+        type: "travel-gearbox",
+        images: ["/parts/hitachi-zax330-3-travel-gearbox-zax330-3.avif"],
+        description: {
+            en: "Travel gearbox for Hitachi excavators.",
+            lt: "Varančiosios pavaros reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX330-1", partNumber: "ZAX330-1" },
+            { make: "Hitachi", model: "ZAX330-6", partNumber: "ZAX330-1" },
+            { make: "Hitachi", model: "ZAX350-6", partNumber: "ZAX330-1" },
+
+        ]
+    },
+    {
+        id: "ZAX70(SWING-GEARBOX)",
+        slug: "hitachi-zax70-swing-gearbox-zax70",
+        title: {
+            en: "Swing gearbox ZAX70",
+            lt: "Posūkio reduktorius ZAX70",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hitachi-zax70-swing-gearbox-zax70.avif"],
+        description: {
+            en: "Swing gearbox for Hitachi excavators.",
+            lt: "Posūkio reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX70", partNumber: "ZAX70(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "ZAX60(SWING-GEARBOX)",
+        slug: "hitachi-zax60-swing-gearbox-zax60",
+        title: {
+            en: "Swing gearbox ZAX60",
+            lt: "Posūkio reduktorius ZAX60",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hitachi-zax60-swing-gearbox-zax60.avif"],
+        description: {
+            en: "Swing gearbox for Hitachi excavators.",
+            lt: "Posūkio reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "ZAX60", partNumber: "ZAX60(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "YC85(SWING-GEARBOX)",
+        slug: "yuchai-yc85-swing-gearbox-yc85",
+        title: {
+            en: "Swing gearbox YC85",
+            lt: "Posūkio reduktorius YC85",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/yuchai-yc85-swing-gearbox-yc85.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Yuchai", model: "YC85", partNumber: "YC85(SWING-GEARBOX)" },
+            { make: "XCMG", model: "XE80", partNumber: "YC85(SWING-GEARBOX)" },
+            { make: "Sumitomo", model: "SH60", partNumber: "YC85(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "YC60(SWING-GEARBOX)",
+        slug: "yuchai-yc60-swing-gearbox-yc60",
+        title: {
+            en: "Swing gearbox YC60",
+            lt: "Posūkio reduktorius YC60",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/yuchai-yc60-swing-gearbox-yc60.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Yuchai", model: "YC60", partNumber: "YC60(SWING-GEARBOX)" },
+            { make: "LiuGong", model: "LG906", partNumber: "YC60(SWING-GEARBOX)" },
+
+        ]
+    },
+
+    {
+        id: "SY75(SWING-GEARBOX)",
+        slug: "sany-sy75-swing-gearbox-sy75",
+        title: {
+            en: "Swing gearbox SY75",
+            lt: "Posūkio reduktorius SY75",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/sany-sy75-swing-gearbox-sy75.avif"],
+        description: {
+            en: "Swing gearbox for Sany excavators.",
+            lt: "Posūkio reduktorius Sany ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sany", model: "SY75", partNumber: "SY75(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SK250-8(SWING-GEARBOX)",
+        slug: "kobelco-sk250-8-swing-gearbox-sk250-8",
+        title: {
+            en: "Swing gearbox SK250-8",
+            lt: "Posūkio reduktorius SK250-8",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk250-8-swing-gearbox-sk250-8.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK250-8", partNumber: "SK250-8(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK260-8", partNumber: "SK250-8(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SK200-6(SWING-GEARBOX)",
+        slug: "kobelco-sk200-6-swing-gearbox-sk200-6",
+        title: {
+            en: "Swing gearbox SK200-6",
+            lt: "Posūkio reduktorius SK200-6",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk200-6-swing-gearbox-sk200-6.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK200-6", partNumber: "SK200-6(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK200-6E", partNumber: "SK200-6(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK200-7", partNumber: "SK200-6(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SK140-8(SWING-GEARBOX)",
+        slug: "kobelco-sk140-8-swing-gearbox-sk140-8",
+        title: {
+            en: "Swing gearbox SK140-8",
+            lt: "Posūkio reduktorius SK140-8",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk140-8-swing-gearbox-sk140-8.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK140-8", partNumber: "SK140-8(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK130-8", partNumber: "SK140-8(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SK135(SWING-GEARBOX)",
+        slug: "kobelco-sk135-swing-gearbox-sk135",
+        title: {
+            en: "Swing gearbox SK135",
+            lt: "Posūkio reduktorius SK135",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk135-swing-gearbox-sk135.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK135", partNumber: "SK135(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "SK75(SWING-GEARBOX)",
+        slug: "kobelco-sk75-swing-gearbox-sk75",
+        title: {
+            en: "Swing gearbox SK75",
+            lt: "Posūkio reduktorius SK75",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk75-swing-gearbox-sk75.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK75-8", partNumber: "SK75(SWING-GEARBOX)" },
+
+        ]
+    },
+
+    {
+        id: "SK60-5(SWING-GEARBOX)",
+        slug: "kobelco-sk60-5-swing-gearbox-sk60-5",
+        title: {
+            en: "Swing gearbox SK60-5",
+            lt: "Posūkio reduktorius SK60-5",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kobelco-sk60-5-swing-gearbox-sk60-5.avif"],
+        description: {
+            en: "Swing gearbox for Kobelco excavators.",
+            lt: "Posūkio reduktorius Kobelco ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kobelco", model: "SK60-5", partNumber: "SK60-5(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK60SR", partNumber: "SK60-5(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK70SR", partNumber: "SK60-5(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "EC360(SWING-GEARBOX)",
+        slug: "volvo-ec360-swing-gearbox-ec360",
+        title: {
+            en: "Swing gearbox EC360",
+            lt: "Posūkio reduktorius EC360",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/volvo-ec360-swing-gearbox-ec360.avif"],
+        description: {
+            en: "Swing gearbox for Volvo excavators.",
+            lt: "Posūkio reduktorius Volvo ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Volvo", model: "EC360", partNumber: "EC360(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SH120(SWING-GEARBOX)",
+        slug: "sumitomo-sh120-swing-gearbox-sh120",
+        title: {
+            en: "Swing gearbox SH120",
+            lt: "Posūkio reduktorius SH120",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/sumitomo-sh120-swing-gearbox-sh120.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH120", partNumber: "SH120(SWING-GEARBOX)" },
+            { make: "Yuchai", model: "YC135", partNumber: "SH120(SWING-GEARBOX)" },
+            { make: "JCB", model: "JS130", partNumber: "SH120(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SH200(SWING-GEARBOX)",
+        slug: "sumitomo-sh200-swing-gearbox-sh200",
+        title: {
+            en: "Swing gearbox SH200",
+            lt: "Posūkio reduktorius SH200",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/sumitomo-sh200-swing-gearbox-sh200.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH200", partNumber: "SH200(SWING-GEARBOX)" },
+            { make: "Sumitomo", model: "SH210-5", partNumber: "SH200(SWING-GEARBOX)" },
+            { make: "CASE", model: "CX210", partNumber: "SH200(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "SH280(SWING-GEARBOX)",
+        slug: "sumitomo-sh280-swing-gearbox-sh280",
+        title: {
+            en: "Swing gearbox SH280",
+            lt: "Posūkio reduktorius SH280",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/sumitomo-sh200-swing-gearbox-sh200.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Sumitomo", model: "SH280", partNumber: "SH280(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R200-3", partNumber: "SH280(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R200-5", partNumber: "SH280(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R210-3", partNumber: "SH280(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R210-5", partNumber: "SH280(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "R305-7(SWING-GEARBOX)",
+        slug: "hyundai-r305-7-swing-gearbox-r305-7",
+        title: {
+            en: "Swing gearbox R305-7",
+            lt: "Posūkio reduktorius R305-7",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r305-7-swing-gearbox-r305-7.avif"],
+        description: {
+            en: "Swing gearbox for Hyundai excavators.",
+            lt: "Posūkio reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R305-7", partNumber: "R305-7(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R305-9", partNumber: "R305-7(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R335-7", partNumber: "R305-7(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "JMF29(SWING-GEARBOX)",
+        slug: "hyundai-r60-7-swing-gearbox-jmf29",
+        title: {
+            en: "Swing gearbox JMF29",
+            lt: "Posūkio reduktorius JMF29",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r60-7-swing-gearbox-jmf29.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R60-7", partNumber: "JMF29(SWING-GEARBOX)" },
+            { make: "XCMG", model: "XE60", partNumber: "JMF29(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "R210(SWING-GEARBOX)",
+        slug: "hyundai-r210-swing-gearbox-r210",
+        title: {
+            en: "Swing gearbox R210",
+            lt: "Posūkio reduktorius R210",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r210-swing-gearbox-r210.avif"],
+        description: {
+            en: "Swing gearbox for Hyundai excavators.",
+            lt: "Posūkio reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R200-5", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R200-7", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R200-9", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R210-5", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R210-7", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R210-9", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R215-5", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R215-7", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R215-9", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R225-5", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R225-7", partNumber: "R210(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R225-9", partNumber: "R210(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "R130(SWING-GEARBOX)",
+        slug: "hyundai-r130-swing-gearbox-r130",
+        title: {
+            en: "Swing gearbox R130",
+            lt: "Posūkio reduktorius R130",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r130-swing-gearbox-r130.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R130-5", partNumber: "R130(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R110-7", partNumber: "R130(SWING-GEARBOX)" },
+            { make: "XCMG", model: "XE135", partNumber: "R130(SWING-GEARBOX)" },
+        ]
+    },
+
+    {
+        id: "R80-7(SWING-GEARBOX)",
+        slug: "hyundai-r80-7-swing-gearbox-r80-7",
+        title: {
+            en: "Swing gearbox R80-7",
+            lt: "Posūkio reduktorius R80-7",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r80-7-swing-gearbox-r80-7.avif"],
+        description: {
+            en: "Swing gearbox for Hyundai excavators.",
+            lt: "Posūkio reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R80-7", partNumber: "R80-7(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "R55(SWING-GEARBOX)",
+        slug: "hyundai-r55-swing-gearbox-r55",
+        title: {
+            en: "Swing gearbox R55",
+            lt: "Posūkio reduktorius R55",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hyundai-r55-swing-gearbox-r55.avif"],
+        description: {
+            en: "Swing gearbox for Hyundai excavators.",
+            lt: "Posūkio reduktorius Hyundai ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hyundai", model: "R55-7", partNumber: "R55(SWING-GEARBOX)" },
+            { make: "Hyundai", model: "R60-5", partNumber: "R55(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "PC220-7(SWING-GEARBOX)",
+        slug: "komatsu-pc220-7-swing-gearbox-pc220-7",
+        title: {
+            en: "Swing gearbox PC220-7",
+            lt: "Posūkio reduktorius PC220-7",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc220-7-swing-gearbox-pc220-7.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC220-7", partNumber: "PC220-7(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC220-8", partNumber: "PC220-7(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC240-8", partNumber: "PC220-7(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "PC200-8(SWING-GEARBOX)",
+        slug: "komatsu-pc200-8-swing-gearbox-pc200-8",
+        title: {
+            en: "Swing gearbox PC200-8",
+            lt: "Posūkio reduktorius PC200-8",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc200-8-swing-gearbox-pc200-8.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC200-8", partNumber: "PC200-8(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC210-8", partNumber: "PC200-8(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "PC200-6(SWING-GEARBOX)",
+        slug: "komatsu-pc200-6-swing-gearbox-pc200-6",
+        title: {
+            en: "Swing gearbox PC200-6",
+            lt: "Posūkio reduktorius PC200-6",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc200-6-swing-gearbox-pc200-6.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC200-6", partNumber: "PC200-6(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC220-6", partNumber: "PC200-6(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "PC120-6(SWING-GEARBOX)",
+        slug: "komatsu-pc120-6-swing-gearbox-pc120-6",
+        title: {
+            en: "Swing gearbox PC120-6",
+            lt: "Posūkio reduktorius PC120-6",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc120-6-swing-gearbox-pc120-6.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC120-6", partNumber: "PC120-6(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC110-7", partNumber: "PC120-6(SWING-GEARBOX)" },
+            { make: "Komatsu", model: "PC130-7", partNumber: "PC120-6(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "PC60-7(SWING-GEARBOX)",
+        slug: "komatsu-pc60-7-swing-gearbox-pc60-7",
+        title: {
+            en: "Swing gearbox PC60-7",
+            lt: "Posūkio reduktorius PC60-7",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc60-7-swing-gearbox-pc60-7.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC60-7", partNumber: "PC60-7(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "PC56(SWING-GEARBOX)",
+        slug: "komatsu-pc56-7-swing-gearbox-pc56",
+        title: {
+            en: "Swing gearbox PC56",
+            lt: "Posūkio reduktorius PC56",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/komatsu-pc56-7-swing-gearbox-pc56.avif"],
+        description: {
+            en: "Swing gearbox for Komatsu excavators.",
+            lt: "Posūkio reduktorius Komatsu ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Komatsu", model: "PC56-7", partNumber: "PC56(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "LG908(SWING-GEARBOX)",
+        slug: "liugong-lg908-swing-gearbox-lg908",
+        title: {
+            en: "Swing gearbox LG908",
+            lt: "Posūkio reduktorius LG908",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/liugong-lg908-swing-gearbox-lg908.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "LiuGong", model: "LG908", partNumber: "LG908(SWING-GEARBOX)" },
+            { make: "Yuchai", model: "YC85", partNumber: "LG908(SWING-GEARBOX)" },
+            { make: "Sany", model: "SY75", partNumber: "LG908(SWING-GEARBOX)" },
+            { make: "Strong", model: "JCM908", partNumber: "LG908(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "LG240(SWING-GEARBOX)",
+        slug: "liugong-lg240-swing-gearbox-lg240",
+        title: {
+            en: "Swing gearbox LG240",
+            lt: "Posūkio reduktorius LG240",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/liugong-lg240-swing-gearbox-lg240.avif"],
+        description: {
+            en: "Swing gearbox for LiuGong excavators.",
+            lt: "Posūkio reduktorius LiuGong ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "LiuGong", model: "LG240", partNumber: "LG240(SWING-GEARBOX)" },
+            { make: "Sany", model: "SY235-8", partNumber: "LG240(SWING-GEARBOX)" },
+            { make: "XCMG", model: "XE215", partNumber: "LG240(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "LG225(SWING-GEARBOX)",
+        slug: "liugong-lg225-swing-gearbox-lg225",
+        title: {
+            en: "Swing gearbox LG225",
+            lt: "Posūkio reduktorius LG225",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/liugong-lg225-swing-gearbox-lg225.avif"],
+        description: {
+            en: "Swing gearbox for LiuGong excavators.",
+            lt: "Posūkio reduktorius LiuGong ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "LiuGong", model: "LG225", partNumber: "LG225(SWING-GEARBOX)" },
+
+
+        ]
+    },
+    {
+        id: "JCM913(SWING-GEARBOX)",
+        slug: "strong-jcm913-swing-gearbox-jcm913",
+        title: {
+            en: "Swing gearbox JCM913",
+            lt: "Posūkio reduktorius JCM913",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/strong-jcm913-swing-gearbox-jcm913.avif"],
+        description: {
+            en: "Swing gearbox for Strong JCM913 excavators.",
+            lt: "Posūkio reduktorius Strong JCM913 ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Strong", model: "JCM913", partNumber: "JCM913(SWING-GEARBOX)" },
+
+
+        ]
+    },
+    {
+        id: "HD820(SWING-GEARBOX)",
+        slug: "kato-hd820-swing-gearbox-hd820",
+        title: {
+            en: "Swing gearbox HD820",
+            lt: "Posūkio reduktorius HD820",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/kato-hd820-swing-gearbox-hd820.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Kato", model: "HD820", partNumber: "HD820(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK130-8", partNumber: "HD820(SWING-GEARBOX)" },
+            { make: "Kobelco", model: "SK140-8", partNumber: "HD820(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "EX200-5(SWING-GEARBOX)",
+        slug: "hitachi-ex200-5-swing-gearbox-ex200-5",
+        title: {
+            en: "Swing gearbox EX200-5",
+            lt: "Posūkio reduktorius EX200-5",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/hitachi-ex200-5-swing-gearbox-ex200-5.avif"],
+        description: {
+            en: "Swing gearbox for Hitachi excavators.",
+            lt: "Posūkio reduktorius Hitachi ekskavatoriams.",
+        },
+        fits: [
+
+            { make: "Hitachi", model: "EX200-5", partNumber: "EX200-5(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "EC210(SWING-GEARBOX)",
+        slug: "volvo-ec210-swing-gearbox-ec210",
+        title: {
+            en: "Swing gearbox EC210",
+            lt: "Posūkio reduktorius EC210",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/volvo-ec210-swing-gearbox-ec210.avif"],
+        description: {
+            en: "Swing gearbox for Volvo excavators.",
+            lt: "Posūkio reduktorius Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210", partNumber: "EC210(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "E320C(SWING-GEARBOX)",
+        slug: "cat-e320c-swing-gearbox-e320c",
+        title: {
+            en: "Swing gearbox E320C",
+            lt: "Posūkio reduktorius E320C",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/cat-e320c-swing-gearbox-e320c.avif"],
+        description: {
+            en: "Swing gearbox for CAT excavators.",
+            lt: "Posūkio reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "320C", partNumber: "E320C(SWING-GEARBOX)" },
+            { make: "CAT", model: "320D", partNumber: "E320C(SWING-GEARBOX)" },
+            { make: "John Deere", model: "E230", partNumber: "E320C(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "E318(SWING-GEARBOX)",
+        slug: "cat-e318-swing-gearbox-e318",
+        title: {
+            en: "Swing gearbox E318",
+            lt: "Posūkio reduktorius E318",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/cat-e318-swing-gearbox-e318.avif"],
+        description: {
+            en: "Swing gearbox for CAT excavators.",
+            lt: "Posūkio reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "318", partNumber: "E318(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "E307(SWING-GEARBOX)",
+        slug: "cat-e307-swing-gearbox-e307",
+        title: {
+            en: "Swing gearbox E307",
+            lt: "Posūkio reduktorius E307",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/cat-e307-swing-gearbox-e307.avif"],
+        description: {
+            en: "Swing gearbox for CAT excavators.",
+            lt: "Posūkio reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "307", partNumber: "E307(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "E307E(SWING-GEARBOX)",
+        slug: "cat-e307e-swing-gearbox-e307e",
+        title: {
+            en: "Swing gearbox E307E",
+            lt: "Posūkio reduktorius E307E",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/cat-e307e-swing-gearbox-e307e.avif"],
+        description: {
+            en: "Swing gearbox for CAT excavators.",
+            lt: "Posūkio reduktorius CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "307E", partNumber: "E307E(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "DX60(SWING-GEARBOX)",
+        slug: "doosan-dx60-swing-gearbox-dx60",
+        title: {
+            en: "Swing gearbox DX60",
+            lt: "Posūkio reduktorius DX60",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dx60-swing-gearbox-dx60.avif"],
+        description: {
+            en: "Swing gearbox for various excavators.",
+            lt: "Posūkio reduktorius įvairiems ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX60", partNumber: "DX60(SWING-GEARBOX)" },
+            { make: "Sany", model: "SY60-9", partNumber: "DX60(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "DH500(SWING-GEARBOX)",
+        slug: "doosan-dh500-swing-gearbox-dh500",
+        title: {
+            en: "Swing gearbox DH500",
+            lt: "Posūkio reduktorius DH500",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh500-swing-gearbox-dh500.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH500", partNumber: "DH500(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "DH370(SWING-GEARBOX)",
+        slug: "doosan-dh300-7-swing-gearbox-dh300-7",
+        title: {
+            en: "Swing gearbox DH370",
+            lt: "Posūkio reduktorius DH370",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh370-swing-gearbox-dh370.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH300-7", partNumber: "DH370(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DX300-7", partNumber: "DH370(SWING-GEARBOX)" },
+        ]
+    },
+
+    {
+        id: "DH258(SWING-GEARBOX)",
+        slug: "doosan-dh258-swing-gearbox-dh258",
+        title: {
+            en: "Swing gearbox DH258",
+            lt: "Posūkio reduktorius DH258",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh258-swing-gearbox-dh258.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH258-5", partNumber: "DH258(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH258-7", partNumber: "DH258(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "DH220-5(SWING-GEARBOX)",
+        slug: "doosan-dh220-5-swing-gearbox-dh220-5",
+        title: {
+            en: "Swing gearbox DH220-5",
+            lt: "Posūkio reduktorius DH220-5",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh220-5-swing-gearbox-dh220-5.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH220-5", partNumber: "DH220-5(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH220-7", partNumber: "DH220-5(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH215-9", partNumber: "DH220-5(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH215-7", partNumber: "DH220-5(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH225-9", partNumber: "DH220-5(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH225-7", partNumber: "DH220-5(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "DH55(SWING-GEARBOX)",
+        slug: "doosan-dh55-swing-gearbox-dh55",
+        title: {
+            en: "Swing gearbox DH55",
+            lt: "Posūkio reduktorius DH55",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh55-swing-gearbox-dh55.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH55", partNumber: "DH55(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH60-7", partNumber: "DH55(SWING-GEARBOX)" },
+
+        ]
+    },
+    {
+        id: "DH80(SWING-GEARBOX)",
+        slug: "doosan-dh80-swing-gearbox-dh80",
+        title: {
+            en: "Swing gearbox DH80",
+            lt: "Posūkio reduktorius DH80",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh55-swing-gearbox-dh55.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH80G", partNumber: "DH80(SWING-GEARBOX)" },
+            { make: "Doosan", model: "DH80-7", partNumber: "DH80(SWING-GEARBOX)" },
+            { make: "Sany", model: "SY75", partNumber: "DH80(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "DH150-7(SWING-GEARBOX)",
+        slug: "doosan-dh150-7-swing-gearbox-dh150-7",
+        title: {
+            en: "Swing gearbox DH150-7",
+            lt: "Posūkio reduktorius DH150-7",
+        },
+        type: "swing-gearbox",
+        images: ["/parts/doosan-dh55-swing-gearbox-dh55.avif"],
+        description: {
+            en: "Swing gearbox for Doosan excavators.",
+            lt: "Posūkio reduktorius Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH150-7", partNumber: "DH150-7(SWING-GEARBOX)" },
+        ]
+    },
+    {
+        id: "HMGE36EA",
+        slug: "hitachi-zx200-travel-motor-HMGE36EA",
+        title: {
+            en: "Travel motor HMGE36EA",
+            lt: "Eigos hidromotoras HMGE36EA",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx200-travel-motor-HMGE36EA.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX200", partNumber: "HMGE36EA" },
+        ]
+    },
+    {
+        id: "9149087",
+        slug: "hitachi-ex200lc-5-travel-motor-9149087",
+        title: {
+            en: "Travel motor 9149087",
+            lt: "Eigos hidromotoras 9149087",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-ex200lc-5-travel-motor-9149087.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200LC-5", partNumber: "9149087" },
+        ]
+    },
+    {
+        id: "KYB-MAG-180VP-6000(KSA10100)",
+        slug: "kyb-travel-motor-KYB-MAG-180VP-6000(KSA10100)",
+        title: {
+            en: "Travel motor KYB-MAG-180VP-6000(KSA10100)",
+            lt: "Eigos hidromotoras KYB-MAG-180VP-6000(KSA10100)",
+        },
+        type: "travel-motor",
+        images: ["/parts/kyb-travel-motor-9149087.avif"],
+        description: {
+            en: "Travel motor for excavators.",
+            lt: "Eigos hidromotoras ekskavatoriams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "KYB-MAG-180VP-6000(KSA10100)" },
+        ]
+    },
+    {
+        id: "31N6-40031BG",
+        slug: "hyundai-r220lc-9-travel-motor-31N6-40031BG",
+        title: {
+            en: "Travel motor 31N6-40031BG",
+            lt: "Eigos hidromotoras 31N6-40031BG",
+        },
+        type: "travel-motor",
+        images: ["/parts/hyundai-r220lc-9-travel-motor-31N6-40031BG.avif"],
+        description: {
+            en: "Travel motor for Hyundai excavators.",
+            lt: "Eigos hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R220LC-9", partNumber: "31N6-40031BG" },
+        ]
+    },
+    {
+        id: "2966298",
+        slug: "cat-320-travel-motor-2966298",
+        title: {
+            en: "Travel motor 2966298",
+            lt: "Eigos hidromotoras 2966298",
+        },
+        type: "travel-motor",
+        images: ["/parts/cat-320-travel-motor-2966298.avif"],
+        description: {
+            en: "Travel motor for CAT excavators.",
+            lt: "Eigos hidromotoras CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "320", partNumber: "2966298" },
+            { make: "CAT", model: "325", partNumber: "2966298" },
+            { make: "CAT", model: "320D", partNumber: "2966298" },
+        ]
+    },
+    {
+        id: "SA7117-30030",
+        slug: "volvo-ec210b-travel-motor-SA7117-30030",
+        title: {
+            en: "Travel motor SA7117-30030",
+            lt: "Eigos hidromotoras SA7117-30030",
+        },
+        type: "travel-motor",
+        images: ["/parts/volvo-ec210b-travel-motor-SA7117-30030.avif"],
+        description: {
+            en: "Travel motor for Volvo excavators.",
+            lt: "Eigos hidromotoras Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210B", partNumber: "SA7117-30030" },
+        ]
+    },
+
+    {
+        id: "9131678",
+        slug: "hitachi-ex200-2-travel-motor-9131678",
+        title: {
+            en: "Travel motor 9131678",
+            lt: "Eigos hidromotoras 9131678",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-ex200-2-travel-motor-9131678.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200-2", partNumber: "9131678" },
+        ]
+    },
+    {
+        id: "31N8-40062",
+        slug: "hyundai-r305-7-travel-motor-31N8-40062",
+        title: {
+            en: "Travel motor 31N8-40062",
+            lt: "Eigos hidromotoras 31N8-40062",
+        },
+        type: "travel-motor",
+        images: ["/parts/hyundai-r305-7-travel-motor-31N8-40062.avif"],
+        description: {
+            en: "Travel motor for Hyundai excavators.",
+            lt: "Eigos hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R305-7", partNumber: "31N8-40062" },
+        ]
+    },
+    {
+        id: "31Q9-40011",
+        slug: "hyundai-r330lc-9s-travel-motor-31Q9-40011",
+        title: {
+            en: "Travel motor 31N8-40062",
+            lt: "Eigos hidromotoras 31N8-40062",
+        },
+        type: "travel-motor",
+        images: ["/parts/hyundai-r330lc-9s-travel-motor-31Q9-40011.avif"],
+        description: {
+            en: "Travel motor for Hyundai excavators.",
+            lt: "Eigos hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R330LC-9S", partNumber: "31Q9-40011" },
+        ]
+    },
+    {
+        id: "9181123",
+        slug: "hitachi-zx120-travel-motor-9181123",
+        title: {
+            en: "Travel motor 9181123",
+            lt: "Eigos hidromotoras 9181123",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx120-travel-motor-9181123.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX120", partNumber: "9181123" },
+        ]
+    },
+    {
+        id: "9257254",
+        slug: "hitachi-zx200-3-travel-motor-9257254",
+        title: {
+            en: "Travel motor 9257254",
+            lt: "Eigos hidromotoras 9257254",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx200-3-travel-motor-9257254.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX200-3", partNumber: "9257254" },
+        ]
+    },
+    {
+        id: "9281842",
+        slug: "hitachi-zx330-3-travel-motor-9281842",
+        title: {
+            en: "Travel motor 9281842",
+            lt: "Eigos hidromotoras 9281842",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx330-3-travel-motor-9281842.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX330-3", partNumber: "9281842" },
+        ]
+    },
+    {
+        id: "4668620",
+        slug: "hitachi-zx400lch-3-travel-motor-4668620",
+        title: {
+            en: "Travel motor 4668620",
+            lt: "Eigos hidromotoras 4668620",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx400lch-3-travel-motor-4668620.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX400LCH-3", partNumber: "4668620" },
+        ]
+    },
+    {
+        id: "4699092",
+        slug: "hitachi-zx470-5g-travel-motor-4699092",
+        title: {
+            en: "Travel motor 4699092",
+            lt: "Eigos hidromotoras 4699092",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx470-5g-travel-motor-4699092.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX470-5G", partNumber: "4699092" },
+        ]
+    },
+    {
+        id: "4636857",
+        slug: "hitachi-zx870-travel-motor-4636857",
+        title: {
+            en: "Travel motor 4636857",
+            lt: "Eigos hidromotoras 4636857",
+        },
+        type: "travel-motor",
+        images: ["/parts/hitachi-zx870-travel-motor-4636857.avif"],
+        description: {
+            en: "Travel motor for Hitachi excavators.",
+            lt: "Eigos hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX870", partNumber: "4636857" },
+        ]
+    },
+    {
+        id: "14733880",
+        slug: "volvo-ec460-travel-motor-14733880",
+        title: {
+            en: "Travel motor 14733880",
+            lt: "Eigos hidromotoras 14733880",
+        },
+        type: "travel-motor",
+        images: ["/parts/volvo-ec460-travel-motor-14733880.avif"],
+        description: {
+            en: "Travel motor for Volvo excavators.",
+            lt: "Eigos hidromotoras Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC460", partNumber: "14733880" },
+            { make: "Volvo", model: "EC480", partNumber: "14733880" },
+        ]
+    },
+    {
+        id: "31N9-40024",
+        slug: "hyundai-r320lc-7-travel-motor-31N9-40024",
+        title: {
+            en: "Travel motor 31N9-40024",
+            lt: "Eigos hidromotoras 31N9-40024",
+        },
+        type: "travel-motor",
+        images: ["/parts/hyundai-r320lc-7-travel-motor-31N9-40024.avif"],
+        description: {
+            en: "Travel motor for Hyundai excavators.",
+            lt: "Eigos hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R320LC-7", partNumber: "31N9-40024" },
+        ]
+    },
+    {
+        id: "207-27-00440",
+        slug: "komatsu-pc300-7-travel-motor-207-27-00440",
+        title: {
+            en: "Travel motor 207-27-00440",
+            lt: "Eigos hidromotoras 207-27-00440",
+        },
+        type: "travel-motor",
+        images: ["/parts/komatsu-pc300-7-travel-motor-207-27-00440.avif"],
+        description: {
+            en: "Travel motor for Komatsu excavators.",
+            lt: "Eigos hidromotoras Komatsu ekskavatoriams.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-7", partNumber: "207-27-00440" },
+            { make: "Komatsu", model: "PC300-8", partNumber: "207-27-00440" },
+        ]
+    },
+    {
+        id: "21N-60-34100",
+        slug: "komatsu-pc1250-travel-motor-21N-60-34100",
+        title: {
+            en: "Travel motor 21N-60-34100",
+            lt: "Eigos hidromotoras 21N-60-34100",
+        },
+        type: "travel-motor",
+        images: ["/parts/komatsu-pc1250-travel-motor-21N-60-34100.avif"],
+        description: {
+            en: "Travel motor for Komatsu excavators.",
+            lt: "Eigos hidromotoras Komatsu ekskavatoriams.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC1250", partNumber: "21N-60-34100" },
+
+        ]
+    },
+    {
+        id: "706-7G-01180",
+        slug: "komatsu-pc228-swing-motor-706-7G-01180",
+        title: {
+            en: "Swing motor 706-7G-01180",
+            lt: "Posūkio hidromotoras 706-7G-01180",
+        },
+        type: "swing-motor",
+        images: ["/parts/komatsu-pc228-swing-motor-706-7G-01180.avif"],
+        description: {
+            en: "Swing motor for Komatsu excavators.",
+            lt: "Posūkio hidromotoras Komatsu ekskavatoriams.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC228", partNumber: "706-7G-01180" },
+
+        ]
+    },
+    {
+        id: "708-7T-00360",
+        slug: "komatsu-pc60-7-swing-motor-708-7T-00360",
+        title: {
+            en: "Swing motor 708-7T-00360",
+            lt: "Posūkio hidromotoras 708-7T-00360",
+        },
+        type: "swing-motor",
+        images: ["/parts/komatsu-pc60-7-swing-motor-708-7T-00360.avif"],
+        description: {
+            en: "Swing motor for Komatsu excavators.",
+            lt: "Posūkio hidromotoras Komatsu ekskavatoriams.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-7", partNumber: "708-7T-00360" },
+
+        ]
+    },
+    {
+        id: "39Q6-11101",
+        slug: "hyundai-r210-9-swing-motor-39Q6-11101",
+        title: {
+            en: "Swing motor 39Q6-11101",
+            lt: "Posūkio hidromotoras 39Q6-11101",
+        },
+        type: "swing-motor",
+        images: ["/parts/hyundai-r210-9-swing-motor-39Q6-11101.avif"],
+        description: {
+            en: "Swing motor for Hyundai excavators.",
+            lt: "Posūkio hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210-9", partNumber: "39Q6-11101" },
+            { make: "Hyundai", model: "R220LC-9S", partNumber: "39Q6-11101" },
+            { make: "Hyundai", model: "R235-9", partNumber: "39Q6-11101" },
+        ]
+    },
+    {
+        id: "LC15V00022F1",
+        slug: "kobelco-sk350-8-swing-motor-LC15V00022F1",
+        title: {
+            en: "Swing motor LC15V00022F1",
+            lt: "Posūkio hidromotoras LC15V00022F1",
+        },
+        type: "swing-motor",
+        images: ["/parts/kobelco-sk350-8-swing-motor-LC15V00022F1.avif"],
+        description: {
+            en: "Swing motor for Kobelco excavators.",
+            lt: "Posūkio hidromotoras Kobelco ekskavatoriams.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK350-8", partNumber: "LC15V00022F1" },
+
+        ]
+    },
+    {
+        id: "LQ15V00015F1(F2)",
+        slug: "kobelco-sk260-8-swing-motor-LQ15V00015F1(F2)",
+        title: {
+            en: "Swing motor LQ15V00015F1/F2",
+            lt: "Posūkio hidromotoras LQ15V00015F1/F2",
+        },
+        type: "swing-motor",
+        images: ["/parts/kobelco-sk260-8-swing-motor-LQ15V00015F1F2.avif"],
+        description: {
+            en: "Swing motor for Kobelco excavators.",
+            lt: "Posūkio hidromotoras Kobelco ekskavatoriams.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK260-8", partNumber: "LQ15V00015F1/F2" },
+
+        ]
+    },
+    {
+        id: "YW32W00004F1",
+        slug: "kobelco-sk120-swing-motor-YW32W00004F1",
+        title: {
+            en: "Swing motor YW32W00004F1",
+            lt: "Posūkio hidromotoras YW32W00004F1",
+        },
+        type: "swing-motor",
+        images: ["/parts/kobelco-sk120-swing-motor-YW32W00004F1.avif"],
+        description: {
+            en: "Swing motor for Kobelco excavators.",
+            lt: "Posūkio hidromotoras Kobelco ekskavatoriams.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK120", partNumber: "YW32W00004F1" },
+
+        ]
+    },
+    {
+        id: "170-9893",
+        slug: "cat-e312c-swing-motor-170-9893",
+        title: {
+            en: "Swing motor 170-9893",
+            lt: "Posūkio hidromotoras 170-9893",
+        },
+        type: "swing-motor",
+        images: ["/parts/cat-e312c-swing-motor-170-9893.avif"],
+        description: {
+            en: "Swing motor for CAT excavators.",
+            lt: "Posūkio hidromotoras CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "312C", partNumber: "170-9893" },
+            { make: "CAT", model: "312E", partNumber: "170-9893" },
+        ]
+    },
+    {
+        id: "148-4644",
+        slug: "cat-e318-swing-motor-148-4644",
+        title: {
+            en: "Swing motor 148-4644",
+            lt: "Posūkio hidromotoras 148-4644",
+        },
+        type: "swing-motor",
+        images: ["/parts/cat-e318-swing-motor-148-4644.avif"],
+        description: {
+            en: "Swing motor for CAT excavators.",
+            lt: "Posūkio hidromotoras CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "318", partNumber: "148-4644" },
+            { make: "CAT", model: "319C", partNumber: "148-4644" },
+        ]
+    },
+    {
+        id: "1077054",
+        slug: "cat-e330b-swing-motor-1077054",
+        title: {
+            en: "Swing motor 1077054",
+            lt: "Posūkio hidromotoras 1077054",
+        },
+        type: "swing-motor",
+        images: ["/parts/cat-e330b-swing-motor-1077054.avif"],
+        description: {
+            en: "Swing motor for CAT excavators.",
+            lt: "Posūkio hidromotoras CAT ekskavatoriams.",
+        },
+        fits: [
+            { make: "CAT", model: "330B", partNumber: "1077054" },
+            { make: "CAT", model: "325B", partNumber: "1077054" },
+        ]
+    },
+    {
+        id: "4616985",
+        slug: "hitachi-zx330-3-swing-motor-4616985",
+        title: {
+            en: "Swing motor 4616985",
+            lt: "Posūkio hidromotoras 4616985",
+        },
+        type: "swing-motor",
+        images: ["/parts/hitachi-zx330-3-swing-motor-4616985.avif"],
+        description: {
+            en: "Swing motor for Hitachi excavators.",
+            lt: "Posūkio hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX330-3", partNumber: "4616985" },
+            { make: "Hitachi", model: "ZX330-5G", partNumber: "4616985" },
+        ]
+    },
+    {
+        id: "4398514",
+        slug: "hitachi-zx225us-swing-motor-4398514",
+        title: {
+            en: "Swing motor 4398514",
+            lt: "Posūkio hidromotoras 4398514",
+        },
+        type: "swing-motor",
+        images: ["/parts/hitachi-zx225us-swing-motor-4616985.avif"],
+        description: {
+            en: "Swing motor for Hitachi excavators.",
+            lt: "Posūkio hidromotoras Hitachi ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX225US", partNumber: "4398514" },
+            { make: "Hitachi", model: "ZX240", partNumber: "4398514" },
+        ]
+    },
+    {
+        id: "401-00307B",
+        slug: "doosan-dh55-swing-motor-401-00307B",
+        title: {
+            en: "Swing motor 401-00307B",
+            lt: "Posūkio hidromotoras 401-00307B",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dh55-swing-motor-401-00307B.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH55", partNumber: "401-00307B" },
+            { make: "Doosan", model: "DH60", partNumber: "401-00307B" },
+        ]
+    },
+    {
+        id: "2049-9007",
+        slug: "doosan-dh80-swing-motor-2049-9007",
+        title: {
+            en: "Swing motor 2049-9007",
+            lt: "Posūkio hidromotoras 2049-9007",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dh80-swing-motor-2049-9007.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH80", partNumber: "2049-9007" },
+        ]
+    },
+    {
+        id: "401-00003B",
+        slug: "doosan-dh150-7-swing-motor-401-00003B",
+        title: {
+            en: "Swing motor 401-00003B",
+            lt: "Posūkio hidromotoras 401-00003B",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dh150-7-swing-motor-401-00003B.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH150-7", partNumber: "401-00003B" },
+        ]
+    },
+    {
+        id: "VOE14524188",
+        slug: "volvo-ec135b-swing-motor-VOE14524188",
+        title: {
+            en: "Swing motor VOE14524188",
+            lt: "Posūkio hidromotoras VOE14524188",
+        },
+        type: "swing-motor",
+        images: ["/parts/volvo-ec135b-swing-motor-VOE15424188.avif"],
+        description: {
+            en: "Swing motor for Volvo excavators.",
+            lt: "Posūkio hidromotoras Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC135B", partNumber: "VOE14524188" },
+            { make: "Volvo", model: "EC140B", partNumber: "VOE14524188" },
+        ]
+    },
+    {
+        id: "VOE14552686",
+        slug: "volvo-ec200b-swing-motor-VOE14552686",
+        title: {
+            en: "Swing motor VOE14552686",
+            lt: "Posūkio hidromotoras VOE14552686",
+        },
+        type: "swing-motor",
+        images: ["/parts/volvo-ec200b-swing-motor-VOE14552686.avif"],
+        description: {
+            en: "Swing motor for Volvo excavators.",
+            lt: "Posūkio hidromotoras Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC200B", partNumber: "VOE14552686" },
+            { make: "Volvo", model: "EC210C", partNumber: "VOE14552686" },
+        ]
+    },
+    {
+        id: "VOE14512786",
+        slug: "volvo-ec330-swing-motor-VOE14512786",
+        title: {
+            en: "Swing motor VOE14512786",
+            lt: "Posūkio hidromotoras VOE14512786",
+        },
+        type: "swing-motor",
+        images: ["/parts/volvo-ec330-swing-motor-VOE14512786.avif"],
+        description: {
+            en: "Swing motor for Volvo excavators.",
+            lt: "Posūkio hidromotoras Volvo ekskavatoriams.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC330", partNumber: "VOE14512786" },
+            { make: "Volvo", model: "EC360", partNumber: "VOE14512786" },
+        ]
+    },
+
+    {
+        id: "31N6-10210",
+        slug: "volvo-r210-7-swing-motor-31N6-10210",
+        title: {
+            en: "Swing motor 31N6-10210",
+            lt: "Posūkio hidromotoras 31N6-10210",
+        },
+        type: "swing-motor",
+        images: ["/parts/volvo-r210-7-swing-motor-31N6-10210.avif"],
+        description: {
+            en: "Swing motor for Hyundai excavators.",
+            lt: "Posūkio hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210-7", partNumber: "31N6-10210" },
+            { make: "Hyundai", model: "R215-7", partNumber: "31N6-10210" },
+        ]
+    },
+    {
+        id: "31Q8-10130",
+        slug: "volvo-r290lc-7-swing-motor-31Q8-10130",
+        title: {
+            en: "Swing motor 31Q8-10130",
+            lt: "Posūkio hidromotoras 31Q8-10130",
+        },
+        type: "swing-motor",
+        images: ["/parts/volvo-r290lc-7-swing-motor-31Q8-10130.avif"],
+        description: {
+            en: "Swing motor for Hyundai excavators.",
+            lt: "Posūkio hidromotoras Hyundai ekskavatoriams.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R290LC-7", partNumber: "31Q8-10130" },
+            { make: "Hyundai", model: "R300LC-9S", partNumber: "31Q8-10130" },
+        ]
+    },
+
+    {
+        id: "K1000697A",
+        slug: "doosan-dx225-7-swing-motor-K1000697A",
+        title: {
+            en: "Swing motor K1000697A",
+            lt: "Posūkio hidromotoras K1000697A",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dx225-7-swing-motor-K1000697A.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX225-7", partNumber: "K1000697A" },
+            { make: "Doosan", model: "S225", partNumber: "K1000697A" },
+        ]
+    },
+    {
+        id: "K1007543A",
+        slug: "doosan-dx340-swing-motor-K1007543A",
+        title: {
+            en: "Swing motor K1007543A",
+            lt: "Posūkio hidromotoras K1007543A",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dx340-swing-motor-K1007543A.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX340", partNumber: "K1007543A" },
+            { make: "Doosan", model: "DX420", partNumber: "K1007543A" },
+        ]
+    },
+    {
+        id: "401-00352",
+        slug: "doosan-dx225-swing-motor-401-00352",
+        title: {
+            en: "Swing motor 401-00352",
+            lt: "Posūkio hidromotoras 401-00352",
+        },
+        type: "swing-motor",
+        images: ["/parts/doosan-dx225-swing-motor-401-00352.avif"],
+        description: {
+            en: "Swing motor for Doosan excavators.",
+            lt: "Posūkio hidromotoras Doosan ekskavatoriams.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX225", partNumber: "401-00352" },
+        ]
+    },
+    {
+        id: "20925315",
+        slug: "jcb-js200-swing-motor-20925315",
+        title: {
+            en: "Swing motor 20/925315",
+            lt: "Posūkio hidromotoras 20/925315",
+        },
+        type: "swing-motor",
+        images: ["/parts/jcb-js200-swing-motor-20925315.avif"],
+        description: {
+            en: "Swing motor for JCB excavators.",
+            lt: "Posūkio hidromotoras JCB ekskavatoriams.",
+        },
+        fits: [
+            { make: "JCB", model: "JS200", partNumber: "20/925315" },
+            { make: "JCB", model: "JS210", partNumber: "20/925315" },
+        ]
+    },
+    {
+        id: "M2X210CHB",
+        slug: "jcb-js330-swing-motor-M2X210CHB",
+        title: {
+            en: "Swing motor M2X210CHB",
+            lt: "Posūkio hidromotoras M2X210CHB",
+        },
+        type: "swing-motor",
+        images: ["/parts/jcb-js330-swing-motor-M2X210CHB.avif"],
+        description: {
+            en: "Swing motor for JCB excavators.",
+            lt: "Posūkio hidromotoras JCB ekskavatoriams.",
+        },
+        fits: [
+            { make: "JCB", model: "JS330", partNumber: "M2X210CHB" },
+
+        ]
+    },
+    {
+        id: "MFC160",
+        slug: "jcb-js220-swing-motor-MFC160",
+        title: {
+            en: "Swing motor MFC160",
+            lt: "Posūkio hidromotoras MFC160",
+        },
+        type: "swing-motor",
+        images: ["/parts/jcb-js220-swing-motor-MFC160.avif"],
+        description: {
+            en: "Swing motor for JCB excavators.",
+            lt: "Posūkio hidromotoras JCB ekskavatoriams.",
+        },
+        fits: [
+            { make: "JCB", model: "JS220", partNumber: "MFC160" },
+
+        ]
+    },
+    {
+        id: "MFC160",
+        slug: "jcb-js220-swing-motor-MFC160",
+        title: {
+            en: "Swing motor MFC160",
+            lt: "Posūkio hidromotoras MFC160",
+        },
+        type: "swing-motor",
+        images: ["/parts/jcb-js220-swing-motor-MFC160.avif"],
+        description: {
+            en: "Swing motor for JCB excavators.",
+            lt: "Posūkio hidromotoras JCB ekskavatoriams.",
+        },
+        fits: [
+            { make: "JCB", model: "JS220", partNumber: "MFC160" },
+
+        ]
+    },
+    {
+        id: "A6VM",
+        slug: "hydraulic-pump-parts-A6VM",
+        title: {
+            en: "Hydraulic pump parts A6VM",
+            lt: "Hidraulinių siurblių detalės A6VM",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A6VM.avif"],
+        description: {
+            en: "Spare parts for AV6M hydraulic pumps.",
+            lt: "Atsarginės detalės AV6M hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A6VM55" },
+            { make: "-", model: "-", partNumber: "A6VM59" },
+            { make: "-", model: "-", partNumber: "A6VM80" },
+            { make: "-", model: "-", partNumber: "A6VM86" },
+            { make: "-", model: "-", partNumber: "A6VM107" },
+            { make: "-", model: "-", partNumber: "A6VM115" },
+            { make: "-", model: "-", partNumber: "A6VM160" },
+            { make: "-", model: "-", partNumber: "A6VM172" },
+            { make: "-", model: "-", partNumber: "A6VM200" },
+            { make: "-", model: "-", partNumber: "A6VM250" },
+        ]
+    },
+    {
+        id: "A6VM(2)",
+        slug: "hydraulic-pump-parts-A6VM(2)",
+        title: {
+            en: "Hydraulic pump parts A6VM(2)",
+            lt: "Hidraulinių siurblių detalės A6VM(2)",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A6VM(2).avif"],
+        description: {
+            en: "Spare parts for AV6M hydraulic pumps.",
+            lt: "Atsarginės detalės AV6M hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A6VM55" },
+            { make: "-", model: "-", partNumber: "A6VM59" },
+            { make: "-", model: "-", partNumber: "A6VM80" },
+            { make: "-", model: "-", partNumber: "A6VM86" },
+            { make: "-", model: "-", partNumber: "A6VM107" },
+            { make: "-", model: "-", partNumber: "A6VM115" },
+            { make: "-", model: "-", partNumber: "A6VM160" },
+            { make: "-", model: "-", partNumber: "A6VM172" },
+            { make: "-", model: "-", partNumber: "A6VM200" },
+            { make: "-", model: "-", partNumber: "A6VM250" },
+        ]
+    },
+    {
+        id: "A7V",
+        slug: "hydraulic-pump-parts-A7V",
+        title: {
+            en: "Hydraulic pump parts A7V",
+            lt: "Hidraulinių siurblių detalės A7V",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A7V.avif"],
+        description: {
+            en: "Spare parts for A7V hydraulic pumps.",
+            lt: "Atsarginės detalės A7V hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A7V55" },
+            { make: "-", model: "-", partNumber: "A7V80" },
+            { make: "-", model: "-", partNumber: "A7V107" },
+            { make: "-", model: "-", partNumber: "A7V160" },
+            { make: "-", model: "-", partNumber: "A7V225" },
+            { make: "-", model: "-", partNumber: "A7V250" },
+            { make: "-", model: "-", partNumber: "A7V355" },
+            { make: "-", model: "-", partNumber: "A7V550" },
+        ]
+    },
+
+    {
+        id: "A8V",
+        slug: "hydraulic-pump-parts-A8V",
+        title: {
+            en: "Hydraulic pump parts A8V",
+            lt: "Hidraulinių siurblių detalės A8V",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A8V.avif"],
+        description: {
+            en: "Spare parts for A8V hydraulic pumps.",
+            lt: "Atsarginės detalės A8V hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A8V55" },
+            { make: "-", model: "-", partNumber: "A8V86" },
+            { make: "-", model: "-", partNumber: "A8V107" },
+            { make: "-", model: "-", partNumber: "A8V115" },
+            { make: "-", model: "-", partNumber: "A8V055" },
+            { make: "-", model: "-", partNumber: "A8V059" },
+            { make: "-", model: "-", partNumber: "A8V0107" },
+            { make: "-", model: "-", partNumber: "A8V0160" },
+            { make: "-", model: "-", partNumber: "A8V0200" },
+        ]
+    },
+    {
+        id: "A8V0",
+        slug: "hydraulic-pump-parts-A8V0",
+        title: {
+            en: "Hydraulic pump parts A8V0",
+            lt: "Hidraulinių siurblių detalės A8V0",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A8V0.avif"],
+        description: {
+            en: "Spare parts for A8V0 hydraulic pumps.",
+            lt: "Atsarginės detalės A8V0 hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A8V055" },
+            { make: "-", model: "-", partNumber: "A8V080" },
+            { make: "-", model: "-", partNumber: "A8V0107" },
+            { make: "-", model: "-", partNumber: "A8V0120" },
+            { make: "-", model: "-", partNumber: "A8V0140" },
+            { make: "-", model: "-", partNumber: "A8V0160" },
+            { make: "-", model: "-", partNumber: "A8V0200" },
+        ]
+    },
+    {
+        id: "A10V",
+        slug: "hydraulic-pump-parts-A10V",
+        title: {
+            en: "Hydraulic pump parts A10V",
+            lt: "Hidraulinių siurblių detalės A10V",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A10V.avif"],
+        description: {
+            en: "Spare parts for A10V hydraulic pumps.",
+            lt: "Atsarginės detalės A10V hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A10V17" },
+            { make: "-", model: "-", partNumber: "A10V21" },
+            { make: "-", model: "-", partNumber: "A10V23" },
+            { make: "-", model: "-", partNumber: "A10V28" },
+            { make: "-", model: "-", partNumber: "A10V40" },
+            { make: "-", model: "-", partNumber: "A10V43" },
+        ]
+    },
+    {
+        id: "A11VS0",
+        slug: "hydraulic-pump-parts-A11VS0",
+        title: {
+            en: "Hydraulic pump parts A11VS0",
+            lt: "Hidraulinių siurblių detalės A11VS0",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-A11VS0.avif"],
+        description: {
+            en: "Spare parts for A11VS0 hydraulic pumps.",
+            lt: "Atsarginės detalės A11VS0 hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "A11VS040" },
+            { make: "-", model: "-", partNumber: "A11VS060" },
+            { make: "-", model: "-", partNumber: "A11VS075" },
+            { make: "-", model: "-", partNumber: "A11VS095" },
+            { make: "-", model: "-", partNumber: "A11VS0130" },
+            { make: "-", model: "-", partNumber: "A11VS0145" },
+            { make: "-", model: "-", partNumber: "A11VS0160" },
+            { make: "-", model: "-", partNumber: "A11VS0190" },
+            { make: "-", model: "-", partNumber: "A11VS0260" },
+        ]
+    },
+    {
+        id: "AP2D",
+        slug: "hydraulic-pump-parts-AP2D",
+        title: {
+            en: "Hydraulic pump parts AP2D",
+            lt: "Hidraulinių siurblių detalės AP2D",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-AP2D.avif"],
+        description: {
+            en: "Spare parts for AP2D hydraulic pumps.",
+            lt: "Atsarginės detalės AP2D hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "AP2D21" },
+            { make: "-", model: "-", partNumber: "AP2D25" },
+            { make: "-", model: "-", partNumber: "AP2D28" },
+            { make: "-", model: "-", partNumber: "AP2D36" },
+        ]
+    },
+    {
+        id: "AP12",
+        slug: "hydraulic-pump-parts-AP12",
+        title: {
+            en: "Hydraulic pump parts AP12",
+            lt: "Hidraulinių siurblių detalės AP12",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-AP12.avif"],
+        description: {
+            en: "Spare parts for AP12 hydraulic pumps.",
+            lt: "Atsarginės detalės AP12 hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "AP12SBS80" },
+            { make: "-", model: "-", partNumber: "AP12SBS120" },
+            { make: "-", model: "-", partNumber: "AP12SBS140" },
+        ]
+    },
+
+    {
+        id: "GM",
+        slug: "hydraulic-pump-parts-GM",
+        title: {
+            en: "Hydraulic pump parts GM",
+            lt: "Hidraulinių siurblių detalės GM",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-GM.avif"],
+        description: {
+            en: "Spare parts for GM hydraulic pumps.",
+            lt: "Atsarginės detalės GM hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "GM02" },
+            { make: "-", model: "-", partNumber: "GM03" },
+            { make: "-", model: "-", partNumber: "GM04" },
+            { make: "-", model: "-", partNumber: "GM05" },
+            { make: "-", model: "-", partNumber: "GM06" },
+            { make: "-", model: "-", partNumber: "GM08" },
+            { make: "-", model: "-", partNumber: "GM09" },
+            { make: "-", model: "-", partNumber: "GM18" },
+            { make: "-", model: "-", partNumber: "GM23" },
+            { make: "-", model: "-", partNumber: "GM24" },
+            { make: "-", model: "-", partNumber: "GM28" },
+            { make: "-", model: "-", partNumber: "GM30" },
+            { make: "-", model: "-", partNumber: "GM35" },
+            { make: "-", model: "-", partNumber: "GM38" },
+        ]
+    },
+
+    {
+        id: "HM",
+        slug: "hydraulic-pump-parts-HM",
+        title: {
+            en: "Hydraulic pump parts HM",
+            lt: "Hidraulinių siurblių detalės HM",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-HM.avif"],
+        description: {
+            en: "Spare parts for HM hydraulic pumps.",
+            lt: "Atsarginės detalės HM hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "HMGC16" },
+            { make: "-", model: "-", partNumber: "HMGC32" },
+            { make: "-", model: "-", partNumber: "HMGC48" },
+            { make: "-", model: "-", partNumber: "HMGF35" },
+            { make: "-", model: "-", partNumber: "HMGF37" },
+            { make: "-", model: "-", partNumber: "HMGF48" },
+            { make: "-", model: "-", partNumber: "HMGF49" },
+            { make: "-", model: "-", partNumber: "HMGF57" },
+            { make: "-", model: "-", partNumber: "HMGF68" },
+            { make: "-", model: "-", partNumber: "HMGF84" },
+            { make: "-", model: "-", partNumber: "HMV110" },
+            { make: "-", model: "-", partNumber: "HMV160" },
+        ]
+    },
+    {
+        id: "HPV",
+        slug: "hydraulic-pump-parts-HPV",
+        title: {
+            en: "Hydraulic pump parts HPV",
+            lt: "Hidraulinių siurblių detalės HPV",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-HPV.avif"],
+        description: {
+            en: "Spare parts for HPV hydraulic pumps.",
+            lt: "Atsarginės detalės HPV hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "HPV35" },
+            { make: "-", model: "-", partNumber: "HPV55" },
+            { make: "-", model: "-", partNumber: "HPV75" },
+            { make: "-", model: "-", partNumber: "HPV90" },
+            { make: "-", model: "-", partNumber: "HPV95" },
+            { make: "-", model: "-", partNumber: "HPV110" },
+            { make: "-", model: "-", partNumber: "HPV132" },
+            { make: "-", model: "-", partNumber: "HPV140" },
+            { make: "-", model: "-", partNumber: "HPV160" },
+            { make: "-", model: "-", partNumber: "HPV165" },
+            { make: "-", model: "-", partNumber: "HPV375" },
+            { make: "-", model: "-", partNumber: "HPV116" },
+            { make: "-", model: "-", partNumber: "HPV145" },
+            { make: "-", model: "-", partNumber: "HPV050" },
+            { make: "-", model: "-", partNumber: "HPV102" },
+            { make: "-", model: "-", partNumber: "HPV105" },
+            { make: "-", model: "-", partNumber: "HPV118" },
+            { make: "-", model: "-", partNumber: "HPV135" },
+            { make: "-", model: "-", partNumber: "HPV0102" },
+            { make: "-", model: "-", partNumber: "HPV0118" },
+            { make: "-", model: "-", partNumber: "HPV091" },
+        ]
+    },
+    {
+        id: "JMF",
+        slug: "hydraulic-pump-parts-JMF",
+        title: {
+            en: "Hydraulic pump parts JMF",
+            lt: "Hidraulinių siurblių detalės JMF",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-JMF.avif"],
+        description: {
+            en: "Spare parts for JMF hydraulic pumps.",
+            lt: "Atsarginės detalės JMF hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "JMF23" },
+            { make: "-", model: "-", partNumber: "JMF27" },
+            { make: "-", model: "-", partNumber: "JMF29" },
+            { make: "-", model: "-", partNumber: "JMF33" },
+            { make: "-", model: "-", partNumber: "JMF36" },
+            { make: "-", model: "-", partNumber: "JMF43" },
+            { make: "-", model: "-", partNumber: "JMF64" },
+            { make: "-", model: "-", partNumber: "JMF68" },
+            { make: "-", model: "-", partNumber: "JMF151" },
+            { make: "-", model: "-", partNumber: "JMF195" },
+        ]
+    },
+    {
+        id: "K3SP",
+        slug: "hydraulic-pump-parts-K3SP",
+        title: {
+            en: "Hydraulic pump parts K3SP",
+            lt: "Hidraulinių siurblių detalės K3SP",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-K3SP.avif"],
+        description: {
+            en: "Spare parts for K3SP hydraulic pumps.",
+            lt: "Atsarginės detalės K3SP hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "K3SP30" },
+            { make: "-", model: "-", partNumber: "K3SP36" },
+        ]
+    },
+    {
+        id: "K3V",
+        slug: "hydraulic-pump-parts-K3V",
+        title: {
+            en: "Hydraulic pump parts K3V",
+            lt: "Hidraulinių siurblių detalės K3V",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-K3V.avif"],
+        description: {
+            en: "Spare parts for K3V hydraulic pumps.",
+            lt: "Atsarginės detalės K3V hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "K3V63" },
+            { make: "-", model: "-", partNumber: "K3V112" },
+            { make: "-", model: "-", partNumber: "K3V140" },
+            { make: "-", model: "-", partNumber: "K3V180" },
+        ]
+    },
+    {
+        id: "K3VL",
+        slug: "hydraulic-pump-parts-K3VL",
+        title: {
+            en: "Hydraulic pump parts K3VL",
+            lt: "Hidraulinių siurblių detalės K3VL",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-K3VL.avif"],
+        description: {
+            en: "Spare parts for K3VL hydraulic pumps.",
+            lt: "Atsarginės detalės K3VL hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "K3VL28" },
+            { make: "-", model: "-", partNumber: "K3VL45" },
+            { make: "-", model: "-", partNumber: "K3VL60" },
+            { make: "-", model: "-", partNumber: "K3VL80" },
+            { make: "-", model: "-", partNumber: "K3VL112" },
+            { make: "-", model: "-", partNumber: "K3VL140" },
+            { make: "-", model: "-", partNumber: "K3VL160" },
+            { make: "-", model: "-", partNumber: "K3VL200" },
+        ]
+    },
+    {
+        id: "KMF(KPV)",
+        slug: "hydraulic-pump-parts-KMFKPV",
+        title: {
+            en: "Hydraulic pump parts KMF/KPV",
+            lt: "Hidraulinių siurblių detalės KMF/KPV",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-KMFKPV.avif"],
+        description: {
+            en: "Spare parts for KMF/KPV hydraulic pumps.",
+            lt: "Atsarginės detalės KMF/KPV hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "KMF40" },
+            { make: "-", model: "-", partNumber: "KMF90" },
+            { make: "-", model: "-", partNumber: "KMF160" },
+            { make: "-", model: "-", partNumber: "KPV90" },
+            { make: "-", model: "-", partNumber: "KPV105" },
+        ]
+    },
+    {
+        id: "M2X",
+        slug: "hydraulic-pump-parts-M2X",
+        title: {
+            en: "Hydraulic pump parts M2X",
+            lt: "Hidraulinių siurblių detalės M2X",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-M2X.avif"],
+        description: {
+            en: "Spare parts for M2X hydraulic pumps.",
+            lt: "Atsarginės detalės M2X hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "M2X63" },
+            { make: "-", model: "-", partNumber: "M2X96" },
+            { make: "-", model: "-", partNumber: "M2X120" },
+            { make: "-", model: "-", partNumber: "M2X146" },
+            { make: "-", model: "-", partNumber: "M2X150" },
+            { make: "-", model: "-", partNumber: "M2X170" },
+            { make: "-", model: "-", partNumber: "M2X210" },
+        ]
+    },
+    {
+        id: "M5X",
+        slug: "hydraulic-pump-parts-M5X",
+        title: {
+            en: "Hydraulic pump parts M5X",
+            lt: "Hidraulinių siurblių detalės M5X",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-M5X.avif"],
+        description: {
+            en: "Spare parts for M5X hydraulic pumps.",
+            lt: "Atsarginės detalės M5X hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "M5X130" },
+            { make: "-", model: "-", partNumber: "M5X180" },
+        ]
+    },
+    {
+        id: "MAG",
+        slug: "hydraulic-pump-parts-MAG",
+        title: {
+            en: "Hydraulic pump parts MAG",
+            lt: "Hidraulinių siurblių detalės MAG",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-MAG.avif"],
+        description: {
+            en: "Spare parts for MAG hydraulic pumps.",
+            lt: "Atsarginės detalės MAG hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "MAG150VP" },
+            { make: "-", model: "-", partNumber: "MAG180VP" },
+            { make: "-", model: "-", partNumber: "MAG170VP" },
+        ]
+    },
+    {
+        id: "MX",
+        slug: "hydraulic-pump-parts-MX",
+        title: {
+            en: "Hydraulic pump parts MX",
+            lt: "Hidraulinių siurblių detalės MX",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-MX.avif"],
+        description: {
+            en: "Spare parts for MX hydraulic pumps.",
+            lt: "Atsarginės detalės MX hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "MX50" },
+            { make: "-", model: "-", partNumber: "MX80" },
+            { make: "-", model: "-", partNumber: "MX150" },
+            { make: "-", model: "-", partNumber: "MX173" },
+            { make: "-", model: "-", partNumber: "MX200" },
+            { make: "-", model: "-", partNumber: "MX250" },
+            { make: "-", model: "-", partNumber: "MX450" },
+            { make: "-", model: "-", partNumber: "MX500" },
+            { make: "-", model: "-", partNumber: "MX530" },
+            { make: "-", model: "-", partNumber: "MX750" },
+        ]
+    },
+    {
+        id: "PSV2",
+        slug: "hydraulic-pump-parts-PSV2",
+        title: {
+            en: "Hydraulic pump parts PSV2",
+            lt: "Hidraulinių siurblių detalės PSV2",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-PSV2.avif"],
+        description: {
+            en: "Spare parts for PSV2 hydraulic pumps.",
+            lt: "Atsarginės detalės PSV2 hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "PSV2-55T" },
+            { make: "-", model: "-", partNumber: "PSV2-62T" },
+            { make: "-", model: "-", partNumber: "PSV2-63" },
+        ]
+    },
+    {
+        id: "SG(MFB)",
+        slug: "hydraulic-pump-parts-SG(MFB)",
+        title: {
+            en: "Hydraulic pump parts SG/MFB",
+            lt: "Hidraulinių siurblių detalės SG/MFB",
+        },
+        type: "hydraulic-pump-parts",
+        images: ["/parts/hydraulic-pump-parts-SGMFB.avif"],
+        description: {
+            en: "Spare parts for SG/MFB hydraulic pumps.",
+            lt: "Atsarginės detalės SG/MFB hidrauliniams siurbliams.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "SG015" },
+            { make: "-", model: "-", partNumber: "SG025" },
+            { make: "-", model: "-", partNumber: "SG03" },
+            { make: "-", model: "-", partNumber: "SG04" },
+            { make: "-", model: "-", partNumber: "SG08" },
+            { make: "-", model: "-", partNumber: "SG15" },
+            { make: "-", model: "-", partNumber: "SG20" },
+            { make: "-", model: "-", partNumber: "MFB80" },
+            { make: "-", model: "-", partNumber: "MFB150" },
+            { make: "-", model: "-", partNumber: "MFB160" },
+            { make: "-", model: "-", partNumber: "MFB180" },
+            { make: "-", model: "-", partNumber: "MFB170" },
+            { make: "-", model: "-", partNumber: "MFB190" },
+            { make: "-", model: "-", partNumber: "MFB200" },
+            { make: "-", model: "-", partNumber: "MFB250" },
+        ]
+    },
+    {
+        id: "1010014",
+        slug: "gear-parts-1010014",
+        title: {
+            en: "Gear parts 1010014",
+            lt: "Pavarų detalės 1010014",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-1010014.avif"],
+        description: {
+            en: "Gear part 1010014 final drive gear ring.",
+            lt: "Pavaros detalė 1010014 varančiosios pavaros žiedas.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX120-1", partNumber: "1010014" },
+            { make: "Hitachi", model: "EX100", partNumber: "1010014" },
+
+        ]
+    },
+    {
+        id: "SA8230-22760",
+        slug: "gear-parts-SA8230-22760",
+        title: {
+            en: "Gear parts SA8230-22760",
+            lt: "Pavarų detalės SA8230-22760",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-SA8230-22760.avif"],
+        description: {
+            en: "Gear part SA8230-22760 swing gearbox sun gear.",
+            lt: "Pavaros detalė SA8230-22760 posūkio reduktoriaus dantratis.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "SA8230-22760" },
+
+
+        ]
+    },
+    {
+        id: "87602333",
+        slug: "gear-parts-87602333",
+        title: {
+            en: "Gear parts 87602333",
+            lt: "Pavarų detalės 87602333",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-87602333.avif"],
+        description: {
+            en: "Gear part 87602333 planetary gear.",
+            lt: "Pavaros detalė 87602333 planetinė pavara.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK210-8", partNumber: "87602333" },
+            { make: "JCB", model: "JS220", partNumber: "87602333" },
+        ]
+    },
+    {
+        id: "VOE14535300",
+        slug: "gear-parts-VOE14535300",
+        title: {
+            en: "Gear parts VOE14535300",
+            lt: "Pavarų detalės VOE14535300",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-VOE14535300.avif"],
+        description: {
+            en: "Gear part VOE14535300 planetary gear.",
+            lt: "Pavaros detalė VOE14535300 planetinė pavara.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC700", partNumber: "VOE14535300" },
+        ]
+    },
+    {
+        id: "207-26-62140",
+        slug: "gear-parts-207-26-62140",
+        title: {
+            en: "Gear parts 207-26-62140",
+            lt: "Pavarų detalės 207-26-62140",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-207-26-62140.avif"],
+        description: {
+            en: "Gear part 207-26-62140 planetary gear.",
+            lt: "Pavaros detalė 207-26-62140 planetinė pavara.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-6", partNumber: "207-26-62140" },
+        ]
+    },
+    {
+        id: "XKAH-01241",
+        slug: "gear-parts-XKAH-01241",
+        title: {
+            en: "Gear parts XKAH-01241",
+            lt: "Pavarų detalės XKAH-01241",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAH-01241.avif"],
+        description: {
+            en: "Gear part XKAH-01241 planetary gear.",
+            lt: "Pavaros detalė XKAH-01241 planetinė pavara.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R330LC-9S", partNumber: "XKAH-01241" },
+        ]
+    },
+    {
+        id: "20Y-27-22170",
+        slug: "gear-parts-20Y-27-22170",
+        title: {
+            en: "Gear parts 20Y-27-22170",
+            lt: "Pavarų detalės 20Y-27-22170",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-20Y-27-22170.avif"],
+        description: {
+            en: "Gear part 20Y-27-22170 planetary gear.",
+            lt: "Pavaros detalė 20Y-27-22170 planetinė pavara.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-6", partNumber: "20Y-27-22170" },
+        ]
+    },
+    {
+        id: "XKAH-01245",
+        slug: "gear-parts-XKAH-01245",
+        title: {
+            en: "Gear parts XKAH-01245",
+            lt: "Pavarų detalės XKAH-01245",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAH-01245.avif"],
+        description: {
+            en: "Gear part XKAH-01245 planetary gear.",
+            lt: "Pavaros detalė XKAH-01245 planetinė pavara.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R320LC-9", partNumber: "XKAH-01245" },
+        ]
+    },
+    {
+        id: "XKAQ-00535",
+        slug: "gear-parts-XKAQ-00535",
+        title: {
+            en: "Gear parts XKAQ-00535",
+            lt: "Pavarų detalės XKAQ-00535",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAQ-00535.avif"],
+        description: {
+            en: "Gear part XKAQ-00535 planetary gear.",
+            lt: "Pavaros detalė XKAQ-00535 planetinė pavara.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R250LC-9", partNumber: "XKAQ-00535" },
+            { make: "Hyundai", model: "R250LC-9A", partNumber: "XKAQ-00535" },
+            { make: "Hyundai", model: "R260LC-9S", partNumber: "XKAQ-00535" },
+            { make: "Hyundai", model: "R290LC-9", partNumber: "XKAQ-00535" },
+            { make: "Hyundai", model: "R290LC-9MH", partNumber: "XKAQ-00535" },
+            { make: "Hyundai", model: "R300LC-9A", partNumber: "XKAQ-00535" },
+        ]
+    },
+    {
+        id: "XKAY-01956",
+        slug: "gear-parts-XKAY-01956",
+        title: {
+            en: "Gear parts XKAY-01956",
+            lt: "Pavarų detalės XKAY-01956",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAY-01956.avif"],
+        description: {
+            en: "Gear part XKAY-01956 swing motor cover.",
+            lt: "Pavaros detalė XKAY-01956 posūkio hidromotoro dangtis.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R265-9", partNumber: "XKAY-01956" },
+        ]
+    },
+    {
+        id: "XKAQ-00163",
+        slug: "gear-parts-XKAQ-00163",
+        title: {
+            en: "Gear parts XKAQ-00163",
+            lt: "Pavarų detalės XKAQ-00163",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAQ-00163.avif"],
+        description: {
+            en: "Gear part XKAQ-00163 shaft gear.",
+            lt: "Pavaros detalė XKAQ-00163 dantratis.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R360-7", partNumber: "XKAQ-00163" },
+            { make: "Hyundai", model: "R375", partNumber: "XKAQ-00163" },
+        ]
+    },
+    {
+        id: "XKAQ-00177",
+        slug: "gear-parts-XKAQ-00177",
+        title: {
+            en: "Gear parts XKAQ-00177",
+            lt: "Pavarų detalės XKAQ-00177",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAQ-00177.avif"],
+        description: {
+            en: "Gear part XKAQ-00177 flange.",
+            lt: "Pavaros detalė XKAQ-00177 tvirtinimo flanšas.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R250-7", partNumber: "XKAQ-00177" },
+        ]
+    },
+    {
+        id: "XKAH-01427",
+        slug: "gear-parts-XKAH-01427",
+        title: {
+            en: "Gear parts XKAH-01427",
+            lt: "Pavarų detalės XKAH-01427",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-XKAH-01427.avif"],
+        description: {
+            en: "Gear part XKAH-01427 sun gear.",
+            lt: "Pavaros detalė XKAH-01427 dantratis.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R330-9S", partNumber: "XKAH-01427" },
+        ]
+    },
+    {
+        id: "MAG18VP-230F-5",
+        slug: "gear-parts-MAG18VP-230F-5",
+        title: {
+            en: "Gear parts MAG18VP-230F-5",
+            lt: "Pavarų detalės MAG18VP-230F-5",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-MAG18VP-230F-5.avif"],
+        description: {
+            en: "Gear part MAG18VP-230F-5 drive shaft.",
+            lt: "Pavaros detalė MAG18VP-230F-5 pavaros velenas.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX30UR", partNumber: "MAG18VP-230F-5" },
+        ]
+    },
+
+    {
+        id: "708-8F-31110",
+        slug: "gear-parts-708-8F-31110",
+        title: {
+            en: "Gear parts 708-8F-31110",
+            lt: "Pavarų detalės 708-8F-31110",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-708-8F-31110.avif"],
+        description: {
+            en: "Gear part 708-8F-31110 final drive plug.",
+            lt: "Pavaros detalė 708-8F-31110 varančiosios pavaros kaištis.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-7", partNumber: "708-8F-31110" },
+        ]
+    },
+    {
+        id: "20Y-27-42520",
+        slug: "gear-parts-20Y-27-42520",
+        title: {
+            en: "Gear parts 20Y-27-42520",
+            lt: "Pavarų detalės 20Y-27-42520",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-20Y-27-42520.avif"],
+        description: {
+            en: "Gear part 20Y-27-42520 final drive hub.",
+            lt: "Pavaros detalė 20Y-27-42520 varančiosios pavaros stebulė.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-8", partNumber: "20Y-27-42520" },
+        ]
+    },
+    {
+        id: "1014493",
+        slug: "gear-parts-1014493",
+        title: {
+            en: "Gear parts 1014493",
+            lt: "Pavarų detalės 1014493",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-1014493.avif"],
+        description: {
+            en: "Gear part 1014493 gear ring.",
+            lt: "Pavaros detalė 1014493 pavaros žiedas.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX225-5", partNumber: "1014493" },
+            { make: "Hitachi", model: "EX220-5", partNumber: "1014493" },
+        ]
+    },
+    {
+        id: "2036830",
+        slug: "gear-parts-2036830",
+        title: {
+            en: "Gear parts 2036830",
+            lt: "Pavarų detalės 2036830",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-2036830.avif"],
+        description: {
+            en: "Gear part 2036830 swing shaft.",
+            lt: "Pavaros detalė 2036830 posūkio velenas.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX120-5", partNumber: "2036830" },
+        ]
+    },
+    {
+        id: "20Y-27-13210",
+        slug: "gear-parts-20Y-27-13210",
+        title: {
+            en: "Gear parts 20Y-27-13210",
+            lt: "Pavarų detalės 20Y-27-13210",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-20Y-27-13210.avif"],
+        description: {
+            en: "Gear part 20Y-27-13210 planetary gear.",
+            lt: "Pavaros detalė 20Y-27-13210 planetinė pavara.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-5", partNumber: "20Y-27-13210" },
+        ]
+    },
+    {
+        id: "LC15V00023S022",
+        slug: "gear-parts-LC15V00023S022",
+        title: {
+            en: "Gear parts LC15V00023S022",
+            lt: "Pavarų detalės LC15V00023S022",
+        },
+        type: "gear-parts",
+        images: ["/parts/gear-parts-LC15V00023S022.avif"],
+        description: {
+            en: "Gear part LC15V00023S022 sun gear.",
+            lt: "Pavaros detalė LC15V00023S022 dantratis.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK350-8", partNumber: "LC15V00023S022" },
+        ]
+    },
+    {
+        id: "543-00074",
+        slug: "computer-543-00074",
+        title: {
+            en: "Computers 543-00074",
+            lt: "Kompiuteriai 543-00074",
+        },
+        type: "computer",
+        images: ["/parts/computer-543-00074.avif"],
+        description: {
+            en: "Computer 543-00074.",
+            lt: "Kompiuteris 543-00074.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH225-7", partNumber: "543-00074" },
+            { make: "Doosan", model: "DH420", partNumber: "543-00074" },
+        ]
+    },
+    {
+        id: "0806-8525-004(543-00055A)",
+        slug: "computer-0806-8525-004(543-00055A)",
+        title: {
+            en: "Computers 0806-8525-004/543-00055A",
+            lt: "Kompiuteriai 0806-8525-004/543-00055A",
+        },
+        type: "computer",
+        images: ["/parts/computer-0806-8525-004543-00055A.avif"],
+        description: {
+            en: "Computer 0806-8525-004/543-00055A.",
+            lt: "Kompiuteris 0806-8525-004/543-00055A.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH300-7", partNumber: "0806-8525-004/543-00055A" },
+            { make: "Doosan", model: "S300LC-V", partNumber: "0806-8525-004/543-00055A" },
+        ]
+    },
+    {
+        id: "534-00058C",
+        slug: "computer-534-00058C",
+        title: {
+            en: "Computers 534-00058C",
+            lt: "Kompiuteriai 534-00058C",
+        },
+        type: "computer",
+        images: ["/parts/computer-534-00058C.avif"],
+        description: {
+            en: "Computer 534-00058C.",
+            lt: "Kompiuteris 534-00058C.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH420-7", partNumber: "534-00058C" },
+            { make: "Doosan", model: "S420LC-V", partNumber: "534-00058C" },
+        ]
+    },
+    {
+        id: "221-8957",
+        slug: "computer-221-8957",
+        title: {
+            en: "Computers 221-8957",
+            lt: "Kompiuteriai 221-8957",
+        },
+        type: "computer",
+        images: ["/parts/computer-221-8957.avif"],
+        description: {
+            en: "Computer 221-8957.",
+            lt: "Kompiuteris 221-8957.",
+        },
+        fits: [
+            { make: "CAT", model: "313C", partNumber: "221-8957" },
+        ]
+    },
+    {
+        id: "260-2065HE00",
+        slug: "computer-260-2065HE00",
+        title: {
+            en: "Computers 260-2065HE00",
+            lt: "Kompiuteriai 260-2065HE00",
+        },
+        type: "computer",
+        images: ["/parts/computer-260-2065HE00.avif"],
+        description: {
+            en: "Computer 260-2065HE00.",
+            lt: "Kompiuteris 260-2065HE00.",
+        },
+        fits: [
+            { make: "CAT", model: "314C", partNumber: "260-2065HE00" },
+        ]
+    },
+    {
+        id: "164-8285",
+        slug: "computer-164-8285",
+        title: {
+            en: "Computers 164-8285",
+            lt: "Kompiuteriai 164-8285",
+        },
+        type: "computer",
+        images: ["/parts/computer-164-8285.avif"],
+        description: {
+            en: "Computer 164-8285.",
+            lt: "Kompiuteris 164-8285.",
+        },
+        fits: [
+            { make: "CAT", model: "320B", partNumber: "164-8285" },
+        ]
+    },
+    {
+        id: "366-8821",
+        slug: "computer-366-8821",
+        title: {
+            en: "Computers 366-8821",
+            lt: "Kompiuteriai 366-8821",
+        },
+        type: "computer",
+        images: ["/parts/computer-366-8821.avif"],
+        description: {
+            en: "Computer 366-8821.",
+            lt: "Kompiuteris 366-8821.",
+        },
+        fits: [
+            { make: "CAT", model: "320D", partNumber: "366-8821" },
+        ]
+    },
+    {
+        id: "LB22E00010F",
+        slug: "computer-LB22E00010F",
+        title: {
+            en: "Computers LB22E00010F",
+            lt: "Kompiuteriai LB22E00010F",
+        },
+        type: "computer",
+        images: ["/parts/computer-LB22E00010F.avif"],
+        description: {
+            en: "Computer LB22E00010F.",
+            lt: "Kompiuteris LB22E00010F.",
+        },
+        fits: [
+            { make: "CAT", model: "305", partNumber: "LB22E00010F" },
+        ]
+    },
+    {
+        id: "9131576",
+        slug: "computer-9131576",
+        title: {
+            en: "Computers 9131576",
+            lt: "Kompiuteriai 9131576",
+        },
+        type: "computer",
+        images: ["/parts/computer-9131576.avif"],
+        description: {
+            en: "Computer 9131576.",
+            lt: "Kompiuteris 9131576.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX120-3", partNumber: "9131576" },
+        ]
+    },
+    {
+        id: "YA00002098",
+        slug: "computer-YA00002098",
+        title: {
+            en: "Computers YA00002098",
+            lt: "Kompiuteriai YA00002098",
+        },
+        type: "computer",
+        images: ["/parts/computer-YA00002098.avif"],
+        description: {
+            en: "Computer YA00002098.",
+            lt: "Kompiuteris YA00002098.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX200-5G", partNumber: "YA00002098" },
+            { make: "Hitachi", model: "ZX350-5G", partNumber: "YA00002098" },
+        ]
+    },
+    {
+        id: "11201-7017",
+        slug: "computer-11201-7017",
+        title: {
+            en: "Computers 11201-7017",
+            lt: "Kompiuteriai 11201-7017",
+        },
+        type: "computer",
+        images: ["/parts/computer-11201-7017.avif"],
+        description: {
+            en: "Computer 11201-7017.",
+            lt: "Kompiuteris 11201-7017.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX225", partNumber: "11201-7017" },
+        ]
+    },
+    {
+        id: "65.11201-7017",
+        slug: "computer-65.11201-7017",
+        title: {
+            en: "Computers 65.11201-7017",
+            lt: "Kompiuteriai 65.11201-7017",
+        },
+        type: "computer",
+        images: ["/parts/computer-65.11201-7017.avif"],
+        description: {
+            en: "Computer 65.11201-7017.",
+            lt: "Kompiuteris 65.11201-7017.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX150W", partNumber: "65.11201-7017" },
+        ]
+    },
+    {
+        id: "65.11201-7016",
+        slug: "computer-65.11201-7016",
+        title: {
+            en: "Computers 65.11201-7016",
+            lt: "Kompiuteriai 65.11201-7016",
+        },
+        type: "computer",
+        images: ["/parts/computer-65.11201-7016.avif"],
+        description: {
+            en: "Computer 65.11201-7016.",
+            lt: "Kompiuteris 65.11201-7016.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX300", partNumber: "65.11201-7016" },
+        ]
+    },
+    {
+        id: "2543-1036(300611-00123)",
+        slug: "computer-2543-1036(300611-00123)",
+        title: {
+            en: "Computers 2543-1036/300611-00123",
+            lt: "Kompiuteriai 2543-1036/300611-00123",
+        },
+        type: "computer",
+        images: ["/parts/computer-2543-1036300611-00123.avif"],
+        description: {
+            en: "Computer 2543-1036/300611-00123.",
+            lt: "Kompiuteris 2543-1036/300611-00123.",
+        },
+        fits: [
+            { make: "JonYang", model: "JY210E", partNumber: "2543-1036/300611-00123" },
+        ]
+    },
+    {
+        id: "9125533",
+        slug: "computer-9125533",
+        title: {
+            en: "Computers 9125533",
+            lt: "Kompiuteriai 9125533",
+        },
+        type: "computer",
+        images: ["/parts/computer-9125533.avif"],
+        description: {
+            en: "Computer 9125533.",
+            lt: "Kompiuteris 9125533.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200-2", partNumber: "9125533" },
+            { make: "Hitachi", model: "EX200-3", partNumber: "9125533" },
+        ]
+    },
+    {
+        id: "4HK18981481750",
+        slug: "computer-4HK18981481750",
+        title: {
+            en: "Computers 4HK1/8981481750",
+            lt: "Kompiuteriai 4HK1/8981481750",
+        },
+        type: "computer",
+        images: ["/parts/computer-4HK18981481750.avif"],
+        description: {
+            en: "Computer 4HK1/8981481750.",
+            lt: "Kompiuteris 4HK1/8981481750.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX225US-3", partNumber: "4HK1/8981481750" },
+        ]
+    },
+    {
+        id: "YX22E00001F5",
+        slug: "computer-YX22E00001F5",
+        title: {
+            en: "Computers YX22E00001F5",
+            lt: "Kompiuteriai YX22E00001F5",
+        },
+        type: "computer",
+        images: ["/parts/computer-YX22E00001F5.avif"],
+        description: {
+            en: "Computer YX22E00001F5.",
+            lt: "Kompiuteris YX22E00001F5.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK130-6", partNumber: "YX22E00001F5" },
+        ]
+    },
+    {
+        id: "YY22E00014F1",
+        slug: "computer-YY22E00014F1",
+        title: {
+            en: "Computers YY22E00014F1",
+            lt: "Kompiuteriai YY22E00014F1",
+        },
+        type: "computer",
+        images: ["/parts/computer-YY22E00014F1.avif"],
+        description: {
+            en: "Computer YY22E00014F1.",
+            lt: "Kompiuteris YY22E00014F1.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK135SR", partNumber: "YY22E00014F1" },
+        ]
+    },
+    {
+        id: "YN22E00015F2",
+        slug: "computer-YN22E00015F2",
+        title: {
+            en: "Computers YN22E00015F2",
+            lt: "Kompiuteriai YN22E00015F2",
+        },
+        type: "computer",
+        images: ["/parts/computer-YN22E00015F2.avif"],
+        description: {
+            en: "Computer YN22E00015F2.",
+            lt: "Kompiuteris YN22E00015F2.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK200-5", partNumber: "YN22E00015F2" },
+        ]
+    },
+    {
+        id: "J05E89663-E0750B",
+        slug: "computer-J05E89663-E0750B",
+        title: {
+            en: "Computers J05E/89663-E0750B",
+            lt: "Kompiuteriai J05E/89663-E0750B",
+        },
+        type: "computer",
+        images: ["/parts/computer-J05E89663-E0750B.avif"],
+        description: {
+            en: "Computer J05E/89663-E0750B.",
+            lt: "Kompiuteris J05E/89663-E0750B.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK200-8", partNumber: "J05E/89663-E0750B" },
+        ]
+    },
+    {
+        id: "21Q6-32181",
+        slug: "computer-21Q6-32181",
+        title: {
+            en: "Computers 21Q6-32181",
+            lt: "Kompiuteriai 21Q6-32181",
+        },
+        type: "computer",
+        images: ["/parts/computer-21Q6-32181.avif"],
+        description: {
+            en: "Computer 21Q6-32181.",
+            lt: "Kompiuteris 21Q6-32181.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R220LC-9S", partNumber: "21Q6-32181" },
+        ]
+    },
+    {
+        id: "21Q4-32100",
+        slug: "computer-21Q4-32100",
+        title: {
+            en: "Computers 21Q4-32100",
+            lt: "Kompiuteriai 21Q4-32100",
+        },
+        type: "computer",
+        images: ["/parts/computer-21Q4-32100.avif"],
+        description: {
+            en: "Computer 21Q4-32100.",
+            lt: "Kompiuteris 21Q4-32100.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R140LC-9", partNumber: "21Q4-32100" },
+        ]
+    },
+    {
+        id: "0017848",
+        slug: "computer-0017848",
+        title: {
+            en: "Computers 0017848",
+            lt: "Kompiuteriai 0017848",
+        },
+        type: "computer",
+        images: ["/parts/computer-0017848.avif"],
+        description: {
+            en: "Computer 0017848.",
+            lt: "Kompiuteris 0017848.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX200-5", partNumber: "0017848" },
+            { make: "Hitachi", model: "ZX120-5", partNumber: "0017848" },
+        ]
+    },
+
+    {
+        id: "YN22E00153F1",
+        slug: "computer-YN22E00153F1",
+        title: {
+            en: "Computers YN22E00153F1",
+            lt: "Kompiuteriai YN22E00153F1",
+        },
+        type: "computer",
+        images: ["/parts/computer-YN22E00153F1.avif"],
+        description: {
+            en: "Computer YN22E00153F1.",
+            lt: "Kompiuteris YN22E00153F1.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK210-6", partNumber: "YN22E00153F1" },
+            { make: "Kobelco", model: "SK200-6E", partNumber: "YN22E00153F1" },
+        ]
+    },
+    {
+        id: "20582958",
+        slug: "computer-20582958",
+        title: {
+            en: "Computers 20582958",
+            lt: "Kompiuteriai 20582958",
+        },
+        type: "computer",
+        images: ["/parts/computer-20582958.avif"],
+        description: {
+            en: "Computer 20582958.",
+            lt: "Kompiuteris 20582958.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC460B", partNumber: "20582958" },
+        ]
+    },
+    {
+        id: "60100002",
+        slug: "computer-60100002",
+        title: {
+            en: "Computers 60100002",
+            lt: "Kompiuteriai 60100002",
+        },
+        type: "computer",
+        images: ["/parts/computer-60100002.avif"],
+        description: {
+            en: "Computer 60100002.",
+            lt: "Kompiuteris 60100002.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210", partNumber: "60100002" },
+        ]
+    },
+    {
+        id: "14518349",
+        slug: "computer-14518349",
+        title: {
+            en: "Computers 14518349",
+            lt: "Kompiuteriai 14518349",
+        },
+        type: "computer",
+        images: ["/parts/computer-14518349.avif"],
+        description: {
+            en: "Computer 14518349.",
+            lt: "Kompiuteris 14518349.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC240", partNumber: "14518349" },
+        ]
+    },
+    {
+        id: "20577135(60100002)",
+        slug: "computer-20577135(60100002)",
+        title: {
+            en: "Computers 20577135/60100002",
+            lt: "Kompiuteriai 20577135/60100002",
+        },
+        type: "computer",
+        images: ["/parts/computer-2057713560100002.avif"],
+        description: {
+            en: "Computer 20577135/60100002.",
+            lt: "Kompiuteris 20577135/60100002.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC290B", partNumber: "20577135/60100002" },
+        ]
+    },
+    {
+        id: "7835-26-1009",
+        slug: "computer-7835-26-1009",
+        title: {
+            en: "Computers 7835-26-1009",
+            lt: "Kompiuteriai 7835-26-1009",
+        },
+        type: "computer",
+        images: ["/parts/computer-7835-26-1009.avif"],
+        description: {
+            en: "Computer 7835-26-1009.",
+            lt: "Kompiuteris 7835-26-1009.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-7", partNumber: "7835-26-1009" },
+            { make: "Komatsu", model: "PC220-7", partNumber: "7835-26-1009" },
+        ]
+    },
+    {
+        id: "156-6155",
+        slug: "computer-156-6155",
+        title: {
+            en: "Computers 156-6155",
+            lt: "Kompiuteriai 156-6155",
+        },
+        type: "computer",
+        images: ["/parts/computer-156-6155.avif"],
+        description: {
+            en: "Computer 156-6155.",
+            lt: "Kompiuteris 156-6155.",
+        },
+        fits: [
+            { make: "CAT", model: "322C", partNumber: "156-6155" },
+        ]
+    },
+    {
+        id: "21N6-44103",
+        slug: "computer-21N6-44103",
+        title: {
+            en: "Computers 21N6-44103",
+            lt: "Kompiuteriai 21N6-44103",
+        },
+        type: "computer",
+        images: ["/parts/computer-21N6-44103.avif"],
+        description: {
+            en: "Computer 21N6-44103.",
+            lt: "Kompiuteris 21N6-44103.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210-7", partNumber: "21N6-44103" },
+            { make: "Hyundai", model: "R140-7", partNumber: "21N6-44103" },
+        ]
+    },
+    {
+        id: "4921776(A38156138)",
+        slug: "computer-4921776(A38156138)",
+        title: {
+            en: "Computers 4921776/A38156138",
+            lt: "Kompiuteriai 4921776/A38156138",
+        },
+        type: "computer",
+        images: ["/parts/computer-4921776A38156138.avif"],
+        description: {
+            en: "Computer 4921776/A38156138.",
+            lt: "Kompiuteris 4921776/A38156138.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-8", partNumber: "4921776/A38156138" },
+            { make: "Komatsu", model: "PC300-8", partNumber: "4921776/A38156138" },
+        ]
+    },
+    {
+        id: "7834-10-2003",
+        slug: "computer-7834-10-2003",
+        title: {
+            en: "Computers 7834-10-2003",
+            lt: "Kompiuteriai 7834-10-2003",
+        },
+        type: "computer",
+        images: ["/parts/computer-7834-10-2003.avif"],
+        description: {
+            en: "Computer 7834-10-2003.",
+            lt: "Kompiuteris 7834-10-2003.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-6", partNumber: "7834-10-2003" },
+            { make: "Komatsu", model: "PC120-6", partNumber: "7834-10-2003" },
+        ]
+    },
+    {
+        id: "309-5710",
+        slug: "computer-309-5710",
+        title: {
+            en: "Computers 309-5710",
+            lt: "Kompiuteriai 309-5710",
+        },
+        type: "computer",
+        images: ["/parts/computer-309-5710.avif"],
+        description: {
+            en: "Computer 309-5710.",
+            lt: "Kompiuteris 309-5710.",
+        },
+        fits: [
+            { make: "CAT", model: "336D2", partNumber: "309-5710" },
+        ]
+    },
+    {
+        id: "332K4244",
+        slug: "computer-332K4244",
+        title: {
+            en: "Displays 332/K4244",
+            lt: "Ekranai (displėjai) 332/K4244",
+        },
+        type: "computer",
+        images: ["/parts/computer-332K4244.avif"],
+        description: {
+            en: "Displays 332/K4244.",
+            lt: "Ekranai (displėjai) 332/K4244.",
+        },
+        fits: [
+            { make: "JCB", model: "JS220", partNumber: "332/K4244" },
+        ]
+    },
+
+    {
+        id: "300426-00196A",
+        slug: "computer-300426-00196A",
+        title: {
+            en: "Displays 300426-00196A",
+            lt: "Ekranai (displėjai) 300426-00196A",
+        },
+        type: "computer",
+        images: ["/parts/computer-300426-00196A.avif"],
+        description: {
+            en: "Displays 300426-00196A.",
+            lt: "Ekranai (displėjai) 300426-00196A.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX225-9C", partNumber: "300426-00196A" },
+            { make: "Doosan", model: "DX340-9C", partNumber: "300426-00196A" },
+        ]
+    },
+    {
+        id: "416-4285",
+        slug: "computer-416-4285",
+        title: {
+            en: "Displays 416-4285",
+            lt: "Ekranai (displėjai) 416-4285",
+        },
+        type: "computer",
+        images: ["/parts/computer-416-4285.avif"],
+        description: {
+            en: "Displays 416-4285.",
+            lt: "Ekranai (displėjai) 416-4285.",
+        },
+        fits: [
+            { make: "CAT", model: "307E", partNumber: "416-4285" },
+            { make: "CAT", model: "308E", partNumber: "416-4285" },
+        ]
+    },
+    {
+        id: "7835-34-1002",
+        slug: "computer-7835-34-1002",
+        title: {
+            en: "Displays 7835-34-1002",
+            lt: "Ekranai (displėjai) 7835-34-1002",
+        },
+        type: "computer",
+        images: ["/parts/computer-7835-34-1002.avif"],
+        description: {
+            en: "Displays 7835-34-1002.",
+            lt: "Ekranai (displėjai) 7835-34-1002.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-8MO", partNumber: "7835-34-1002" },
+        ]
+    },
+    {
+        id: "7835-12-3007",
+        slug: "computer-7835-12-3007",
+        title: {
+            en: "Displays 7835-12-3007",
+            lt: "Ekranai (displėjai) 7835-12-3007",
+        },
+        type: "computer",
+        images: ["/parts/computer-7835-12-3007.avif"],
+        description: {
+            en: "Displays 7835-12-3007.",
+            lt: "Ekranai (displėjai) 7835-12-3007.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-7", partNumber: "7835-12-3007" },
+        ]
+    },
+    {
+        id: "7824-72-2001",
+        slug: "computer-7824-72-2001",
+        title: {
+            en: "Displays 7824-72-2001",
+            lt: "Ekranai (displėjai) 7824-72-2001",
+        },
+        type: "computer",
+        images: ["/parts/computer-7824-72-2001.avif"],
+        description: {
+            en: "Displays 7824-72-2001.",
+            lt: "Ekranai (displėjai) 7824-72-2001.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-5", partNumber: "7824-72-2001" },
+        ]
+    },
+    {
+        id: "260-2160",
+        slug: "computer-260-2160",
+        title: {
+            en: "Displays 260-2160",
+            lt: "Ekranai (displėjai) 260-2160",
+        },
+        type: "computer",
+        images: ["/parts/computer-260-2160.avif"],
+        description: {
+            en: "Displays 260-2160.",
+            lt: "Ekranai (displėjai) 260-2160.",
+        },
+        fits: [
+            { make: "CAT", model: "320C", partNumber: "260-2160" },
+            { make: "CAT", model: "312C", partNumber: "260-2160" },
+        ]
+    },
+    {
+        id: "4652262",
+        slug: "computer-4652262",
+        title: {
+            en: "Displays 4652262",
+            lt: "Ekranai (displėjai) 4652262",
+        },
+        type: "computer",
+        images: ["/parts/computer-4652262.avif"],
+        description: {
+            en: "Displays 4652262.",
+            lt: "Ekranai (displėjai) 4652262.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX200-3", partNumber: "4652262" },
+        ]
+    },
+    {
+        id: "11888261",
+        slug: "computer-11888261",
+        title: {
+            en: "Displays 11888261",
+            lt: "Ekranai (displėjai) 11888261",
+        },
+        type: "computer",
+        images: ["/parts/computer-11888261.avif"],
+        description: {
+            en: "Displays 11888261.",
+            lt: "Ekranai (displėjai) 11888261.",
+        },
+        fits: [
+            { make: "Sany", model: "SY215-9", partNumber: "11888261" },
+        ]
+    },
+    {
+        id: "135-215-330",
+        slug: "computer-135-215-330",
+        title: {
+            en: "Displays 135-215-330",
+            lt: "Ekranai (displėjai) 135-215-330",
+        },
+        type: "computer",
+        images: ["/parts/computer-135-215-330.avif"],
+        description: {
+            en: "Displays 135-215-330.",
+            lt: "Ekranai (displėjai) 135-215-330.",
+        },
+        fits: [
+            { make: "Sany", model: "SY215-8", partNumber: "135-215-330" },
+        ]
+    },
+    {
+        id: "YN10M00002S013",
+        slug: "computer-YN10M00002S013",
+        title: {
+            en: "Displays YN10M00002S013",
+            lt: "Ekranai (displėjai) YN10M00002S013",
+        },
+        type: "computer",
+        images: ["/parts/computer-YN10M00002S013.avif"],
+        description: {
+            en: "Displays YN10M00002S013.",
+            lt: "Ekranai (displėjai) YN10M00002S013.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK120-5.5", partNumber: "YN10M00002S013" },
+        ]
+    },
+    {
+        id: "7835-10-2005",
+        slug: "computer-7835-10-2005",
+        title: {
+            en: "Displays 7835-10-2005",
+            lt: "Ekranai (displėjai) 7835-10-2005",
+        },
+        type: "computer",
+        images: ["/parts/computer-7835-10-2005.avif"],
+        description: {
+            en: "Displays 7835-10-2005.",
+            lt: "Ekranai (displėjai) 7835-10-2005.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC228US-3", partNumber: "7835-10-2005" },
+        ]
+    },
+    {
+        id: "21N8-30013",
+        slug: "computer-21N8-30013",
+        title: {
+            en: "Displays 21N8-30013",
+            lt: "Ekranai (displėjai) 21N8-30013",
+        },
+        type: "computer",
+        images: ["/parts/computer-21N8-30013.avif"],
+        description: {
+            en: "Displays 21N8-30013.",
+            lt: "Ekranai (displėjai) 21N8-30013.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R215-7", partNumber: "21N8-30013" },
+        ]
+    },
+    {
+        id: "14640102",
+        slug: "computer-14640102",
+        title: {
+            en: "Displays 14640102",
+            lt: "Ekranai (displėjai) 14640102",
+        },
+        type: "computer",
+        images: ["/parts/computer-14640102.avif"],
+        description: {
+            en: "Displays 14640102.",
+            lt: "Ekranai (displėjai) 14640102.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC300D", partNumber: "14640102" },
+        ]
+    },
+    {
+        id: "260-2193",
+        slug: "computer-260-2193",
+        title: {
+            en: "Displays 260-2193",
+            lt: "Ekranai (displėjai) 260-2193",
+        },
+        type: "computer",
+        images: ["/parts/computer-260-2193.avif"],
+        description: {
+            en: "Displays 260-2193.",
+            lt: "Ekranai (displėjai) 260-2193.",
+        },
+        fits: [
+            { make: "CAT", model: "311D", partNumber: "260-2193" },
+            { make: "CAT", model: "312D", partNumber: "260-2193" },
+        ]
+    },
+    {
+        id: "KHR23594",
+        slug: "computer-KHR23594",
+        title: {
+            en: "Displays KHR23594",
+            lt: "Ekranai (displėjai) KHR23594",
+        },
+        type: "computer",
+        images: ["/parts/computer-KHR23594.avif"],
+        description: {
+            en: "Displays KHR23594.",
+            lt: "Ekranai (displėjai) KHR23594.",
+        },
+        fits: [
+            { make: "Sumitomo", model: "SH200-A6", partNumber: "KHR23594" },
+        ]
+    },
+    {
+        id: "7835-31-5009",
+        slug: "computer-7835-31-5009",
+        title: {
+            en: "Displays 7835-31-5009",
+            lt: "Ekranai (displėjai) 7835-31-5009",
+        },
+        type: "computer",
+        images: ["/parts/computer-7835-31-5009.avif"],
+        description: {
+            en: "Displays 7835-31-5009.",
+            lt: "Ekranai (displėjai) 7835-31-5009.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-8", partNumber: "7835-31-5009" },
+        ]
+    },
+    {
+        id: "260-2160",
+        slug: "computer-260-2160",
+        title: {
+            en: "Displays 260-2160",
+            lt: "Ekranai (displėjai) 260-2160",
+        },
+        type: "computer",
+        images: ["/parts/computer-260-2160.avif"],
+        description: {
+            en: "Displays 260-2160.",
+            lt: "Ekranai (displėjai) 260-2160.",
+        },
+        fits: [
+            { make: "CAT", model: "320D", partNumber: "260-2160" },
+        ]
+    },
+    {
+        id: "529-00076E",
+        slug: "computer-529-00076E",
+        title: {
+            en: "Displays 529-00076E",
+            lt: "Ekranai (displėjai) 529-00076E",
+        },
+        type: "computer",
+        images: ["/parts/computer-529-00076E.avif"],
+        description: {
+            en: "Displays 529-00076E.",
+            lt: "Ekranai (displėjai) 529-00076E.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX140", partNumber: "529-00076E" },
+        ]
+    },
+    {
+        id: "53900076(300426-00012)",
+        slug: "computer-53900076(300426-00012)",
+        title: {
+            en: "Displays 53900076/300426-00012",
+            lt: "Ekranai (displėjai) 53900076/300426-00012",
+        },
+        type: "computer",
+        images: ["/parts/computer-53900076300426-00012.avif"],
+        description: {
+            en: "Displays 53900076/300426-00012.",
+            lt: "Ekranai (displėjai) 53900076/300426-00012.",
+        },
+        fits: [
+            { make: "Doosan", model: "DX225", partNumber: "53900076/300426-00012" },
+        ]
+    },
+    {
+        id: "416-4285X",
+        slug: "computer-416-4285X",
+        title: {
+            en: "Displays 416-4285X",
+            lt: "Ekranai (displėjai) 416-4285X",
+        },
+        type: "computer",
+        images: ["/parts/computer-416-4285X.avif"],
+        description: {
+            en: "Displays 416-4285X.",
+            lt: "Ekranai (displėjai) 416-4285X.",
+        },
+        fits: [
+            { make: "CAT", model: "307", partNumber: "416-4285X" },
+            { make: "CAT", model: "307E", partNumber: "416-4285X" },
+        ]
+    },
+    {
+        id: "14636301(14390065P03)",
+        slug: "computer-14636301(14390065P03)",
+        title: {
+            en: "Displays 14636301/14390065P03",
+            lt: "Ekranai (displėjai) 14636301/14390065P03",
+        },
+        type: "computer",
+        images: ["/parts/computer-1463630114390065P03.avif"],
+        description: {
+            en: "Displays 14636301/14390065P03.",
+            lt: "Ekranai (displėjai) 14636301/14390065P03.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210B", partNumber: "14636301/14390065P03" },
+        ]
+    },
+    {
+        id: "14609502(14640101)",
+        slug: "computer-14609502(14640101)",
+        title: {
+            en: "Displays 14609502/14640101",
+            lt: "Ekranai (displėjai) 14609502/14640101",
+        },
+        type: "computer",
+        images: ["/parts/computer-1460950214640101.avif"],
+        description: {
+            en: "Displays 14609502/14640101.",
+            lt: "Ekranai (displėjai) 14609502/14640101.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC480D", partNumber: "14609502/14640101" },
+        ]
+    },
+    {
+        id: "21Q6-30105(21Q6-33401)",
+        slug: "computer-21Q6-30105(21Q6-33401)",
+        title: {
+            en: "Displays 21Q6-30105/21Q6-33401",
+            lt: "Ekranai (displėjai) 21Q6-30105/21Q6-33401",
+        },
+        type: "computer",
+        images: ["/parts/computer-21Q6-3010521Q6-33401.avif"],
+        description: {
+            en: "Displays 21Q6-30105/21Q6-33401.",
+            lt: "Ekranai (displėjai) 21Q6-30105/21Q6-33401.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R215-9S", partNumber: "21Q6-30105/21Q6-33401" },
+        ]
+    },
+    {
+        id: "14505903",
+        slug: "fan-pump-14505903",
+        title: {
+            en: "Fan pump 14505903",
+            lt: "Aušinimo sistemos siurblys 14505903",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14505903.avif"],
+        description: {
+            en: "Fan pump 14505903.",
+            lt: "Aušinimo sistemos siurblys 14505903.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "14505903" },
+        ]
+    },
+    {
+        id: "14531612",
+        slug: "fan-pump-14531612",
+        title: {
+            en: "Fan pump 14531612",
+            lt: "Aušinimo sistemos siurblys 14531612",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14531612.avif"],
+        description: {
+            en: "Fan pump 14531612.",
+            lt: "Aušinimo sistemos siurblys 14531612.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC700", partNumber: "14531612" },
+        ]
+    },
+    {
+        id: "295-9426",
+        slug: "fan-pump-295-9426",
+        title: {
+            en: "Fan pump 295-9426",
+            lt: "Aušinimo sistemos siurblys 295-9426",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-295-9426.avif"],
+        description: {
+            en: "Fan pump 295-9426.",
+            lt: "Aušinimo sistemos siurblys 295-9426.",
+        },
+        fits: [
+            { make: "CAT", model: "345D", partNumber: "295-9426" },
+            { make: "CAT", model: "349", partNumber: "295-9426" },
+        ]
+    },
+    {
+        id: "247-8917",
+        slug: "fan-pump-247-8917",
+        title: {
+            en: "Fan pump 247-8917",
+            lt: "Aušinimo sistemos siurblys 247-8917",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-247-8917.avif"],
+        description: {
+            en: "Fan pump 247-8917.",
+            lt: "Aušinimo sistemos siurblys 247-8917.",
+        },
+        fits: [
+            { make: "CAT", model: "345C", partNumber: "247-8917" },
+        ]
+    },
+    {
+        id: "283-5992",
+        slug: "fan-pump-283-5992",
+        title: {
+            en: "Fan pump 283-5992",
+            lt: "Aušinimo sistemos siurblys 283-5992",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-283-5992.avif"],
+        description: {
+            en: "Fan pump 283-5992.",
+            lt: "Aušinimo sistemos siurblys 283-5992.",
+        },
+        fits: [
+            { make: "CAT", model: "330C", partNumber: "283-5992" },
+        ]
+    },
+    {
+        id: "259-0815",
+        slug: "fan-pump-259-0815",
+        title: {
+            en: "Fan pump 259-0815",
+            lt: "Aušinimo sistemos siurblys 259-0815",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-259-0815.avif"],
+        description: {
+            en: "Fan pump 259-0815.",
+            lt: "Aušinimo sistemos siurblys 259-0815.",
+        },
+        fits: [
+            { make: "CAT", model: "330D", partNumber: "259-0815" },
+            { make: "CAT", model: "336D", partNumber: "259-0815" },
+        ]
+    },
+    {
+        id: "200-3406",
+        slug: "fan-pump-200-3406",
+        title: {
+            en: "Fan pump 200-3406",
+            lt: "Aušinimo sistemos siurblys 200-3406",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-200-3406.avif"],
+        description: {
+            en: "Fan pump 200-3406.",
+            lt: "Aušinimo sistemos siurblys 200-3406.",
+        },
+        fits: [
+            { make: "CAT", model: "325C", partNumber: "200-3406" },
+        ]
+    },
+    {
+        id: "14602247",
+        slug: "fan-pump-14602247",
+        title: {
+            en: "Fan pump 14602247",
+            lt: "Aušinimo sistemos siurblys 14602247",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14602247.avif"],
+        description: {
+            en: "Fan pump 14602247.",
+            lt: "Aušinimo sistemos siurblys 14602247.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC480D", partNumber: "14602247" },
+        ]
+    },
+    {
+        id: "14530502",
+        slug: "fan-pump-14530502",
+        title: {
+            en: "Fan pump 14530502",
+            lt: "Aušinimo sistemos siurblys 14530502",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14530502.avif"],
+        description: {
+            en: "Fan pump 14530502.",
+            lt: "Aušinimo sistemos siurblys 14530502.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "14530502" },
+            { make: "Volvo", model: "EC360B", partNumber: "14530502" },
+            { make: "Volvo", model: "EC330B", partNumber: "14530502" },
+        ]
+    },
+    {
+        id: "31Q4-30202",
+        slug: "fan-pump-31Q4-30202",
+        title: {
+            en: "Fan pump 31Q4-30202",
+            lt: "Aušinimo sistemos siurblys 31Q4-30202",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-31Q4-30202.avif"],
+        description: {
+            en: "Fan pump 31Q4-30202.",
+            lt: "Aušinimo sistemos siurblys 31Q4-30202.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R520LC-9", partNumber: "31Q4-30202" },
+        ]
+    },
+    {
+        id: "31QB-30130",
+        slug: "fan-pump-31QB-30130",
+        title: {
+            en: "Fan pump 31QB-30130",
+            lt: "Aušinimo sistemos siurblys 31QB-30130",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-31QB-30130.avif"],
+        description: {
+            en: "Fan pump 31QB-30130.",
+            lt: "Aušinimo sistemos siurblys 31QB-30130.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R385", partNumber: "31QB-30130" },
+            { make: "Hyundai", model: "R485", partNumber: "31QB-30130" },
+        ]
+    },
+    {
+        id: "15020179",
+        slug: "fan-pump-15020179",
+        title: {
+            en: "Fan pump 15020179",
+            lt: "Aušinimo sistemos siurblys 15020179",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-15020179.avif"],
+        description: {
+            en: "Fan pump 15020179.",
+            lt: "Aušinimo sistemos siurblys 15020179.",
+        },
+        fits: [
+            { make: "Volvo", model: "A35F", partNumber: "15020179" },
+            { make: "Volvo", model: "A35E", partNumber: "15020179" },
+            { make: "Volvo", model: "A40E", partNumber: "15020179" },
+        ]
+    },
+    {
+        id: "247-8968(311-9550)",
+        slug: "fan-pump-247-8968(311-9550)",
+        title: {
+            en: "Fan pump 247-8968/311-9550",
+            lt: "Aušinimo sistemos siurblys 247-8968/311-9550",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-247-8968311-9550.avif"],
+        description: {
+            en: "Fan pump 247-8968/311-9550.",
+            lt: "Aušinimo sistemos siurblys 247-8968/311-9550.",
+        },
+        fits: [
+            { make: "CAT", model: "365C", partNumber: "247-8968/311-9550" },
+            { make: "CAT", model: "365B", partNumber: "247-8968/311-9550" },
+        ]
+    },
+    {
+        id: "245-5147(245-5145)",
+        slug: "fan-pump-245-5147(245-5145)",
+        title: {
+            en: "Fan pump 245-5147/245-5145",
+            lt: "Aušinimo sistemos siurblys 245-5147/245-5145",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-245-5147245-5145.avif"],
+        description: {
+            en: "Fan pump 245-5147/245-5145.",
+            lt: "Aušinimo sistemos siurblys 245-5147/245-5145.",
+        },
+        fits: [
+            { make: "CAT", model: "972H", partNumber: "245-5147/245-5145" },
+            { make: "CAT", model: "938H", partNumber: "245-5147/245-5145" },
+        ]
+    },
+    {
+        id: "350-0666",
+        slug: "fan-pump-350-0666",
+        title: {
+            en: "Fan pump 350-0666",
+            lt: "Aušinimo sistemos siurblys 350-0666",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-350-0666.avif"],
+        description: {
+            en: "Fan pump 350-0666.",
+            lt: "Aušinimo sistemos siurblys 350-0666.",
+        },
+        fits: [
+            { make: "CAT", model: "416E", partNumber: "350-0666" },
+            { make: "CAT", model: "422E", partNumber: "350-0666" },
+        ]
+    },
+    {
+        id: "307-3063",
+        slug: "fan-pump-307-3063",
+        title: {
+            en: "Fan pump 307-3063",
+            lt: "Aušinimo sistemos siurblys 307-3063",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-307-3063.avif"],
+        description: {
+            en: "Fan pump 307-3063.",
+            lt: "Aušinimo sistemos siurblys 307-3063.",
+        },
+        fits: [
+            { make: "CAT", model: "416E", partNumber: "307-3063" },
+        ]
+    },
+    {
+        id: "14537295",
+        slug: "fan-pump-14537295",
+        title: {
+            en: "Fan pump 14537295",
+            lt: "Aušinimo sistemos siurblys 14537295",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14537295.avif"],
+        description: {
+            en: "Fan pump 14537295.",
+            lt: "Aušinimo sistemos siurblys 14537295.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC460B", partNumber: "14537295" },
+        ]
+    },
+    {
+        id: "14602252",
+        slug: "fan-pump-14602252",
+        title: {
+            en: "Fan pump 14602252",
+            lt: "Aušinimo sistemos siurblys 14602252",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14602252.avif"],
+        description: {
+            en: "Fan pump 14602252.",
+            lt: "Aušinimo sistemos siurblys 14602252.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC380", partNumber: "14602252" },
+        ]
+    },
+    {
+        id: "14561970",
+        slug: "fan-pump-14561970",
+        title: {
+            en: "Fan pump 14561970",
+            lt: "Aušinimo sistemos siurblys 14561970",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14561970.avif"],
+        description: {
+            en: "Fan pump 14561970.",
+            lt: "Aušinimo sistemos siurblys 14561970.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC460", partNumber: "14561970" },
+        ]
+    },
+    {
+        id: "14524186",
+        slug: "fan-pump-14524186",
+        title: {
+            en: "Fan pump 14524186",
+            lt: "Aušinimo sistemos siurblys 14524186",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-14524186.avif"],
+        description: {
+            en: "Fan pump 14524186.",
+            lt: "Aušinimo sistemos siurblys 14524186.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC240", partNumber: "14524186" },
+        ]
+    },
+    {
+        id: "1514066617458128",
+        slug: "fan-pump-1514066617458128",
+        title: {
+            en: "Fan pump 15140666/17458128",
+            lt: "Aušinimo sistemos siurblys 15140666/17458128",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-1514066617458128.avif"],
+        description: {
+            en: "Fan pump 15140666/17458128.",
+            lt: "Aušinimo sistemos siurblys 15140666/17458128.",
+        },
+        fits: [
+            { make: "Volvo", model: "A25F", partNumber: "15140666/17458128" },
+            { make: "Volvo", model: "A25F/G", partNumber: "15140666/17458128" },
+        ]
+    },
+    {
+        id: "254-5146",
+        slug: "fan-pump-254-5146",
+        title: {
+            en: "Fan pump 254-5146",
+            lt: "Aušinimo sistemos siurblys 254-5146",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-254-5146.avif"],
+        description: {
+            en: "Fan pump 254-5146.",
+            lt: "Aušinimo sistemos siurblys 254-5146.",
+        },
+        fits: [
+            { make: "CAT", model: "950H", partNumber: "254-5146" },
+            { make: "CAT", model: "962H", partNumber: "254-5146" },
+        ]
+    },
+    {
+        id: "250-8337",
+        slug: "fan-pump-250-8337",
+        title: {
+            en: "Fan pump 250-8337",
+            lt: "Aušinimo sistemos siurblys 250-8337",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-250-8337.avif"],
+        description: {
+            en: "Fan pump 250-8337.",
+            lt: "Aušinimo sistemos siurblys 250-8337.",
+        },
+        fits: [
+            { make: "CAT", model: "320D", partNumber: "250-8337" },
+        ]
+    },
+    {
+        id: "295-0814",
+        slug: "fan-pump-295-0814",
+        title: {
+            en: "Fan pump 295-0814",
+            lt: "Aušinimo sistemos siurblys 295-0814",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-295-0814.avif"],
+        description: {
+            en: "Fan pump 295-0814.",
+            lt: "Aušinimo sistemos siurblys 295-0814.",
+        },
+        fits: [
+            { make: "CAT", model: "345B", partNumber: "295-0814" },
+        ]
+    },
+    {
+        id: "190-8970",
+        slug: "fan-pump-190-8970",
+        title: {
+            en: "Fan pump 190-8970",
+            lt: "Aušinimo sistemos siurblys 190-8970",
+        },
+        type: "fan-pump",
+        images: ["/parts/fan-pump-190-8970.avif"],
+        description: {
+            en: "Fan pump 190-8970.",
+            lt: "Aušinimo sistemos siurblys 190-8970.",
+        },
+        fits: [
+            { make: "CAT", model: "322C", partNumber: "190-8970" },
+            { make: "CAT", model: "324D", partNumber: "190-8970" },
+        ]
+    },
+    {
+        id: "179-9778",
+        slug: "fan-motor-179-9778",
+        title: {
+            en: "Fan motor 179-9778",
+            lt: "Aušinimo sistemos hidromotoras 179-9778",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-179-9778.avif"],
+        description: {
+            en: "Fan motor 179-9778.",
+            lt: "Aušinimo sistemos hidromotoras 179-9778.",
+        },
+        fits: [
+            { make: "CAT", model: "325C", partNumber: "179-9778" },
+        ]
+    },
+
+    {
+        id: "191-5611",
+        slug: "fan-motor-191-5611",
+        title: {
+            en: "Fan motor 191-5611",
+            lt: "Aušinimo sistemos hidromotoras 191-5611",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-191-5611.avif"],
+        description: {
+            en: "Fan motor 191-5611.",
+            lt: "Aušinimo sistemos hidromotoras 191-5611.",
+        },
+        fits: [
+            { make: "CAT", model: "330C", partNumber: "191-5611" },
+        ]
+    },
+    {
+        id: "234-4638",
+        slug: "fan-motor-234-4638",
+        title: {
+            en: "Fan motor 234-4638",
+            lt: "Aušinimo sistemos hidromotoras 234-4638",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-234-4638.avif"],
+        description: {
+            en: "Fan motor 234-4638.",
+            lt: "Aušinimo sistemos hidromotoras 234-4638.",
+        },
+        fits: [
+            { make: "CAT", model: "330D", partNumber: "234-4638" },
+            { make: "CAT", model: "336D", partNumber: "234-4638" },
+        ]
+    },
+    {
+        id: "155-9107",
+        slug: "fan-motor-155-9107",
+        title: {
+            en: "Fan motor 155-9107",
+            lt: "Aušinimo sistemos hidromotoras 155-9107",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-155-9107.avif"],
+        description: {
+            en: "Fan motor 155-9107.",
+            lt: "Aušinimo sistemos hidromotoras 155-9107.",
+        },
+        fits: [
+            { make: "CAT", model: "345B", partNumber: "155-9107" },
+            { make: "CAT", model: "330DL", partNumber: "155-9107" },
+        ]
+    },
+    {
+        id: "YA0005829",
+        slug: "fan-motor-YA0005829",
+        title: {
+            en: "Fan motor YA0005829",
+            lt: "Aušinimo sistemos hidromotoras YA0005829",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-YA0005829.avif"],
+        description: {
+            en: "Fan motor YA0005829.",
+            lt: "Aušinimo sistemos hidromotoras YA0005829.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX450-3", partNumber: "YA0005829" },
+            { make: "Hitachi", model: "ZX470-3", partNumber: "YA0005829" },
+        ]
+    },
+    {
+        id: "708-7S-00550",
+        slug: "fan-motor-708-7S-00550",
+        title: {
+            en: "Fan motor 708-7S-00550",
+            lt: "Aušinimo sistemos hidromotoras 708-7S-00550",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-708-7S-00550.avif"],
+        description: {
+            en: "Fan motor 708-7S-00550.",
+            lt: "Aušinimo sistemos hidromotoras 708-7S-00550.",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA430-6", partNumber: "708-7S-00550" },
+        ]
+    },
+    {
+        id: "11410665",
+        slug: "fan-motor-11410665",
+        title: {
+            en: "Fan motor 11410665",
+            lt: "Aušinimo sistemos hidromotoras 11410665",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-11410665.avif"],
+        description: {
+            en: "Fan motor 11410665.",
+            lt: "Aušinimo sistemos hidromotoras 11410665.",
+        },
+        fits: [
+            { make: "Volvo", model: "L220E", partNumber: "11410665" },
+            { make: "Volvo", model: "L180E", partNumber: "11410665" },
+        ]
+    },
+    {
+        id: "14531612",
+        slug: "fan-motor-14531612",
+        title: {
+            en: "Fan motor 14531612",
+            lt: "Aušinimo sistemos hidromotoras 14531612",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-14531612.avif"],
+        description: {
+            en: "Fan motor 14531612.",
+            lt: "Aušinimo sistemos hidromotoras 14531612.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC700", partNumber: "14531612" },
+        ]
+    },
+    {
+        id: "14533496",
+        slug: "fan-motor-14533496",
+        title: {
+            en: "Fan motor 14533496",
+            lt: "Aušinimo sistemos hidromotoras 14533496",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-14533496.avif"],
+        description: {
+            en: "Fan motor 14533496.",
+            lt: "Aušinimo sistemos hidromotoras 14533496.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "14533496" },
+            { make: "Volvo", model: "EC380", partNumber: "14533496" },
+        ]
+    },
+    {
+        id: "MFE19B210074",
+        slug: "fan-motor-MFE19B210074",
+        title: {
+            en: "Fan motor MFE19/B210074",
+            lt: "Aušinimo sistemos hidromotoras MFE19/B210074",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-MFE19B210074.avif"],
+        description: {
+            en: "Fan motor MFE19/B210074.",
+            lt: "Aušinimo sistemos hidromotoras MFE19/B210074.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "MFE19/B210074" },
+        ]
+    },
+    {
+        id: "MSF50-48B044050005",
+        slug: "fan-motor-MSF50-48B044050005",
+        title: {
+            en: "Fan motor MSF50-48/B044050005",
+            lt: "Aušinimo sistemos hidromotoras MSF50-48/B044050005",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-MSF50-48B044050005.avif"],
+        description: {
+            en: "Fan motor MSF50-48/B044050005.",
+            lt: "Aušinimo sistemos hidromotoras MSF50-48/B044050005.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX870", partNumber: "MSF50-48/B044050005" },
+        ]
+    },
+    {
+        id: "4634936",
+        slug: "fan-motor-4634936",
+        title: {
+            en: "Fan motor 4634936",
+            lt: "Aušinimo sistemos hidromotoras 4634936",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-4634936.avif"],
+        description: {
+            en: "Fan motor 4634936.",
+            lt: "Aušinimo sistemos hidromotoras 4634936.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX450L-3", partNumber: "4634936" },
+        ]
+    },
+    {
+        id: "247-8978",
+        slug: "fan-motor-247-8978",
+        title: {
+            en: "Fan motor 247-8978",
+            lt: "Aušinimo sistemos hidromotoras 247-8978",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-247-8978.avif"],
+        description: {
+            en: "Fan motor 247-8978.",
+            lt: "Aušinimo sistemos hidromotoras 247-8978.",
+        },
+        fits: [
+            { make: "CAT", model: "365C", partNumber: "247-8978" },
+            { make: "CAT", model: "385B", partNumber: "247-8978" },
+        ]
+    },
+    {
+        id: "295-9429",
+        slug: "fan-motor-295-9429",
+        title: {
+            en: "Fan motor 295-9429",
+            lt: "Aušinimo sistemos hidromotoras 295-9429",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-295-9429.avif"],
+        description: {
+            en: "Fan motor 295-9429.",
+            lt: "Aušinimo sistemos hidromotoras 295-9429.",
+        },
+        fits: [
+            { make: "CAT", model: "345D", partNumber: "295-9429" },
+            { make: "CAT", model: "349", partNumber: "295-9429" },
+        ]
+    },
+    {
+        id: "266-8034",
+        slug: "fan-motor-266-8034",
+        title: {
+            en: "Fan motor 266-8034",
+            lt: "Aušinimo sistemos hidromotoras 266-8034",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-266-8034.avif"],
+        description: {
+            en: "Fan motor 266-8034.",
+            lt: "Aušinimo sistemos hidromotoras 266-8034.",
+        },
+        fits: [
+            { make: "CAT", model: "345CL", partNumber: "266-8034" },
+        ]
+    },
+    {
+        id: "D705(KYB55)MSF420460-34604",
+        slug: "fan-motor-D705(KYB55)MSF420460-34604",
+        title: {
+            en: "Fan motor D705(KYB55)MSF420460-34604",
+            lt: "Aušinimo sistemos hidromotoras D705(KYB55)MSF420460-34604",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-D705(KYB55)MSF420460-34604.avif"],
+        description: {
+            en: "Fan motor D705(KYB55)MSF420460-34604.",
+            lt: "Aušinimo sistemos hidromotoras D705(KYB55)MSF420460-34604.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "D705(KYB55)MSF420460-34604" },
+        ]
+    },
+    {
+        id: "161-8919",
+        slug: "fan-motor-161-8919",
+        title: {
+            en: "Fan motor 161-8919",
+            lt: "Aušinimo sistemos hidromotoras 161-8919",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-161-8919.avif"],
+        description: {
+            en: "Fan motor 161-8919.",
+            lt: "Aušinimo sistemos hidromotoras 161-8919.",
+        },
+        fits: [
+            { make: "CAT", model: "980G", partNumber: "161-8919" },
+        ]
+    },
+    {
+        id: "129-2413",
+        slug: "fan-motor-129-2413",
+        title: {
+            en: "Fan motor 129-2413",
+            lt: "Aušinimo sistemos hidromotoras 129-2413",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-129-2413.avif"],
+        description: {
+            en: "Fan motor 129-2413.",
+            lt: "Aušinimo sistemos hidromotoras 129-2413.",
+        },
+        fits: [
+            { make: "CAT", model: "825G", partNumber: "129-2413" },
+        ]
+    },
+    {
+        id: "YA00005829",
+        slug: "fan-motor-YA00005829",
+        title: {
+            en: "Fan motor YA00005829",
+            lt: "Aušinimo sistemos hidromotoras YA00005829",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-YA00005829.avif"],
+        description: {
+            en: "Fan motor YA00005829.",
+            lt: "Aušinimo sistemos hidromotoras YA00005829.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX470", partNumber: "YA00005829" },
+        ]
+    },
+    {
+        id: "125A(225A)B210835",
+        slug: "fan-motor-125A(225A)B210835",
+        title: {
+            en: "Fan motor 125A(225A)B210835",
+            lt: "Aušinimo sistemos hidromotoras 125A(225A)B210835",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-125A(225A)B210835.avif"],
+        description: {
+            en: "Fan motor 125A(225A)B210835.",
+            lt: "Aušinimo sistemos hidromotoras 125A(225A)B210835.",
+        },
+        fits: [
+            { make: "-", model: "-", partNumber: "125A(225A)B210835" },
+        ]
+    },
+    {
+        id: "VOE1111652",
+        slug: "fan-motor-VOE1111652",
+        title: {
+            en: "Fan motor VOE1111652",
+            lt: "Aušinimo sistemos hidromotoras VOE1111652",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-VOE1111652.avif"],
+        description: {
+            en: "Fan motor VOE1111652.",
+            lt: "Aušinimo sistemos hidromotoras VOE1111652.",
+        },
+        fits: [
+            { make: "Volvo", model: "A25D", partNumber: "VOE1111652" },
+            { make: "Volvo", model: "A30D", partNumber: "VOE1111652" },
+            { make: "Volvo", model: "A40F", partNumber: "VOE1111652" },
+        ]
+    },
+    {
+        id: "255-6805",
+        slug: "fan-motor-255-6805",
+        title: {
+            en: "Fan motor 255-6805",
+            lt: "Aušinimo sistemos hidromotoras 255-6805",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-255-6805.avif"],
+        description: {
+            en: "Fan motor 255-6805.",
+            lt: "Aušinimo sistemos hidromotoras 255-6805.",
+        },
+        fits: [
+            { make: "CAT", model: "980H", partNumber: "255-6805" },
+        ]
+    },
+    {
+        id: "370-7601",
+        slug: "fan-motor-370-7601",
+        title: {
+            en: "Fan motor 370-7601",
+            lt: "Aušinimo sistemos hidromotoras 370-7601",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-370-7601.avif"],
+        description: {
+            en: "Fan motor 370-7601.",
+            lt: "Aušinimo sistemos hidromotoras 370-7601.",
+        },
+        fits: [
+            { make: "CAT", model: "986", partNumber: "370-7601" },
+            { make: "CAT", model: "986H", partNumber: "370-7601" },
+        ]
+    },
+    {
+        id: "200-3252",
+        slug: "fan-motor-200-3252",
+        title: {
+            en: "Fan motor 200-3252",
+            lt: "Aušinimo sistemos hidromotoras 200-3252",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-200-3252.avif"],
+        description: {
+            en: "Fan motor 200-3252.",
+            lt: "Aušinimo sistemos hidromotoras 200-3252.",
+        },
+        fits: [
+            { make: "CAT", model: "385B", partNumber: "200-3252" },
+            { make: "CAT", model: "385C", partNumber: "200-3252" },
+        ]
+    },
+    {
+        id: "60248398",
+        slug: "fan-motor-60248398",
+        title: {
+            en: "Fan motor 60248398",
+            lt: "Aušinimo sistemos hidromotoras 60248398",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-60248398.avif"],
+        description: {
+            en: "Fan motor 60248398.",
+            lt: "Aušinimo sistemos hidromotoras 60248398.",
+        },
+        fits: [
+            { make: "Sany", model: "SY485", partNumber: "60248398" },
+        ]
+    },
+    {
+        id: "708-7S-00530(708-7S-00710)",
+        slug: "fan-motor-708-7S-00530(708-7S-00710)",
+        title: {
+            en: "Fan motor 708-7S-00530(708-7S-00710)",
+            lt: "Aušinimo sistemos hidromotoras 708-7S-00530(708-7S-00710)",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-708-7S-00530(708-7S-00710).avif"],
+        description: {
+            en: "Fan motor 708-7S-00530(708-7S-00710).",
+            lt: "Aušinimo sistemos hidromotoras 708-7S-00530(708-7S-00710).",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA380-5", partNumber: "708-7S-00530(708-7S-00710)" },
+            { make: "Komatsu", model: "WA470", partNumber: "708-7S-00530(708-7S-00710)" },
+        ]
+    },
+    {
+        id: "31Q4-30201",
+        slug: "fan-motor-31Q4-30201",
+        title: {
+            en: "Fan motor 31Q4-30201",
+            lt: "Aušinimo sistemos hidromotoras 31Q4-30201",
+        },
+        type: "fan-motor",
+        images: ["/parts/fan-motor-31Q4-30201.avif"],
+        description: {
+            en: "Fan motor 31Q4-30201.",
+            lt: "Aušinimo sistemos hidromotoras 31Q4-30201.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R520-9", partNumber: "31Q4-30201" },
+        ]
+    },
+    {
+        id: "401-00254B",
+        slug: "gear-pump-401-00254B",
+        title: {
+            en: "Gear pump 401-00254B",
+            lt: "Krumpliaratinis siurblys 401-00254B",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-401-00254B.avif"],
+        description: {
+            en: "Gear pump 401-00254B.",
+            lt: "Krumpliaratinis siurblys 401-00254B.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH370-7", partNumber: "401-00254B" },
+            { make: "Doosan", model: "DH370-9", partNumber: "401-00254B" },
+        ]
+    },
+    {
+        id: "K9001918",
+        slug: "gear-pump-K9001918",
+        title: {
+            en: "Gear pump K9001918",
+            lt: "Krumpliaratinis siurblys K9001918",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-K9001918.avif"],
+        description: {
+            en: "Gear pump K9001918.",
+            lt: "Krumpliaratinis siurblys K9001918.",
+        },
+        fits: [
+            { make: "Doosan", model: "DH500", partNumber: "K9001918" },
+        ]
+    },
+    {
+        id: "126-2016",
+        slug: "gear-pump-126-2016",
+        title: {
+            en: "Gear pump 126-2016",
+            lt: "Krumpliaratinis siurblys 126-2016",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-126-2016.avif"],
+        description: {
+            en: "Gear pump 126-2016.",
+            lt: "Krumpliaratinis siurblys 126-2016.",
+        },
+        fits: [
+            { make: "CAT", model: "320", partNumber: "126-2016" },
+            { make: "CAT", model: "312", partNumber: "126-2016" },
+            { make: "CAT", model: "310C", partNumber: "126-2016" },
+        ]
+    },
+    {
+        id: "2902440-3633A",
+        slug: "gear-pump-2902440-3633A",
+        title: {
+            en: "Gear pump 2902440-3633A",
+            lt: "Krumpliaratinis siurblys 2902440-3633A",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-2902440-3633A.avif"],
+        description: {
+            en: "Gear pump 2902440-3633A.",
+            lt: "Krumpliaratinis siurblys 2902440-3633A.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK135", partNumber: "2902440-3633A" },
+        ]
+    },
+    {
+        id: "AP2D36",
+        slug: "gear-pump-AP2D36",
+        title: {
+            en: "Gear pump AP2D36",
+            lt: "Krumpliaratinis siurblys AP2D36",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-AP2D36.avif"],
+        description: {
+            en: "Gear pump AP2D36.",
+            lt: "Krumpliaratinis siurblys AP2D36.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK55", partNumber: "AP2D36" },
+            { make: "CASE", model: "CX55", partNumber: "AP2D36" },
+        ]
+    },
+    {
+        id: "AP2D36(HITACHI)",
+        slug: "gear-pump-AP2D36(HITACHI)",
+        title: {
+            en: "Gear pump AP2D36(HITACHI)",
+            lt: "Krumpliaratinis siurblys AP2D36(HITACHI)",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-AP2D36(HITACHI).avif"],
+        description: {
+            en: "Gear pump AP2D36(HITACHI).",
+            lt: "Krumpliaratinis siurblys AP2D36(HITACHI).",
+        },
+        fits: [
+            { make: "Kobelco", model: "ZX60", partNumber: "AP2D36(HITACHI)" },
+            { make: "CASE", model: "ZX70", partNumber: "AP2D36(HITACHI)" },
+        ]
+    },
+    {
+        id: "705-51-11020",
+        slug: "gear-pump-705-51-11020",
+        title: {
+            en: "Gear pump 705-51-11020",
+            lt: "Krumpliaratinis siurblys 705-51-11020",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-51-11020.avif"],
+        description: {
+            en: "Gear pump 705-51-11020.",
+            lt: "Krumpliaratinis siurblys 705-51-11020.",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA70", partNumber: "705-51-11020" },
+        ]
+    },
+    {
+        id: "705-51-11020",
+        slug: "gear-pump-705-51-11020",
+        title: {
+            en: "Gear pump 705-51-11020",
+            lt: "Krumpliaratinis siurblys 705-51-11020",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-51-11020.avif"],
+        description: {
+            en: "Gear pump 705-51-11020.",
+            lt: "Krumpliaratinis siurblys 705-51-11020.",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA70", partNumber: "705-51-11020" },
+        ]
+    },
+    {
+        id: "9217993",
+        slug: "gear-pump-9217993",
+        title: {
+            en: "Gear pump 9217993",
+            lt: "Krumpliaratinis siurblys 9217993",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-9217993.avif"],
+        description: {
+            en: "Gear pump 9217993.",
+            lt: "Krumpliaratinis siurblys 9217993.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX100-1", partNumber: "9217993" },
+        ]
+    },
+    {
+        id: "4276918",
+        slug: "gear-pump-4276918",
+        title: {
+            en: "Gear pump 4276918",
+            lt: "Krumpliaratinis siurblys 4276918",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-4276918.avif"],
+        description: {
+            en: "Gear pump 4276918.",
+            lt: "Krumpliaratinis siurblys 4276918.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200-5", partNumber: "4276918" },
+        ]
+    },
+    {
+        id: "4255303",
+        slug: "gear-pump-4255303",
+        title: {
+            en: "Gear pump 4255303",
+            lt: "Krumpliaratinis siurblys 4255303",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-4255303.avif"],
+        description: {
+            en: "Gear pump 4255303.",
+            lt: "Krumpliaratinis siurblys 4255303.",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200-2", partNumber: "4255303" },
+        ]
+    },
+    {
+        id: "4278696",
+        slug: "gear-pump-4278696",
+        title: {
+            en: "Gear pump 4278696",
+            lt: "Krumpliaratinis siurblys 4278696",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-4278696.avif"],
+        description: {
+            en: "Gear pump 4278696.",
+            lt: "Krumpliaratinis siurblys 4278696.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX225", partNumber: "4278696" },
+            { make: "Hitachi", model: "ZX180", partNumber: "4278696" },
+        ]
+    },
+    {
+        id: "2437U157F1",
+        slug: "gear-pump-2437U157F1",
+        title: {
+            en: "Gear pump 2437U157F1",
+            lt: "Krumpliaratinis siurblys 2437U157F1",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-2437U157F1.avif"],
+        description: {
+            en: "Gear pump 2437U157F1.",
+            lt: "Krumpliaratinis siurblys 2437U157F1.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK120-5", partNumber: "2437U157F1" },
+            { make: "Kobelco", model: "SK200-5", partNumber: "2437U157F1" },
+        ]
+    },
+    {
+        id: "705-56-34290",
+        slug: "gear-pump-705-56-34290",
+        title: {
+            en: "Gear pump 705-56-34290",
+            lt: "Krumpliaratinis siurblys 705-56-34290",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-56-34290.avif"],
+        description: {
+            en: "Gear pump 705-56-34290.",
+            lt: "Krumpliaratinis siurblys 705-56-34290.",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA320-6", partNumber: "705-56-34290" },
+        ]
+    },
+    {
+        id: "YY10V00015F1",
+        slug: "gear-pump-YY10V00015F1",
+        title: {
+            en: "Gear pump YY10V00015F1",
+            lt: "Krumpliaratinis siurblys YY10V00015F1",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-YY10V00015F1.avif"],
+        description: {
+            en: "Gear pump YY10V00015F1.",
+            lt: "Krumpliaratinis siurblys YY10V00015F1.",
+        },
+        fits: [
+            { make: "Kobelco", model: "SK130-9", partNumber: "YY10V00015F1" },
+            { make: "Kobelco", model: "SK140-8", partNumber: "YY10V00015F1" },
+        ]
+    },
+    {
+        id: "14561971",
+        slug: "gear-pump-14561971",
+        title: {
+            en: "Gear pump 14561971",
+            lt: "Krumpliaratinis siurblys 14561971",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-14561971.avif"],
+        description: {
+            en: "Gear pump 14561971.",
+            lt: "Krumpliaratinis siurblys 14561971.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "14561971" },
+        ]
+    },
+    {
+        id: "705-11-34011",
+        slug: "gear-pump-705-11-34011",
+        title: {
+            en: "Gear pump 705-11-34011",
+            lt: "Krumpliaratinis siurblys 705-11-34011",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-11-34011.avif"],
+        description: {
+            en: "Gear pump 705-11-34011.",
+            lt: "Krumpliaratinis siurblys 705-11-34011.",
+        },
+        fits: [
+            { make: "Komatsu", model: "WA120-1", partNumber: "705-11-34011" },
+        ]
+    },
+    {
+        id: "14602247",
+        slug: "gear-pump-14602247",
+        title: {
+            en: "Gear pump 14602247",
+            lt: "Krumpliaratinis siurblys 14602247",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-14602247.avif"],
+        description: {
+            en: "Gear pump 14602247.",
+            lt: "Krumpliaratinis siurblys 14602247.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360-S", partNumber: "14602247" },
+            { make: "Volvo", model: "EC480D", partNumber: "14602247" },
+        ]
+    },
+    {
+        id: "14561970",
+        slug: "gear-pump-14561970",
+        title: {
+            en: "Gear pump 14561970",
+            lt: "Krumpliaratinis siurblys 14561970",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-14561970.avif"],
+        description: {
+            en: "Gear pump 14561970.",
+            lt: "Krumpliaratinis siurblys 14561970.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC460", partNumber: "14561970" },
+        ]
+    },
+    {
+        id: "XJBN-00520",
+        slug: "gear-pump-XJBN-00520",
+        title: {
+            en: "Gear pump XJBN-00520",
+            lt: "Krumpliaratinis siurblys XJBN-00520",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-XJBN-00520.avif"],
+        description: {
+            en: "Gear pump XJBN-00520.",
+            lt: "Krumpliaratinis siurblys XJBN-00520.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R360LC-7", partNumber: "XJBN-00520" },
+        ]
+    },
+    {
+        id: "XKAH-00855",
+        slug: "gear-pump-XKAH-00855",
+        title: {
+            en: "Gear pump XKAH-00855",
+            lt: "Krumpliaratinis siurblys XKAH-00855",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-XKAH-00855.avif"],
+        description: {
+            en: "Gear pump XKAH-00855.",
+            lt: "Krumpliaratinis siurblys XKAH-00855.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R55-7", partNumber: "XKAH-00855" },
+        ]
+    },
+    {
+        id: "XJDH-02362",
+        slug: "gear-pump-XJDH-02362",
+        title: {
+            en: "Gear pump XJDH-02362",
+            lt: "Krumpliaratinis siurblys XJDH-02362",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-XJDH-02362.avif"],
+        description: {
+            en: "Gear pump XJDH-02362.",
+            lt: "Krumpliaratinis siurblys XJDH-02362.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R60-7", partNumber: "XJDH-02362" },
+            { make: "Hyundai", model: "R60-6", partNumber: "XJDH-02362" },
+        ]
+    },
+    {
+        id: "708-3T-04620",
+        slug: "gear-pump-708-3T-04620",
+        title: {
+            en: "Gear pump 708-3T-04620",
+            lt: "Krumpliaratinis siurblys 708-3T-04620",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-708-3T-04620.avif"],
+        description: {
+            en: "Gear pump 708-3T-04620.",
+            lt: "Krumpliaratinis siurblys 708-3T-04620.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC78-6EO", partNumber: "708-3T-04620" },
+        ]
+    },
+    {
+        id: "705-56-34000",
+        slug: "gear-pump-705-56-34000",
+        title: {
+            en: "Gear pump 705-56-34000",
+            lt: "Krumpliaratinis siurblys 705-56-34000",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-56-34000.avif"],
+        description: {
+            en: "Gear pump 705-56-34000.",
+            lt: "Krumpliaratinis siurblys 705-56-34000.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-2", partNumber: "705-56-34000" },
+            { make: "Komatsu", model: "PC120-1", partNumber: "705-56-34000" },
+        ]
+    },
+    {
+        id: "708-3S-04573",
+        slug: "gear-pump-708-3S-04573",
+        title: {
+            en: "Gear pump 708-3S-04573",
+            lt: "Krumpliaratinis siurblys 708-3S-04573",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-708-3S-04573.avif"],
+        description: {
+            en: "Gear pump 708-3S-04573.",
+            lt: "Krumpliaratinis siurblys 708-3S-04573.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC50MR-2", partNumber: "708-3S-04573" },
+        ]
+    },
+    {
+        id: "705-41-08090",
+        slug: "gear-pump-705-41-08090",
+        title: {
+            en: "Gear pump 705-41-08090",
+            lt: "Krumpliaratinis siurblys 705-41-08090",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-41-08090.avif"],
+        description: {
+            en: "Gear pump 705-41-08090.",
+            lt: "Krumpliaratinis siurblys 705-41-08090.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC40-7", partNumber: "705-41-08090" },
+        ]
+    },
+    {
+        id: "705-41-08010",
+        slug: "gear-pump-705-41-08010",
+        title: {
+            en: "Gear pump 705-41-08010",
+            lt: "Krumpliaratinis siurblys 705-41-08010",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-41-08010.avif"],
+        description: {
+            en: "Gear pump 705-41-08010.",
+            lt: "Krumpliaratinis siurblys 705-41-08010.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC40-6", partNumber: "705-41-08010" },
+        ]
+    },
+    {
+        id: "705-41-02700",
+        slug: "gear-pump-705-41-02700",
+        title: {
+            en: "Gear pump 705-41-02700",
+            lt: "Krumpliaratinis siurblys 705-41-02700",
+        },
+        type: "gear-pump",
+        images: ["/parts/gear-pump-705-41-02700.avif"],
+        description: {
+            en: "Gear pump 705-41-02700.",
+            lt: "Krumpliaratinis siurblys 705-41-02700.",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC30MR-2", partNumber: "705-41-02700" },
+        ]
+    },
+    {
+        id: "(92Z)",
+        slug: "slewing-bearing-(92Z)",
+        title: {
+            en: "Slewing bearing (92Z)",
+            lt: "Posūkio žiedas (92Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing (92Z).",
+            lt: "Posūkio žiedas (92Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC30-2", partNumber: "(92Z)" },
+        ]
+    },
+    {
+        id: "PC50-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC50-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC50-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC50-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC50-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC50-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC50-7", partNumber: "PC50-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC60-5(80Z)",
+        slug: "slewing-bearing-PC60-5(80Z)",
+        title: {
+            en: "Slewing bearing PC60-5(80Z)",
+            lt: "Posūkio žiedas PC60-5(80Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC60-5(80Z).",
+            lt: "Posūkio žiedas PC60-5(80Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-5", partNumber: "PC60-5(80Z)" },
+        ]
+    },
+    {
+        id: "PC60-6(76Z)",
+        slug: "slewing-bearing-PC60-6(76Z)",
+        title: {
+            en: "Slewing bearing PC60-6(76Z)",
+            lt: "Posūkio žiedas PC60-6(76Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC60-6(76Z).",
+            lt: "Posūkio žiedas PC60-6(76Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-6", partNumber: "PC60-6(76Z)" },
+        ]
+    },
+    {
+        id: "PC60-6(80Z)",
+        slug: "slewing-bearing-PC60-6(80Z)",
+        title: {
+            en: "Slewing bearing PC60-6(80Z)",
+            lt: "Posūkio žiedas PC60-6(80Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC60-6(80Z).",
+            lt: "Posūkio žiedas PC60-6(80Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-6", partNumber: "PC60-6(80Z)" },
+        ]
+    },
+    {
+        id: "PC60-7(80Z)",
+        slug: "slewing-bearing-PC60-7(80Z)",
+        title: {
+            en: "Slewing bearing PC60-7(80Z)",
+            lt: "Posūkio žiedas PC60-7(80Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC60-7(80Z).",
+            lt: "Posūkio žiedas PC60-7(80Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-7", partNumber: "PC60-7(80Z)" },
+        ]
+    },
+    {
+        id: "PC60-7(76Z)",
+        slug: "slewing-bearing-PC60-7(76Z)",
+        title: {
+            en: "Slewing bearing PC60-7(76Z)",
+            lt: "Posūkio žiedas PC60-7(76Z)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC60-7(76Z).",
+            lt: "Posūkio žiedas PC60-7(76Z).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC60-7", partNumber: "PC60-7(76Z)" },
+        ]
+    },
+    {
+        id: "PC70(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC70(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC70(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC70(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC70(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC70(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC70", partNumber: "PC70(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC75(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC75(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC75(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC75(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC75(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC75(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC75", partNumber: "PC75(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC78(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC78(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC78(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC78(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC78(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC78(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC78", partNumber: "PC78(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC100-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC100-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC100-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC100-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC100-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC100-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC100-3", partNumber: "PC100-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC120-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC120-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC120-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC120-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC120-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC120-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-3", partNumber: "PC120-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC128(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC128(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC128(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC128(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC128(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC128(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC128", partNumber: "PC128(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC120-6(4D95)",
+        slug: "slewing-bearing-PC120-6(4D95)",
+        title: {
+            en: "Slewing bearing PC120-6(4D95)",
+            lt: "Posūkio žiedas PC120-6(4D95)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC120-6(4D95).",
+            lt: "Posūkio žiedas PC120-6(4D95).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-6", partNumber: "PC120-6(4D95)" },
+        ]
+    },
+    {
+        id: "PC120-6(4D102)",
+        slug: "slewing-bearing-PC120-6(4D102)",
+        title: {
+            en: "Slewing bearing PC120-6(4D102)",
+            lt: "Posūkio žiedas PC120-6(4D102)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC120-6(4D102).",
+            lt: "Posūkio žiedas PC120-6(4D102).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-6", partNumber: "PC120-6(4D102)" },
+        ]
+    },
+    {
+        id: "PC120-6E(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC120-6E(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC120-6E(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC120-6E(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC120-6E(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC120-6E(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-6E", partNumber: "PC120-6E(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC120-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC120-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC120-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC120-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC120-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC120-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC120-5", partNumber: "PC120-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC100-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC100-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC100-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC100-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC100-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC100-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC100-5", partNumber: "PC100-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC130-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC130-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC130-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC130-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC130-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC130-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC130-7", partNumber: "PC130-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC150-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC150-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC150-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC150-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC150-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC150-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC150-5", partNumber: "PC150-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC160-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC160-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC160-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC160-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC160-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC160-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC160-7", partNumber: "PC160-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC200-2(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC200-2(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC200-2(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC200-2(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-2(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC200-2(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-2", partNumber: "PC200-2(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC200-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC200-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC200-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC200-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC200-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-3", partNumber: "PC200-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC220-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC220-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC220-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC220-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC220-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC220-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC220-3", partNumber: "PC220-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC220-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC220-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC220-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC220-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC220-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC220-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC220-5", partNumber: "PC220-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC200-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC200-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC200-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC200-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC200-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-5", partNumber: "PC200-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC200-6(S6D102)",
+        slug: "slewing-bearing-PC200-6(S6D102)",
+        title: {
+            en: "Slewing bearing PC200-6(S6D102)",
+            lt: "Posūkio žiedas PC200-6(S6D102)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-6(S6D102).",
+            lt: "Posūkio žiedas PC200-6(S6D102).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-6", partNumber: "PC200-6(S6D102)" },
+        ]
+    },
+    {
+        id: "PC200-6(S6D95)",
+        slug: "slewing-bearing-PC200-6(S6D95)",
+        title: {
+            en: "Slewing bearing PC200-6(S6D95)",
+            lt: "Posūkio žiedas PC200-6(S6D95)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-6(S6D95).",
+            lt: "Posūkio žiedas PC200-6(S6D95).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-6", partNumber: "PC200-6(S6D95)" },
+        ]
+    },
+    {
+        id: "PC220-6(S6D95)",
+        slug: "slewing-bearing-PC220-6(S6D95)",
+        title: {
+            en: "Slewing bearing PC220-6(S6D95)",
+            lt: "Posūkio žiedas PC220-6(S6D95)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC220-6(S6D95).",
+            lt: "Posūkio žiedas PC220-6(S6D95).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC220-6", partNumber: "PC220-6(S6D95)" },
+        ]
+    },
+    {
+        id: "PC200-7(Z-110)",
+        slug: "slewing-bearing-PC200-7(Z-110)",
+        title: {
+            en: "Slewing bearing PC200-7(Z-110)",
+            lt: "Posūkio žiedas PC200-7(Z-110)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-7(Z-110).",
+            lt: "Posūkio žiedas PC200-7(Z-110).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-7", partNumber: "PC200-7(Z-110)" },
+        ]
+    },
+    {
+        id: "PC200-8(Z-96)",
+        slug: "slewing-bearing-PC200-8(Z-96)",
+        title: {
+            en: "Slewing bearing PC200-8(Z-96)",
+            lt: "Posūkio žiedas PC200-8(Z-96)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC200-8(Z-96).",
+            lt: "Posūkio žiedas PC200-8(Z-96).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC200-8", partNumber: "PC200-8(Z-96)" },
+        ]
+    },
+    {
+        id: "PC220-7(Z-92)",
+        slug: "slewing-bearing-PC220-7(Z-92)",
+        title: {
+            en: "Slewing bearing PC220-7(Z-92)",
+            lt: "Posūkio žiedas PC220-7(Z-92)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC220-7(Z-92).",
+            lt: "Posūkio žiedas PC220-7(Z-92).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC220-7", partNumber: "PC220-7(Z-92)" },
+        ]
+    },
+    {
+        id: "PC220-8(Z-92)",
+        slug: "slewing-bearing-PC220-8(Z-92)",
+        title: {
+            en: "Slewing bearing PC220-8(Z-92)",
+            lt: "Posūkio žiedas PC220-8(Z-92)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC220-8(Z-92).",
+            lt: "Posūkio žiedas PC220-8(Z-92).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC220-8", partNumber: "PC220-8(Z-92)" },
+        ]
+    },
+    {
+        id: "PC270-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC270-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC270-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC270-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC270-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC270-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC270-7", partNumber: "PC270-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC300-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC300-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC300-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC300-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC300-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC300-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-3", partNumber: "PC300-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC300-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC300-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC300-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC300-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC300-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC300-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-5", partNumber: "PC300-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC300-6(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC300-6(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC300-6(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC300-6(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC300-6(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC300-6(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-6", partNumber: "PC300-6(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC300-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC300-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC300-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC300-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC300-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC300-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC300-7", partNumber: "PC300-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC350-6(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC350-6(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC350-6(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC350-6(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC350-6(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC350-6(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC350-6", partNumber: "PC350-6(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "PC350-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-PC350-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing PC350-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas PC350-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing PC350-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas PC350-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Komatsu", model: "PC350-7", partNumber: "PC350-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX40-1(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX40-1(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX40-1(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX40-1(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX40-1(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX40-1(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX40-1", partNumber: "EX40-1(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX60-1(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX60-1(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX60-1(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX60-1(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX60-1(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX60-1(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX60-1", partNumber: "EX60-1(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX70-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX70-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX70-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX70-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX70-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX70-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX70-5", partNumber: "EX70-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX100-1(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX100-1(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX100-1(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX100-1(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX100-1(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX100-1(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX100-1", partNumber: "EX100-1(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX200-3(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX200-3(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX200-3(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX200-3(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX200-3(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX200-3(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX200-3", partNumber: "EX200-3(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "EX300-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-EX300-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing EX300-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas EX300-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing EX300-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas EX300-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "EX300-5", partNumber: "EX300-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX60(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX60(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX60(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX60(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX60(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX60(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX60", partNumber: "ZAX60(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX70(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX70(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX70(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX70(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX70(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX70(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX70", partNumber: "ZAX70(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX110(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX110(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX110(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX110(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX110(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX110(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX110", partNumber: "ZAX110(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX120(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX120(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX120(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX120(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX120(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX120(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX120", partNumber: "ZAX120(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX210(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX210(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX210(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX210(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX210(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX210(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX210", partNumber: "ZAX210(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX230(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX230(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX230(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX230(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX230(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX230(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX230", partNumber: "ZAX230(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "ZAX330(SLEWINGBEARING)",
+        slug: "slewing-bearing-ZAX330(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing ZAX330(SLEWINGBEARING)",
+            lt: "Posūkio žiedas ZAX330(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing ZAX330(SLEWINGBEARING).",
+            lt: "Posūkio žiedas ZAX330(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAX330", partNumber: "ZAX330(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R55-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-R55-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R55-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R55-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R55-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R55-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R55-5", partNumber: "R55-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R80-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-R80-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R80-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R80-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R80-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R80-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R80-7", partNumber: "R80-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R170-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-R170-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R170-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R170-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R170-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R170-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R170-5", partNumber: "R170-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R200(SLEWINGBEARING)",
+        slug: "slewing-bearing-R200(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R200(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R200(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R200(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R200(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R200", partNumber: "R200(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R300(SLEWINGBEARING)",
+        slug: "slewing-bearing-R300(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R300(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R300(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R300(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R300(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R300", partNumber: "R300(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "R450-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-R450-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing R450-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas R450-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing R450-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas R450-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "R450-7", partNumber: "R450-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "DH60(SLEWINGBEARING)",
+        slug: "slewing-bearing-DH60(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing DH60(SLEWINGBEARING)",
+            lt: "Posūkio žiedas DH60(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing DH60(SLEWINGBEARING).",
+            lt: "Posūkio žiedas DH60(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "DH60", partNumber: "DH60(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "DH80-7(SLEWINGBEARING)",
+        slug: "slewing-bearing-DH80-7(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing DH80-7(SLEWINGBEARING)",
+            lt: "Posūkio žiedas DH80-7(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing DH80-7(SLEWINGBEARING).",
+            lt: "Posūkio žiedas DH80-7(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "DH80-7", partNumber: "DH80-7(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "DH220-5(SLEWINGBEARING)",
+        slug: "slewing-bearing-DH220-5(SLEWINGBEARING)",
+        title: {
+            en: "Slewing bearing DH220-5(SLEWINGBEARING)",
+            lt: "Posūkio žiedas DH220-5(SLEWINGBEARING)",
+        },
+        type: "slewing-bearing",
+        images: ["/parts/slewing-bearing.avif"],
+        description: {
+            en: "Slewing bearing DH220-5(SLEWINGBEARING).",
+            lt: "Posūkio žiedas DH220-5(SLEWINGBEARING).",
+        },
+        fits: [
+            { make: "Hyundai", model: "DH220-5", partNumber: "DH220-5(SLEWINGBEARING)" },
+        ]
+    },
+    {
+        id: "14563959",
+        slug: "bucket-cylinders-EC240B-14563959",
+        title: {
+            en: "Bucket cylinders 14563959",
+            lt: "Kaušo stūmokliai 14563959",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 14563959.",
+            lt: "Kaušo stūmokliai 14563959.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC240B", partNumber: "14563959" },
+        ]
+    },
+    {
+        id: "14658078",
+        slug: "arm-cylinders-EC250D-14658078",
+        title: {
+            en: "Arm cylinders 14658078",
+            lt: "Rankos stūmokliai 14658078",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 14658078.",
+            lt: "Rankos stūmokliai 14658078.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC250D", partNumber: "14658078" },
+            { make: "Volvo", model: "EC250E", partNumber: "14658078" },
+        ]
+    },
+    {
+        id: "14594987",
+        slug: "bucket-cylinders-EC250D-14594987",
+        title: {
+            en: "Bucket cylinders 14594987",
+            lt: "Kaušo stūmokliai 14594987",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 14594987.",
+            lt: "Kaušo stūmokliai 14594987.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC250D", partNumber: "14594987" },
+        ]
+    },
+    {
+        id: "14534533",
+        slug: "bucket-cylinders-EC210-14534533",
+        title: {
+            en: "Bucket cylinders 14534533",
+            lt: "Kaušo stūmokliai 14534533",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 14534533.",
+            lt: "Kaušo stūmokliai 14534533.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210", partNumber: "14534533" },
+        ]
+    },
+    {
+        id: "14534532",
+        slug: "arm-cylinders-EC210-14534532",
+        title: {
+            en: "Arm cylinders 14534532",
+            lt: "Rankos stūmokliai 14534532",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 14534532.",
+            lt: "Rankos stūmokliai 14534532.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC210", partNumber: "14534532" },
+        ]
+    },
+    {
+        id: "14549597(14640432)",
+        slug: "arm-cylinders-EC330C-14549597(14640432)",
+        title: {
+            en: "Arm cylinders 14549597(14640432)",
+            lt: "Rankos stūmokliai 14549597(14640432)",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 14549597(14640432).",
+            lt: "Rankos stūmokliai 14549597(14640432).",
+        },
+        fits: [
+            { make: "Volvo", model: "EC330C", partNumber: "14549597(14640432)" },
+            { make: "Volvo", model: "EC360", partNumber: "14549597(14640432)" },
+        ]
+    },
+    {
+        id: "14549596",
+        slug: "boom-cylinders-EC330C-14549596",
+        title: {
+            en: "Boom cylinders 14549596",
+            lt: "Koto stūmokliai 14549596",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Boom cylinders 14549596.",
+            lt: "Koto stūmokliai 14549596.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC330C", partNumber: "14549596" },
+            { make: "Volvo", model: "EC360C", partNumber: "14549596" },
+        ]
+    },
+    {
+        id: "31N6-50135",
+        slug: "arm-cylinders-R210LC-7-31N6-50135",
+        title: {
+            en: "Arm cylinders 31N6-50135",
+            lt: "Rankos stūmokliai 31N6-50135",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 31N6-50135.",
+            lt: "Rankos stūmokliai 31N6-50135.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210LC-7", partNumber: "31N6-50135" },
+            { make: "Hyundai", model: "R210LC-7A", partNumber: "31N6-50135" },
+        ]
+    },
+    {
+        id: "31N6-60110",
+        slug: "bucket-cylinders-R210NLC-7-31N6-60110",
+        title: {
+            en: "Bucket cylinders 31N6-60110",
+            lt: "Kaušo stūmokliai 31N6-60110",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 31N6-60110.",
+            lt: "Kaušo stūmokliai 31N6-60110.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210NLC-7", partNumber: "31N6-60110" },
+            { make: "Hyundai", model: "R220LC-7H", partNumber: "31N6-60110" },
+        ]
+    },
+    {
+        id: "31N6-66100",
+        slug: "arm-cylinders-R210LC-7-31N6-66100",
+        title: {
+            en: "Arm cylinders 31N6-66100",
+            lt: "Rankos stūmokliai 31N6-66100",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 31N6-66100.",
+            lt: "Rankos stūmokliai 31N6-66100.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210LC-7", partNumber: "31N6-66100" },
+            { make: "Hyundai", model: "R290LC-7", partNumber: "31N6-66100" },
+        ]
+    },
+    {
+        id: "31Q6-60110",
+        slug: "bucket-cylinders-R210NLC-7-31Q6-60110",
+        title: {
+            en: "Bucket cylinders 31Q6-60110",
+            lt: "Kaušo stūmokliai 31Q6-60110",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 31Q6-60110.",
+            lt: "Kaušo stūmokliai 31Q6-60110.",
+        },
+        fits: [
+            { make: "Hyundai", model: "R210LC-7", partNumber: "31Q6-60110" },
+            { make: "Hyundai", model: "R220LC-7H", partNumber: "31Q6-60110" },
+        ]
+    },
+    {
+        id: "31Q6-50110",
+        slug: "boom-cylinders-EC330C-31Q6-50110",
+        title: {
+            en: "Boom cylinders 31Q6-50110",
+            lt: "Koto stūmokliai 31Q6-50110",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Boom cylinders 31Q6-50110.",
+            lt: "Koto stūmokliai 31Q6-50110.",
+        },
+        fits: [
+            { make: "Hyundai", model: "RC210LC-9", partNumber: "31Q6-50110" },
+        ]
+    },
+    {
+        id: "14563816",
+        slug: "arm-cylinders-EC360-14563816",
+        title: {
+            en: "Arm cylinders 14563816",
+            lt: "Rankos stūmokliai 14563816",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 14563816.",
+            lt: "Rankos stūmokliai 14563816.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC360", partNumber: "14563816" },
+        ]
+    },
+    {
+        id: "14606236",
+        slug: "arm-cylinders-EC480D-14606236",
+        title: {
+            en: "Arm cylinders 14606236",
+            lt: "Rankos stūmokliai 14606236",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 14606236.",
+            lt: "Rankos stūmokliai 14606236.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC480D", partNumber: "14606236" },
+        ]
+    },
+    {
+        id: "14570757",
+        slug: "bucket-cylinders-EC480D-14570757",
+        title: {
+            en: "Bucket cylinders 14570757",
+            lt: "Kaušo stūmokliai 14570757",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 14570757.",
+            lt: "Kaušo stūmokliai 14570757.",
+        },
+        fits: [
+            { make: "Volvo", model: "EC480D", partNumber: "14570757" },
+        ]
+    },
+    {
+        id: "4638083",
+        slug: "arm-cylinders-ZX850-3-4638083",
+        title: {
+            en: "Arm cylinders 4638083",
+            lt: "Rankos stūmokliai 4638083",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4638083.",
+            lt: "Rankos stūmokliai 4638083.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX850-3", partNumber: "4638083" },
+        ]
+    },
+    {
+        id: "4638084",
+        slug: "bucket-cylinders-ZX850-3-4638084",
+        title: {
+            en: "Bucket cylinders 4638084",
+            lt: "Kaušo stūmokliai 4638084",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 4638084.",
+            lt: "Kaušo stūmokliai 4638084.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX850-3", partNumber: "4638084" },
+        ]
+    },
+    {
+        id: "4628635",
+        slug: "arm-cylinders-ZX350LC-3-4628635",
+        title: {
+            en: "Arm cylinders 4628635",
+            lt: "Rankos stūmokliai 4628635",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4628635.",
+            lt: "Rankos stūmokliai 4628635.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX350LC-3", partNumber: "4628635" },
+        ]
+    },
+    {
+        id: "4643260",
+        slug: "bucket-cylinders-ZX350LC-3-4643260",
+        title: {
+            en: "Bucket cylinders 4643260",
+            lt: "Kaušo stūmokliai 4643260",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 4643260.",
+            lt: "Kaušo stūmokliai 4643260.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX350LC-3", partNumber: "4643260" },
+        ]
+    },
+    {
+        id: "4628630",
+        slug: "arm-cylinders-ZX270LC-3-4628630",
+        title: {
+            en: "Arm cylinders 4628630",
+            lt: "Rankos stūmokliai 4628630",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4628630.",
+            lt: "Rankos stūmokliai 4628630.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX270LC-3", partNumber: "4628630" },
+        ]
+    },
+    {
+        id: "4628628",
+        slug: "bucket-cylinders-ZX270LC-3-4628628",
+        title: {
+            en: "Bucket cylinders 4628628",
+            lt: "Kaušo stūmokliai 4628628",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 4628628.",
+            lt: "Kaušo stūmokliai 4628628.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX270LC-3", partNumber: "4628628" },
+        ]
+    },
+    {
+        id: "4618364",
+        slug: "arm-cylinders-ZX240LC-3-4618364",
+        title: {
+            en: "Arm cylinders 4618364",
+            lt: "Rankos stūmokliai 4618364",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4618364.",
+            lt: "Rankos stūmokliai 4618364.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX240LC-3", partNumber: "4618364" },
+        ]
+    },
+    {
+        id: "4628634",
+        slug: "bucket-cylinders-ZX240LC-3-4628634",
+        title: {
+            en: "Bucket cylinders 4628634",
+            lt: "Kaušo stūmokliai 4628634",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 4628634.",
+            lt: "Kaušo stūmokliai 4628634.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX240LC-3", partNumber: "4628634" },
+        ]
+    },
+    {
+        id: "132-7895",
+        slug: "boom-cylinders-330C-132-7895",
+        title: {
+            en: "Boom cylinders 132-7895",
+            lt: "Koto stūmokliai 132-7895",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Boom cylinders 132-7895.",
+            lt: "Koto stūmokliai 132-7895.",
+        },
+        fits: [
+            { make: "CAT", model: "330B", partNumber: "132-7895" },
+            { make: "CAT", model: "330C", partNumber: "132-7895" },
+            { make: "CAT", model: "330D", partNumber: "132-7895" },
+        ]
+    },
+    {
+        id: "316-6243",
+        slug: "arm-cylinders-330D-316-6243",
+        title: {
+            en: "Arm cylinders 316-6243",
+            lt: "Rankos stūmokliai 316-6243",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 316-6243.",
+            lt: "Rankos stūmokliai 316-6243.",
+        },
+        fits: [
+            { make: "CAT", model: "330D", partNumber: "316-6243" },
+        ]
+    },
+    {
+        id: "143-3198",
+        slug: "bucket-cylinders-325B-143-3198",
+        title: {
+            en: "Bucket cylinders 143-3198",
+            lt: "Kaušo stūmokliai 143-3198",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 143-3198.",
+            lt: "Kaušo stūmokliai 143-3198.",
+        },
+        fits: [
+            { make: "CAT", model: "325B", partNumber: "143-3198" },
+            { make: "CAT", model: "325D", partNumber: "143-3198" },
+            { make: "CAT", model: "330B", partNumber: "143-3198" },
+            { make: "CAT", model: "330C", partNumber: "143-3198" },
+        ]
+    },
+    {
+        id: "4637753",
+        slug: "arm-cylinders-ZAXIS450-3-4637753",
+        title: {
+            en: "Arm cylinders 4637753",
+            lt: "Rankos stūmokliai 4637753",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4637753.",
+            lt: "Rankos stūmokliai 4637753.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAXIS450-3", partNumber: "4637753" },
+        ]
+    },
+    {
+        id: "4637754",
+        slug: "bucket-cylinders-ZAXIS450-3-4637754",
+        title: {
+            en: "Bucket cylinders 4637754",
+            lt: "Kaušo stūmokliai 4637754",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Bucket cylinders 4637754.",
+            lt: "Kaušo stūmokliai 4637754.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZAXIS450-3", partNumber: "4637754" },
+        ]
+    },
+    {
+        id: "4641550",
+        slug: "arm-cylinders-ZX370F-3-4641550",
+        title: {
+            en: "Arm cylinders 4641550",
+            lt: "Rankos stūmokliai 4641550",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Arm cylinders 4641550.",
+            lt: "Rankos stūmokliai 4641550.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX370F-3", partNumber: "4641550" },
+        ]
+    },
+    {
+        id: "4653859",
+        slug: "boom-cylinders-ZX650-3-4653859",
+        title: {
+            en: "Boom cylinders 4653859",
+            lt: "Koto stūmokliai 4653859",
+        },
+        type: "cylinders",
+        images: ["/parts/pistons.avif"],
+        description: {
+            en: "Boom cylinders 4653859.",
+            lt: "Koto stūmokliai 4653859.",
+        },
+        fits: [
+            { make: "Hitachi", model: "ZX650-3", partNumber: "4653859" },
+            { make: "Hitachi", model: "ZX670-3", partNumber: "4653859" },
         ]
     },
 ];

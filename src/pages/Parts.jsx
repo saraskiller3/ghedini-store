@@ -7,14 +7,20 @@ import BackToLanding from "./BackToLanding";
 // ===== SMART AUTOCOMPLETE SEARCH =====
 
 const PART_TYPES = [
-    { key: "final-drive", en: "Final drive", lt: "Važiavimo reduktorius (pavara)" },
-    { key: "hydraulic-motor", en: "Hydraulic motor", lt: "Hidraulinis variklis" },
-    { key: "gearbox", en: "Gearbox", lt: "Pavarų dėžė" },
-    { key: "hydraulic-pump", en: "Hydraulic pump", lt: "Hidraulinis siurblys" },
-    { key: "swing-drive", en: "Swing drive", lt: "Sukimo reduktorius" },
-    { key: "control-valve", en: "Control valve", lt: "Paskirstytojas" },
-    { key: "undercarriage", en: "Undercarriage", lt: "Važiuoklės dalys" },
-    { key: "rubber-tracks", en: "Rubber tracks", lt: "Guminiai vikšrai" },
+    { key: "final-drive", en: "Final drives", lt: "Varančiosios pavaros (pilnos)" },
+    { key: "travel-gearbox", en: "Travel gearboxes", lt: "Varančiosios pavaros reduktoriai" },
+    { key: "swing-gearbox", en: "Swing gearboxes", lt: "Posūkio reduktoriai" },
+    { key: "hydraulic-pump", en: "Hydraulic pumps", lt: "Hidrauliniai siurbliai" },
+    { key: "hydraulic-pump-parts", en: "Hydraulic pump parts", lt: "Dalys hidrauliniams siurbliams" },
+    { key: "swing-motor", en: "Swing motors", lt: "Posūkio hidromotorai" }, 
+    { key: "travel-motor", en: "Travel motors", lt: "Varančiosios pavaros hidromotorai" },
+    { key: "gear-parts", en: "Gear parts", lt: "Pavarų detalės" },
+    { key: "computer", en: "Computers and displays", lt: "Kompiuteriai ir ekranai (displėjai)" },
+    { key: "fan-pump", en: "Fan pumps", lt: "Aušinimo sistemos siurbliai" },
+    { key: "fan-motor", en: "Fan motors", lt: "Aušinimo sistemos hidromotorai" },
+    { key: "gear-pump", en: "Gear pumps", lt: "Krumpliaratiniai siurbliai" },
+    { key: "slewing-bearing", en: "Slewing bearings", lt: "Posūkio žiedai"},
+{ key: "cylinders", en: "Cylinder assemblies", lt: "Strėlės stūmokliai"}
 ];
 function normalize(s) {
     return (s || "").toString().trim().toLowerCase();
